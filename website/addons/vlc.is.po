@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-06-25 04:48+1000\n"
+"POT-Creation-Date: 2018-06-29 21:16+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Download [stable version][2]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [development version][3]"
 msgstr ""
 
 #. type: Plain text
@@ -58,11 +62,25 @@ msgid ""
 "Announces state when change random mode (key R) and repeat mode (key L)."
 msgstr ""
 
+#. type: Bullet: '5. '
+msgid ""
+"There are some layered windows and panels that NVDA is not able to focus it "
+"automatically when they are displayed. Press Control+Tab to try to bring "
+"them to the front."
+msgstr ""
+
 #. type: Bullet: '* '
 msgid ""
 "Important note: This addon is optimized for versions of VLC 3.0 and higher; "
 "it will not work correctly with earlier versions. To use VLC 2.x [download "
 "the old version of the addon.][1]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Covered by the GNU General Public License. See the [file COPYING.txt]"
+"(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
+"details."
 msgstr ""
 
 #. type: Plain text
@@ -76,4 +94,8 @@ msgstr ""
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
+msgstr ""
+
+#. type: Plain text
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
 msgstr ""
