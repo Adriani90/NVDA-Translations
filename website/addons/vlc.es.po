@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons translation team\n"
-"POT-Creation-Date: 2018-06-25 04:48+1000\n"
+"POT-Creation-Date: 2018-06-29 21:16+1000\n"
 "PO-Revision-Date: 2018-06-24 21:01+0200\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: Spanish translation <oprisniki@gmail.com>\n"
@@ -28,6 +28,12 @@ msgstr "Autor: Javi Domínguez"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][2]"
+msgstr "Descargar [versión estable][2]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Download [stable version][2]"
+msgid "Download [development version][3]"
 msgstr "Descargar [versión estable][2]"
 
 #. type: Plain text
@@ -73,6 +79,13 @@ msgstr ""
 "Verbaliza el estado al cambiar el modo aleatorio (tecla R) y el modo de "
 "repetición (tecla L)."
 
+#. type: Bullet: '5. '
+msgid ""
+"There are some layered windows and panels that NVDA is not able to focus it "
+"automatically when they are displayed. Press Control+Tab to try to bring "
+"them to the front."
+msgstr ""
+
 #. type: Bullet: '* '
 msgid ""
 "Important note: This addon is optimized for versions of VLC 3.0 and higher; "
@@ -82,6 +95,13 @@ msgstr ""
 "Aviso importante: este complemento está optimizado para VLC 3.0 y versiones "
 "posteriores; no funcionará correctamente en versiones anteriores. Para "
 "utilizar VLC 2.x, [descarga una versión anterior del complemento.][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Covered by the GNU General Public License. See the [file COPYING.txt]"
+"(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
+"details."
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -95,6 +115,12 @@ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 
 #, fuzzy
 #~| msgid "Download [stable version][2]"

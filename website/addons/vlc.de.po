@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-25 04:48+1000\n"
+"POT-Creation-Date: 2018-06-29 21:16+1000\n"
 "PO-Revision-Date: 2018-06-24 21:26+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
@@ -26,14 +26,14 @@ msgid "Author: Javi Dominguez"
 msgstr "Autor: Javi Dominguez"
 
 #. type: Bullet: '* '
-#| msgid "Download [stable version][2]"
 msgid "Download [stable version][2]"
 msgstr "[stabile Version herunterladen][2]"
 
 #. type: Bullet: '* '
+#, fuzzy
 #| msgid "Download [stable version][2]"
-msgid "Download [stable version for VLC Media Player 3.x][2]"
-msgstr "[stabile Version für VLC 3.x oder neuer herunterladen][2]"
+msgid "Download [development version][3]"
+msgstr "[stabile Version herunterladen][2]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."
@@ -78,6 +78,13 @@ msgstr ""
 "Gibt den Status beim Ändern des Zufallsmodus (Taste R) und des "
 "Wiederholungsmodus (Taste L) an."
 
+#. type: Bullet: '5. '
+msgid ""
+"There are some layered windows and panels that NVDA is not able to focus it "
+"automatically when they are displayed. Press Control+Tab to try to bring "
+"them to the front."
+msgstr ""
+
 #. type: Bullet: '* '
 msgid ""
 "Important note: This addon is optimized for versions of VLC 3.0 and higher; "
@@ -88,24 +95,35 @@ msgstr ""
 "nicht korrekt mit früheren Versionen funktionieren. Um VLC 2.x zu verwenden, "
 "[laden Sie die alte Version des Addons herunter.][1]"
 
+#. type: Bullet: '* '
+msgid ""
+"Covered by the GNU General Public License. See the [file COPYING.txt]"
+"(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
+"details."
+msgstr ""
+
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#| msgid ""
-#| "[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-#| "addons.nvda-project.org/files/get.php?file=vlc-18"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 
 #. type: Plain text
-#| msgid ""
-#| "[1]: https://addons.nvda-project.org/files/get.php?file=vlc [2]: https://"
-#| "addons.nvda-project.org/files/get.php?file=vlc-18"
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
+msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
+
+#~| msgid "Download [stable version][2]"
+#~ msgid "Download [stable version for VLC Media Player 3.x][2]"
+#~ msgstr "[stabile Version für VLC 3.x oder neuer herunterladen][2]"
 
 #, fuzzy
 #~| msgid "Download [stable version][2]"
