@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2018-04-27 12:37+0200\n"
+"PO-Revision-Date: 2018-06-29 23:04+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -20,7 +20,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Goldwave\"]]\n"
-msgstr "[[!meta title=\"GoldWave\"]]\n"
+msgstr "[[!meta title=\"Goldwave\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Joseph Lee, NVDA contributors."
@@ -53,7 +53,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Control+Shift+P: Announces current track position."
-msgstr "Control+Vaihto+P: Ilmoittaa nykyisen kohdan ääniraidalla."
+msgstr "Control+Vaihto+P: Ilmoittaa nykyisen kohdan raidalla."
 
 #. type: Bullet: '* '
 msgid "NVDA+Shift+R: Announces remaining time for the currently editing track."
@@ -93,16 +93,17 @@ msgstr ""
 "uudempi."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.05"
+#, no-wrap
 msgid "Version 18.07"
-msgstr "Versio 17.05"
+msgstr "Versio 18.07"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where leading zeroes would not be displayed when trying to "
 "obtain remaining time for a track."
 msgstr ""
+"Korjattu ongelma, jossa etunollia ei näytetty yritettäessä hakea raidan "
+"jäljellä olevaa aikaa."
 
 #. type: Title ##
 #, no-wrap
