@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2018-04-27 12:27+0200\n"
+"PO-Revision-Date: 2018-06-29 22:54+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -140,17 +140,12 @@ msgstr ""
 "kuten suurten tiedostojen kopiointia, on runsaasti."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Support for Windows XP from this add-on ended on December 31, 2017. "
-#| "Support for Windows Server 2003, Vista and Server 2008 will end on June "
-#| "30, 2018."
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
 "Tämän lisäosan Windows XP -tuki päättyi 31. joulukuuta 2017. Windows Server "
-"2003:n, Vistan ja Server 2008:n tuki päättyy 30. kesäkuuta 2018."
+"2003:n, Vistan ja Server 2008:n tuki päättyi 30. kesäkuuta 2018."
 
 #. type: Title ##
 #, no-wrap
