@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2018-06-29 05:48+0800\n"
+"PO-Revision-Date: 2018-06-30 05:55+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -85,16 +85,15 @@ msgstr ""
 "使用附加2.0。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 17.05"
+#, no-wrap
 msgid "Version 18.07"
-msgstr "版本17.05"
+msgstr "版本18.07"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where leading zeroes would not be displayed when trying to "
 "obtain remaining time for a track."
-msgstr ""
+msgstr "修复了在尝试获取轨道剩余时间时不显示前导零的问题。"
 
 #. type: Title ##
 #, no-wrap
