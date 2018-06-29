@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-11-20 05:55+1000\n"
+"POT-Creation-Date: 2018-06-30 02:55+1000\n"
 "PO-Revision-Date: 2017-06-02 22:35+0100\n"
 "Last-Translator: Nikola Jovic <wwenikola123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,6 +89,18 @@ msgid ""
 msgstr ""
 "Napomena: GoldWave 6 zahteva 64-bitnu verziju Windowsa 7 ili novijeg. NVDA "
 "2014.1 ili noviji je potreban za korišćenje ovog dodatka verzije 2.0."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 16.12"
+msgid "Version 18.07"
+msgstr "Verzija 16.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where leading zeroes would not be displayed when trying to "
+"obtain remaining time for a track."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

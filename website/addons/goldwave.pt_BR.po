@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Módulo para Goldwave\n"
-"POT-Creation-Date: 2017-11-20 05:55+1000\n"
+"POT-Creation-Date: 2018-06-30 02:55+1000\n"
 "PO-Revision-Date: 2017-09-24 17:06-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever97@gmail.com>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
@@ -87,6 +87,18 @@ msgid ""
 msgstr ""
 "Nota: O GoldWave 6 exige a versão 64-bit do Windows 7 ou posterior. Exige-se "
 "o NVDA 2014.1 ou posterior para usar o complemento 2.0."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 16.12"
+msgid "Version 18.07"
+msgstr "Versão 16.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where leading zeroes would not be displayed when trying to "
+"obtain remaining time for a track."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

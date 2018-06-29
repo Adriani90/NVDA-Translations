@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Monitor de recursos\n"
-"POT-Creation-Date: 2018-03-23 05:09+1000\n"
+"POT-Creation-Date: 2018-06-30 02:55+1000\n"
 "PO-Revision-Date: 2018-04-04 16:57+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
@@ -141,9 +141,14 @@ msgstr ""
 "pode haver atrasos ao obter informações de uso do disco."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Support for Windows XP from this add-on ended on December 31, 2017. "
+#| "Support for Windows Server 2003, Vista and Server 2008 will end on June "
+#| "30, 2018."
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
-"for Windows Server 2003, Vista and Server 2008 will end on June 30, 2018."
+"for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
 "O suporte deste extra para o Windows XP terminará em 31 de dezembro de 2017. "
 "O suporte para Windows Server 2003 e Windows Vista terminará em 30 de junho "
@@ -151,13 +156,10 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 17.09"
 msgid "Version 18.04"
 msgstr "Versão 18.04"
 
 #. type: Plain text
-#| msgid ""
-#| "Important: Version 17.09.x is the last version to support Windows XP."
 msgid ""
 "Version 18.04.x is the last release to support Windows releases earlier than "
 "7 SP1."
