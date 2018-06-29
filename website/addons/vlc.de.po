@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-29 21:16+1000\n"
-"PO-Revision-Date: 2018-06-24 21:26+0100\n"
-"Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
+"PO-Revision-Date: 2018-06-29 16:43+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
@@ -30,10 +30,9 @@ msgid "Download [stable version][2]"
 msgstr "[stabile Version herunterladen][2]"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "Download [stable version][2]"
 msgid "Download [development version][3]"
-msgstr "[stabile Version herunterladen][2]"
+msgstr "Herunterladen der [Entwicklerversion][3]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."
@@ -84,6 +83,9 @@ msgid ""
 "automatically when they are displayed. Press Control+Tab to try to bring "
 "them to the front."
 msgstr ""
+"Es gibt einige mehrschichtige Fenster und Panels, die NVDA nicht automatisch "
+"fokussieren kann, wenn sie angezeigt werden. Drücken Sie Strg+Tab, um sie "
+"nach vorne zu bringen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -101,6 +103,9 @@ msgid ""
 "(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
 "details."
 msgstr ""
+"Lizenziert durch GNU General Public License. Weitere Informationen finden "
+"Sie in der [Datei COPYING.txt](https://github.com/javidominguez/VLC/blob/"
+"master/COPYING.txt)."
 
 #. type: Plain text
 #, no-wrap
@@ -116,10 +121,9 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
 
 #~| msgid "Download [stable version][2]"
 #~ msgid "Download [stable version for VLC Media Player 3.x][2]"
