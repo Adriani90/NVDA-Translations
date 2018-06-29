@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2018-01-30 16:06+1000\n"
+"POT-Creation-Date: 2018-06-30 02:55+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,6 +84,17 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
+msgid "Version 18.07"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where leading zeroes would not be displayed when trying to "
+"obtain remaining time for a track."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
 msgid "Version 17.05"
 msgstr ""
 
@@ -113,8 +124,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Add-on repository has moved to GitHub (now located at "
-"https://github.com/josephsl/goldwave)."
+"Add-on repository has moved to GitHub (now located at https://github.com/"
+"josephsl/goldwave)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -130,8 +141,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Added a command to announce remaining time for the current track "
-"(NvDA+Shift+R)."
+"Added a command to announce remaining time for the current track (NvDA+Shift"
+"+R)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -153,8 +164,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Add-on help can now be accessed from add-ons manager (NVDA 2014.3 and "
-"later)."
+"Add-on help can now be accessed from add-ons manager (NVDA 2014.3 and later)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -210,8 +220,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"More command announcements added including cue position movement and "
-"delete/trim operations."
+"More command announcements added including cue position movement and delete/"
+"trim operations."
 msgstr ""
 
 #. type: Bullet: '* '

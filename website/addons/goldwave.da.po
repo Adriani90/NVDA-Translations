@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Website\n"
-"POT-Creation-Date: 2017-11-20 05:55+1000\n"
+"POT-Creation-Date: 2018-06-30 02:55+1000\n"
 "PO-Revision-Date: 2018-06-28 19:27+0200\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -92,6 +92,18 @@ msgid ""
 msgstr ""
 "Bemærk: GoldWave 6 kræver 64-bit version af Windows 7 eller senere. NVDA "
 "2014.1 eller nyere kræves for at anvende tilføjelse 2.0."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.05"
+msgid "Version 18.07"
+msgstr "Version 17.05"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where leading zeroes would not be displayed when trying to "
+"obtain remaining time for a track."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
