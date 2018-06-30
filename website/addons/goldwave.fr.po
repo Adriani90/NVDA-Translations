@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Goldwave\n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2017-11-21 00:38+0100\n"
+"PO-Revision-Date: 2018-06-30 22:11+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -95,16 +95,18 @@ msgstr ""
 "module complémentaire 2.0."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "Version 17.05"
 msgid "Version 18.07"
-msgstr "Version 17.05"
+msgstr "Version 18.07"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed an issue where leading zeroes would not be displayed when trying to "
 "obtain remaining time for a track."
 msgstr ""
+"Correction d'un problème où les zéros en tête ne s'affichaient pas lorsque "
+"vous essayiez d'obtenir le temps restant pour une piste."
 
 #. type: Title ##
 #, no-wrap
