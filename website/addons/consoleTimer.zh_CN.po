@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-30 14:32+1000\n"
-"PO-Revision-Date: 2018-06-30 13:02+0800\n"
+"PO-Revision-Date: 2018-06-30 20:56+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #. type: Plain text
 #, no-wrap
@@ -40,7 +40,7 @@ msgid ""
 "consoleTimer was written by derek riemer, and is GPL V2, as required by "
 "being an NVDA addon."
 msgstr ""
-"consoleTimer是由derek riemer编写的一款机于NVDA的插件，他是机于GPL V2进行分发"
+"consoleTimer是由derek riemer编写的一款基于NVDA的插件，它是基于GPL V2进行分发"
 "的。"
 
 #. type: Bullet: '* '
@@ -52,7 +52,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Background"
-msgstr "插件背景"
+msgstr "开发插件的背景"
 
 #. type: Plain text
 msgid ""
@@ -66,17 +66,17 @@ msgid ""
 "This addon was written because I do lots of server administration, and I "
 "wanted cursor navigation to work."
 msgstr ""
-"通过ssh使用命令行时，通常会出现网络延迟。然而，这种滞后是预料之中的，NVDA处理"
-"光标移动的方式对终端滞后不友好，因为这种操作是同步操作。这会导致NVDA在用光标"
-"键移动到另一个字母时错误地报告错误的字母。例如，如果用户位于grep的p上，并且他"
-"们按右箭头，他们可能会听到“t”而不是空格。这是由于NVDA没有足够长的时间来实际处"
-"理这个光标移动。这个插件是因为我需要做大量的服务器管理工作，我希望实现光标导"
-"航就这样我编写了这个插件。"
+"通过ssh使用命令行时，通常会出现网络延迟。然而，这种延迟是预料之中的，因为这种"
+"操作是同步操作，NVDA处理光标移动的方式对终端延迟不友好。这会导致NVDA在用光标"
+"键移动到另一个字母时读的字母不对。例如，如果用户位于grep的p上，并且他们按右箭"
+"头，他们可能会听到“t”而不是空格。这是由于NVDA没有停顿足够长的时间来处理这个光"
+"标移动。这个插件是因为我需要做大量的服务器管理工作，我希望实现光标导航就这样"
+"才写的。"
 
 #. type: Title ##
 #, no-wrap
 msgid "TLDR usage instructions"
-msgstr "TLDR使用说明"
+msgstr "简短使用说明"
 
 #. type: Plain text
 msgid ""
@@ -86,9 +86,9 @@ msgid ""
 "This addon will have no affect outside terminals, and the patience changes "
 "by .01 for every keypress."
 msgstr ""
-"当在控制台中时，如果NVDA丢失或在移动时重复字母，只需按nvda + shift + pageup来"
-"进行修正，或者如果不能解决问题还可以，按nvda + shift +下光标。这个插件不会影"
-"响外部终端，并且每次按键案下以后会改变0.01。"
+"当在控制台中时，如果NVDA在移动时少读或重复读字母，只需按nvda + shift + pageup"
+"来进行修正，或者如果不能解决问题还可以，按nvda + shift +下光标。这个插件不会"
+"影响外部终端，并且每次按键案下以后会改变0.01秒的延迟。"
 
 #. type: Title ##
 #, no-wrap
@@ -117,8 +117,8 @@ msgid ""
 "make sure happens is that NVDAObjects.behaviors.Terminal is injected to the "
 "class list."
 msgstr ""
-"如果您是希望NVDA将您的应用程序的一部分或识别为终端的开发者，那么您应该为此实"
-"现appModule，以获取相关行为I.E.宣布写入标准输出的新文本等。请根据[NVDA]"
+"如果您是希望NVDA将您的应用程序的一部分或识别为终端，那么您应该为此实现"
+"appModule，以获取相关行为也就是宣布写入标准输出的新文本等。请根据[NVDA]"
 "（https://github.com/nvaccess/nvda/issues/new）提出一张票，我们可以帮助您将终"
 "端appModule放入屏幕阅读器。已经实施了对Putty，Cygwin（Mintty）和secureCRT的支"
 "持。 R等应用程序将来可能会实现。如果您的应用程序已被NVDA正确识别为终端（术语"
@@ -134,7 +134,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev]]\n"
-msgstr ""
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cont"
