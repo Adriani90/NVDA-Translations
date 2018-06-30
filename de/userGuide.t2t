@@ -243,7 +243,7 @@ Die Tasten(kombinationen) führen ihre Funktion nicht aus, so lange Sie die Eing
 ++ Das NVDA-Menü ++[TheNVDAMenu]
 In diesem Menü können Sie alle Einstellungen von NVDA ändern, die Einstellungen speichern oder zurücksetzen, die Hilfe aufrufen, die Wörterbücher für die Aussprache bearbeiten, zusätzliche Funktionen aufrufen und auch NVDA komplett beenden.
 
-Um von überall in das NVDA-Menü zu gelangen, drücken Sie die Tastenkombination NVDA+n oder tippen Sie zweimal mit zwei Fingern. Dies funktioniert allerdings auch nur, wenn NVDA läuft.
+Um von überall in das NVDA-Menü zu gelangen, drücken Sie die Tastenkombination NVDA+N oder tippen Sie zweimal mit zwei Fingern. Dies funktioniert allerdings auch nur, wenn NVDA läuft.
 Das Menü kann auch über einen Rechtsklick auf das NVDA-Symbol im Infobereich erreicht werden.
 Alternativ können Sie auch die Tastenkombination "Windows+b" drücken und mit den "Pfeiltasten zum NVDA-Symbol navigieren und das Menü mit der Anwendungstaste öffnen. Die Anwendungstaste befindet sich auf den meisten Tastaturen links neben der rechten Strg-Taste.
 In den Menüs bewegen Sie sich einfach mit den Pfeiltasten. Mit der Eingabetaste öffnen Sie die Menüpunkte.
@@ -726,7 +726,7 @@ Sie können die Erkennungssprache einstellen, indem Sie die Kategorie [Windows 1
 Zusätzliche Sprachen können Sie in den Einstellungen von Windows unter Zeit und Sprache -> Region und Sprache -> Sprache hinzufügen installieren.
 
 %kc:beginInclude
-Drücken Sie NVDA+r, um den Text im aktuellen NAvigator-Objekt mit Hilfe der Windows 10-Texterkennung zu erkennen.
+Drücken Sie NVDA+R, um den Text im aktuellen NAvigator-Objekt mit Hilfe der Windows 10-Texterkennung zu erkennen.
 %kc:endInclude
 
 + Anwendungsspezifische Funktionen +[ApplicationSpecificFeatures]
@@ -1043,7 +1043,7 @@ Diese Option ist standardmäßig deaktiviert.
 
 %kc:setting
 ==== Zeichen/Symbolebene ====[SpeechSettingsSymbolLevel]
-Tastenkombination: NVDA+p
+Tastenkombination: NVDA+P
 
 Hier kann eingestellt werden, ob und wie viele Satz- und Sonderzeichen NVDA als Wort aussprechen soll.
 Wenn hier "alle" ausgewählt ist, spricht NVDA alle Symbole, als wären diese ausgeschrieben.
@@ -1316,7 +1316,7 @@ In Windows ändert sich die Form des Mauszeigers, wenn sich dieser Beispielsweis
 
 %kc:setting
 ==== Mausverfolgung einschalten ====[MouseSettingsTracking]
-Tastenkombination: NVDA+m
+Tastenkombination: NVDA+M
 
 Dieses Kontrollfeld weist NVDA an, den Text unter dem Mauszeiger vorzulesen. Das erleichtert Ihnen das Auffinden von Informationen am Bildschirm, wenn Sie mittels der Maus den Mauszeiger über den Bildschirm bewegen.
 
@@ -1398,7 +1398,7 @@ Deaktivieren Sie einfach diese Option, wenn Sie die Ansage der Objektbeschreibun
 
 %kc:setting
 ==== Ausgabe des Fortschrittsbalkens ====[ObjectPresentationProgressBarOutput]
-Tastenkombination: NVDA+u
+Tastenkombination: NVDA+U
 
 Diese Option kontrolliert, wie NVDA die Aktualisierungen der Fortschrittsbalken ansagen soll.
 
@@ -1468,7 +1468,7 @@ Wenn gleich der Lesemodus keine wirklichen Seiten hat, können Sie jedoch hier f
 
 %kc:setting
 ==== Bildschirmlayout verwenden ====[BrowseModeSettingsScreenLayout]
-Tastenkombination: NVDA+v
+Tastenkombination: NVDA+V
 
 Diese Option legt fest, wie der Inhalt einer Seite in den Lesemodus übernommen werden soll. Wenn die Option aktiviert ist, bekommen Sie die Ansicht exakt so, wie sie am Bildschirm erscheint. Wenn die Option deaktiviert ist, werden alle Elemente, wie beispielsweise Links im Textverlauf in einer neuen Zeile dargestellt.
 
