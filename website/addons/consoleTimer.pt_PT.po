@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Console Timer\n"
-"POT-Creation-Date: 2018-01-30 16:06+1000\n"
+"POT-Creation-Date: 2018-06-30 14:32+1000\n"
 "PO-Revision-Date: 2018-01-24 13:25+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
@@ -148,8 +148,9 @@ msgstr ""
 "lista da class.."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev stable]]\n"
+msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
