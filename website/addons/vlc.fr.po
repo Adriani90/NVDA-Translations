@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC Addons website for NVDA\n"
 "POT-Creation-Date: 2018-06-29 21:16+1000\n"
-"PO-Revision-Date: 2018-06-25 18:55+0200\n"
+"PO-Revision-Date: 2018-06-30 22:32+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -30,10 +30,8 @@ msgid "Download [stable version][2]"
 msgstr "Télécharger [version stable][2]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download [stable version][2]"
 msgid "Download [development version][3]"
-msgstr "Télécharger [version stable][2]"
+msgstr "Télécharger [version de développement][3]"
 
 #. type: Plain text
 msgid "This addon provides some accessibility features for VLC Media Player."
@@ -83,6 +81,9 @@ msgid ""
 "automatically when they are displayed. Press Control+Tab to try to bring "
 "them to the front."
 msgstr ""
+"Certaines fenêtres et certains panneaux ne peuvent pas avoir le focus "
+"lorsqu'ils sont affichés. Appuyez sur Contrôle+Tab pour essayer de les "
+"amener à l'avant."
 
 #. type: Bullet: '* '
 msgid ""
@@ -101,6 +102,9 @@ msgid ""
 "(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
 "details."
 msgstr ""
+"Couvert par la licence publique générale GNU. Voir le [fichier COPYING.txt]"
+"(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) pour plus de "
+"détails."
 
 #. type: Plain text
 #, no-wrap
@@ -116,10 +120,9 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 
 #. type: Plain text
-#, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
+msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
 
 #, fuzzy
 #~| msgid "Download [stable version][2]"
