@@ -156,7 +156,7 @@ Por favor acesse a Página do NVDA para saber como deve proceder.
 Quando este leitor de telas iniciar pela primeira vez, você será recebido por uma caixa de diálogo que lhe fornece alguma informação básica sobre a tecla modificadora do NVDA e também sobre seu menu.
 (Por favor veja as seções seguintes sobre estes tópicos.)
 A caixa de diálogo também contém uma caixa de combinação e três caixas de seleção.
-A caixa de combinação permite selecionar o esquema ""[layout]"" do teclado.
+A caixa de combinação permite selecionar o esquema ""[leiaute]"" do teclado.
 A primeira caixa de seleção permite-lhe controlar se o NVDA utilizará o capslock como uma de suas teclas modificadoras.
 A segunda especifica se o NVDA deve iniciar automaticamente depois de você efetuar o login no Windows e está disponível apenas para cópias instaladas do NVDA.
 A terceira permite configurar se este diálogo de boas vindas aparecerá sempre que o NVDA for iniciado.
@@ -173,7 +173,7 @@ Por padrão, o Insert do bloco numérico e o do bloco intermediário podem ser u
 Se pretender que uma dessas teclas modificadoras execute sua função original como se o NVDA não estivesse em execução (por exemplo, caso defina o capslock como uma tecla modificadora do NVDA e deseje ativar o capslock) você pode pressionar sucessivamente esta tecla duas vezes rapidamente.
 
 +++ Esquemas de Teclado +++[KeyboardLayouts]
-O NVDA vem atualmente com dois conjuntos de teclas de comandos (conhecidos como esquemas ""[layout]"" de teclado): o esquema computador de mesa ""[desktop]"" e o esquema computador portátil ""[laptop]"".
+O NVDA vem atualmente com dois conjuntos de teclas de comandos (conhecidos como esquemas ""[leiaute]"" de teclado): o esquema computador de mesa ""[desktop]"" e o esquema computador portátil ""[laptop]"".
 Este leitor de telas está definido para utilizar por padrão o esquema de Computador de mesa, embora você possa alternar para o esquema de Computador Portátil na categoria Teclado do diálogo [Opções do NVDA #NVDASettings], encontrado em Preferências no menu do NVDA.
 
 O esquema Computador de Mesa faz uso intensivo do bloco numérico (com o numlock desativado).
@@ -1230,19 +1230,19 @@ Se houver um erro ao carregar o driver da linha, o NVDA o notificará com uma me
 
 ==== Linha Braille ====[SelectBrailleDisplayDisplay]
 Esta caixa de combinação apresenta várias opções, dependendo de quais drivers de linha braille estão disponíveis em seu sistema.
-Utilize as setas para mover-se pelas mesmas.
+Mova-se entre essas opções com as setas.
 
 O item "Sem Braille" significa que o braille não está sendo usado.
 
-Por favor consulte a seção [Linhas Braille Suportadas #SupportedBrailleDisplays] para obter mais informação sobre as linhas Braille suportadas.
+Por favor consulte a seção [Linhas Braille Suportadas #SupportedBrailleDisplays] para obter mais informações sobre as linhas Braille suportadas.
 
 ==== Porta ====[SelectBrailleDisplayPort]
-Esta opção, se disponível, permite-lhe escolher qual porta ou tipo de conexão será usado para comunicar com a linha braille que você selecionou.
+Esta opção, se disponível, permite-lhe escolher qual porta ou tipo de conexão será usada para comunicar com a linha braille que você selecionou.
 Consiste numa caixa de combinação contendo as escolhas possíveis para sua linha braille.
 
-Por padrão, o NVDA utiliza-se da detecção automática de porta, o que significa que a conexão com a linha braille será estabelecida automaticamente, buscando por dispositivos USB e bluetooth em seu sistema.
+Por padrão, o NVDA utiliza-se da detecção automática de porta, o que significa que a conexão com a linha braille será estabelecida automaticamente pela varredura de dispositivos USB e bluetooth disponíveis em seu sistema.
 Todavia, para algumas linhas braille, você pode escolher explicitamente qual porta deve ser usada.
-As opções Comuns são "Automática" (que informa ao NVDA para aplicar o procedimento padrão de seleção automática de porta), "USB", "Bluetooth" e a comunicação por portas seriais, caso sua linha braille suporte esse tipo de conexão.
+As opções Comuns são "Automática" (que informa ao NVDA para aplicar o procedimento padrão de seleção automática de porta), "USB", "Bluetooth" e portas de comunicação serial legadas caso sua linha braille suporte esse tipo de conexão.
 
 Esta opção não estará disponível se sua linha braille suporta apenas a detecção automática de porta.
 
@@ -1250,10 +1250,10 @@ Você pode consultar a documentação sobre sua linha braille na seção [Linhas
 
 +++ Teclado (NVDA+control+k) +++[KeyboardSettings]
 A categoria Teclado no diálogo de Opções do NVDA contém opções que definem como o NVDA se comporta à medida que você usa e digita no seu teclado.
-Esta categoria de configurações contém as seguintes opções:
+Essa categoria de configurações contém as seguintes opções:
 
 ==== Esquema de teclado ====[KeyboardSettingsLayout]
-Esta caixa de combinação permite-lhe escolher o esquema de teclado que o NVDA utilizará. Atualmente, os dois que vêm com este leitor de tela são o Desktop para computadores de mesa e o Laptop para computadores portáteis.
+Esta caixa de combinação permite-lhe escolher o esquema de teclado que o NVDA utilizará. Atualmente, os dois que vêm com este leitor de tela são o Computador de mesa ""[Desktop]"" e o Computador portátil ""[Laptop]"".
 
 ==== Usar capslock como uma tecla modificadora do NVDA ====[KeyboardSettingsCapsModifier]
 Se esta caixa de seleção estiver marcada, o capslock poderá ser usado como uma tecla modificadora do NVDA.
@@ -1266,19 +1266,19 @@ Se esta caixa de seleção estiver marcada, o Insert do bloco numérico poderá 
 
 Caso nenhuma tecla seja escolhida como modificadora do NVDA, poderá ser impossível executar certos comandos.
 Por isso, o diálogo de Opções do NVDA exibirá uma mensagem de erro se todas as teclas estiverem desselecionadas quando você pressionar Ok ou Aplicar.
-Após fechar a mensagem de erro, será necessário selecionar pelo menos uma destas para então poder pressionar Ok e fechar corretamente o diálogo.
+Após fechar a mensagem de erro, será necessário selecionar pelo menos uma antes de poder pressionar Ok para fechar o diálogo corretamente.
 
 %kc:setting
 ==== Falar Caracteres Digitados ====[KeyboardSettingsSpeakTypedCharacters]
 Tecla: NVDA+2
 
-Consiste numa caixa de seleção que quando marcada informa ao NVDA para anunciar todos os caracteres introduzidos através do teclado.
+Quando habilitada, o NVDA anunciará todos os caracteres introduzidos através do teclado.
 
 %kc:setting
 ==== Falar Palavras Digitadas ====[KeyboardSettingsSpeakTypedWords]
 Tecla: NVDA+3
 
-Quando está selecionada faz com que o NVDA anuncie todas as palavras que você introduzir através do teclado.
+Quando habilitada, faz com que o NVDA anuncie todas as palavras que você introduzir através do teclado.
 
 ==== Caracteres digitados interrompem a fala ====[KeyboardSettingsSpeechInteruptForCharacters]
 Se ativada, essa opção fará com que a fala seja interrompida sempre que um caractere for digitado. Isso está ativado por padrão.
@@ -1287,18 +1287,18 @@ Se ativada, essa opção fará com que a fala seja interrompida sempre que um ca
 Se ativada, essa opção fará com que a fala seja interrompida sempre que a tecla Enter for pressionada. Isso está ativado por padrão.
 
 ==== Permitir Ler Dinamicamente Durante a Leitura Contínua ====[KeyboardSettingsSkimReading]
-Se ativada, certos comandos de navegação (tais como os de navegação rápida no modo de navegação ou mover-se por linha ou parágrafo) não interromperão a leitura contínua, e ao invés disso, a leitura contínua saltará para a nova posição e continuará a leitura.
+Se ativada, certos comandos de navegação (tais como os de navegação rápida no modo de navegação ou mover-se por linha ou parágrafo) não interromperão a leitura contínua, e ao invés disso, a leitura contínua saltará para a nova posição e permanece lendo.
 
 ==== Apita se Digitar Letras Minúsculas com Caps Lock Ligado ====[KeyboardSettingsBeepLowercase]
-Quando marcada, um bipe de alerta será ouvido caso digite uma letra em conjunto com a tecla shift enquanto caps lock estiver ativado.
-Geralmente, essa ação é involuntária e se deve à desatenção para o fato de que o caps lock está ativado.
+Quando habilitada, um bipe de alerta será ouvido caso digite uma letra em conjunto com a tecla shift enquanto caps lock estiver ativado.
+Geralmente, digitar letras com shift juntamente com capslock ligado é involuntário e comumente é devido à desatenção para o fato de que o caps lock está ativado.
 Portanto, é bastante útil ser alertado sobre isso.
 
 %kc:setting
 ==== Falar Teclas de Comando ====[KeyboardSettingsSpeakCommandKeys]
 Tecla: NVDA+4
 
-Quando está marcada, informa ao NVDA para anunciar todas as teclas que não são caracteres que você pressionar através do teclado. Isto inclui combinações de teclas tais como o Control mais outra letra.
+Quando está habilitada, informa ao NVDA para anunciar todas as teclas que não são caracteres que você pressionar através do teclado. Isto inclui combinações de teclas tais como o Control mais outra letra.
 
 ==== Tocar som para erros ortográficos ao digitar ====[KeyboardSettingsAlertForSpellingErrors]
 Se habilitada, um curto som de alerta será tocado quando uma palavra digitada contiver um erro ortográfico.
@@ -1306,11 +1306,11 @@ Esta opção só estará disponível se o anúncio de erros ortográficos estive
 
 ==== Processar Teclas de outros Aplicativos ====[KeyboardSettingsHandleKeys]
 Esta opção permite ao usuário controlar se o pressionamento de teclas gerado por aplicações tais como teclados na tela e softwares de reconhecimento de voz deverão ser processados pelo NVDA.
-Tal opção está ativada por padrão, embora certos usuários podem querer desativá-la, como por exemplo durante a digitação de texto em Vietnamês por meio do software de digitação Unikey, pois ele ocasionará a inserção de caracteres incorretos.
+Tal opção está ativada por padrão, embora certos usuários podem querer desativá-la, como por exemplo durante a digitação de texto Vietnamita por meio do software de digitação Unikey, pois isso ocasionará a inserção de caracteres incorretos.
 
 +++ Mouse (NVDA+control+m) +++[MouseSettings]
 A categoria Mouse ""[Rato]"" no diálogo de Opções do NVDA permite que o NVDA rastreie o mouse, reproduza bipes de coordenadas do mouse e defina outras opções de uso do mouse.
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 
 ==== Anunciar mudanças No Formato do Mouse ====[MouseSettingsShape]
 Uma caixa de seleção que quando marcada informa ao NVDA para anunciar em qualquer altura a alteração da forma do ponteiro do mouse.
@@ -1320,59 +1320,60 @@ O ponteiro do mouse altera a sua forma no Windows para fornecer determinada info
 ==== Habilitar Rastreamento do Mouse ====[MouseSettingsTracking]
 Tecla: NVDA+m
 
-Esta é uma caixa de seleção que quando marcada faz com que o NVDA anuncie o texto atual sobre o ponteiro do mouse, conforme este se move pela tela.
-Isto permite que procure coisas no mesmo através do movimento físico do mouse, ao invés de tentar encontrar através da navegação de objetos.
+Esta é uma caixa de seleção que quando marcada faz com que o NVDA anuncie o texto atual sobre o ponteiro do mouse, conforme este se move pela tela. Isso permite que procure coisas na tela, movendo fisicamente o mouse, ao invés de tentar encontrar através da navegação de objetos.
 
-==== Unidade de leitura [resolution] de texto ====[MouseSettingsTextUnit]
+==== Unidade de leitura [resolução] de texto ====[MouseSettingsTextUnit]
 Se o NVDA estiver configurado para anunciar o texto sob o ponteiro do mouse à medida que o move, esta opção permite escolher exatamente quanto texto será anunciado.
 As opções são caractere, palavra, linha e parágrafo.
 
 ==== Anunciar função [tipo] do objeto quando o mouse entra nele ====[MouseSettingsRole]
-Se esta caixa de seleção estiver ativada, o NVDA anunciará a função (tipo) do objeto quando o mouse se mover sobre ele.
+Se essa caixa de seleção estiver ativada, o NVDA anunciará a função (tipo) do objeto quando o mouse se mover dentro dele.
 
 ==== Tocar sons de coordenadas quando o mouse é movido ====[MouseSettingsAudio]
-Ao marcar esta caixa de seleção, fará com que o NVDA reproduza bipes quando o mouse se mover. Desta forma, o utilizador pode saber onde o mouse está tendo em conta as dimensões da tela.
+Ao marcar essa caixa de seleção, fará com que o NVDA reproduza bipes quando o mouse se mover, desta forma, o utilizador pode saber onde o mouse está tendo em conta as dimensões da tela.
+Quanto mais alto o mouse estiver na tela, maior será o tom dos bipes.
+Quanto mais à esquerda ou à direita o mouse estiver localizado na tela, mais à esquerda ou à direita o som será reproduzido (supondo que o usuário tenha alto-falantes estéreo ou fones de ouvido).
 
 ==== Brilho controla volume das coordenadas sonoras ====[MouseSettingsBrightness]
 Se a caixa de seleção "tocar sons de coordenadas quando o mouse é movido" estiver marcada, ao marcar esta outra significa que o volume dos bipes das coordenadas sonoras será controlado através do brilho da tela que está sob o mouse.
 Esta configuração está desmarcada por padrão.
 
 +++ Interação por Toque +++[TouchInteraction]
-Esta categoria de configurações, disponível apenas em computadores que executam o Windows 8 e posterior com recursos de toque, permite que você configure como o NVDA interage com as telas de toque.
-Esta categoria contém as seguintes opções:
+Essa categoria de configurações, disponível apenas em computadores que executam o Windows 8 e posteriores com recursos de toque, permite que você configure como o NVDA interage com as telas sensíveis ao toque.
+Essa categoria contém as seguintes opções:
 
 ==== Modo de digitação tátil ====[TouchTypingMode]
-Esta caixa de seleção permite especificar o método que você deseja usar ao digitar texto usando o teclado virtual ""[touch keyboard]"".
-Se esta caixa de seleção estiver marcada, quando você localizar uma tecla no teclado virtual, poderá levantar o dedo e a tecla selecionada será pressionada.
+Essa caixa de seleção permite especificar o método que você deseja usar ao digitar texto usando o teclado virtual ""[touch keyboard]"".
+Se essa caixa de seleção estiver marcada, quando você localizar uma tecla no teclado virtual, poderá levantar o dedo e a tecla selecionada será pressionada.
 Se isso estiver desmarcado, você precisará de um toque duplo na tecla do teclado virtual para pressionar a tecla.
 
 +++ Cursor de Exploração +++[ReviewCursorSettings]
 A categoria Cursor de Exploração no diálogo de Opções do NVDA é usada para configurar o comportamento do cursor de exploração do NVDA.
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 
 %kc:setting
 ==== Acompanhar Foco do Teclado ====[ReviewCursorFollowFocus]
 Tecla: NVDA+7
 
-Quando ativado, o cursor de exploração será sempre colocado no mesmo objeto quando o foco atual for alterado.
+Quando habilitado, o cursor de exploração será sempre colocado no mesmo objeto quando o foco atual for alterado.
 
 %kc:setting
 ==== Acompanhar Cursor do Sistema ====[ReviewCursorFollowCaret]
 Tecla: NVDA+6
 
-Quando ativada, o cursor de exploração será movido automaticamente para a posição do cursor do sistema a cada vez que se mover.
+Quando habilitada, o cursor de exploração será movido automaticamente para a posição do cursor do sistema a cada vez que se mover.
 
 ==== Acompanhar Cursor do Mouse ====[ReviewCursorFollowMouse]
-Se ativado, o cursor de exploração seguirá o mouse quando o mesmo se mover.
+Quando habilitado, o cursor de exploração seguirá o mouse conforme ele se move.
 
 ==== Modo Simples de Exploração ====[ReviewCursorSimple]
-Quando ativado, o NVDA filtrará a hierarquia dos objetos que podem ser navegados para excluir quaisquer objetos inutilizáveis.
+Quando habilitado, o NVDA filtrará a hierarquia dos objetos que podem ser navegados para excluir objetos que não são de interesse do usuário; por exemplo, objetos invisíveis e objetos usados apenas para fins de leiaute.
 
 Para alternar o modo de exploração simples de qualquer lugar, atribua um gesto de entrada usando o [Diálogo de gestos para entrada #InputGestures].
 
 +++ Apresentação de Objetos (NVDA+control+o) +++[ObjectPresentationSettings]
 A categoria Apresentação de Objetos no diálogo de Opções do NVDA é usada para definir quanta informação o NVDA apresentará sobre os controles, como descrição, informações de posição e assim por diante.
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 
 ==== Anunciar Dicas de Ferramentas ====[ObjectPresentationReportToolTips]
 Uma caixa de seleção que quando marcada informa ao NVDA para anunciar as dicas de ferramentas conforme apareçam.
@@ -1475,14 +1476,14 @@ Esta opção permite definir se o conteúdo no modo de navegação deve posicion
 Essa caixa de seleção alterna a leitura automática das páginas depois que estas são carregadas no Modo de Navegação.
 Por padrão, essa opção está ativada.
 
-==== Incluir Tabelas de Layout ====[BrowseModeSettingsIncludeLayoutTables]
+==== Incluir Tabelas de Leiaute ====[BrowseModeSettingsIncludeLayoutTables]
 Essa opção afeta como o NVDA controla as tabelas usadas exclusivamente para propósitos de apresentação.
 Se ativada, este leitor as tratará como tabelas normais, anunciando-as baseado nas [Configurações de Formatação de Documentos #DocumentFormattingSettings] e localizando-as com os comandos de navegação rápida.
 Quando desativada, tais tabelas não serão anunciadas nem encontradas com a navegação rápida.
 Todavia, o conteúdo das tabelas continuará sendo incluído como texto normal.
 Por padrão, essa opção está desativada.
 
-Para alternar a inclusão de tabelas de layout de qualquer lugar, atribua um gesto personalizado usando o [diálogo de Gestos de Entrada #InputGestures].
+Para alternar a inclusão de tabelas de leiaute de qualquer lugar, atribua um gesto personalizado usando o [diálogo de Gestos de Entrada #InputGestures].
 
 ==== Configurar O Anúncio de Campos Tais Como Links e Cabeçalhos [Títulos] ====[BrowseModeLinksAndHeadings]
 por favor veja as opções na [categoria Formatação de Documentos #DocumentFormattingSettings] do diálogo de [Opções do NVDA #NVDASettings] para a configuração dos campos que serão falados quando estiver navegando, tais como links, cabeçalhos e tabelas.
