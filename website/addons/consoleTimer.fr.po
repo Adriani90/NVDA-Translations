@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: website addons consoleTimer fr\n"
 "POT-Creation-Date: 2018-06-30 14:32+1000\n"
-"PO-Revision-Date: 2017-06-03 15:39+0200\n"
+"PO-Revision-Date: 2018-06-30 23:19+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
@@ -150,10 +150,10 @@ msgstr ""
 "que NVDAObjects.behaviors.Terminal est injecté à la class list."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "[[!tag dev stable]]\n"
 msgid "[[!tag dev]]\n"
-msgstr "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cont"
