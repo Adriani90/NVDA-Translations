@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-12-01 05:31+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-06-30 16:01+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Addons under development\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"正在开发中的插件\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -29,6 +29,9 @@ msgid ""
 "source code repositories of these add-ons can be listed [here][1], patches "
 "welcome."
 msgstr ""
+"社区成员目前正在开发下列插件。如果您想向我们提供反馈意见或想要报告意外的bug，"
+"您可以在[addon development mailing list] [2]上编写反馈邮件。这些附加组件的源"
+"代码库可以列在[这里] [1]，欢迎补丁。"
 
 #. type: Plain text
 msgid ""
@@ -42,6 +45,11 @@ msgid ""
 "considering factors such as quality, usefulness and interest from the wider "
 "community.  Please be aware that this process may take some time."
 msgstr ""
+"如果您想提交一个用于包含或更新现有插件信息的插件，请确保您的插件符合我们的[准"
+"则] [3]，并通过电子邮件发送[到NVDA插件邮件列表] [2] 。包括插件的名称，简短描"
+"述，作者，当前版本号，网站（如果有）以及可从中下载的URL。每个社区插件都经过我"
+"们在[这里] [4]中描述的标准化过程。考虑到更广泛社区的质量，实用性和兴趣等因"
+"素，社区评审员将自行决定是否添加插件。请注意，这个过程可能需要一些时间。"
 
 #. type: Plain text
 #, no-wrap
@@ -50,16 +58,16 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/repos"
-msgstr ""
+msgstr "[1]: https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/repos"
 
 #. type: Plain text
 msgid "[2]: https://nvda-addons.groups.io/g/nvda-addons"
-msgstr ""
+msgstr "[2]: https://nvda-addons.groups.io/g/nvda-addons"
 
 #. type: Plain text
 msgid "[3]: http://addons.nvda-project.org/files/get.php?file=gl"
-msgstr ""
+msgstr "[3]: http://addons.nvda-project.org/files/get.php?file=gl"
 
 #. type: Plain text
 msgid "[4]: http://addons.nvda-project.org/processes"
-msgstr ""
+msgstr "[4]: http://addons.nvda-project.org/processes"
