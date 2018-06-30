@@ -444,7 +444,7 @@ Por favor acesse a Página do NVDA para saber como deve proceder.
 Quando este leitor de telas iniciar pela primeira vez, você será recebido por uma caixa de diálogo que lhe fornece alguma informação básica sobre a tecla modificadora do NVDA e também sobre seu menu.
 (Por favor veja as seções seguintes sobre estes tópicos.)
 A caixa de diálogo também contém uma caixa de combinação e três caixas de seleção.
-A caixa de combinação permite selecionar o esquema [layout] do teclado.
+A caixa de combinação permite selecionar o esquema [leiaute] do teclado.
 A primeira caixa de seleção permite-lhe controlar se o NVDA utilizará o capslock como uma de suas teclas modificadoras.
 A segunda especifica se o NVDA deve iniciar automaticamente depois de você efetuar o login no Windows e está disponível apenas para cópias instaladas do NVDA.
 A terceira permite configurar se este diálogo de boas vindas aparecerá sempre que o NVDA for iniciado.
@@ -472,7 +472,7 @@ Se pretender que uma dessas teclas modificadoras execute sua função original c
 <H4>4.2.2. Esquemas de Teclado</H4>
 
 <P>
-O NVDA vem atualmente com dois conjuntos de teclas de comandos (conhecidos como esquemas [layout] de teclado): o esquema computador de mesa [desktop] e o esquema computador portátil [laptop].
+O NVDA vem atualmente com dois conjuntos de teclas de comandos (conhecidos como esquemas [leiaute] de teclado): o esquema computador de mesa [desktop] e o esquema computador portátil [laptop].
 Este leitor de telas está definido para utilizar por padrão o esquema de Computador de mesa, embora você possa alternar para o esquema de Computador Portátil na categoria Teclado do diálogo <A HREF="#NVDASettings">Opções do NVDA</A>, encontrado em Preferências no menu do NVDA.
 </P>
 <P>
@@ -2847,26 +2847,26 @@ Se houver um erro ao carregar o driver da linha, o NVDA o notificará com uma me
 
 <P>
 Esta caixa de combinação apresenta várias opções, dependendo de quais drivers de linha braille estão disponíveis em seu sistema.
-Utilize as setas para mover-se pelas mesmas.
+Mova-se entre essas opções com as setas.
 </P>
 <P>
 O item "Sem Braille" significa que o braille não está sendo usado.
 </P>
 <P>
-Por favor consulte a seção <A HREF="#SupportedBrailleDisplays">Linhas Braille Suportadas</A> para obter mais informação sobre as linhas Braille suportadas.
+Por favor consulte a seção <A HREF="#SupportedBrailleDisplays">Linhas Braille Suportadas</A> para obter mais informações sobre as linhas Braille suportadas.
 </P>
 
 <A NAME="SelectBrailleDisplayPort"></A>
 <H5>Porta</H5>
 
 <P>
-Esta opção, se disponível, permite-lhe escolher qual porta ou tipo de conexão será usado para comunicar com a linha braille que você selecionou.
+Esta opção, se disponível, permite-lhe escolher qual porta ou tipo de conexão será usada para comunicar com a linha braille que você selecionou.
 Consiste numa caixa de combinação contendo as escolhas possíveis para sua linha braille.
 </P>
 <P>
-Por padrão, o NVDA utiliza-se da detecção automática de porta, o que significa que a conexão com a linha braille será estabelecida automaticamente, buscando por dispositivos USB e bluetooth em seu sistema.
+Por padrão, o NVDA utiliza-se da detecção automática de porta, o que significa que a conexão com a linha braille será estabelecida automaticamente pela varredura de dispositivos USB e bluetooth disponíveis em seu sistema.
 Todavia, para algumas linhas braille, você pode escolher explicitamente qual porta deve ser usada.
-As opções Comuns são "Automática" (que informa ao NVDA para aplicar o procedimento padrão de seleção automática de porta), "USB", "Bluetooth" e a comunicação por portas seriais, caso sua linha braille suporte esse tipo de conexão.
+As opções Comuns são "Automática" (que informa ao NVDA para aplicar o procedimento padrão de seleção automática de porta), "USB", "Bluetooth" e portas de comunicação serial legadas caso sua linha braille suporte esse tipo de conexão.
 </P>
 <P>
 Esta opção não estará disponível se sua linha braille suporta apenas a detecção automática de porta.
@@ -2880,14 +2880,14 @@ Você pode consultar a documentação sobre sua linha braille na seção <A HREF
 
 <P>
 A categoria Teclado no diálogo de Opções do NVDA contém opções que definem como o NVDA se comporta à medida que você usa e digita no seu teclado.
-Esta categoria de configurações contém as seguintes opções:
+Essa categoria de configurações contém as seguintes opções:
 </P>
 
 <A NAME="KeyboardSettingsLayout"></A>
 <H5>Esquema de teclado</H5>
 
 <P>
-Esta caixa de combinação permite-lhe escolher o esquema de teclado que o NVDA utilizará. Atualmente, os dois que vêm com este leitor de tela são o Desktop para computadores de mesa e o Laptop para computadores portáteis.
+Esta caixa de combinação permite-lhe escolher o esquema de teclado que o NVDA utilizará. Atualmente, os dois que vêm com este leitor de tela são o Computador de mesa [Desktop] e o Computador portátil [Laptop].
 </P>
 
 <A NAME="KeyboardSettingsCapsModifier"></A>
@@ -2913,7 +2913,7 @@ Se esta caixa de seleção estiver marcada, o Insert do bloco numérico poderá 
 <P>
 Caso nenhuma tecla seja escolhida como modificadora do NVDA, poderá ser impossível executar certos comandos.
 Por isso, o diálogo de Opções do NVDA exibirá uma mensagem de erro se todas as teclas estiverem desselecionadas quando você pressionar Ok ou Aplicar.
-Após fechar a mensagem de erro, será necessário selecionar pelo menos uma destas para então poder pressionar Ok e fechar corretamente o diálogo.
+Após fechar a mensagem de erro, será necessário selecionar pelo menos uma antes de poder pressionar Ok para fechar o diálogo corretamente.
 </P>
 
 <A NAME="KeyboardSettingsSpeakTypedCharacters"></A>
@@ -2923,7 +2923,7 @@ Após fechar a mensagem de erro, será necessário selecionar pelo menos uma des
 Tecla: NVDA+2
 </P>
 <P>
-Consiste numa caixa de seleção que quando marcada informa ao NVDA para anunciar todos os caracteres introduzidos através do teclado.
+Quando habilitada, o NVDA anunciará todos os caracteres introduzidos através do teclado.
 </P>
 
 <A NAME="KeyboardSettingsSpeakTypedWords"></A>
@@ -2933,7 +2933,7 @@ Consiste numa caixa de seleção que quando marcada informa ao NVDA para anuncia
 Tecla: NVDA+3
 </P>
 <P>
-Quando está selecionada faz com que o NVDA anuncie todas as palavras que você introduzir através do teclado.
+Quando habilitada, faz com que o NVDA anuncie todas as palavras que você introduzir através do teclado.
 </P>
 
 <A NAME="KeyboardSettingsSpeechInteruptForCharacters"></A>
@@ -2954,15 +2954,15 @@ Se ativada, essa opção fará com que a fala seja interrompida sempre que a tec
 <H5>Permitir Ler Dinamicamente Durante a Leitura Contínua</H5>
 
 <P>
-Se ativada, certos comandos de navegação (tais como os de navegação rápida no modo de navegação ou mover-se por linha ou parágrafo) não interromperão a leitura contínua, e ao invés disso, a leitura contínua saltará para a nova posição e continuará a leitura.
+Se ativada, certos comandos de navegação (tais como os de navegação rápida no modo de navegação ou mover-se por linha ou parágrafo) não interromperão a leitura contínua, e ao invés disso, a leitura contínua saltará para a nova posição e permanece lendo.
 </P>
 
 <A NAME="KeyboardSettingsBeepLowercase"></A>
 <H5>Apita se Digitar Letras Minúsculas com Caps Lock Ligado</H5>
 
 <P>
-Quando marcada, um bipe de alerta será ouvido caso digite uma letra em conjunto com a tecla shift enquanto caps lock estiver ativado.
-Geralmente, essa ação é involuntária e se deve à desatenção para o fato de que o caps lock está ativado.
+Quando habilitada, um bipe de alerta será ouvido caso digite uma letra em conjunto com a tecla shift enquanto caps lock estiver ativado.
+Geralmente, digitar letras com shift juntamente com capslock ligado é involuntário e comumente é devido à desatenção para o fato de que o caps lock está ativado.
 Portanto, é bastante útil ser alertado sobre isso.
 </P>
 
@@ -2973,7 +2973,7 @@ Portanto, é bastante útil ser alertado sobre isso.
 Tecla: NVDA+4
 </P>
 <P>
-Quando está marcada, informa ao NVDA para anunciar todas as teclas que não são caracteres que você pressionar através do teclado. Isto inclui combinações de teclas tais como o Control mais outra letra.
+Quando está habilitada, informa ao NVDA para anunciar todas as teclas que não são caracteres que você pressionar através do teclado. Isto inclui combinações de teclas tais como o Control mais outra letra.
 </P>
 
 <A NAME="KeyboardSettingsAlertForSpellingErrors"></A>
@@ -2989,7 +2989,7 @@ Esta opção só estará disponível se o anúncio de erros ortográficos estive
 
 <P>
 Esta opção permite ao usuário controlar se o pressionamento de teclas gerado por aplicações tais como teclados na tela e softwares de reconhecimento de voz deverão ser processados pelo NVDA.
-Tal opção está ativada por padrão, embora certos usuários podem querer desativá-la, como por exemplo durante a digitação de texto em Vietnamês por meio do software de digitação Unikey, pois ele ocasionará a inserção de caracteres incorretos.
+Tal opção está ativada por padrão, embora certos usuários podem querer desativá-la, como por exemplo durante a digitação de texto Vietnamita por meio do software de digitação Unikey, pois isso ocasionará a inserção de caracteres incorretos.
 </P>
 
 <A NAME="MouseSettings"></A>
@@ -2997,7 +2997,7 @@ Tal opção está ativada por padrão, embora certos usuários podem querer desa
 
 <P>
 A categoria Mouse [Rato] no diálogo de Opções do NVDA permite que o NVDA rastreie o mouse, reproduza bipes de coordenadas do mouse e defina outras opções de uso do mouse.
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 </P>
 
 <A NAME="MouseSettingsShape"></A>
@@ -3015,12 +3015,11 @@ O ponteiro do mouse altera a sua forma no Windows para fornecer determinada info
 Tecla: NVDA+m
 </P>
 <P>
-Esta é uma caixa de seleção que quando marcada faz com que o NVDA anuncie o texto atual sobre o ponteiro do mouse, conforme este se move pela tela.
-Isto permite que procure coisas no mesmo através do movimento físico do mouse, ao invés de tentar encontrar através da navegação de objetos.
+Esta é uma caixa de seleção que quando marcada faz com que o NVDA anuncie o texto atual sobre o ponteiro do mouse, conforme este se move pela tela. Isso permite que procure coisas na tela, movendo fisicamente o mouse, ao invés de tentar encontrar através da navegação de objetos.
 </P>
 
 <A NAME="MouseSettingsTextUnit"></A>
-<H5>Unidade de leitura [resolution] de texto</H5>
+<H5>Unidade de leitura [resolução] de texto</H5>
 
 <P>
 Se o NVDA estiver configurado para anunciar o texto sob o ponteiro do mouse à medida que o move, esta opção permite escolher exatamente quanto texto será anunciado.
@@ -3031,14 +3030,16 @@ As opções são caractere, palavra, linha e parágrafo.
 <H5>Anunciar função [tipo] do objeto quando o mouse entra nele</H5>
 
 <P>
-Se esta caixa de seleção estiver ativada, o NVDA anunciará a função (tipo) do objeto quando o mouse se mover sobre ele.
+Se essa caixa de seleção estiver ativada, o NVDA anunciará a função (tipo) do objeto quando o mouse se mover dentro dele.
 </P>
 
 <A NAME="MouseSettingsAudio"></A>
 <H5>Tocar sons de coordenadas quando o mouse é movido</H5>
 
 <P>
-Ao marcar esta caixa de seleção, fará com que o NVDA reproduza bipes quando o mouse se mover. Desta forma, o utilizador pode saber onde o mouse está tendo em conta as dimensões da tela.
+Ao marcar essa caixa de seleção, fará com que o NVDA reproduza bipes quando o mouse se mover, desta forma, o utilizador pode saber onde o mouse está tendo em conta as dimensões da tela.
+Quanto mais alto o mouse estiver na tela, maior será o tom dos bipes.
+Quanto mais à esquerda ou à direita o mouse estiver localizado na tela, mais à esquerda ou à direita o som será reproduzido (supondo que o usuário tenha alto-falantes estéreo ou fones de ouvido).
 </P>
 
 <A NAME="MouseSettingsBrightness"></A>
@@ -3053,16 +3054,16 @@ Esta configuração está desmarcada por padrão.
 <H4>11.1.9. Interação por Toque</H4>
 
 <P>
-Esta categoria de configurações, disponível apenas em computadores que executam o Windows 8 e posterior com recursos de toque, permite que você configure como o NVDA interage com as telas de toque.
-Esta categoria contém as seguintes opções:
+Essa categoria de configurações, disponível apenas em computadores que executam o Windows 8 e posteriores com recursos de toque, permite que você configure como o NVDA interage com as telas sensíveis ao toque.
+Essa categoria contém as seguintes opções:
 </P>
 
 <A NAME="TouchTypingMode"></A>
 <H5>Modo de digitação tátil</H5>
 
 <P>
-Esta caixa de seleção permite especificar o método que você deseja usar ao digitar texto usando o teclado virtual [touch keyboard].
-Se esta caixa de seleção estiver marcada, quando você localizar uma tecla no teclado virtual, poderá levantar o dedo e a tecla selecionada será pressionada.
+Essa caixa de seleção permite especificar o método que você deseja usar ao digitar texto usando o teclado virtual [touch keyboard].
+Se essa caixa de seleção estiver marcada, quando você localizar uma tecla no teclado virtual, poderá levantar o dedo e a tecla selecionada será pressionada.
 Se isso estiver desmarcado, você precisará de um toque duplo na tecla do teclado virtual para pressionar a tecla.
 </P>
 
@@ -3071,7 +3072,7 @@ Se isso estiver desmarcado, você precisará de um toque duplo na tecla do tecla
 
 <P>
 A categoria Cursor de Exploração no diálogo de Opções do NVDA é usada para configurar o comportamento do cursor de exploração do NVDA.
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 </P>
 
 <A NAME="ReviewCursorFollowFocus"></A>
@@ -3081,7 +3082,7 @@ Esta categoria contém as seguintes opções:
 Tecla: NVDA+7
 </P>
 <P>
-Quando ativado, o cursor de exploração será sempre colocado no mesmo objeto quando o foco atual for alterado.
+Quando habilitado, o cursor de exploração será sempre colocado no mesmo objeto quando o foco atual for alterado.
 </P>
 
 <A NAME="ReviewCursorFollowCaret"></A>
@@ -3091,21 +3092,21 @@ Quando ativado, o cursor de exploração será sempre colocado no mesmo objeto q
 Tecla: NVDA+6
 </P>
 <P>
-Quando ativada, o cursor de exploração será movido automaticamente para a posição do cursor do sistema a cada vez que se mover.
+Quando habilitada, o cursor de exploração será movido automaticamente para a posição do cursor do sistema a cada vez que se mover.
 </P>
 
 <A NAME="ReviewCursorFollowMouse"></A>
 <H5>Acompanhar Cursor do Mouse</H5>
 
 <P>
-Se ativado, o cursor de exploração seguirá o mouse quando o mesmo se mover.
+Quando habilitado, o cursor de exploração seguirá o mouse conforme ele se move.
 </P>
 
 <A NAME="ReviewCursorSimple"></A>
 <H5>Modo Simples de Exploração</H5>
 
 <P>
-Quando ativado, o NVDA filtrará a hierarquia dos objetos que podem ser navegados para excluir quaisquer objetos inutilizáveis.
+Quando habilitado, o NVDA filtrará a hierarquia dos objetos que podem ser navegados para excluir objetos que não são de interesse do usuário; por exemplo, objetos invisíveis e objetos usados apenas para fins de leiaute.
 </P>
 <P>
 Para alternar o modo de exploração simples de qualquer lugar, atribua um gesto de entrada usando o <A HREF="#InputGestures">Diálogo de gestos para entrada</A>.
@@ -3116,7 +3117,7 @@ Para alternar o modo de exploração simples de qualquer lugar, atribua um gesto
 
 <P>
 A categoria Apresentação de Objetos no diálogo de Opções do NVDA é usada para definir quanta informação o NVDA apresentará sobre os controles, como descrição, informações de posição e assim por diante.
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 </P>
 
 <A NAME="ObjectPresentationReportToolTips"></A>
@@ -3306,7 +3307,7 @@ Por padrão, essa opção está ativada.
 </P>
 
 <A NAME="BrowseModeSettingsIncludeLayoutTables"></A>
-<H5>Incluir Tabelas de Layout</H5>
+<H5>Incluir Tabelas de Leiaute</H5>
 
 <P>
 Essa opção afeta como o NVDA controla as tabelas usadas exclusivamente para propósitos de apresentação.
@@ -3316,7 +3317,7 @@ Todavia, o conteúdo das tabelas continuará sendo incluído como texto normal.
 Por padrão, essa opção está desativada.
 </P>
 <P>
-Para alternar a inclusão de tabelas de layout de qualquer lugar, atribua um gesto personalizado usando o <A HREF="#InputGestures">diálogo de Gestos de Entrada</A>.
+Para alternar a inclusão de tabelas de leiaute de qualquer lugar, atribua um gesto personalizado usando o <A HREF="#InputGestures">diálogo de Gestos de Entrada</A>.
 </P>
 
 <A NAME="BrowseModeLinksAndHeadings"></A>
