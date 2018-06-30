@@ -1138,7 +1138,7 @@ Schwerpunkte dieser Version sind: LeseModus für Microsoft Word- und Outlook-Dok
  <LI>Sie können die Tabellennavigationsbefehle (Alt+Strg+Pfeiltasten) verwenden, um zwischen den Spalten zu navigieren
  </UL>
 <LI>Microsoft Word: Wenn eine eingebundene Grafik keinen Alternativtext besitzt, wird stattdessen der Titel angezeigt, sofern vorhanden. (<A HREF="http://github.com/nvaccess/nvda/issues/4193">#4193</A>)
-<LI>Microsoft Word: Sie können die Einrückung eines Absatzes automatisch ausgeben lassen, indem Sie die Option "Absatzeinrückungen anzeigen" in den Einstellungen für Dokumentformatierungen aktivieren. Des weiteren werden Absatzeinrückungen auch mit dem Befehl Dokumentformatierung ansagen (NVDA+f) ausgegeben. (<A HREF="http://github.com/nvaccess/nvda/issues/4165">#4165</A>).
+<LI>Microsoft Word: Sie können die Einrückung eines Absatzes automatisch ausgeben lassen, indem Sie die Option "Absatzeinrückungen anzeigen" in den Einstellungen für Dokumentformatierungen aktivieren. Des weiteren werden Absatzeinrückungen auch mit dem Befehl Dokumentformatierung ansagen (NVDA+F) ausgegeben. (<A HREF="http://github.com/nvaccess/nvda/issues/4165">#4165</A>).
 <LI>Wenn Sie in Eingabefeldern oder in Dokumenten die Eingabetaste drücken, wird automatisch eingefügter Text (Tab-, Aufzählungszeichen, Numerierungen) automatisch ausgegeben. (<A HREF="http://github.com/nvaccess/nvda/issues/4185">#4185</A>)
 <LI>Microsoft Word: Sie können NVDA+Alt+C drücken, um sich den Kommentar in einem Word-Dokument ausgeben zu lassen. (<A HREF="http://github.com/nvaccess/nvda/issues/3528">#3528</A>)
 <LI>Verbessertes automatisches Anzeigen von Reihen- und Spaltenüberschriften in Microsoft Excel (<A HREF="http://github.com/nvaccess/nvda/issues/3568">#3568</A>):
@@ -1215,7 +1215,7 @@ Schwerpunkte dieser Version sind: LeseModus für Microsoft Word- und Outlook-Dok
 <LI>In Microsoft Word wird nicht mehr das gesamte Inhaltsverzeichnis gelesen, wenn Sie die erste oder letzte Zeile in einem Inhaltsverzeichnis lesen. (<A HREF="http://github.com/nvaccess/nvda/issues/3421">#3421</A>)
 <LI>Beim sprechen geschriebener Wörter und in einigen anderen Fällen, werden indische Wörter, die Vokalzeichen und Virama  enthalten, nicht mehr fälschlicherweise zerteilt. (<A HREF="http://github.com/nvaccess/nvda/issues/4254">#4254</A>)
 <LI>Numerische Eingabefelder in GoldWave werden korrekt verarbeitet. (<A HREF="http://github.com/nvaccess/nvda/issues/670">#670</A>)
-<LI>Wenn Sie sich in Microsoft Word absatzweise durch numerierte Listen oder Aufzählungslisten bewegen, müssen Sie die Tastenkonbinationen strg+Pfeil auf/ab nicht mehr zweimal drücken. (<A HREF="http://github.com/nvaccess/nvda/issues/3290">#3290</A>)
+<LI>Wenn Sie sich in Microsoft Word absatzweise durch numerierte Listen oder Aufzählungslisten bewegen, müssen Sie die Tastenkonbinationen Strg+Pfeil auf/ab nicht mehr zweimal drücken. (<A HREF="http://github.com/nvaccess/nvda/issues/3290">#3290</A>)
 </UL>
 
 <H3>Änderungen für Entwickler</H3>
@@ -1466,7 +1466,7 @@ Schwerpunkte dieser Version sind: LeseModus für Microsoft Word- und Outlook-Dok
 <LI>Wenn Sie sich mit Mozilla-Anwendungen auf Twitter.com im Fokusmodus durch die Meldungen bewegen, werden schreibgestützte Einträge nun korrekt erkannt. (<A HREF="http://github.com/nvaccess/nvda/issues/3327">#3327</A>)
 <LI>Bestätigungsdialoge in Office 2013 werden nun automatisch angezeigt.
 <LI>Leistungsverbesserungen beim Navigieren in Tabellen in Microsoft Word (<A HREF="http://github.com/nvaccess/nvda/issues/3326">#3326</A>)
-<LI>Wenn sich in einer Microsoft-Word-Tabelle eine Zelle über mehrere Zeilen erstreckt, funktionieren nun die Tabellennavigationsbefehle (strg+alt+Pfeiltasten) korrekt.
+<LI>Wenn sich in einer Microsoft-Word-Tabelle eine Zelle über mehrere Zeilen erstreckt, funktionieren nun die Tabellennavigationsbefehle (Strg+alt+Pfeiltasten) korrekt.
 <LI>Wenn der Erweiterungs-Manager bereits ausgeführt wird, führt ein erneutes Aktivieren des Erweiterungs-managers (entweder über extras --&gt; Erweiterungen verwalten oder direkt aus dem Explorer heraus durch Öffnen einer ".nvda-addon"-Datei) nicht mehr zu einem Fehler. (<A HREF="http://github.com/nvaccess/nvda/issues/3351">#3351</A>)
 <LI>NVDA wird nicht mehr abstürzen, wenn Sie eine japanische oder chinesische IME Version von Office 2010 verwenden. (<A HREF="http://github.com/nvaccess/nvda/issues/3064">#3064</A>)
 <LI>Mehrere leerzeichen werden in Braille nicht mehr zu einem Leerzeichen komprimiert. (<A HREF="http://github.com/nvaccess/nvda/issues/1366">#1366</A>)
@@ -1555,7 +1555,7 @@ Für weitere Informationen sehen Sie in der <A HREF="keyCommands.html">Befehlsre
 <LI>Grundlegende Unterstützung für das Lesen und Bearbeiten von Microsoft PowerPoint-Präsentationen. (<A HREF="http://github.com/nvaccess/nvda/issues/501">#501</A>)
 <LI>Unterstützung für den automatischen Sprachenwechsel beim Lesen von Dokumenten in Microsoft Word. (<A HREF="http://github.com/nvaccess/nvda/issues/2047">#2047</A>) 
 <LI>Grundlegende Unterstützung beim Lesen und Schreiben von Nachrichten in Lotus Notes 8.5. (<A HREF="http://github.com/nvaccess/nvda/issues/543">#543</A>)
-<LI>Im Lesemodus für MSHTML (z. B. Internet Explorer) und Gecko (z. B. Firefox) wird nun die Existenz langer Beschreibungen gemeldet. Sie können die lange Beschreibung jedoch auch durch Drücken von NVDA+d in einem neuen Fenster öffnen. (<A HREF="http://github.com/nvaccess/nvda/issues/809">#809</A>)
+<LI>Im Lesemodus für MSHTML (z. B. Internet Explorer) und Gecko (z. B. Firefox) wird nun die Existenz langer Beschreibungen gemeldet. Sie können die lange Beschreibung jedoch auch durch Drücken von NVDA+D in einem neuen Fenster öffnen. (<A HREF="http://github.com/nvaccess/nvda/issues/809">#809</A>)
 <LI>Im Internet Explorer 9 und neuer werden Benachrichtigungen korrekt ausgegeben (wenn z. B. Inhalte oder herunterzuladene Dateien blockiert werden). (<A HREF="http://github.com/nvaccess/nvda/issues/2343">#2343</A>)
 <LI>Automatisches Ausgeben von Spalten- und Reihenüberschriften von Tabellen im Internet Explorer und anderen mshtml-Dokumenten wird unterstützt (<A HREF="http://github.com/nvaccess/nvda/issues/778">#778</A>)
 <LI>Neue Sprache: Aragonesisch, Irisch
@@ -2059,7 +2059,7 @@ Die wichtigsten Neuerungen in dieser Version beinhalten umfangreiche Verbesserun
 <LI>NVDA gibt nun den status eines Containers zurück, wenn sich der fokus auf ein Steuerelement innerhalb eines Containers bewegt. Wenn sie z. B. in ein html-Dokument springen, noch bevor es vollständig geladen wurde, wird dessen Status als "Beschäftigt" angezeigt.
 <LI>Die Benutzeroberfläche und die Dokumentation von NVDA verwenden nun nicht mehr die Begriffe "erstes Kind-Objekt" und "ElternObjekt", da diese im Zusammenhang mit objektnavigation verwirrend sein können.
 <LI>Der Status "reduziert" wird nun nicht mehr für Menüpunkte angezeigt, die ein Untermenü besitzen.
-<LI>Das Skript reportCurrentFormatting (NVDA+f) zeigt nun nicht mehr die Formatierungen am System-cursor, sondern die formatierungen am NVDA-Cursor an. Die meisten Anwender werden keinen Unterschied bemerken, weil der NVDA-Cursor standardmäßig dem Systemcursor folgt. Jetzt ist es jedoch möglich, z. B. im Flächenmodus die Formatierungen bestimmter Bildschirmbereiche abzufragen.
+<LI>Das Skript reportCurrentFormatting (NVDA+F) zeigt nun nicht mehr die Formatierungen am System-cursor, sondern die formatierungen am NVDA-Cursor an. Die meisten Anwender werden keinen Unterschied bemerken, weil der NVDA-Cursor standardmäßig dem Systemcursor folgt. Jetzt ist es jedoch möglich, z. B. im Flächenmodus die Formatierungen bestimmter Bildschirmbereiche abzufragen.
 </UL>
 
 <H3>Fehlerkorrekturen</H3>
@@ -2511,7 +2511,7 @@ die wichtigsten Neuerungen dieser version sind u. a. die Unterstützung von 64-b
 <LI>Die Ansage von Fortschrittsbalken wurde verbessert. Sie können nun NVDA so konfigurieren, dass Fortschrittsbalken sowohl durch Signaltöne als auch durch Sprache angekündigt werden.
 <LI>Einige allgemeingültige Fensterklassen wie Felder oder Anwendungsfenster werden nun nicht mehr benannt, es sei denn, sie sind unbenannt.
 <LI>Der Befehl NVDA+F10 schließt nun die aktuelle Position des NVDA-Cursors beim Kopieren mit ein. Hierdurch ist es nun nach möglich, das letzte Zeichen einer Zeile mitzukopieren, was vorher nicht möglich war. (<A HREF="http://github.com/nvaccess/nvda/issues/430">#430</A>)
-<LI>Das Skript navigatorObject_where (strg+NVDA+nummernblock 5) wurde entfernt. Die Tastenkonbination hat auf einigen Tastaturen nicht funktioniert. Außerdem war dieses Skript auch nicht besonders nützlich.
+<LI>Das Skript navigatorObject_where (Strg+NVDA+Nummernblock 5) wurde entfernt. Die Tastenkonbination hat auf einigen Tastaturen nicht funktioniert. Außerdem war dieses Skript auch nicht besonders nützlich.
 <LI>Das Skript  navigatorObject_currentDimentions wurde an NVDA+Nummernblock entf zugewiesen. die alte Tastenkombinationen funktionierte auf einigen Tastaturen nicht. Das Skript gibt nun die Breite und Höhe des aktuellen Objekts anstelle der Koordinaten für die rechte untere Ecke zurück.
 <LI>Beim Abspielen schnell aufeinanderfolgender Signaltöne (z. B. beim Abspielen der Signaltöne für Mauskoordinaten) wurde die Leistung verbessert. Dies ist besonders auf Netbooks spürbar. (<A HREF="http://github.com/nvaccess/nvda/issues/396">#396</A>)
 <LI>Der Klang für Fehler wird in offiziellen Versionen von NVDA nicht mehr abgespielt, Fehler werden aber dennoch protokolliert. 
@@ -2654,13 +2654,13 @@ die wichtigsten Neuerungen dieser version sind u. a. die Unterstützung von 64-b
 <LI>Auffinden der Statuszeile in vielen Anwendungen verbessert. (<A HREF="http://github.com/nvaccess/nvda/issues/8">#8</A>)
 <LI>Interaktive NVDA-Python-Konsole hinzugefügt, die es Entwicklern ermöglicht, NVDA's Interna zu manipulieren.
 <LI>Die Skripte sayAll, reportSelection und reportCurrentLine funktionieren jetzt auch im Fokusmodus innerhalb virtueller Puffer korrekt. (<A HREF="http://github.com/nvaccess/nvda/issues/52">#52</A>)
-<LI>Die Skripte increaserate und decreaserate wurden entfernt. Anwender sollten den synth settings ring scripts (strg+NVDA+Pfeiltasten) oder den Dialog für Stimmeneinstellungen verwenden.
+<LI>Die Skripte increaserate und decreaserate wurden entfernt. Anwender sollten den synth settings ring scripts (Strg+NVDA+Pfeiltasten) oder den Dialog für Stimmeneinstellungen verwenden.
 <LI>Die Skalierung und der Frequenzbereich der Signaltöne für Fortschrittsbalken wurden verbessert.
 <LI>Neue Navigations-Schnelltasten für virtuelle Puffer hinzugefügt: l für list, i für Listeneinträge, e für Eingabefelder, b für Schaltflächen, x für Kontrollkästchen, r für Auswahlschalter, g für Grafiken, q für Zitatblöcke, c für Kombinationsfelder, 1 bis 6 für Überschriften entsprechender Ordnung, s für Trennlinien, m für Rahmen, (<A HREF="http://github.com/nvaccess/nvda/issues/67">#67</A>, <A HREF="http://github.com/nvaccess/nvda/issues/102">#102</A>, <A HREF="http://github.com/nvaccess/nvda/issues/108">#108</A>)
 <LI>Wird im Firefox das Laden eines neuen Dokuments abgebrochen, kann der Anwender den virtuellen Puffer des alten Dokuments immer noch verwenden, das Dokument wird also nicht mehr entladen. (<A HREF="http://github.com/nvaccess/nvda/issues/63">#63</A>)
 <LI>Wortweise Navigation in virtuellen Puffern verbessert: Beim wortweisen Navigieren wird nicht mehr versehentlich Text aus mehreren Feldern gesprochen. (<A HREF="http://github.com/nvaccess/nvda/issues/70">#70</A>)
 <LI>Fokusverfolgung in Gecko-Dokumenten verbessert.
-<LI>Skript  findPrevious (Umschalt+NVDA+f3) für die Verwendung in virtuellen Dokumenten hinzugefügt.
+<LI>Skript  findPrevious (NVDA+Umschalt+F3) für die Verwendung in virtuellen Dokumenten hinzugefügt.
 <LI>Probleme behoben, wonach NVDA in Gecko-Dialogen (Firefox und Thunderbird) träge reagierte. (<A HREF="http://github.com/nvaccess/nvda/issues/66">#66</A>)
 <LI>NVDA-Protokollbetrachter zum menü Extras hinzugefügt.
 <LI>Das Skript zur Ansage von Datum und Uhrzeit verwendet die aktuell eingestellte Sprache für die korrekte Formatierung von Datum und Uhrzeit.
@@ -2864,7 +2864,7 @@ die wichtigsten Neuerungen dieser version sind u. a. die Unterstützung von 64-b
 <LI>Wenn eine NVDA-Instanz gestartet wird, während eine andere bereits läuft, wird die neu hinzugekommene NVDA-Instanz sofort wieder beendet. Dies behebt Probleme, wonach das System sehr instabil wird, sobald mehrere Instanzen von NVDA laufen.
 <LI>Der Titel der NVDA-Benutzeroberfläche wurde von "NVDA-Benutzeroberfläche" in NVDA geändert.
 <LI>Problem behoben, wonach das Drücken der rücktaste am Anfang einer Zeile Fehler verursacht hat.
-<LI>Skript zur ansage des akkustatus bei Notebooks hinzugefügt (Umschalt+NVDA+B)
+<LI>Skript zur ansage des akkustatus bei Notebooks hinzugefügt (NVDA+Umschalt+B)
 <LI>Neuer Synthesizer "Keine Sprache" hinzugefügt. Dieser Treiber bringt NVDA komplett zum Schweigen. Der Treibe könnte zusammen mit Braillezeilen sinnvoll sein, sobald die Braille-Unterstützung funktioniert.
 <LI>Einstellung zum Anheben der Stimme bei Großbuchstaben hinzugefügt.
 <LI>Skript zum ein-/Ausschalten der Mausverfolgung dahingehend geändert, dass jetzt auch di Textbausteine "an"/"aus" beim ein-/Ausschalten der Mausverfolgung verwendet werden, anstatt zwei unterschiedliche Meldungen zu sprechen.
