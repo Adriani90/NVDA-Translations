@@ -1377,23 +1377,23 @@ Essa categoria contém as seguintes opções:
 
 ==== Anunciar Dicas de Ferramentas ====[ObjectPresentationReportToolTips]
 Uma caixa de seleção que quando marcada informa ao NVDA para anunciar as dicas de ferramentas conforme apareçam.
-Muitas janelas e controles mostram uma pequena mensagem (dica de ferramenta) quando move o ponteiro do mouse sobre elas, ou algumas vezes quando move o foco pelas mesmas.
+Muitas janelas e controles mostram uma pequena mensagem (ou dica de ferramenta) quando move o ponteiro do mouse sobre elas, ou algumas vezes quando move o foco pelas mesmas.
 
 ==== Anunciar Balões de Ajuda ====[ObjectPresentationReportBalloons]
 Esta caixa de seleção quando marcada informa ao NVDA para anunciar balões de ajuda conforme apareçam.
-Os Balões de Ajuda são como pequenas dicas de ferramentas, mas por norma são maiores em tamanho e estão associados com os eventos do sistema tal como o cabo de rede ser desconectado ou talvez para alertá-lo sobre problemas de segurança do Windows.
+Os Balões de Ajuda são como pequenas dicas de ferramentas, mas comumente são maiores em tamanho e estão associados com os eventos do sistema, tal como o cabo de rede ser desconectado, ou talvez para alertá-lo sobre problemas de segurança do Windows.
 
 ==== Anunciar Teclas de Atalho dos Objetos ====[ObjectPresentationShortcutKeys]
 Quando esta caixa de seleção está marcada, o NVDA incluirá a tecla de atalho que é associada a um determinado objeto ou controle quando o mesmo é anunciado.
-Por exemplo o menu Arquivo na barra de menus poderá ter a tecla de atalho Alt+F.
+Por exemplo o menu File ""[Arquivo]"" na barra de menus poderá ter a tecla de atalho Alt+F.
 
 ==== Anunciar Posição do Objeto ====[ObjectPresentationPositionInfo]
 Esta opção permite-lhe escolher se terá a informação da posição do objeto (por exemplo, 1 de 4) anunciada quando se move para o mesmo com o foco ou com a navegação de objetos.
 
 ==== Deduzir posição do objeto quando não disponível ====[ObjectPresentationGuessPositionInfo]
-Se o anúncio da posição do objeto estiver desativado, esta opção permite ao NVDA deduzir a posição do objeto quando não disponível para um controle em particular.
+Se o anúncio da posição do objeto estiver ativado, essa opção permite ao NVDA deduzir a posição do objeto quando não disponível para um controle em particular.
 
-Caso esteja ativado, o NVDA anunciará a posição para mais controles tais como menus e barras de ferramentas, embora esta informação possa ser ligeiramente incorreta.
+Quando ativado, o NVDA anunciará a posição para mais controles tais como menus e barras de ferramentas, no entanto, essa informação pode ser ligeiramente imprecisa.
 
 ==== Anunciar Descrições dos Objetos ====[ObjectPresentationReportDescriptions]
 Desmarque esta caixa se não desejar ouvir a descrição anunciada em conjunto com os objetos.
@@ -1402,17 +1402,18 @@ Desmarque esta caixa se não desejar ouvir a descrição anunciada em conjunto c
 ==== Informação da barra de progresso ====[ObjectPresentationProgressBarOutput]
 Tecla: NVDA+u
 
-Esta opção controla como o NVDA informará as atualizações nas barras de progresso.
+Essa opção controla como o NVDA informará as atualizações das barras de progresso.
+
 Possui as seguintes opções:
-Desativado: As barras de progresso não serão anunciadas quando houver qualquer alteração.
-Falar: Esta opção dá ordem ao NVDA para anunciar as barras de progresso em percentagens. Cada vez que há uma alteração na Barra de Progresso, o NVDA anuncia o novo valor.
-Bipar: Esta opção dá ordem ao leitor de tela para reproduzir um bipe sempre que houver uma alteração na barra de progresso. O bipe mais agudo indica que a barra de progresso chegou ao fim.
-Falar e bipar: Esta opção diz ao NVDA para reproduzir um bipe e anunciar o valor quando houver uma alteração na barra de progresso.
+- Desativado: As barras de progresso não serão anunciadas quando houver qualquer alteração.
+- Falar: Esta opção dá ordem ao NVDA para anunciar as barras de progresso em percentagens. Cada vez que há uma alteração na Barra de Progresso, o NVDA anuncia o novo valor.
+- Bipar: Esta opção dá ordem ao leitor de tela para reproduzir um bipe sempre que houver uma alteração na barra de progresso. O bipe mais agudo indica que a barra de progresso chegou ao fim.
+- Falar e bipar: Esta opção diz ao NVDA para reproduzir um bipe e anunciar o valor quando houver uma alteração na barra de progresso.
 -
 
 ==== Anunciar Barras de Progresso não visíveis ====[ObjectPresentationReportBackgroundProgressBars]
-Esta opção, se marcada, diz a este leitor de tela que continue a anunciar uma barra de progresso, ainda que a mesma não esteja fisicamente em primeiro plano.
-Caso você minimize ou desloque o foco para outra janela, saindo assim daquela onde se encontra a barra de progresso, este programa continuará a dar informação da mesma, permitindo a realização de outras tarefas enquanto o NVDA segue a barra de progresso.
+Essa opção, se marcada, diz a este leitor de tela que continue a anunciar uma barra de progresso, ainda que a mesma não esteja fisicamente em primeiro plano.
+Caso você minimize ou desloque o foco para outra janela, saindo assim daquela onde se encontra a barra de progresso, o NVDA continuará a dar informação da mesma, permitindo que você faça outras coisas enquanto o NVDA rastreia a barra de progresso.
 
 %kc:setting
 ==== Anunciar atualizações nos conteúdos dinâmicos ====[ObjectPresentationReportDynamicContent]
@@ -1428,8 +1429,8 @@ Para alguns campos de edição tais como os campos de pesquisa em vários aplica
 Uma vez que você saia do campo de edição, a lista de sugestões será fechada e em alguns casos, o NVDA o notificará quando isso acontecer.
 
 +++ Entrada para Composição +++[InputCompositionSettings]
-A categoria Entrada para Composição lhe permite controlar como o NVDA anunciará a entrada de caracteres Asiáticos, tais como os que utilizam IME ou o Serviço de métodos de entrada de textos.
-Note que devido ao fato de que os métodos de entrada variam consideravelmente conforme os recursos disponíveis e conforme seus modos de transmitir a informação, muito provavelmente será necessário configurar diferentemente essas opções para cada método de entrada, a fim de proporcionar uma experiência mais eficiente ao digitar.
+A categoria Entrada para Composição lhe permite controlar como o NVDA anunciará a entrada de caracteres Asiáticos, tais como os métodos de entrada do IME ou o Serviço de Texto.
+Note que devido ao fato de que os métodos de entrada variam consideravelmente conforme os recursos disponíveis e conforme seus modos de transmitir a informação, muito provavelmente será necessário configurar diferentemente essas opções para cada método de entrada, a fim de obter uma experiência de digitação mais eficiente.
 
 ==== Anunciar automaticamente todas as sugestões disponíveis ====[InputCompositionReportAllCandidates]
 Esta opção, que por padrão encontra-se ativada, lhe permite escolher se todas as sugestões visíveis devem ou não ser anunciadas automaticamente quando uma lista de sugestões aparece ou quando sua página muda.
@@ -1439,17 +1440,18 @@ Todavia, para métodos de entrada fonéticos como a Nova Fonética Chinesa, pode
 ==== Anunciar a Sugestão Selecionada ====[InputCompositionAnnounceSelectedCandidate]
 Esta opção, que se encontra ativada por padrão, lhe permite escolher se o NVDA deve ou não anunciar a sugestão selecionada quando uma lista de sugestões aparece ou quando a seleção é alterada.
 Para métodos de entrada nos quais a seleção pode ser alterada usando as setas (tais como a Nova Fonética Chinesa) isto é necessário, porém, para alguns outros métodos poderá ser mais eficiente digitar tendo tal opção desativada.
-Tenha em conta que mesmo esta opção estando desativada, o cursor de exploração continuará sendo colocado sob a sugestão selecionada, para permitir que você use a navegação de objetos/exploração para ler manualmente esta ou outras sugestões.
+Tenha em conta que mesmo esta opção estando desativada, o cursor de exploração continuará sendo colocado sob a sugestão selecionada, para permitir que você use a navegação de objetos / exploração para ler manualmente esta ou outras sugestões.
 
 ==== Sempre Incluir Descrições de Caracteres Curta para as Sugestões ====[InputCompositionCandidateIncludesShortCharacterDescription]
-Esta opção, que por padrão encontra-se ativada, permite que você escolha se o NVDA deve ou não fornecer uma curta descrição para cada caractere que compõe uma sugestão, tanto quando esta é selecionada como quando é automaticamente lida ao aparecer uma lista de sugestões.
-Vale salientar que em entradas tais como as Chinesas, o anúncio das descrições de caracteres extras para a sugestão selecionada não será afetado por esta opção.
+Esta opção, que por padrão encontra-se ativada, permite que você escolha se o NVDA deve ou não fornecer uma breve descrição para cada caractere que compõe uma sugestão, tanto quando esta é selecionada como quando é automaticamente lida ao aparecer uma lista de sugestões.
+Vale salientar que em localidades como as chinesas, o anúncio das descrições de caracteres extras para a sugestão selecionada não será afetado por esta opção.
 Isto pode ser útil para métodos de entrada Coreanos e Japoneses.
 
 ==== Anunciar mudanças na cadeia de leitura ====[InputCompositionReadingStringChanges]
 Alguns métodos de entrada, tais como a Nova Fonética Chinesa e o Novo ChangJie possuem uma cadeia de leitura (algumas vezes denominada cadeia de pré-composição).
 Com esta opção, você pode escolher se o NVDA deve ou não anunciar novos caracteres que estão sendo digitados dentro desta cadeia de leitura.
 A mesma encontra-se ativada por padrão.
+Note que alguns métodos de entrada mais antigos, como o chinês ChangJie, podem não usar a cadeia de leitura para conter caracteres de pré-composição, mas, em vez disso, usar diretamente a cadeia de composição. Por favor, consulte a próxima opção para configurar o anúncio da cadeia de composição.
 
 ==== Anunciar Alterações na Cadeia de Composição ====[InputCompositionCompositionStringChanges]
 Logo que os dados de leitura ou pré-composição tenham sido combinados num símbolo pictográfico válido, muitos métodos de entrada colocam este símbolo dentro de uma cadeia de composição para um armazenamento temporário junto com outros símbolos combinados antes que eles finalmente sejam inseridos no documento.
@@ -1458,7 +1460,7 @@ Por padrão, a mesma encontra-se ativada.
 
 +++ Modo de Navegação (NVDA+control+b) +++[BrowseModeSettings]
 A categoria Modo de Navegação no diálogo de Opções do NVDA é usada para configurar o comportamento do NVDA quando você lê e navega em documentos complexos, como páginas web.
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 
 ==== Máximo de Caracteres Numa Linha ====[BrowseModeSettingsMaxLength]
 Este campo define o comprimento máximo de uma linha do modo de navegação (em caracteres).
@@ -1473,7 +1475,7 @@ Tecla: NVDA+v
 Esta opção permite definir se o conteúdo no modo de navegação deve posicionar os elementos como links e outros campos numa linha individual, ou se se deve conservá-los dentro do texto tal como aparece na tela. Se a opção estiver marcada, os elementos ficarão como aparecem visualmente. Mas se estiver desmarcada, os campos serão colocados numa linha separadamente.
 
 ==== Leitura Contínua Automática ao Carregar a Página ====[BrowseModeSettingsAutoSayAll]
-Essa caixa de seleção alterna a leitura automática das páginas depois que estas são carregadas no Modo de Navegação.
+Essa caixa de seleção alterna a leitura automática duma página depois que ela é carregada no Modo de Navegação.
 Por padrão, essa opção está ativada.
 
 ==== Incluir Tabelas de Leiaute ====[BrowseModeSettingsIncludeLayoutTables]
@@ -1492,7 +1494,7 @@ por favor veja as opções na [categoria Formatação de Documentos #DocumentFor
 Esta opção permite que o modo de foco seja ativado quando este for modificado.
 Por exemplo se esta opção estiver marcada, quando numa página Web, se pressionar Tab e encontrar um formulário, o modo de foco será ativado automaticamente.
 
-==== Modo de foco automático quando o cursor da aplicação muda ====[BrowseModeSettingsAutoPassThroughOnCaretMove]
+==== Modo de foco automático para movimento do cursor ====[BrowseModeSettingsAutoPassThroughOnCaretMove]
 Esta opção quando marcada permite que o NVDA ative e desative o modo de foco quando caminhar com as setas direcionais.
 Por exemplo, se for pressionando a Seta Abaixo numa página Web e encontrar uma área de edição, este leitor de tela ativará automaticamente o modo de foco. Se pressionar as setas para sair da área de edição, o NVDA voltará ao modo de navegação.
 
@@ -1504,7 +1506,7 @@ habilitada por padrão, esta opção lhe permite escolher se os gestos (tais com
 Por exemplo, quando habilitado, se a letra j for pressionada, ela é interceptada para que não chegue ao documento, já que não se trata de um comando de navegação rápida, e provavelmente não é um comando do próprio aplicativo.
 
 +++ Formatação de Documentos (NVDA+control+d) +++[DocumentFormattingSettings]
-Maior parte das caixas de seleção nesta categoria lhe permitem configurar que tipo de formatação pretende ouvir automaticamente enquanto se move com o cursor pelos documentos.
+Maior parte das caixas de seleção nessa categoria lhe permitem configurar que tipo de formatação pretende ouvir automaticamente enquanto se move com o cursor pelos documentos.
 Por exemplo, se marcar a caixa de seleção para informar o nome da fonte a medida que avançar pelo texto com tipos de fonte diferentes, este será anunciado.
 
 As opções de formatação de documentos são organizadas em grupos.
@@ -1521,9 +1523,9 @@ As opções de formatação de documentos são organizadas em grupos.
  - Revisões de editores
  - Erros Ortográficos
 - Páginas e espaçamento
- - Número das Páginas
- - Número das Linhas
- - Recuo ""[Indentação]"" das Linhas
+ - Número das páginas
+ - Número das linhas
+ - Recuo ""[Indentação]"" de linha [(Desativado, Fala, Sons, Tanto Fala como Sons) #lineIndentationOptions]
  - Recuo ""[indentação]"" do Parágrafo (como deslocamento do parágrafo, recuo ""[indentação]"" da primeira linha)
  - espaço entre linhas (simples, duplo, etc.)
  - Alinhamento
@@ -1548,16 +1550,16 @@ Para alterar essas configurações de qualquer lugar, por favor atribua-lhes ges
 ==== Anunciar Mudanças de Formato Após o Cursor ====[DocumentFormattingDetectFormatAfterCursor]
 Se ativada, esta opção faz com que o NVDA tente detectar todas as alterações de formatação na linha conforme a anuncia, mesmo que isto possa diminuir seu desempenho.
 
-Por padrão, o NVDA irá detectar a formatação na posição do cursor do sistema/cursor de exploração e em alguns casos poderá detectar a formatação do resto da linha, desde que não diminua o seu desempenho.
+Por padrão, o NVDA irá detectar a formatação na posição do cursor do sistema / cursor de exploração e em alguns casos poderá detectar a formatação do resto da linha, desde que não diminua o seu desempenho.
 
-Ative esta opção enquanto edita documentos em aplicativos como microsoft office word, onde a formatação é importante.
+Ative esta opção enquanto edita documentos em aplicativos como WordPad, onde a formatação é importante.
 
-==== Anúncio da Indentação de Linhas ====[DocumentFormattingSettingsLineIndentation]
-Esta opção permite-lhe configurar como a indentação no começo das linhas é anunciada.
-A configuração do Anúncio da indentação de linhas encontra-se numa caixa de combinação com quatro opções.
+==== Anúncio de recuo [indentação] de linha ====[DocumentFormattingSettingsLineIndentation]
+Essa opção permite-lhe configurar como o recuo ""[indentação]"" no começo das linhas é anunciado.
+A configuração do Anúncio de recuo ""[indentação]"" de linhas encontra-se numa caixa de combinação com quatro opções.
 
 - Desativado: o NVDA não tratará a indentação de forma especial.
-- Fala: caso esteja selecionada, quando a quantidade de indentação for diferente, o NVDA dirá algo como "doze espaços" ou "quatro tabs."
+- Fala: caso esteja selecionada, quando a quantidade de indentação for diferente, o NVDA dirá algo como "doze espaços" ou "quatro tabs".
 - Sons: caso selecione esta opção, quando a quantidade de indentação for diferente, os sons indicarão a quantidade alterada na indentação.
 O som aumentará de tom a cada espaço e, para um tab, ele aumentará o tom de forma equivalente a 4 espaços.
 - Fala e sons: esta opção fará anunciar a indentação usando os 2 métodos citados acima.
@@ -1565,19 +1567,18 @@ O som aumentará de tom a cada espaço e, para um tab, ele aumentará o tom de f
 
 +++ Configurações de OCR do Windows 10 +++[Win10OcrSettings]
 As opções nessa categoria permitem configurar o [OCR do Windows 10 #Win10Ocr].
-Esta categoria contém as seguintes opções:
+Essa categoria contém as seguintes opções:
 
 ==== idioma de Reconhecimento ====[Win10OcrSettingsRecognitionLanguage]
-Esta caixa de combinação lhe permite escolher o idioma a ser usado para o reconhecimento de textos.
+Essa caixa de combinação lhe permite escolher o idioma a ser usado para o reconhecimento de textos.
 
 ++ Configurações diversas ++[MiscSettings]
 Além da caixa de diálogo de [Opções do NVDA #NVDASettings], o submenu Preferências do menu do NVDA contém vários outros itens que são descritos abaixo.
 
 +++ Dicionários de Fala +++[SpeechDictionaries]
 O menu dos Dicionários de fala (que se encontra no menu Preferências) contém diálogos que lhe permitem controlar o modo como o NVDA anuncia palavras ou expressões em particular.
-Existem atualmente três tipos de dicionários de voz.
+Existem atualmente três tipos de dicionários de fala.
 São eles:
-
 - Padrão: as regras neste dicionário afetam todas as vozes no NVDA.
 - Voz: é um dicionário cujas regras afetam a voz para o sintetizador utilizado atualmente.
 - Temporário: as regras neste dicionário afetam todas as vozes deste programa, mas apenas para a sessão atual. Estas regras são temporárias e perder-se-ão se o NVDA for reiniciado.
@@ -1590,20 +1591,20 @@ O diálogo contém também os botões Adicionar, Editar e Remover.
 
 Para adicionar uma nova regra ao dicionário, pressione o botão Adicionar, preencha os campos que aparecem na caixa de diálogo e pressione OK.
 Desta forma verá a sua nova regra na lista de regras.
-Para assegurar-se de que a mesma será salva, não esqueça de clicar no botão OK para encerrar completamente o diálogo do dicionário quando terminar de adicionar/editar regras.
+No entanto, para assegurar-se de que a mesma será salva, não esqueça de clicar no botão OK para encerrar completamente o diálogo do dicionário quando terminar de adicionar/editar regras.
 
-As regras para os dicionários de voz do NVDA permitem-lhe trocar uma sequência de caracteres por outra.
-Um exemplo simples seria o NVDA falar a palavra rã cada vez que tivesse que dizer a palavra pássaro.
-No diálogo para adicionar a regra, o modo mais fácil de fazer isto é escrever a palavra pássaro no campo texto original, e a palavra rã no campo substituto.
-Você pode também pretender digitar uma descrição dessa regra no campo de comentários (algo como: trocar pássaro por rã)
+As regras para os dicionários de fala do NVDA permitem-lhe trocar uma sequência de caracteres por outra.
+Um exemplo simples seria o NVDA falar a palavra "sapo" cada vez que tivesse que dizer a palavra "pássaro".
+No diálogo para adicionar a regra, o modo mais fácil de fazer isto é escrever a palavra pássaro no campo texto original, e a palavra sapo no campo substituto.
+Você pode também pretender digitar uma descrição dessa regra no campo de comentários (algo como: trocar pássaro por sapo).
 
-Os dicionários de voz do NVDA vão muito além de uma simples substituição de palavras.
-O diálogo para a adição de regras também contém uma caixa de seleção onde é possível escolher se deseja que a regra seja ou não sensível às maiúsculas, (indicando que este programa irá levar em conta se os caracteres são ou não maiúsculos.
-O NVDA ignora estes casos por padrão).
+Entretanto, os dicionários de fala do NVDA vão muito além de uma simples substituição de palavras.
+O diálogo para a adição de regras também contém uma caixa de seleção onde é possível escolher se deseja que a regra seja ou não sensível à caixa (o que significa que o NVDA deve considerar se os caracteres estão em caixa alta ""[letras maiúsculas]"" ou em caixa baixa ""[letras minúsculas]"".
+O NVDA ignora a caixa por padrão).
 
 Finalmente, encontrará botões de opção que lhe permitem informar ao NVDA se o original deve corresponder em qualquer parte, se apenas caso seja uma palavra completa ou se será tratado como "expressão Regular".
-Configurar o original para corresponder em palavra inteira significa que a substituição será feita apenas se o original não aparecer como parte de uma palavra maior, ou seja, outro caractere que não seja alfanumérico ou um sublinhado venha imediatamente antes ou depois do original.
-Assim, usando o exemplo anterior de substituir a palavra "pássaro" por "rã, caso você tenha feito isso para palavra inteira, ele não corresponderá em "pássaros" ou outra palavra que contenha a combinação pássaro.
+Configurar o original para corresponder em palavra inteira significa que a substituição será feita apenas se o original não aparecer como parte de uma palavra maior; ou seja, outro caractere que não seja alfanumérico ou uma sublinha (ou nenhum caractere) venha imediatamente antes ou depois do original.
+Assim, usando o exemplo anterior de substituir a palavra "pássaro" por "sapo", caso você tenha feito isso para palavra inteira, ele não corresponderá em "pássaros" ou outra palavra que contenha a combinação pássaro.
 
 Expressão regular é um texto original que contém símbolos especiais que permitem introduzir mais de um caractere ao mesmo tempo, ou introduzir apenas números, ou só letras, segundo alguns poucos exemplos.
 Expressões regulares não são explicadas neste guia do usuário, mas existem muitos tutoriais na Web que podem proporcionar-lhe mais informações.
