@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Romanian translation NVDA\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-06-29 00:10+1000\n"
-"PO-Revision-Date: 2018-06-26 13:45+0300\n"
+"PO-Revision-Date: 2018-06-30 13:14+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: mihai.craciun@gmail.com, dan.punga@gmail.com, "
 "florianionascu@hotmail.com, nicusoruntila@yahoo.com\n"
@@ -1035,9 +1035,8 @@ msgstr "Sanscrită grad 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Swedish 8 dot computer braille"
-msgstr "Spaniolă, braille în 8 puncte pentru calculator"
+msgstr "Suedeză, braille în 8 puncte pentru calculator"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
