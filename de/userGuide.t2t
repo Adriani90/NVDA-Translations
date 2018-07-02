@@ -319,7 +319,8 @@ Für die Navigation in Tabellen stehen folgende Tastenkombinationen zur Verfügu
 
 ++ Objektnavigation ++[ObjectNavigation]
 Üblicherweise arbeiten Sie mit Programmen, indem Sie mittels Tastenkürzeln den [Fokus #SystemFocus] oder den [System-Cursor #SystemCaret] bewegen.
-Manchmal möchten Sie jedoch mit den Objekten einer Anwendung oder des Betriebssystems arbeiten, ohne den Fokus oder den System-Cursor zu bewegen oder Sie wollen mit [Objekten #Objects] umgehen, die nicht mit den Standard-Tastenkombinationen erreichbar sind (etwa, weil sie nicht in der Tab-Reihenfolge stehen).
+Manchmal möchten Sie jedoch mit den Objekten einer Anwendung oder des Betriebssystems arbeiten, ohne den Fokus oder den System-Cursor zu bewegen.
+Vielleicht wollen Sie mit [Objekten #Objects] umgehen, die nicht mit den Standard-Tastenkombinationen erreichbar sind (etwa, weil sie nicht in der Tab-Reihenfolge stehen).
 In solchen Fällen können Sie die objektorientierte Navigation verwenden. Dabei wird ein NVDA-Cursor die Objekte ansteuern.
 
 Die Objektnavigation erlaubt das Bewegen zwischen Objekten und das Abrufen von Informationen über ein einzelnes [Objekt #Objects].
