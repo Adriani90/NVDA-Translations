@@ -1610,12 +1610,13 @@ Expressão regular é um texto original que contém símbolos especiais que perm
 Expressões regulares não são explicadas neste guia do usuário, mas existem muitos tutoriais na Web que podem proporcionar-lhe mais informações.
 
 +++ Pronúncia de pontuação/sinais +++[SymbolPronunciation]
-Esse diálogo permite-lhe mudar o modo como a pontuação e outros sinais ""[símbolos]"" serão anunciados, bem como em que grau de sinais eles serão falados.
+Esse diálogo permite-lhe mudar o modo como a pontuação e outros sinais ""[símbolos]"" serão anunciados, bem como em que grau ""[nível]"" de sinais eles serão falados.
 
 O idioma para o qual a pronúncia do sinal está sendo editada será mostrado no título do diálogo.
 Note que esse diálogo respeita a opção "Usar o idioma da voz ao processar caracteres e símbolos" encontrada na [categoria Fala #SpeechSettings] do diálogo de [Opções do NVDA #NVDASettings]; isto é, ele usa o idioma da voz ao invés de usar o idioma da configuração geral do NVDA quando esta opção está habilitada.
 
 Para mudar um sinal, selecione-o na lista de sinais.
+
 - O campo de substituição permite que você altere o texto que será falado no lugar do sinal.
 - Através do campo grau você poderá definir o grau de sinais mais baixo no qual este será falado.
 - O campo Enviar o real símbolo para o sintetizador especifica quando o próprio símbolo (contrariamente a seu substituto) deve ser enviado para o sintetizador.
@@ -1644,11 +1645,11 @@ Somente comandos que são aplicáveis imediatamente antes do diálogo ser aberto
 Por exemplo, se você deseja personalizar comandos relacionados com o modo de navegação, é necessário abrir o Diálogo de Gestos de Entrada enquanto está no modo de navegação.
 
 A árvore nesse diálogo lista todos os comandos aplicáveis do NVDA agrupados por categoria.
-Você pode filtrá-los inserindo uma ou mais palavras do nome do comando na caixa de edição Filtrar por em qualquer ordem.
+Você pode filtrá-los inserindo uma ou mais palavras do nome do comando em qualquer ordem na caixa de edição Filtrar por.
 Quaisquer gestos associados a um comando são listados abaixo do comando.
 
 Para adicionar um gesto de entrada para um comando, selecione o comando e pressione o botão Adicionar.
-Em seguida, execute o gesto de entrada que deseja associar, isto é, pressione uma tecla do teclado ou um botão da linha braille.
+Em seguida, execute o gesto de entrada que deseja associar; isto é, pressione uma tecla do teclado ou um botão da linha braille.
 Usualmente, um gesto pode ser interpretado de mais de uma forma.
 Por exemplo, ao pressionar uma tecla do teclado, você pode querer que ela seja especificamente para o esquema de teclado atual (desktop ou laptop) ou pode querer que esta se aplique a todos os esquemas.
 Nesse caso, um menu aparecerá permitindo-lhe selecionar a opção desejada.
@@ -1666,7 +1667,6 @@ Se costuma cometer erros em suas configurações e precisa retornar às opções
 Você também pode retornar suas configurações aos padrões originais selecionando Retornar Configuração aos Padrões Originais, que também está no menu do NVDA.
 
 As seguintes teclas de atalho do NVDA também são úteis:
-
 %kc:beginInclude
 || Nome | Tecla de Desktop | Tecla de Laptop | Descrição |
 | Salvar Configuração | NVDA+control+c | NVDA+control+c | Salva sua configuração atual, de modo que não se perca quando sair do NVDA |
@@ -1692,11 +1692,11 @@ Você pode gerenciar os perfis de configuração selecionando "Perfis de Configu
 -
 %kc:endInclude
 
-O primeiro controle nesse diálogo é a lista de perfis de onde você pode selecionar um dos perfis disponíveis.
+O primeiro controle nesse diálogo é a lista de perfis da qual você pode selecionar um dos perfis disponíveis.
 ao abrir o diálogo, o perfil que você atualmente está editando é selecionado.
 Também são mostradas informações adicionais sobre os perfis ativos, indicando se estes são ativados manualmente, disparados e/ou sendo editados.
 
-Para renomear ou apagar um perfil, pressione os botões Renomear ou apagar, respectivamente.
+Para renomear ou excluir um perfil, pressione os botões Renomear ou apagar, respectivamente.
 
 Pressione o botão fechar para sair do diálogo.
 
@@ -1724,27 +1724,27 @@ Para desativar um perfil ativado manualmente, selecione-o no Diálogo de Perfis 
 +++ Disparadores +++[ConfigProfileTriggers]
 Pressionando o botão disparadores no Diálogo de Perfis de Configuração lhe permite alterar os perfis que devem ser ativados automaticamente para vários disparadores.
 
-a lista de disparadores exibe os disparadores disponíveis, que funcionam da seguinte forma:
+A lista de disparadores exibe os disparadores disponíveis, que funcionam da seguinte forma:
 - Aplicativo atual: disparado quando você alterna para o Aplicativo atual.
 - Leitura Contínua: disparado enquanto se lê com o comando de leitura contínua.
 -
 
 Para alterar o perfil que deve ser ativado automaticamente para um disparador, selecione o disparador e em seguida selecione o perfil desejado na lista de Perfis.
-Você pode selecionar (configuração normal) caso não queira que um perfil seja usado.
+Você pode selecionar "(configuração normal)" caso não queira que um perfil seja usado.
 
 Pressione o botão fechar para retornar ao Diálogo de Perfis de Configuração.
 
 +++ Editando um Perfil +++[ConfigProfileEditing]
 Caso você tenha ativado um perfil manualmente, quaisquer configurações alteradas serão salvas para aquele perfil.
 Do contrário, quaisquer configurações que você alterar serão salvas para o perfil mais recentemente disparado.
-Por exemplo, se você tiver associado um perfil ao aplicativo Notepad e alternar para o Notepad, quaisquer configurações alteradas serão salvas para aquele perfil.
-Finalmente, se não existir um perfil ativado manualmente nem um perfil que possua disparador, quaisquer configurações alteradas serão salvas para sua configuração normal.
+Por exemplo, se você tiver associado um perfil ao aplicativo Notepad ""[Bloco de Notas]"" e alternar para o Notepad ""[Bloco de Notas]"", quaisquer configurações alteradas serão salvas para aquele perfil.
+Finalmente, se não existir um perfil ativado manualmente nem um perfil que possua disparador, quaisquer configurações alteradas serão salvas em sua configuração normal.
 
 Para editar o perfil associado com a leitura contínua, é necessário [ativar manualmente #ConfigProfileManual] aquele perfil.
 
 +++ Desabilitando Temporariamente os Disparadores +++[ConfigProfileDisablingTriggers]
 Alguma vezes, é útil desabilitar temporariamente todos os disparadores.
-Por exemplo, você pode querer editar um perfil ativado manualmente ou sua configuração normal sem a interferência de perfis com disparadores.
+Por exemplo, você pode querer editar um perfil ativado manualmente ou sua configuração normal sem interferir em perfis disparados.
 é possível fazer isso marcando a caixa de seleção Desabilitar Temporariamente Todos os Disparadores no diálogo de Perfis de Configuração.
 
 Para alternar a desativação dos disparadores de qualquer lugar, por favor, atribua um gesto personalizado usando o [diálogo Gestos de Entrada #InputGestures].
@@ -1752,13 +1752,13 @@ Para alternar a desativação dos disparadores de qualquer lugar, por favor, atr
 ++ Localização dos Arquivos de Configuração ++[LocationOfConfigurationFiles]
 Versões portáteis do NVDA armazenam todas as opções e complementos numa pasta chamada userConfig que se pode encontrar na pasta do NVDA.
 
-Versões instaláveis armazenam suas opções e complementos numa pasta especial do NVDA localizada no seu perfil de utilizador do Windows.
+Versões instaladas armazenam suas opções e complementos numa pasta especial do NVDA localizada no seu perfil de utilizador do Windows.
 Isto quer dizer que cada usuário do sistema pode ter suas próprias opções do NVDA.
-Para acessar a pasta de suas opções do NVDA de uma versão instalada, no Menu Iniciar pode ir aos programas -> NVDA -> Explorar a pasta de opções do NVDA.
+Para acessar a pasta de suas opções do NVDA de uma versão instalada, no Menu Iniciar pode ir aos programas -> NVDA -> Explorar o diretório de opções do usuário do NVDA.
 
-As opções para o NVDA quando executado na tela de logon ou telas UAC são armazenadas na pasta systemConfig que se encontra na pasta de instalação do NVDA.
-Por norma não deve tocar nestas opções.
-Para alterar como o NVDA será configurado nas telas de logon/telas UAC, configure o NVDA com suas opções referidas quando tiver iniciado sessão no Windows e informe ao NVDA para copiar a configuração para a tela de logon através do botão que se encontra na categoria Geral do diálogo [Configurações do NVDA #NVDASettings].
+As opções para o NVDA quando executado na tela de logon ou nas telas UAC são armazenadas na pasta systemConfig que se encontra na pasta de instalação do NVDA.
+Normalmente, não deve tocar nestas opções.
+Para alterar a configuração do NVDA nas telas de logon/UAC, configure o NVDA com suas opções referidas quando tiver iniciado sessão no Windows e informe ao NVDA para copiar a configuração para a tela de logon através do botão que se encontra na categoria Geral do diálogo [Configurações do NVDA #NVDASettings].
 
 + Ferramentas Adicionais +[ExtraTools]
 
@@ -1769,92 +1769,98 @@ Além de ler o conteúdo, este também pode salvar uma cópia do arquivo de log,
 Estas ações encontram-se disponíveis no menu Log do visualizador.
 
 ++ Exibidor de Fala ++[SpeechViewer]
-Para os programadores com visão ou para as pessoas que demonstram o NVDA para grupos sem quaisquer problemas relacionados com a visão, está disponível uma janela que lhes permite ver todo o texto que o NVDA fala no momento.
+Para os desenvolvedores de software com visão ou para as pessoas que demonstram o NVDA para públicos sem quaisquer problemas relacionados com a visão, está disponível uma janela flutuante que lhes permite ver todo o texto que o NVDA fala no momento.
 
-Para ativar o exibidor de fala marque o item de menu "exibidor de fala" nas Ferramentas do Menu do NVDA.
-Ao desmarcar este item você o desativará.
+Para ativar o exibidor de fala marque o item de menu "exibidor de fala" em Ferramentas no Menu do NVDA.
+Ao desmarcar esse item você o desativará.
+
+A janela do visualizador de fala contém uma caixa de seleção denominada "Mostrar visualizador de fala na inicialização".
+Se esta opção estiver marcada, o visualizador de fala será aberto quando o NVDA for iniciado.
+A janela do visualizador de fala sempre tentará reabrir com as mesmas dimensões e localização de quando foi fechada.
 
 Enquanto o exibidor de fala estiver ativado, o mesmo atualizar-se-á constantemente para apresentar-lhe o texto mais recente que está sendo falado.
-Contudo, se clicar ou se o cursor ficar no visualizador, o NVDA parará temporariamente a atualização do texto, de modo que possa selecionar facilmente ou copiar o conteúdo existente.
+Contudo, se clicar ou se colocar o foco no visualizador, o NVDA parará temporariamente a atualização do texto, de modo que possa selecionar facilmente ou copiar o conteúdo existente.
 
 Para alternar o Exibidor de fala de qualquer lugar, por favor atribua-lhe um gesto personalizado usando o [Diálogo de Gestos de Entrada #InputGestures].
 
 ++ Gerenciador de Complementos ++[AddonsManager]
-O gerenciador de complementos, que pode ser acessado selecionando Gerir Complementos no submenu ferramentas no menu do NVDA, permite-lhe instalar e desinstalar pacotes adicionais ""[complementos/add-ons]"" para o NVDA.
-Esses pacotes são fornecidos pela comunidade e contém códigos com personalizações que podem acrescentar ou modificar recursos do NVDA ou mesmo fornecer suporte para linhas Braille ou sintetizadores de voz extras.
+O gerenciador de complementos, que pode ser acessado selecionando Gerir Complementos no submenu ferramentas no menu do NVDA, permite-lhe instalar, desinstalar, ativar e desativar pacotes adicionais ""[complementos/add-ons]"" para o NVDA.
+Esses pacotes são fornecidos pela comunidade e contêm códigos com personalizações que podem acrescentar ou modificar recursos do NVDA ou mesmo fornecer suporte para linhas Braille ou sintetizadores de voz extras.
 
 O gerenciador de complementos possui uma lista que mostra todos os complementos atualmente instalados em suas configurações do usuário do NVDA.
-O nome do pacote, bem como a versão e autor são exibidos para cada complemento, embora informações adicionais tais como uma descrição e URL podem ser visualizadas, selecionando-o e pressionando o botão Sobre o Complemento.
+Nome do pacote, status, versão e autor são mostrados para cada complemento, embora informações adicionais tais como uma descrição e URL podem ser visualizadas, selecionando-o e pressionando o botão Sobre o Complemento.
+Se houver ajuda disponível para o complemento selecionado, você poderá acessá-lo pressionando o botão Ajuda do complemento.
 
 Para procurar e baixar complementos disponíveis online, pressione o botão baixar complementos.
 Esse botão abre a [página de complementos do NVDA https://addons.nvda-project.org/].
-Caso o NVDA esteja instalado e em execução em seu sistema, é possível abrir o complemento diretamente do navegador para começar o processo de instalação como será descrito a seguir. Caso contrário, salve o pacote de complemento e siga as instruções abaixo.
+Caso o NVDA esteja instalado e em execução em seu sistema, é possível abrir o complemento diretamente do navegador para começar o processo de instalação como será descrito a seguir.
+Caso contrário, salve o pacote de complemento e siga as instruções abaixo.
 
 Para instalar um complemento anteriormente obtido, pressione o botão Instalar.
 Isto lhe permitirá procurar por um pacote de complemento (arquivo .nvda-addon) em algum lugar de seu computador ou em uma rede.
-Uma vez pressionado Abrir, o NVDA perguntar-lhe-á se você realmente deseja instalar esse complemento.
-Como a funcionalidade dos complementos é irrestrita dentro do NVDA, o que em teoria pode incluir o acesso a seus dados pessoais ou mesmo a todo o sistema caso o NVDA seja uma cópia instalada, é muito importante que você só instale complementos oriundos de códigos de sua confiança.
+Depois de pressionar Abrir, o processo de instalação será iniciado.
 
+Quando um complemento está a ser instalado, o NVDA irá primeiro pedir-lhe para confirmar que realmente deseja instalar o complemento.
+Como a funcionalidade dos complementos é irrestrita dentro do NVDA, o que em teoria pode incluir o acesso a seus dados pessoais ou mesmo a todo o sistema caso o NVDA seja uma cópia instalada, é muito importante que você só instale complementos oriundos de fontes confiáveis.
 Após a instalação do complemento, o NVDA necessitará ser reiniciado para que este inicie sua execução.
-Até que você faça isso, o status de "instalado"será mostrado para aquele complemento na lista.
+Até que você faça isso, o status de "instalar"será mostrado para aquele complemento na lista.
 
 Para remover um complemento, selecione-o na lista e em seguida pressione o botão Remover.
 O NVDA irá perguntar se você realmente deseja removê-lo.
 Assim como ao instalar, o NVDA precisa ser reiniciado para que o complemento seja completamente removido.
-Até que você faça isso, o status de "removido" será mostrado para aquele complemento na lista.
+Até que você faça isso, o status de "remover" será mostrado para aquele complemento na lista.
 
 Para desativar um complemento, pressione o botão "desativar".
 Para ativar um complemento anteriormente desativado, pressione o botão "ativar".
 Você pode desativar um complemento caso o status deste indique que ele está "ativado", ou ativá-lo se o complemento estiver "desativado".
 para cada pressionamento do botão ativar/desativar, o status do complemento mudará para indicar o que ocorrerá quando o NVDA for reiniciado.
 Se o complemento foi desativado anteriormente, um status mostrará "ativado após a reinicialização". Se o complemento foi anteriormente "Ativado", um status mostrará "desativado após a reinicialização"
-Semelhante a quando você instala ou remove complementos, é necessário reiniciar o NVDA para que as alterações façam efeito.
+Semelhante a quando você instala ou remove complementos, é necessário reiniciar o NVDA para que as alterações entrem em vigor.
 
 O gerenciador também possui um botão "Fechar" para encerrar o diálogo.
-Caso tenha instalado, removido ou alterado o status de algum complemento, o NVDA primeiro indagará se você deseja reiniciar, de forma que suas alterações possam fazer efeito.
+Caso tenha instalado, removido ou alterado o status de algum complemento, o NVDA primeiro indagará se você deseja reiniciar, de forma que suas alterações possam ter efeito.
 
 No passado foi possível estender as funcionalidades do NVDA copiando plugins e drivers individuais para sua pasta de Configurações do usuário do NVDA.
 Embora nessa versão do NVDA continue sendo possível carregá-los, eles não serão mostrados no gerenciador de complementos.
-Recomenda-se remover esses arquivos de suas configurações do usuário e instalar o complemento apropriado caso algum esteja disponível.
+É melhor remover esses arquivos de suas configurações do usuário e instalar o complemento apropriado, caso algum esteja disponível.
 
 Para acessar o Gerenciador de Complementos de qualquer lugar, por favor atribua-lhe um gesto personalizado usando o [Diálogo de Gestos de Entrada #InputGestures].
 
 ++ Console Python ++[PythonConsole]
-o Console Python do NVDA encontra-se dentro das Ferramentas, no menu do NVDA.
-É uma ferramenta de programação muito útil para depuração, inspeção interna geral do NVDA ou exploração da hierarquia de acessibilidade de uma aplicação.
+o Console Python do NVDA, encontrado dentro das Ferramentas no menu do NVDA, é uma ferramenta de desenvolvimento muito útil para depuração, inspeção geral dos componentes internos do NVDA ou inspeção da hierarquia de acessibilidade de uma aplicação.
 Para mais informações, consulte por favor o [Guia do Desenvolvedor do NVDA https://www.nvaccess.org/files/nvda/documentation/developerGuide.html].
 
-++ Recarregar plugins ++[ReloadPlugins]
-Esse item, quando ativado, recarrega app modules ""[módulos de aplicativos]"" e global plugins ""[plugins globais]"" sem reiniciar o NVDA, o que pode ser muito útil para desenvolvedores.
+++ Recarregar plug-ins ++[ReloadPlugins]
+Esse item, quando ativado, recarrega app modules ""[módulos de aplicativos]"" e global plugins ""[plug-ins globais]"" sem reiniciar o NVDA, o que pode ser muito útil para desenvolvedores.
 
-+ Sintetizadores de Voz Suportados +[SupportedSpeechSynths]
-Esta seção contém informação sobre os sintetizadores de voz suportados pelo NVDA.
++ Sintetizadores de Fala Suportados +[SupportedSpeechSynths]
+Esta seção contém informação sobre os sintetizadores de fala suportados pelo NVDA.
 Se deseja uma lista mais extensa de sintetizadores gratuitos e comerciais que você pode baixar ou comprar para usar com o NVDA, por favor consulte a [página de vozes extras https://github.com/nvaccess/nvda/wiki/ExtraVoices].
 
 ++ eSpeak NG ++[eSpeakNG]
-O sintetizador [eSpeak NG https://github.com/espeak-ng/espeak-ng] é compilado diretamente para o NVDA e não é necessário instalar nenhum outro driver ou componente especial.
+O sintetizador [eSpeak NG https://github.com/espeak-ng/espeak-ng] é embutido diretamente no NVDA e não requer para ser instalado nenhum outro driver ou componente especial.
 O eSpeak NG é iniciado com o NVDA por padrão.
-Por ter sido compilado para o NVDA, ele é uma boa escolha para quando se executa o NVDA num dispositivo USB ou CD em outros sistemas.
+Por ter sido integrado ao NVDA, ele é uma boa escolha para quando se executa o NVDA num dispositivo de armazenamento USB em outros sistemas.
 
 Cada voz que vem com o eSpeak NG fala um idioma diferente.
-Existem cerca de 43 idiomas suportados por ele.
+Existem mais de 43 idiomas diferentes suportados por ele.
 
 Existem também muitas variantes que podem ser escolhidas para alterar o som da voz.
 
 ++ Microsoft Speech API versão 4 (SAPI 4) ++[SAPI4]
-SAPI 4 é um padrão antigo da Microsoft para softwares sintetizadores de voz.
+SAPI 4 é um padrão antigo da Microsoft para softwares sintetizadores de fala.
 O NVDA ainda suporta isso para usuários que já possuem sintetizadores SAPI 4 instalados.
 No entanto, a Microsoft não suporta mais isso e os componentes necessários não estão mais disponíveis na Microsoft.
 
 Quando este sintetizador é utilizado com o NVDA, as vozes disponíveis (que podem ser encontradas na [categoria Fala #SpeechSettings] das [Configurações do NVDA #NVDASettings] ou desde o [Anel de Configurações de Voz #SynthSettingsRing]) contêm todas as vozes dos motores SAPI 4 que se encontram instaladas em seu sistema.
 
 ++ Microsoft Speech API versão 5 (SAPI 5) ++[SAPI5]
-O SAPI 5 é um padrão da Microsoft para softwares sintetizadores de voz.
-Muitos sintetizadores de voz que trabalham com este padrão podem ser comprados ou baixados em várias empresas ou sites da Web, ainda que seu sistema já venha com pelo menos uma voz SAPI 5 já instalada.
+O SAPI 5 é um padrão da Microsoft para softwares sintetizadores de fala.
+Muitos sintetizadores de fala que trabalham com este padrão podem ser comprados ou baixados em várias empresas ou sites da Web, ainda que seu sistema já venha com pelo menos uma voz SAPI 5 já instalada.
 Quando este sintetizador é utilizado com o NVDA, as vozes disponíveis (que podem ser encontradas na [categoria Fala #SpeechSettings] das [Configurações do NVDA #NVDASettings] ou desde o [Anel de Configurações de Voz #SynthSettingsRing]) contêm todas as vozes dos motores SAPI 5 que se encontram instaladas em seu sistema.
 
 ++ Microsoft Speech Platform [Plataforma de Fala da Microsoft] ++[MicrosoftSpeechPlatform]
-A Microsoft Speech Platform ""[Plataforma de Fala da Microsoft]"" disponibiliza vozes para muitos idiomas que são normalmente usadas no desenvolvimento de aplicativos baseados no servidor de fala.
+A Microsoft Speech Platform ""[Plataforma de Fala da Microsoft]"" disponibiliza vozes para muitos idiomas que são normalmente usadas no desenvolvimento de aplicativos baseados em servidor de fala.
 Essas vozes também podem ser usadas com o NVDA.
 
 Para usá-las, você necessitará instalar dois componentes:
