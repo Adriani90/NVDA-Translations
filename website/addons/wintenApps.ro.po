@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-27 05:59+1000\n"
-"PO-Revision-Date: 2018-07-03 22:05+0300\n"
+"PO-Revision-Date: 2018-07-03 22:34+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
 "Language: ro\n"
@@ -409,7 +409,7 @@ msgid ""
 msgstr ""
 "Notificările precum descărcări de fișiere și diverse alerte de pe paginile "
 "web, dar și disponibilitatea funcției Reading view (dacă se utilizează "
-"versiunea 1709 și mai nouă)."
+"versiunea 1709 și mai nouă) sunt anunțate."
 
 #. type: Title ##
 #, no-wrap
@@ -440,8 +440,8 @@ msgid ""
 "In post-1709 builds, NVDA will announce the first selected emoji when emoji "
 "panel opens."
 msgstr ""
-"În post-1709 builds, NVDA va anunța primul emoji selectat când se deschide "
-"panoul emoji."
+"În compilările post-1709, NVDA va anunța primul emoji selectat când se "
+"deschide panoul emoji."
 
 #. type: Bullet: '* '
 msgid ""
