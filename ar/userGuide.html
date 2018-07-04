@@ -3,10 +3,10 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>استخدام برنامج NVDA الإصدار رقم 2018.1-dev</TITLE>
+<TITLE>استخدام برنامج NVDA الإصدار رقم 2018.3-dev</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT='black' STYLE='font-family: Simplified Arabic'>
 <CENTER>
-<H2>استخدام برنامج NVDA الإصدار رقم 2018.1-dev</H2>
+<H2>استخدام برنامج NVDA الإصدار رقم 2018.3-dev</H2>
 </CENTER>
 
 
@@ -167,7 +167,7 @@
     <LI><A HREF="#OptelecALVA"> ٢.١٣. سلسلة وبروتوكول تحويلي من  Optelec ALVA 6</A>
     <LI><A HREF="#HandyTech"> ٣.١٣. أسطر Handy Tech</A>
     <LI><A HREF="#MDVLilli"> ٤.١٣. MDV Lilli</A>
-    <LI><A HREF="#toc112"> ٥.١٣. الأسطر الإلكترونية من طر[Baum]از Baumأو Humanwareأو APH أو Orbit</A>
+    <LI><A HREF="#toc112"> ٥.١٣. الأسطر الإلكترونية من طراز [Baum] Baumأو Humanwareأو APH أو Orbit</A>
     <LI><A HREF="#HedoProfiLine"> ٦.١٣. hedo ProfiLine USB</A>
     <LI><A HREF="#HedoMobilLine"> ٧.١٣. hedo MobilLine USB</A>
     <LI><A HREF="#HumanWareBrailliant"> ٨.١٣. سلسلة الأسطر الإلكترونية HumanWare Brailliant BI/B  BrailleNote Touch</A>
@@ -268,7 +268,7 @@
 <H3> ٥.١. الترخيص وحقوق النشر</H3>
 
 <P>
-جميع حقوق النشر محفوظة للمساهمين في تطوير NVDA 	 2006-2017 
+جميع حقوق النشر محفوظة للمساهمين في تطوير NVDA 	 2006-2018 
 </P>
 <P>
 يخضع برنامج NVDA للإصدار الثاني من رخصة جي أن يو العمومية GNU General Public License. 
@@ -2252,7 +2252,7 @@
 <P></P>
 ==== إظهار خيارات الخروج قبل إغلاق NVDA ====[GeneralSettingsShowExitOptions]
 هذا الخيار هو مربّع تحديد Check box بمقتضاه تختار بين ظهور أو عدم ظهور المحاورة التي تسأل عن الإجراء الذي تريد اتخاذه عند الخروج من البرنامج.
-فإذا قمت بتحديد هذا المربع, ستظهر محاورة فور محاولتك الخروج من البرنامج تسألك عما إذا كنت تريد الخروج, أم إعادة التشغيل, أم إعادة التشغيل مع تعطيل الإضافات.
+فإذا قمت بتحديد هذا المربع, ستظهر محاورة فور محاولتك الخروج من البرنامج تسألك عما إذا كنت تريد الخروج, أم إعادة التشغيل, أم إعادة التشغيل مع تعطيل الإضافات أو تثبيت التحديثات المؤجلة (إن وجدت).
 أمّا إذا لم تقم بتحديده، فلن يظهر مربّع الحوار هذا وسيتمّ الخروج من البرنامج فور طلب ذلك منه.
 <P></P>
 ==== حدوث صوت عند بداية تشغيل أو إغلاق NVDA ====[GeneralSettingsPlaySounds]
@@ -2279,6 +2279,10 @@
 ==== تحديث nvda آليا ====[GeneralSettingsCheckForUpdates]
 إذا تم تحديد هذا الخيار, فإن nvda سيقوم بالبحث آليا عن الإصدارات الجديدة وسيخبرك بوجودها.
 كما يمكنك تحديث البرنامج يدويا وذلك باختيار عنصر البحث عن التحديثات بقائمة المساعدة بقائمة nvda الرئيسية.
+<P></P>
+==== الإشعار بوجود تحديثات معلقة عند بدأ التشغيل ====[GeneralSettingsNotifyPendingUpdates]
+إذا تم تحديد هذا الخيار, فسيعلمك بوجود تحديثات معلقة وسيتيح لك إمكانية تثبيتها.
+كما يمكنك تثبيت التحديثات المعلقة يدويا من خلال محاورة الخروج من البرنامج (إذا كان الخيار مفعلا) من قائمة NVDA الرئيسية أو عند قيامك بالبحث عن التحديثات الجديدة من قائمة المساعدة.
 <P></P>
 +++ اختيار آلة النطق <span dir='ltr'>Synthesizer Selection NVDA+ctrl+s</span> +++[SynthesizerSelection]
 يمكن الوصول إلى محاورة آلات النطق Synthesizer dialog باختيار عنصر آلات النطق Synthesizers بقائمة التفضيلات أو بالضغط على ctrl+nvda+s 
@@ -4021,6 +4025,10 @@
 <TD>routing</TD>
 </TR>
 <TR>
+<TD>الإعلان عن تنسيق النص الواقع تحت خلية البرايل</TD>
+<TD>secondary routing</TD>
+</TR>
+<TR>
 <TD>الانتقال بين تعطيل وتشغيل محاكاة لوحة المفاتيح</TD>
 <TD>t1+spEnter</TD>
 </TR>
@@ -4295,7 +4303,7 @@
 </TABLE>
 
 <A NAME="toc112"></A>
-<H3> ٥.١٣. الأسطر الإلكترونية من طر[Baum]از Baumأو Humanwareأو APH أو Orbit</H3>
+<H3> ٥.١٣. الأسطر الإلكترونية من طراز [Baum] Baumأو Humanwareأو APH أو Orbit</H3>
 
 <P>
 يقوم NVDA بدعم العديد من تلك الأسطر عند توصيلها من خلال USB أو bluetooth وتلك هي الروابط التي يمكنك زيارتها للمعلومات عن تلك الأسطر <A HREF="http://www.baum.de/cms/en/">Baum</A>, <A HREF="http://www.humanware.com/">HumanWare</A>, <A HREF="http://www.aph.org/">APH</A> و <A HREF="http://www.orbitresearch.com/">Orbit</A>
@@ -5117,7 +5125,7 @@
 <TD>right2</TD>
 </TR>
 <TR>
-<TD>الإعلان عن تنسيق النص</TD>
+<TD>الإعلان عن تنسيق النص الواقع تحت خلية البرايل</TD>
 <TD>upper routing row</TD>
 </TR>
 </TABLE>
@@ -5328,7 +5336,7 @@
 <TD>left2</TD>
 </TR>
 <TR>
-<TD>قراءة تنسيق النص</TD>
+<TD>قراءة تنسيق النص الواقع تحت خلية البرايل</TD>
 <TD>Upper routing strip</TD>
 </TR>
 </TABLE>
@@ -5387,7 +5395,7 @@
 <TD>r1+right</TD>
 </TR>
 <TR>
-<TD>قراءة تنسيق النص</TD>
+<TD>قراءة تنسيق النص الواقع تحت خلية البرايل</TD>
 <TD>reportf</TD>
 </TR>
 <TR>
@@ -5422,7 +5430,7 @@
 <TD>r2</TD>
 </TR>
 <TR>
-<TD>قراءة تنسيق النص</TD>
+<TD>قراءة تنسيق النص الواقع تحت خلية البرايل</TD>
 <TD>reportf</TD>
 </TR>
 <TR>
@@ -5755,7 +5763,11 @@
 </TR>
 <TR>
 <TD>تحريك المؤشر لخلية البرايل</TD>
-<TD>routing, doubleRouting|</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>الإعلان عن تنسيق النص الواقع تحت خلية البرايل</TD>
+<TD>doubleRouting</TD>
 </TR>
 <TR>
 <TD>استعراض السطر السابق</TD>
@@ -5980,16 +5992,24 @@
 <TD>dot3+backspace, dot6+backspace</TD>
 </TR>
 <TR>
-<TD>shift</TD>
-<TD>dot7+space, l4</TD>
+<TD>التبديل بين تشغيل وتعطيل مفتاح shift</TD>
+<TD>dot1+dot7+space, dot4+dot7+space</TD>
 </TR>
 <TR>
-<TD>control</TD>
-<TD>dot7+dot8+space, dot1+dot7+dot8+space, dot4+dot7+dot8+space, l5</TD>
+<TD>مفتاح control</TD>
+<TD>dot7+dot8+space, l5</TD>
 </TR>
 <TR>
-<TD>alt</TD>
-<TD>dot8+space, dot1+dot8+space, dot4+dot8+space, l6</TD>
+<TD>التبديل بين تشغيل وتعطيل مفتاح control</TD>
+<TD>dot1+dot7+dot8+space, dot4+dot7+dot8+space</TD>
+</TR>
+<TR>
+<TD>مفتاح alt</TD>
+<TD>dot8+space, l6</TD>
+</TR>
+<TR>
+<TD>التبديل بين تشغيل وتعطيل مفتاح alt</TD>
+<TD>dot1+dot8+space, dot4+dot8+space</TD>
 </TR>
 <TR>
 <TD>تعطيل وتشغيل محاكاة لوحة مفاتيح إدخال البرايل</TD>
