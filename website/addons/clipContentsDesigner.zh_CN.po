@@ -3,35 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-14 00:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-04 10:29+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Clip Contents Designer\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"剪辑内容设计器\"]]\n"
 
 #. type: Bullet: '*	'
 msgid "Authors: Noelia Ruiz Martínez."
-msgstr ""
+msgstr "作者: Noelia Ruiz Martínez."
 
 #. type: Bullet: '*	'
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '*	'
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
 msgid ""
@@ -39,11 +39,13 @@ msgid ""
 "you want to join sections of text together ready for pasting.  The clipboard "
 "content can also be cleared."
 msgstr ""
+"此插件用于向剪贴板添加文本，当您希望将文本部分连接在一起以准备粘贴时，这可能"
+"很有用。剪贴板内容也可以清除。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Keyboard commands"
-msgstr ""
+msgstr "键盘快捷键"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -51,10 +53,12 @@ msgid ""
 "represent MathML objects, or the string which has been marked with the "
 "review cursor, to the clipboard."
 msgstr ""
+"NVDA+windows+c: 将选定的文本，表示MathML对象的Unicode盲文字符或已使用浏览光标"
+"标记的字符串添加到剪贴板."
 
 #. type: Bullet: '*	'
 msgid "NVDA+windows+x: Clear clipboard contents."
-msgstr ""
+msgstr "NVDA+windows+x: 清除剪贴板内容."
 
 #. type: Plain text
 #, no-wrap
@@ -62,17 +66,21 @@ msgid ""
 "*\tNVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard. If you use nvda+F9, the text will not be added.\n"
 "*\t Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.\n"
 msgstr ""
+"*\tNVDA+windows+f9: 将浏览光标的当前位置标记为要添加到剪贴板的文本的开头。如果您使用nvda + F9，则不会添加文本.\n"
+"*\t 未分配快捷键：复制到（或剪切）剪贴板，可能会被要求提供先前的确认.\n"
 
 #. type: Plain text
 msgid ""
 "Note: The above commands can be changed from NVDA menu, Preferences submenu, "
 "Input gestures dialog, Text review category."
 msgstr ""
+"注意：可以从NVDA菜单，“首选项”子菜单，“输入手势”对话框，“文本审阅”类别更改上"
+"述快捷键。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Preferences Menu"
-msgstr ""
+msgstr "首选项菜单"
 
 #. type: Plain text
 #, no-wrap
@@ -80,48 +88,51 @@ msgid ""
 "*\tClip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.\n"
 "It's also possible to choose if the added text will be appended or prepended, if available actions (add, clear clipboard, emulate copy and emulate cut) should be performed inmediately or after confirmation, and if confirmations will be requested just if text is contained in the clipboard.\n"
 msgstr ""
+"*\t剪辑内容设计器设置：允许设置一个分隔符，可以在粘贴整个添加的文本后用于查找文本片段.\n"
+"如果可以执行的操作（添加，清除剪贴板，模拟副本和模拟剪切）应该立即执行或在确认后执行，并且如果文本包含在文本中，则还可以选择确认，也可以选择是添加还是添加文本。剪贴板.\n"
 
 #. type: Plain text
 msgid "Notes:"
-msgstr ""
+msgstr "注意:"
 
 #. type: Bullet: '*	'
 msgid ""
 "The above command can be changed from NVDA menu, Preferences submenu, Input "
 "gestures dialog, Configuration category."
 msgstr ""
+"可以从NVDA菜单，“首选项”子菜单，“输入手势”对话框，“配置”类别更改上述快捷键。"
 
 #. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed"
-msgstr ""
+msgstr "当NVDA的消息框仍然打开时，将不会请求确认。在这些情况下，将立即执行操作"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 8.0"
-msgstr ""
+msgstr "版本8.0"
 
 #. type: Bullet: '* '
 msgid ""
 "The add-on settings are shown in the corresponding category of the NVDA "
 "Settings dialog."
-msgstr ""
+msgstr "插件设置显示在NVDA设置对话框的相应类别中。"
 
 #. type: Bullet: '* '
 msgid "Requires NVDA 2018.2 or later."
-msgstr ""
+msgstr "需要NVDA 2018.2或更高版本。"
 
 #. type: Bullet: '* '
 msgid ""
 "If needed, you can download the [last version compatible with NVDA 2017.3]"
 "[3]."
-msgstr ""
+msgstr "假如需要用旧版本，您可以下载[与NVDA 2017.3兼容的旧版本] [3]。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 7.0"
-msgstr ""
+msgstr "版本7.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -130,11 +141,13 @@ msgid ""
 "removed, so that you can restore the normal behavior for control+c and "
 "control+x."
 msgstr ""
+"在安装时配置模拟复制和模拟剪切功能的对话框中，如果选择否，将删除这些功能的命"
+"令，以便您可以恢复control + c和control + x的正常行为。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.0"
-msgstr ""
+msgstr "版本6.0"
 
 #. type: Plain text
 #, no-wrap
@@ -144,26 +157,30 @@ msgid ""
 "*\t Added a dialog to configure the Emulate copy and Emulate cut functionalities at installation. This allows to add the control+c and control+x commands to copy and cut, and be asked if you want to replace the clipboard contents when pressing these keystrokes.\n"
 "*\tFixed documentation for script_add (Windows+NVDA+c).\n"
 msgstr ""
+"*\t 添加选项以选择是否应在确认后执行可用操作.\n"
+"*\t添加了“模拟复制”和“模拟剪切”快捷键，可以从“输入”手势对话框中指定.\n"
+"*\t 添加了一个对话框，用于在安装时配置模拟复制和模拟剪切功能。这允许添加control + c和control + x命令进行复制和剪切，并在按下这些按键时询问是否要替换剪贴板内容.\n"
+"*\tFixed documentation for script_add (Windows+NVDA+c).\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.0"
-msgstr ""
+msgstr "版本5.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "The visual presentation of the dialog has been enhanced, adhering to the "
 "appearance of the dialogs shown in NVDA."
-msgstr ""
+msgstr "对话框的视觉呈现得到了增强，并且遵循NVDA中显示的对话框的外观。"
 
 #. type: Bullet: '*	'
 msgid "Requires NVDA 2016.4 or later."
-msgstr ""
+msgstr "需要NVDA 2016.4或更高版本。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.0"
-msgstr ""
+msgstr "版本4.0"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -171,6 +188,8 @@ msgid ""
 "profiles can be used to save different separators, and it's not needed to "
 "copy the settings for importing at reinstallation."
 msgstr ""
+"插件设置由NVDA配置管理，因此标准配置文件可用于保存不同的分隔符，并且不需要在"
+"重新安装时复制导入设置。"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -178,53 +197,57 @@ msgid ""
 "using the Add text before clip data check box from the Clip Contents "
 "Designer settings dialog."
 msgstr ""
+"现在，可以使用“剪辑内容设计器”设置对话框中的“添加剪辑前数据”复选框，选择是添"
+"加还是添加文本。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr ""
+msgstr "版本3.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "Braille representation of MathML objects can be added to the clipboard if "
 "MathPlayer is installed."
-msgstr ""
+msgstr "如果安装了MathPlayer，则可以将MathML对象的盲文表示添加到剪贴板。"
 
 #. type: Bullet: '*	'
 msgid ""
 "If no separator is set, just a single line will be placed between the added "
 "text segments."
-msgstr ""
+msgstr "如果未设置分隔符，则只会在添加的文本段之间放置一行。"
 
 #. type: Bullet: '*	'
 msgid ""
 "A shortcut can be assigned to open the Clip Contents Designer settings "
 "dialog."
-msgstr ""
+msgstr "可以指定快捷键来打开“剪辑内容设计器”设置对话框。"
 
 #. type: Bullet: '*	'
 msgid ""
 "Added a check box in the settings dialog, for choosing if the separator "
 "should be copied to be imported when reinstalling the add-on."
 msgstr ""
+"在设置对话框中添加了一个复选框，用于选择是否应复制分隔符以在重新安装插件时导"
+"入。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr ""
+msgstr "版本2.0"
 
 #. type: Bullet: '*	'
 msgid "Hindi characters can be used as the separator between added contents."
-msgstr ""
+msgstr "印地语字符可以用作添加内容之间的分隔符。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "版本1.0"
 
 #. type: Bullet: '*	'
 msgid "Initial version."
-msgstr ""
+msgstr "发布初始版本。"
 
 #. type: Plain text
 #, no-wrap
@@ -233,14 +256,16 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: http://addons.nvda-project.org/files/get.php?file=ccd"
-msgstr ""
+msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=ccd"
 
 #. type: Plain text
 msgid "[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev"
-msgstr ""
+msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev"
 
 #. type: Plain text
 msgid ""
 "[3]: https://github.com/nvdaes/clipContentsDesigner/releases/download/7.2/"
 "clipContentsDesigner-7.2.nvda-addon"
 msgstr ""
+"[3]: https://github.com/nvdaes/clipContentsDesigner/releases/download/7.2/"
+"clipContentsDesigner-7.2.nvda-addon"
