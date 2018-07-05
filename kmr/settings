@@ -38,7 +38,7 @@
   "addon.word": "0", 
   "nvda.branch": "master", 
   "nvda.changes.lastFoundHash": "5ea0847a2e4cf23f72ce57c9c23d6295fe7b4b62", 
-  "nvda.lastSubmittedSvnRev": "42002", 
+  "nvda.lastSubmittedSvnRev": "42228", 
   "nvda.symbols.lastFoundHash": "f6846e07236de4dde6745cf3d9304ab108446138", 
   "nvda.userGuide.lastFoundHash": "e0f3284488262e89f05cdb1dfdb615fccf227103"
 }
