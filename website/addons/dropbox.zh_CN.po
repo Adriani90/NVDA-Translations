@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: 2016-12-29 14:11-0800\n"
-"Last-Translator: 雪岭冰龙 <vgjh2005@gmail.com>\n"
+"PO-Revision-Date: 2018-07-06 18:28+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: Simplified Chinese translate team <vgjh2005@gmail.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"dropbox\"]]\n"
-msgstr "[[!meta title=\"dropbox\"]]\n"
+msgstr "[[!meta title=\"dropbox-NVDA支持插件\"]]\n"
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -74,13 +74,14 @@ msgstr "版本4.0"
 
 #. type: Bullet: '* '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "插件管理器现在提供了插件帮助。"
 
 #. type: Bullet: '* '
 msgid ""
 "The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid "
 "conflict with audio ducking support."
 msgstr ""
+"获取Dropbox状态的快捷方式已更改为Alt + NVDA + D，以避免与音频闪避支持冲突。"
 
 #. type: Title ##
 #, no-wrap

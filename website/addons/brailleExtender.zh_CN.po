@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-04-04 05:23+1000\n"
-"PO-Revision-Date: 2018-06-26 04:35+0800\n"
+"PO-Revision-Date: 2018-07-06 18:17+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"BrailleExtender\"]]\n"
-msgstr "[[!meta title=\"BrailleExtender\"]]\n"
+msgstr "[[!meta title=\"BrailleExtender盲文支持插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: André-Abush Clause and contributors"
