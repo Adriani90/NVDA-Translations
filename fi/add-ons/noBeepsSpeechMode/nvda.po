@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: NoBeepsSpeechMode\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-13 22:00+0200\n"
-"PO-Revision-Date: 2018-05-25 08:07+0200\n"
+"PO-Revision-Date: 2018-07-06 08:21+0200\n"
 "Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -33,10 +33,12 @@ msgid ""
 "You have installed an old and incompatible version of this add-on. Do you "
 "want to uninstall the old version?"
 msgstr ""
+"Tästä lisäosasta on asennettuna vanha, yhteensopimaton versio. Haluatko "
+"poistaa sen?"
 
 #. Translators: the title of a message box dialog.
 msgid "Uninstall old add-on"
-msgstr ""
+msgstr "Poista vanha lisäosa"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
