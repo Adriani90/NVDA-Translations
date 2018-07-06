@@ -3,128 +3,143 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-13 18:28+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-06 21:54+0900\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Golden Cursor\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Golden Cursor\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: salah atair, Joseph Lee"
-msgstr ""
+msgstr "作者: salah atair, Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "ダウンロード [安定版][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "ダウンロード [開発版][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on allows you to move the mouse using a keyboard and save mouse "
 "positions for applications."
 msgstr ""
+"このアドオンによりキーボードを使用してマウスを移動出来るようになります。アプ"
+"リケーションごとのマウス位置を保存出来ます。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Key commands"
-msgstr ""
+msgstr "キーコマンド"
 
 #. type: Bullet: '* '
 msgid "Control+NVDA+L: view saved mouse positions for an application if any."
-msgstr ""
+msgstr "Control+NVDA+L: アプリケーションに保存されたマウス位置がある場合に表示"
 
 #. type: Bullet: '* '
 msgid ""
 "Shift+NVDA+L: save a tag or a label for the current mouse position in the "
 "currently focused application."
 msgstr ""
+"Shift+NVDA+L: フォーカスされているアプリケーションでの現在のマウス位置にタグ"
+"またはラベルを保存"
 
 #. type: Bullet: '* '
 msgid "Windows+NVDA+C: change mouse movement unit."
-msgstr ""
+msgstr "Windows+NVDA+C: マウスの移動単位を変更"
 
 #. type: Bullet: '* '
 msgid "Windows+NVDA+R: toggle mouse restriction."
-msgstr ""
+msgstr "Windows+NVDA+R: マウスの制限を切り替え"
 
 #. type: Bullet: '* '
 msgid "Windows+NVDA+S: toggle reporting of mouse position in pixels."
-msgstr ""
+msgstr "Windows+NVDA+S: ピクセルでのマウス位置の通知を切り替え"
 
 #. type: Bullet: '* '
 msgid "Windows+NVDA+J: move mouse to a specific x and y position."
-msgstr ""
+msgstr "Windows+NVDA+J: 特定のxy位置にマウスを移動"
 
 #. type: Bullet: '* '
 msgid "Windows+NVDA+P: report mouse position."
-msgstr ""
+msgstr "Windows+NVDA+P: マウス位置を通知"
 
 #. type: Bullet: '* '
 msgid "Windows+NVDA+M: sswitch mouse arrows on or off."
-msgstr ""
+msgstr "Windows+NVDA+M: マウス矢印のオンまたはオフの切り替え"
 
 #. type: Bullet: '* '
 msgid ""
 "Windows+NVDA+arrow keys (or just arrow keys if mouse arrows is on): move "
 "mouse."
 msgstr ""
+"Windows+NVDA+矢印キー (またはマウス矢印がオンの場合は矢印キーのみ): マウス移"
+"動"
 
 #. type: Plain text
 msgid ""
 "Note: these gestures can be reassigned via NVDA's Input Gestures dialog "
 "under Golden Cursor category."
 msgstr ""
+"備考: これらのジェスチャーは、NVDAのGolden Cursorカテゴリーの入力ジェスチャー"
+"ダイアログで再設定出来ます。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "備考"
 
 #. type: Bullet: '* '
 msgid ""
 "When sharing positions (tags), each party should use same display resolution."
 msgstr ""
+"位置を共有している場合(タグ)、それぞれの集合は同じディスプレイ解像度でなくて"
+"はなりません。"
 
 #. type: Bullet: '* '
 msgid ""
 "For maximum compatibility, you should maximize windows by pressing Windows"
 "+Up arrow."
 msgstr ""
+"互換性を最大にするため、Windows+上矢印キーを押してウィンドウを最大にします。"
 
 #. type: Bullet: '* '
 msgid "When sharing positions, existing position labels should be renamed."
 msgstr ""
+"位置を共有するには、存在する位置ラベルの名前を変更しなければなりません。"
 
 #. type: Bullet: '* '
 msgid "Version 1.x and 2.x mouse position formats are incompatible."
-msgstr ""
+msgstr "バージョン1.xと2.xのマウス位置フォーマットは互換性がありません。"
 
 #. type: Bullet: '* '
 msgid ""
 "To perform functions that require use of arrow keys, turn off mouse arrows "
 "first."
 msgstr ""
+"矢印キーの使用が必要な機能を実行する場合は、まずマウス矢印をオフにします。"
 
 #. type: Bullet: '* '
 msgid ""
 "When deleting saved positions, if there are no saved positions left, "
 "positions for the application will be cleared."
 msgstr ""
+"保存した位置を削除する時、保存された位置が一つも存在しない場合は、そのアプリ"
+"ケーションのための位置は削除されます。"
 
 #. type: Title ##
 #, no-wrap
