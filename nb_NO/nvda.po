@@ -47,7 +47,7 @@ msgstr "halv katakana"
 
 #. Translators: For Japanese character input: alpha numeric (roman/english) mode.
 msgid "alphanumeric"
-msgstr "alphanumerisk"
+msgstr "alfanumerisk"
 
 #. Translators: For Japanese character input: Hiragana input mode.
 msgid "hiragana"
@@ -92,21 +92,21 @@ msgstr "{language} - {layout}"
 
 #. Translators: The label shown for a spelling and grammar error in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the spelling error.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "spelling and grammar: {text}"
-msgstr "stavefeil"
+msgstr "staving og grammatikk: {text}"
 
 #. Translators: The label shown for a spelling error in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the spelling error.
 #, python-brace-format
 msgid "spelling: {text}"
-msgstr "staver: {text}"
+msgstr "staving: {text}"
 
 #. Translators: The label shown for a grammar error in the NVDA Elements List dialog in Microsoft Word.
 #. {text} will be replaced with the text of the spelling error.
 #, python-brace-format
 msgid "grammar: {text}"
-msgstr ""
+msgstr "grammatikk: {text}"
 
 #. Translators: This is presented when errors are found in an appModule (example output: error in appModule explorer).
 #, python-format
@@ -154,7 +154,6 @@ msgid "form"
 msgstr "skjema"
 
 #. Translators: Reported for a significant region, normally found on web pages.
-#, fuzzy
 msgctxt "aria"
 msgid "region"
 msgstr "region"
@@ -208,13 +207,12 @@ msgstr "knp"
 #. Translators: Displayed in braille for an object which is a
 #. menu bar.
 msgid "mnubar"
-msgstr "mnybar"
+msgstr "mnylnj"
 
 #. Translators: Displayed in braille for an object which is a
 #. menu item.
-#, fuzzy
 msgid "mnuitem"
-msgstr "menyelement"
+msgstr "ME"
 
 #. Translators: Displayed in braille for an object which is a
 #. menu.
@@ -234,7 +232,7 @@ msgstr "lst"
 #. Translators: Displayed in braille for an object which is a
 #. graphic.
 msgid "gra"
-msgstr "gra"
+msgstr "gr"
 
 #. Translators: Displayed in braille for an object which is a
 #. help balloon.
@@ -313,21 +311,18 @@ msgstr "punkt"
 
 #. Translators: Displayed in braille for an object which is a
 #. application.
-#, fuzzy
 msgid "app"
-msgstr "bÃ¦rbar"
+msgstr "app"
 
 #. Translators: Displayed in braille for an object which is a
 #. grouping.
-#, fuzzy
 msgid "grp"
-msgstr "grep"
+msgstr "grp"
 
 #. Translators: Displayed in braille for an object which is a
 #. embedded object.
-#, fuzzy
 msgid "embedded"
-msgstr "innebygget objekt"
+msgstr "innebygd"
 
 #. Translators: Displayed in braille for an object which is a
 #. end note.
@@ -365,9 +360,8 @@ msgstr "splkn"
 
 #. Translators: Displayed in braille for an object which is a
 #. menu button.
-#, fuzzy
 msgid "mnubtn"
-msgstr "mnybar"
+msgstr "mnykn"
 
 #. Translators: Displayed in braille for an object which is a
 #. spin button.
@@ -388,7 +382,7 @@ msgstr "panel"
 #. Translators: Displayed in braille for an object which is a
 #. password edit.
 msgid "pwdedt"
-msgstr ""
+msgstr "passordskrivefelt"
 
 #. Translators: Displayed in braille when an object is selected.
 msgid "sel"
@@ -416,7 +410,7 @@ msgstr "***"
 
 #. Translators: Displayed in braille when a required form field is encountered.
 msgid "req"
-msgstr "req"
+msgstr "påkrevd"
 
 #. Translators: Displayed in braille when an invalid entry has been made.
 msgid "invalid"
@@ -427,9 +421,8 @@ msgid "..."
 msgstr "..."
 
 #. Translators: Displayed in braille when an edit field allows typing multiple lines of text such as comment fields on websites.
-#, fuzzy
 msgid "mln"
-msgstr "mny"
+msgstr "mln"
 
 #. Translators: Displayed in braille when an object is clickable.
 msgid "clk"
@@ -567,19 +560,19 @@ msgstr ""
 #. %s is replaced with the row number.
 #, python-brace-format
 msgid "r{rowNumber}"
-msgstr ""
+msgstr "r{rowNumber}"
 
 #. Translators: Displayed in braille for the table cell column numbers when a cell spans multiple columns.
 #. Occurences of %s are replaced with the corresponding column numbers.
 #, python-brace-format
 msgid "c{columnNumber}-{columnSpan}"
-msgstr ""
+msgstr "c{columnNumber}-{columnSpan}"
 
 #. Translators: Displayed in braille for a table cell column number.
 #. %s is replaced with the column number.
 #, python-brace-format
 msgid "c{columnNumber}"
-msgstr ""
+msgstr "c{columnNumber}"
 
 #. Translators: Displayed in braille at the end of a control field such as a list or table.
 #. %s is replaced with the control's role.
@@ -634,9 +627,8 @@ msgid "space"
 msgstr "mellomrom"
 
 #. Translators: Used when describing keys on a braille keyboard.
-#, fuzzy
 msgid "braille keyboard"
-msgstr "%s tastatur"
+msgstr "Punktskrifttastatur"
 
 #. Translators: Used to describe the press of space
 #. along with any dots on a braille keyboard.
@@ -10253,9 +10245,8 @@ msgid " square "
 msgstr ""
 
 #. Translators: Substitute - by minus in trendline equations.
-#, fuzzy
 msgid " minus "
-msgstr "numerisk tastatur minus"
+msgstr " minus "
 
 #. Translators: This message gives trendline type and name for selected series
 #, python-brace-format
