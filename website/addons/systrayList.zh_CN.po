@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-11-20 05:50+1000\n"
-"PO-Revision-Date: 2018-06-18 07:24+0800\n"
+"PO-Revision-Date: 2018-07-04 10:48+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: Simplified Chinese translate team <vgjh2005@gmail.com>\n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"systrayList\"]]\n"
-msgstr "[[!meta title=\"systrayList\"]]\n"
+msgstr "[[!meta title=\"systrayList托盘图标插件\"]]\n"
 
 #. type: Bullet: '*   '
 #, fuzzy

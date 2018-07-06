@@ -3,31 +3,31 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-06 02:19+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-06 19:26+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Object Location Tones\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"对象位置音调\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee"
-msgstr ""
+msgstr "作者: Joseph Lee"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Plain text
 msgid ""
@@ -36,20 +36,23 @@ msgid ""
 "indicate where the object is located on screen. To turn object location "
 "tones off, uninstall or disable this add-on from add-ons manager."
 msgstr ""
+"安装此插件并重新启动NVDA（或启用此插件）后，当您导航到不同的控件时，您将听到"
+"音调以指示对象在屏幕上的位置。要关闭对象位置音，请从插件管理器卸载或禁用此插"
+"件。"
 
 #. type: Plain text
 msgid "Important notes:"
-msgstr ""
+msgstr "重要注意事项："
 
 #. type: Bullet: '* '
 msgid ""
 "If using Audio Themes 3D or similar add-ons, it is advised to disable Object "
 "Location Tones add-on."
-msgstr ""
+msgstr "如果使用音频主题3D或类似的插件，建议禁用对象位置音调插件。"
 
 #. type: Bullet: '* '
 msgid "If a control is offscreen, tones will not be played."
-msgstr ""
+msgstr "如果控件在屏幕外，则不会播放音调。"
 
 #. type: Plain text
 #, no-wrap
@@ -58,4 +61,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objLoc"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=objLoc"

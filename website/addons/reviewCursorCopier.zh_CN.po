@@ -3,35 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-06 19:37+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Review Cursor Copier\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"浏览光标复制器\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tuukka Ojala <tuukka.ojala@gmail.com>"
-msgstr ""
+msgstr "作者: Tuukka Ojala <tuukka.ojala@gmail.com>"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
 msgid ""
@@ -39,30 +39,32 @@ msgid ""
 "review cursor to the clipboard. Currently, the following commands are "
 "implemented:"
 msgstr ""
+"此NVDA插件提供各种快捷键，用于将浏览光标下的文本复制到剪贴板。目前，实现了以"
+"下功能："
 
 #. type: Bullet: '* '
 msgid "Copy the line under the review cursor"
-msgstr ""
+msgstr "复制浏览光标下的行"
 
 #. type: Bullet: '* '
 msgid "Copy the word under the review cursor"
-msgstr ""
+msgstr "复制浏览光标下的单词"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current line to the review cursor"
-msgstr ""
+msgstr "从当前行的开头复制到浏览光标"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current line"
-msgstr ""
+msgstr "从浏览光标复制到当前行的末尾"
 
 #. type: Bullet: '* '
 msgid "Copy from the start of the current word to the review cursor"
-msgstr ""
+msgstr "从当前单词的开头复制到浏览光标"
 
 #. type: Bullet: '* '
 msgid "Copy from the review cursor to the end of the current word"
-msgstr ""
+msgstr "从浏览光标复制到当前单词的末尾"
 
 #. type: Plain text
 msgid ""
@@ -72,15 +74,18 @@ msgid ""
 "category. More information about setting and modifying input gestures can be "
 "found in the NVDA user guide."
 msgstr ""
+"默认情况下，这些快捷键都没有进行设置。请使用NVDA设置菜单下的输入手势对话框进"
+"行设置。此插件提供的所有快捷键都可以在“文本查看”类别下找到。有关设置和修改输"
+"入手势的更多信息，请参阅NVDA用户指南。"
 
 #. type: Title ##
 #, no-wrap
 msgid "License"
-msgstr ""
+msgstr "许可证"
 
 #. type: Plain text
 msgid "This work is licensed under the GNU General Public License, version 2."
-msgstr ""
+msgstr "此插件机于GNU通用公共许可证第2版进行分发。"
 
 #. type: Plain text
 #, no-wrap
@@ -89,8 +94,8 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"

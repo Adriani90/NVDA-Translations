@@ -7,20 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: 2016-12-29 14:33-0800\n"
-"Last-Translator: 雪岭冰龙 <vgjh2005@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-07-06 18:43+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.0.8\n"
+"Language-Team: \n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"eMule 0.50A\"]]\n"
+#, no-wrap
 msgid "[[!meta title=\"eMule\"]]\n"
-msgstr "[[!meta title=\"eMule 0.50A\"]]\n"
+msgstr "[[!meta title=\"eMule-NVDA电骡支持插件\"]]\n"
 
 #. type: Bullet: '*	'
 msgid "Authors: Noelia, Chris, Alberto."
@@ -59,7 +58,7 @@ msgstr "经[eMule][2] 0.50a的测试。"
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
-msgstr "键盘命令："
+msgstr "快捷键:"
 
 #. type: Bullet: '*	'
 msgid "control+shift+h: Moves focus and mouse to main toolbar."
@@ -171,26 +170,24 @@ msgid ""
 msgstr "NVDA加SHIFT加C： 拷贝最后一次朗读的那一列的内容到剪贴板。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 3.0"
-msgstr "版本1.0"
+msgstr "版本3.0"
 
 #. type: Bullet: '*	 '
 msgid ""
 "To search text in readonly edit boxes, now we can use the dialog and "
 "commands available in NVDA."
-msgstr ""
+msgstr "现在在只读编辑框中搜索文本，我们可以使用NVDA中提供的对话框和快捷键。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 2.0"
-msgstr "版本1.0"
+msgstr "版本2.0"
 
 #. type: Bullet: '*	 '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "插件管理器现在已提供了插件的帮助。"
 
 #. type: Title ##
 #, no-wrap
@@ -208,6 +205,8 @@ msgid ""
 "generalized to be able to move focus to any available list in the current "
 "window."
 msgstr ""
+"用于移动到搜索结果列表的快捷键已被推广，以便能够将焦点移动到当前窗口中的任何"
+"可用列表。"
 
 #. type: Bullet: '*	 '
 msgid ""
@@ -215,12 +214,15 @@ msgid ""
 "any read-only edit box, making it possible to review connection information "
 "in the Servers window."
 msgstr ""
+"用于聚焦IRC消息的快捷键已被推广到移动到任何只读编辑框，从而可以在“服务器”窗口"
+"中查看连接信息。"
 
 #. type: Bullet: '*	 '
 msgid ""
 "When moving mouse and focus to the toolbar, in some cases it was announced "
 "twice. This has been fixed."
 msgstr ""
+"当移动鼠标并将焦点移动到工具栏时，在某些情况下它会被朗读两次。这已得到修复。"
 
 #. type: Title ##
 #, no-wrap

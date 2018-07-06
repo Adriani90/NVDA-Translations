@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-05-01 14:49+1000\n"
-"PO-Revision-Date: 2018-05-01 20:16+0800\n"
+"PO-Revision-Date: 2018-07-06 19:01+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: \n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Clock and calendar Add-on for NVDA\"]]\n"
-msgstr "[[！meta title =“NVDA时钟和日历插件”]]\n"
+msgstr "[[！meta title =“clock-NVDA时钟和日历插件”]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Hrvoje Katić."
