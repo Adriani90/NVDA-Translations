@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: enhancedTouchGestures website\n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-15 18:38+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: rémy Ruiz <remyruiz@gmail.com>\n"
@@ -206,7 +206,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.04"
 msgid "Version 18.06"
 msgstr "Version 18.06"
 

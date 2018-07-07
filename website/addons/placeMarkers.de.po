@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website.0\n"
-"POT-Creation-Date: 2018-06-02 21:25+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-12 17:33+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
@@ -119,10 +119,6 @@ msgstr ""
 "welchem die Daten der Lesezeichen in der Zwischenablage gespeichert werden."
 
 #. type: Bullet: '*	'
-#| msgid ""
-#| "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. "
-#| "You can write a note for each bookmark; press Save note to save changes. "
-#| "Pressing OK you can move to the selected position."
 msgid ""
 "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. You "
 "can write a note for each bookmark; press Save note to save changes. "
@@ -194,7 +190,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 1.0"
 msgid "Changes for 10.0"
 msgstr "Änderungen in 10.0"
 
@@ -218,7 +213,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 8.0"
 msgid "Changes for 9.0"
 msgstr "Änderungen in 9.0"
 
@@ -241,9 +235,6 @@ msgid "Bookmarks can be deleted from the Notes dialog."
 msgstr "Lesezeichen können aus dem Dialog für Notizen gelöscht werden."
 
 #. type: Bullet: '*	'
-#| msgid ""
-#| "Now you can assign gestures to open the Copy and Restore place markers "
-#| "dialogs."
 msgid ""
 "Now you can assign gestures to save and move to a temporary bookmark for "
 "each document."

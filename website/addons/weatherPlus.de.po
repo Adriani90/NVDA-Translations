@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-05-14 02:24+1000\n"
+"POT-Creation-Date: 2018-07-07 18:08+1000\n"
 "PO-Revision-Date: 2018-05-13 18:46+0200\n"
 "Last-Translator: Karl Eick <hozosch@web.de>\n"
 "Language-Team: \n"
@@ -61,7 +61,6 @@ msgid "http://www.nvda.it/"
 msgstr "http://www.nvda.it/"
 
 #. type: Bullet: '* '
-#| msgid "http://www.geonames.org/"
 msgid "https://www.timeanddate.com/"
 msgstr "https://www.timeanddate.com/"
 

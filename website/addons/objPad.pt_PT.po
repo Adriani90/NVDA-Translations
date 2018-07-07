@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ObjPad\n"
-"POT-Creation-Date: 2018-03-09 05:54+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-04-04 17:35+0100\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA: <angelomiguelabrantes@gmail.com; "
@@ -160,7 +160,6 @@ msgstr "Left arrow: caracter anterior."
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 16.10"
 msgid "Version 18.03"
 msgstr "Versão 18.03"
 

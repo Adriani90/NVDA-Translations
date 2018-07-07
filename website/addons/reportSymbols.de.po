@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-14 00:49+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-21 23:11+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -77,7 +77,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 3.0"
 msgid "Changes for 4.0"
 msgstr "Änderungen für 4.0"
 
@@ -90,7 +89,6 @@ msgstr ""
 "des NVDA-Einstellungsdialogs angezeigt."
 
 #. type: Bullet: '* '
-#| msgid "Requires NVDA 2016.4 or later."
 msgid "Requires NVDA 2018.2 or later."
 msgstr "Benötigt NVDA 2018.2 oder höher."
 

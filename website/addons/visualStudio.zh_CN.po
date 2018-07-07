@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-09-17 01:59+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-07-04 10:40+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
@@ -30,8 +30,8 @@ msgid ""
 "This add-on provides enhanced support for Microsoft Visual Studio 2010 and "
 "later. For more information about this add-on, visit [add-on homepage.][1]"
 msgstr ""
-"此附加软件为Microsoft Visual Studio 2010及更高版本提供了辅助功能增强的支"
-"持。有关此附加组件的更多信息，请访问[add-on homepage。] [1]"
+"此附加软件为Microsoft Visual Studio 2010及更高版本提供了辅助功能增强的支持。"
+"有关此附加组件的更多信息，请访问[add-on homepage。] [1]"
 
 #. type: Plain text
 #, no-wrap

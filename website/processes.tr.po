@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-07-17 04:41+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-02-01 11:44+0300\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: \n"
@@ -35,9 +35,6 @@ msgid "Developer submits addon to the community"
 msgstr "Geliştirici eklentiyi topluluğa gönderir"
 
 #. type: Bullet: '3. '
-#| msgid ""
-#| "Community considers the possibility of accepting the add-on, discussing "
-#| "its functionality at least for a week:"
 msgid ""
 "Community considers the possibility of accepting the add-on through basic "
 "review (licensing, copyright considerations, security implications, etc.)."

@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-04-04 05:23+1000\n"
+"POT-Creation-Date: 2018-07-07 18:08+1000\n"
 "PO-Revision-Date: 2018-07-06 18:17+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
@@ -38,8 +38,8 @@ msgid ""
 "BrailleExtender is an NVDA add-on that provides various features at braille "
 "level. Currently, the following features are implemented:"
 msgstr ""
-"BrailleExtender是一个NVDA插件，主要提供盲文的各种功能的支持。目前，实现了以"
-"下功能："
+"BrailleExtender是一个NVDA插件，主要提供盲文的各种功能的支持。目前，实现了以下"
+"功能："
 
 #. type: Bullet: '* '
 msgid "Reload two favorite braille display with shortcuts."
@@ -114,8 +114,8 @@ msgid ""
 "The documentation is mainly generated automatically because it depends on "
 "the braille display in use."
 msgstr ""
-"安装附加组件后，请阅读文档并使用BrailleExtender菜单（位于NVDA菜单的主菜单）"
-"进行设置。该文档主要是自动生成的，因为它取决于你当前正在使用的盲文显示器。"
+"安装附加组件后，请阅读文档并使用BrailleExtender菜单（位于NVDA菜单的主菜单）进"
+"行设置。该文档主要是自动生成的，因为它取决于你当前正在使用的盲文显示器。"
 
 #. type: Plain text
 #, no-wrap

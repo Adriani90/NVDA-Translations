@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0N\n"
-"POT-Creation-Date: 2018-06-13 19:35+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-21 22:56+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -82,7 +82,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert emoticon, to open a dialog with the provided emoticons or emoji.\n"
 msgid "Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.\n"
 msgstr "Drücken Sie NVDA+I oder aus dem Menü \"Extras\" -> \"Emoticon einfügen\", um einen Dialog mit den bereitgestellten Emoticons oder Emoji zu öffnen.\n"
 
@@ -153,7 +152,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "From NVDA MENU, Preferences -> Manage emoticons -> Customize emoticons, you can open a dialog setting to add or to edit available emoticons.\n"
 msgid "From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.\n"
 msgstr "Über das NVDA-Menü \"Einstellungen\" -> \"Aussprachewörterbücher\" -> \"Emoticons-Wörterbuch\", können Sie einen Dialog öffnen, um verfügbare Emoticons hinzuzufügen oder zu bearbeiten.\n"
 
@@ -166,12 +164,6 @@ msgstr ""
 "Ausspracheeinstellungen von Emoticons nur für das gerade aktive Profil."
 
 #. type: Plain text
-#| msgid ""
-#| "For example, you may wish that NVDA spoken custom emoticons only in "
-#| "XxChat program, but not in other chat programs: you can do this by "
-#| "creating a profile for the XxChat application and assign to it a speech "
-#| "dictionary from Customize Emoticons menu. See below for activation "
-#| "setting in relation to the configuration profiles."
 msgid ""
 "For example, you may wish that NVDA spoken custom emoticons only in XxChat "
 "program, but not in other chat programs: you can do this by creating a "
@@ -206,19 +198,16 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Activation settings"
 msgid "Emoticons settings"
 msgstr "Emoticons-Einstellungen"
 
 #. type: Plain text
 #, no-wrap
-#| msgid "From menu Preferences -> Manage Emoticons -> Activation-settings opens a dialog to configure the activation of your speech-dictionaries for each profile.\n"
 msgid "From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.\n"
 msgstr "Über das Menü \"Einstellungen\" -> \"Emoticons\" können Sie die Aktivierung Ihrer Sprachwörterbücher für jedes Profil konfigurieren.\n"
 
 #. type: Plain text
 #, no-wrap
-#| msgid "In activation-setting dialog you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.\n"
 msgid "In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.\n"
 msgstr "In den Einstellungen von Emoticons können Sie auswählen, ob das Sprachwörterbuch automatisch aktiviert werden soll, wenn NVDA zu dem Profil wechselt, das Sie gerade bearbeiten. Standardmäßig ist es in der normalen Konfiguration von NVDA und in allen Ihren neuen Profilen deaktiviert.\n"
 
@@ -237,9 +226,6 @@ msgid "Key Commands:"
 msgstr "Tastenkombinationen:"
 
 #. type: Plain text
-#| msgid ""
-#| "These are the key command available by default, you can edit those or add "
-#| "new key to open Activation settings dialog or Emoticon Dictionary dialog:"
 msgid ""
 "These are the key commands available by default, you can edit those or add "
 "new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
@@ -265,7 +251,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Changes for 6.0"
 msgid "Changes for 7.0"
 msgstr "Änderungen für 7.0"
 

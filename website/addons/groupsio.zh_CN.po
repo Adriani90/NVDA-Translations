@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-12-01 05:27+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-07-06 19:17+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
@@ -29,8 +29,8 @@ msgid ""
 "Groups.IO. Thus, from July 1, 2017, the official add-ons list addresses are:"
 msgstr ""
 "自2013年5月起，Freelists的NVDA Add-ons Central作为一站式讨论附加组件和发布发"
-"布公告。但是，由于众多问题，决定将讨论论坛移至Groups.IO。因此，从2017年7月1"
-"日起，官方附加组件列表地址为："
+"布公告。但是，由于众多问题，决定将讨论论坛移至Groups.IO。因此，从2017年7月1日"
+"起，官方附加组件列表地址为："
 
 #. type: Bullet: '* '
 msgid "Mailing list website: https://nvda-addons.groups.io/g/nvda-addons"

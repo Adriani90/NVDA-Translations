@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 23:42+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-21 22:59+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -102,7 +102,6 @@ msgstr "Änderungsprotokoll"
 
 #. type: Title ###
 #, no-wrap
-#| msgid "Version 1.3"
 msgid "Version 2.0"
 msgstr "Version 2.0"
 
