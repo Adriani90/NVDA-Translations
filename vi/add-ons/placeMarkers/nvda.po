@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: placeMarkers 7.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-24 16:00+1000\n"
-"PO-Revision-Date: 2018-07-07 10:14+0700\n"
+"PO-Revision-Date: 2018-07-07 18:25+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. Translators: label of a dialog presented when installing this addon and placeMarkersBackup is found.
 msgid ""
@@ -88,11 +88,11 @@ msgstr "Đã phục hồi điểm đánh dấu"
 
 #. Translators: The title of the Notes dialog.
 msgid "Notes"
-msgstr "Các ghi chú"
+msgstr "Ghi chú"
 
 #. Translators: The label of a list box in the Notes dialog.
 msgid "&Bookmarks"
-msgstr "&Các đánh dấu"
+msgstr "&Các dấu trang"
 
 #. Translators: The label of an edit box in the Notes dialog.
 msgid "Not&e:"
@@ -227,7 +227,7 @@ msgstr ""
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 msgid "Show the Notes dialog for a specific document."
-msgstr "Hiển thị hộp thoại các ghi chú của một tài liệu nào đó."
+msgstr "Hiển thị hộp thoại ghi chú cho một tài liệu nào đó."
 
 #. Translators: message presented when a bookmark cannot be saved.
 msgid "Bookmark cannot be saved"
