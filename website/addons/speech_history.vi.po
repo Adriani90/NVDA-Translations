@@ -3,31 +3,31 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-07 21:59+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Speech History\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Speech History\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: James Scholes"
-msgstr ""
+msgstr "Tác giả: James Scholes"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Tải về [bản stable][1]"
 
 #. type: Plain text
 msgid ""
@@ -38,12 +38,18 @@ msgid ""
 "F12 on its own to copy the selected item.  These hotkeys can be updated from "
 "within the Speech category of NVDA's Input gestures dialog."
 msgstr ""
+"Bản cập nhật của add-on Clip Copy, khởi tạo bởi Tyler Spivey. Add-on cho "
+"phép bạn xem lại 100 thông điệp gần nhất được NVDA đọc và sao chép thông "
+"điệp được chọn vào bộ nhớ tạm.  Mặc định, dùng Shift+F11 để di chuyển lùi "
+"torng lịch sử, Shift+F12 để di chuyển tới và F12 để sao chép thông điệp dược "
+"chọn.  Những phím nóng này có thể cập nhật từ nhóm tiếng nói trong hộp thoại "
+"quản lý thao tác của NVDA."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag stable]]\n"
-msgstr ""
+msgstr "[[!tag stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sps"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sps"
