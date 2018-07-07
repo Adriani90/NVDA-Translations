@@ -3,54 +3,64 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-07 21:33+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"placeMarkers\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"placeMarkers\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Noelia, Chris."
-msgstr ""
+msgstr "Tác giả: Noelia, Chris."
 
 #. type: Bullet: '* '
 msgid "download [stable version][1]"
-msgstr ""
+msgstr "Tải về [phiên bản stable][1]"
 
 #. type: Bullet: '* '
 msgid "download [development version][2]"
-msgstr ""
+msgstr "tải về [phiên bản development][2]"
 
 #. type: Plain text
 msgid ""
 "This addon is used for saving and searching specific text strings or "
-"bookmarks. It can be used  on web pages or documents in NVDA's browse "
-"mode. It can also be used for saving or searching strings of text in "
-"multi-line controls; in this case, if it's not possible to update the caret, "
-"the corresponding string will be copied to the clipboard, so that it can be "
+"bookmarks. It can be used  on web pages or documents in NVDA's browse mode. "
+"It can also be used for saving or searching strings of text in multi-line "
+"controls; in this case, if it's not possible to update the caret, the "
+"corresponding string will be copied to the clipboard, so that it can be "
 "searched using other tools.  The plugin saves the specified strings and "
 "bookmarks to files whose name is based on the title and URL of the current "
 "document.  This addon is based on SpecificSearch and Bookmark&Search, "
 "developed by the same author. You should uninstall them to use this one, "
 "since they have common keystrokes and features."
 msgstr ""
+"Addon này dùng để lưu lại và tìm kiếm một chuỗi văn bản hay dấu trang cụ "
+"thể. nó có thể được dùng trên các trang web hay tài liệu trong chế độ duyệt "
+"của NVDA. Nó cũng có thể được dùng để lưu lại hoặc tìm kiếm các chuỗi văn "
+"bản trong các điều khiển nhập liệu nhiều dòng; trường hợp này, nếu không thể "
+"cập nhật dấu trang, chuỗi văn bản tương ứng sẽ được chép vào bộ nhớ tạm nên "
+"có thể tìm kiếm bằng những công cụ khác. Plugin này lưu các chuỗi văn bản và "
+"dấu trang được chỉ định vào các tập tin được đặt tên dựa trên tựa đề và URL "
+"của tài liệu hiện tại. Addon này dựa trên addon SpecificSearch và "
+"Bookmark&Search, phát triển bởi cùng tác giả. Bạn nên gỡ bỏ chúng để dùng "
+"addon này vì chúng có những tính năng và phím lệnh trùng nhau."
 
 #. type: Title ##
 #, no-wrap
 msgid "Key Commands:"
-msgstr ""
+msgstr "Các phím lệnh:"
 
 #. type: Bullet: '*	'
 msgid ""
@@ -63,6 +73,14 @@ msgid ""
 "Don't search), and specify if NVDA will make a case sensitive search. When "
 "you press okay, NVDA will search for this string."
 msgstr ""
+"control+shift+NVDA+f: mở hộp thoại với ô nhập liệu hiển thị tìm kiếm cuối "
+"cùng được lưu; trong hộp thoại này, bạn cũng có thể chọn các tìm kiếm đã "
+"được lưu trước đó  từ một hộp xổ hay xóa chuỗi văn bản được chọn khỏi lịch "
+"sử bằng một hộp kiểm. Bạn có thể chọn để lưu văn bản hiện tại trong ô nhập "
+"liệu vào lịch sử lưu văn bản của bạn. Cuối cùng, chọn một hoạt động từ nhóm "
+"radio buttons (tìm tiếp, tìm trước hay không tìm kiếm), và thiết lập nếu "
+"muốn NVDA tìm kiếm phân biệt chữ hoa  thường. Khi bạn bấm okay, NVDA sẽ tìm "
+"kiếm chuỗi văn bản."
 
 #. type: Bullet: '*	'
 msgid ""
@@ -70,73 +88,87 @@ msgid ""
 "to provide a name for this bookmark, select some text from this position "
 "before saving it."
 msgstr ""
+"control+shift+NVDA+k: Lưu vị trí hiện tại thành một dấu trang. Nếu muốn đặt "
+"tên dấu trang, hãy chọn vài từ tại vị trí con trỏ trước khi lưu nó."
 
 #. type: Bullet: '*	'
 msgid ""
 "control+shift+NVDA+delete: Deletes the bookmark corresponding to this "
 "position."
-msgstr ""
+msgstr "control+shift+NVDA+delete: Xóa dấu trang tại vị trí tương ứng."
 
 #. type: Bullet: '*	'
 msgid "NVDA+k: Moves to the next bookmark."
-msgstr ""
+msgstr "NVDA+k: Chuyển đến dấu trang kế tiếp."
 
 #. type: Bullet: '*	'
 msgid "shift+NVDA+k: Moves to the previous bookmark."
-msgstr ""
+msgstr "shift+NVDA+k: Chuyển đến dấu trang trước."
 
 #. type: Bullet: '*	'
 msgid ""
 "control+shift+k: Copies the file name where the place markers data will be "
 "saved to the clipboard, without an extension."
 msgstr ""
+"control+shift+k: Chép tên tập tin dùng để lưu dữ liệu của các điểm đánh dấu "
+"vào bộ nhớ tạm mà không có phần mở rộng."
 
 #. type: Bullet: '*	'
 msgid ""
 "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. You "
-"can write a note for each bookmark; press Save note to save "
-"changes. Pressing Delete you can remove the selected bookmark. Pressing OK "
-"you can move to the selected position."
+"can write a note for each bookmark; press Save note to save changes. "
+"Pressing Delete you can remove the selected bookmark. Pressing OK you can "
+"move to the selected position."
 msgstr ""
+"alt+NVDA+k: Mở hộp thoại với các dấu trang đã lưu cho tài liệu hiện tại. Bạn "
+"có thể viết ghi chú cho mỗi dấu trang; bấm Lưu ghi chú để lưu các thay đổi. "
+"Có thể xóa dấu trang hiện tại bằng cách bấm Delete. Bấm OK để di chuyển đến "
+"vị trí đã được chọn."
 
 #. type: Bullet: '*	'
 msgid "Not assigned: Saves a position as a temporary bookmark."
-msgstr ""
+msgstr "Chưa gán lệnh: Lưu một vị trí thành dấu trang tạm thời."
 
 #. type: Bullet: '*	'
 msgid "Not assigned: Moves to the temporary bookmark for the current document."
-msgstr ""
+msgstr "Chưa gán lệnh: Chuyển đến dấu trang tạm thời của tài liệu hiện thời."
 
 #. type: Title ##
 #, no-wrap
 msgid "Place markers Submenu (NVDA+N)"
-msgstr ""
+msgstr "Đánh dấu thực đơn con (NVDA+N)"
 
 #. type: Plain text
 msgid ""
 "Using the Place markers submenu under NVDA's Preferences menu, you can "
 "access:"
 msgstr ""
+"Dùng đánh dấu trình đơn con trong trình đơn Tùy Chọn, bạn có thể truy cập:"
 
 #. type: Bullet: '*	'
 msgid ""
-"Specific search folder: opens a folder of specific searches previously "
-"saved."
+"Specific search folder: opens a folder of specific searches previously saved."
 msgstr ""
+"Thư mục tìm kiếm cụ thể: mở thư mục của những tìm kiếm cụ thể đã được lưu "
+"trước đó."
 
 #. type: Bullet: '*	'
 msgid "Bookmarks folder: Opens a folder of the saved bookmarks."
-msgstr ""
+msgstr "Thư mục dấu trang: mở thư mục các dấu trang đã lưu."
 
 #. type: Bullet: '*	'
 msgid "Copy placeMarkers folder: You can save a copy of the bookmarks folder."
 msgstr ""
+"Sao chép thư mục các điểm đánh dấu: Bạn có thể tạo một bản sao của thư mục "
+"các điểm đánh dấu."
 
 #. type: Bullet: '*	'
 msgid ""
 "Restore placeMarkers: You can restore your bookmarks from a previously saved "
 "placeMarkers folder."
 msgstr ""
+"Khôi phục các điểm đánh dấu: Bạn có thể khôi phục các điểm đánh dấu từ thư "
+"mục các điểm đánh dấu đã lưu trước đó."
 
 #. type: Plain text
 msgid ""
@@ -144,198 +176,227 @@ msgid ""
 "therefore in dynamic pages it is better to use the specific search, not "
 "bookmarks."
 msgstr ""
+"Lưu ý: vị trí dấu trang dựa trên số lượng kí tự; vậy nên trong các trang web "
+"động thì dùng tìm kiếm cụ thể tốt hơn dấu trang."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 10.0"
-msgstr ""
+msgstr "Các thay đổi cho 10.0"
 
 #. type: Bullet: '*	'
 msgid ""
-"In Edge, gestures associated with bookmarks selection, such as NVDA+k, "
-"NVDA+shift+k or NVDA+alt+k, will be sent to the application instead of "
-"trying to move the cursor to bookmarks, to avoid errors, especially in long "
-"documents."
+"In Edge, gestures associated with bookmarks selection, such as NVDA+k, NVDA"
+"+shift+k or NVDA+alt+k, will be sent to the application instead of trying to "
+"move the cursor to bookmarks, to avoid errors, especially in long documents."
 msgstr ""
+"Trong Edge, các thao tác liên quan đến chọn dấu trang như NVDA+k, NVDA+shift"
+"+k hay NVDA+alt+k sẽ gửi tới ứng dụng thay vì cố gắng chuyển con trỏ đến các "
+"dấu trang, nhằm tránh gây ra lỗi, đặc biệt là trong các tài liệu dài."
 
 #. type: Bullet: '*	'
 msgid "Now specific search is supported in Edge."
-msgstr ""
+msgstr "Giờ đây đã hỗ trợ tìm kiếm cụ thể trong Edge."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 9.0"
-msgstr ""
+msgstr "Các thay đổi cho 9.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "When moving to a bookmark from the Notes dialog, the review cursor follows "
 "the system cursor."
 msgstr ""
+"Khi chuyển đến một dấu trang từ hộp thoại ghi chú, con trỏ duyệt đi theo con "
+"trỏ hệ thống."
 
 #. type: Bullet: '*	'
 msgid "The command to select the previous bookmark works properly again."
-msgstr ""
+msgstr "Phím lệnh chọn dấu trang trước đã hoạt động trở lại như mong muốn."
 
 #. type: Bullet: '*	'
 msgid "Bookmarks can be deleted from the Notes dialog."
-msgstr ""
+msgstr "Có thể xóa các dấu trang thông qua hộp thoại ghi chú."
 
 #. type: Bullet: '*	'
 msgid ""
 "Now you can assign gestures to save and move to a temporary bookmark for "
 "each document."
 msgstr ""
+"Giờ đây bạn có thể gán lệnh để lưu và di chuyển đến một dấu trang tạm thời "
+"cho mỗi tài liệu."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 8.0"
-msgstr ""
+msgstr "Các thay đổi cho 8.0"
 
 #. type: Bullet: '*	'
 msgid ""
 "Removed fragment identifiers from bookmark filenames, which can avoid issues "
 "in the VitalSource Bookshelf ePUB reader."
 msgstr ""
+"Gỡ bỏ số nhận dạng phân đoạn từ tập tin các dấu trang, nhằm tránh gây ra lỗi "
+"trong VitalSource Bookshelf ePUB reader."
 
 #. type: Bullet: '*	'
 msgid ""
 "Added a Notes dialog, to associate comments for saved bookmarks and move to "
 "the selected position."
 msgstr ""
+"Đã thêm hộp thoại ghi chú để tích hợp chú thích cho các dấu trang đã lưu và "
+"di chuyển đến vị trí được chọn."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 7.0"
-msgstr ""
+msgstr "Các thay đổi cho 7.0"
 
 #. type: Bullet: '*	'
 msgid ""
-"The dialog to save a string of text for specific search has been "
-"removed. This functionality is now included in the Specific search dialog, "
-"which has been redesigned to allow different actions when pressing the OK "
-"button."
+"The dialog to save a string of text for specific search has been removed. "
+"This functionality is now included in the Specific search dialog, which has "
+"been redesigned to allow different actions when pressing the OK button."
 msgstr ""
+"Hộp thoại lưu chuỗi văn bản cho tìm kiếm cụ thể đã được gỡ bỏ. Tính năng này "
+"giờ đây được tích hợp trong hộp thoại tìm kiếm cụ thể, đã được thiết kế lại "
+"để cho phép thực hiện các hoạt động khác nhau khi bấm OK."
 
 #. type: Bullet: '*	'
 msgid ""
 "The visual presentation of the dialogs has been enhanced, adhering to the "
 "appearance of the dialogs shown in NVDA."
 msgstr ""
+"Trình bày trực quan của các hộp thoại đã được cải thiện, giống như cách xuất "
+"hiện các hộp thoại của NVDA."
 
 #. type: Bullet: '*	'
 msgid ""
 "Performing a Find Next or Find Previous command in Browse Mode will now "
-"correctly do a case sensitive search if the original Find was case "
-"sensitive."
+"correctly do a case sensitive search if the original Find was case sensitive."
 msgstr ""
+"Thực hiện lệnh tìm tiếp hay tìm trước trong chế độ duyệt giờ đây sẽ tìm kiếm "
+"phân biệt chữ hoa / thường một cách chính xác nếu tìm kiếm gốc là phân biệt "
+"chữ hoa / thường."
 
 #. type: Bullet: '*	'
 msgid "Requires NVDA 2016.4 or later."
-msgstr ""
+msgstr "Yêu cầu NVDA 2016.4 trở lên."
 
 #. type: Bullet: '*	'
 msgid ""
 "Now you can assign gestures to open the Copy and Restore place markers "
 "dialogs."
 msgstr ""
+"Giờ bạn có thể  gán các thao tác để mở các hộp thoại sao chép và khôi phục "
+"các điểm đánh dấu."
 
 #. type: Bullet: '*	'
 msgid ""
 "NVDA will present a message to notify when place markers have been copied or "
 "restored with the corresponding dialogs."
 msgstr ""
+"NVDA sẽ phát một thông điệp để thông báo khi các điểm đánh dấu được sao chép "
+"hay khôi phục ở các hộp thoại tương ứng."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 6.0"
-msgstr ""
+msgstr "Các thay đổi cho 6.0"
 
 #. type: Bullet: '* '
 msgid ""
 "When the add-on features are not usable, gestures are sent to the "
 "corresponding application."
 msgstr ""
+"Khi không dùng được tính năng của add-on, các thao tác sẽ được gửi đến các "
+"ứng dụng tương ứng."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 5.0"
-msgstr ""
+msgstr "Các thay đổi cho 5.0"
 
 #. type: Bullet: '* '
 msgid "Added case sensitive search."
-msgstr ""
+msgstr "Thêm tính năng tìm kiếm phân biệt chữ hoa / thường."
 
 #. type: Bullet: '* '
 msgid "Removed option to open documentation from Place markers menu."
-msgstr ""
+msgstr "Gỡ bỏ tùy chọn mở tài liệu từ trình đơn đánh dấu."
 
 #. type: Bullet: '* '
 msgid "More intuitive key commands."
-msgstr ""
+msgstr "Thêm các phím lệnh trực quan."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.0"
-msgstr ""
+msgstr "Các thay đổi cho 4.0"
 
 #. type: Bullet: '* '
 msgid ""
 "Removed fragment identifiers from bookmark filenames, which can avoid issues "
 "in ePUBREADER Firefox add-on."
 msgstr ""
+"Gỡ bỏ  số nhận dạng phân đoạn từ tên tập tin dấu trang nhằm tránh gây ra lỗi "
+"trong ePUBREADER Firefox add-on."
 
 #. type: Bullet: '* '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "Thông tin giúp đỡ cho add-on đã hiển thị trong phần quản lý add-on."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.1"
-msgstr ""
+msgstr "Các thay đổi cho 3.1"
 
 #. type: Bullet: '* '
 msgid "Translation updates and new language."
-msgstr ""
+msgstr "Cập nhất các bản dịch và ngôn ngữ mới."
 
 #. type: Bullet: '* '
 msgid "Bookmark position is not announced in skim reading."
 msgstr ""
+"Vị trí dấu trang không được thông báo trong chế độ thay đổi vị trí đọc."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr ""
+msgstr "Các thay đổi cho 3.0"
 
 #. type: Bullet: '* '
 msgid "Added support for skim reading."
-msgstr ""
+msgstr "Thêm hỗ trợ cho thay đổi vị trí đọc."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr ""
+msgstr "Các thay đổi cho 2.0"
 
 #. type: Bullet: '* '
 msgid "Added options to save and delete different searches for each file."
 msgstr ""
+"Thêm các tùy chọn để lưu và xóa các tìm kiếm khác nhau cho mỗi tập tin."
 
 #. type: Bullet: '* '
 msgid "Fixed bug which broke when paths contained non latin characters."
-msgstr ""
+msgstr "Sửa lỗi bị treo khi đường dẫn chứa các kí tự không phải chữ latin."
 
 #. type: Bullet: '* '
 msgid "Shortcuts can now be reassigned using the NVDA gesture input dialog."
 msgstr ""
+"Các phím tắt giờ đây có thể gán lại bằng hộp thoại quản lý thao tác của NVDA."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "Các thay đổi cho 1.0"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "Phiên bản đầu tiên."
 
 #. type: Bullet: '* '
 msgid ""
@@ -343,16 +404,19 @@ msgid ""
 "German, Italian, Japanese, Korean, Nepali, Portuguese, Spanish, Slovak, "
 "Slovenian, Tamil."
 msgstr ""
+"Đã dịch sang: tiếng Bồ Đào Nha brazi, Farsi, Phần Lan, Pháp, Galicia, Đức, "
+"Ý, Nhật, Hàn Quốc, Nepal, Bồ Đào Nha, Tây Ban Nha, Slovak, Slovenia, Nam Ấn "
+"Độ."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
-msgstr ""
+msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=pm"
 
 #. type: Plain text
 msgid "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
-msgstr ""
+msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=pm-dev"
