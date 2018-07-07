@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: website addons consoleTimer fr\n"
-"POT-Creation-Date: 2018-06-30 14:32+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-30 23:19+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
@@ -151,7 +151,6 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-#| msgid "[[!tag dev stable]]\n"
 msgid "[[!tag dev]]\n"
 msgstr "[[!tag dev]]\n"
 

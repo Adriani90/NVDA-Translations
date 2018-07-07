@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2017-12-07 05:59+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-01-30 15:55+0300\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: Turkish <cagrid@hotmail.com>\n"
@@ -118,12 +118,10 @@ msgid "This website is being maintained by the NVDA translation team."
 msgstr "Bu sayfa NVDA çeviri ekibi tarafından hazırlanmaktadır."
 
 #. type: Plain text
-#| msgid "[1]: http://community.nvda-project.org"
 msgid "[1]: https://www.nvaccess.org"
 msgstr "[1]: https://www.nvaccess.org"
 
 #. type: Plain text
-#| msgid "[2]: http://www.freelists.org/list/nvda-addons"
 msgid "[2]: https://nvda-addons.groups.io/g/nvda-addons"
 msgstr "[2]: https://nvda-addons.groups.io/g/nvda-addons"
 

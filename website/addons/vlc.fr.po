@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC Addons website for NVDA\n"
-"POT-Creation-Date: 2018-06-29 21:16+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-30 22:32+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
@@ -120,7 +120,6 @@ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
 
 #. type: Plain text
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=vlc"
 msgid "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
 msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=vlc-dev"
 

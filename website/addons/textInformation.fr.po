@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: website textInformation\n"
-"POT-Creation-Date: 2018-05-06 01:13+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-05-08 18:28+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: French NVDA add-ons translation team <remyruiz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
-"Language-Team: French NVDA add-ons translation team <remyruiz@gmail.com>\n"
 "X-Generator: Poedit 1.8.12\n"
 
 #. type: Plain text
@@ -32,13 +32,13 @@ msgstr "Télécharger [version stable][1]"
 #. type: Plain text
 msgid ""
 "This add-on allows for getting information based on selected text. Simply "
-"select something and use a keystroke to get information. You should, hopefully, "
-"be presented with something that fits the context."
+"select something and use a keystroke to get information. You should, "
+"hopefully, be presented with something that fits the context."
 msgstr ""
-"Ce module complémentaire permet d'obtenir des informations basées sur le texte "
-"sélectionné. Il suffit de sélectionner quelque chose et d'utiliser une touche "
-"pour obtenir des informations. Vous devriez, espérons-le, être présenté avec "
-"quelque chose qui correspond au contexte."
+"Ce module complémentaire permet d'obtenir des informations basées sur le "
+"texte sélectionné. Il suffit de sélectionner quelque chose et d'utiliser une "
+"touche pour obtenir des informations. Vous devriez, espérons-le, être "
+"présenté avec quelque chose qui correspond au contexte."
 
 #. type: Plain text
 msgid ""
@@ -57,33 +57,36 @@ msgstr "frappe de touches"
 
 #. type: Plain text
 msgid ""
-"note: These keystrokes asume your using the english keyboard layout, and might "
-"not work otherwise. If there's a problem, first try changing them in the input "
-"gestures dialog."
+"note: These keystrokes asume your using the english keyboard layout, and "
+"might not work otherwise. If there's a problem, first try changing them in "
+"the input gestures dialog."
 msgstr ""
 "note : Ces frappes de touches suppose  que vous utilisez la disposition du "
 "clavier anglais et pourraient ne pas fonctionner autrement. S'il y a un "
-"problème, essayez d'abord de les changer dans le dialogue Gestes de commandes."
+"problème, essayez d'abord de les changer dans le dialogue Gestes de "
+"commandes."
 
 #. type: Bullet: '* '
-msgid "NVDA+; (semicolon): provides information based on the text that's selected"
+msgid ""
+"NVDA+; (semicolon): provides information based on the text that's selected"
 msgstr ""
 "NVDA+; (point-virgule) : fournit des informations basées sur le texte "
 "sélectionné"
 
 #. type: Bullet: '* '
-msgid "NVDA+SHIFT+; (semicolon): provides information about text on the clipboard"
+msgid ""
+"NVDA+SHIFT+; (semicolon): provides information about text on the clipboard"
 msgstr ""
-"NVDA+MAJ+; (point-virgule) : fournit des informations à propos du texte sur le "
-"presse-papiers"
+"NVDA+MAJ+; (point-virgule) : fournit des informations à propos du texte sur "
+"le presse-papiers"
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA+control+; (semicolon): speaks the last reported information. Press twice "
-"to get it displayed in a dialog."
+"NVDA+control+; (semicolon): speaks the last reported information. Press "
+"twice to get it displayed in a dialog."
 msgstr ""
-"NVDA+contrôle+; (point-virgule) : verbalise la dernière information annoncée. "
-"Appuyez deux fois pour l'afficher dans une boîte de dialogue."
+"NVDA+contrôle+; (point-virgule) : verbalise la dernière information "
+"annoncée. Appuyez deux fois pour l'afficher dans une boîte de dialogue."
 
 #. type: Title ##
 #, no-wrap
@@ -96,13 +99,14 @@ msgstr "Actuellement, les fonctionnalités suivantes sont prises en charge :"
 
 #. type: Bullet: '* '
 msgid ""
-"IP address information using the IPInfoDB API. An API key is provided, however "
-"I by no means guarantee it'll always work. You can generate your own, and enter "
-"it at the top of __init__.py, replacing the old one."
+"IP address information using the IPInfoDB API. An API key is provided, "
+"however I by no means guarantee it'll always work. You can generate your "
+"own, and enter it at the top of __init__.py, replacing the old one."
 msgstr ""
-"L'information d'adresse IP à l'aide de l'API IPInfoDB Une clé API est fournie, "
-"mais je ne garantis en aucun cas que cela fonctionnera toujours. Vous pouvez "
-"générer le vôtre et l'entrer en haut de __init__.py, en remplaçant l'ancienne."
+"L'information d'adresse IP à l'aide de l'API IPInfoDB Une clé API est "
+"fournie, mais je ne garantis en aucun cas que cela fonctionnera toujours. "
+"Vous pouvez générer le vôtre et l'entrer en haut de __init__.py, en "
+"remplaçant l'ancienne."
 
 #. type: Bullet: '* '
 msgid ""
@@ -125,11 +129,12 @@ msgstr "vérification de type de carte de crédit"
 #. type: Plain text
 msgid ""
 "Note: Regular expressions are used to verify data. There are currently some "
-"that aren't used, phone numbers and emails. This might be changed in the future."
+"that aren't used, phone numbers and emails. This might be changed in the "
+"future."
 msgstr ""
-"Note : Les expressions régulières sont utilisées pour vérifier les données. Il "
-"y en a actuellement qui ne sont pas utilisés, les numéros de téléphone et les "
-"courriels. Cela pourrait être changé à l'avenir."
+"Note : Les expressions régulières sont utilisées pour vérifier les données. "
+"Il y en a actuellement qui ne sont pas utilisés, les numéros de téléphone et "
+"les courriels. Cela pourrait être changé à l'avenir."
 
 #. type: Title ##
 #, no-wrap

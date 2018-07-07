@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2018-04-27 01:54+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-05-06 04:05+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: de <bernd_dorer@yahoo.de>\n"
@@ -613,8 +613,6 @@ msgid "Shift+F8: Request playlist transcripts in numerous formats."
 msgstr "Umschalt+F8: Playlist-Protokolle in verschiednen Formaten anfordern."
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "F9: Mark current track for track time analysis (playlist viewer only)."
 msgid ""
 "F9: Mark current track for start of playlist analysis (playlist viewer only)."
 msgstr ""
@@ -915,7 +913,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Playlist snapshots"
 msgid "Playlist Transcripts"
 msgstr "Playlist-Protokolle"
 
@@ -967,7 +964,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.04"
 msgid "Version 18.05"
 msgstr "Version 18.05"
 
@@ -1004,7 +1000,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 18.04"
 msgid "Version 18.04.1"
 msgstr "Version 18.04.1"
 

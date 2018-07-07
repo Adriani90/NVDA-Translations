@@ -6,14 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-25 07:04+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-25 07:57+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
@@ -31,14 +31,14 @@ msgstr "下载 [稳定版][1]"
 
 #. type: Plain text
 msgid ""
-"This add-on enhances math reading functionality in NVDA. Although NVDA comes with "
-"support for MathPlayer, there are certain missing features, including easier "
-"navigaiton mode for long math content, useful for understanding math expression "
-"structure."
+"This add-on enhances math reading functionality in NVDA. Although NVDA comes "
+"with support for MathPlayer, there are certain missing features, including "
+"easier navigaiton mode for long math content, useful for understanding math "
+"expression structure."
 msgstr ""
-"此插件增强了NVDA中的数学阅读功能。尽管NVDA支持MathPlayer，但仍有一些不足的功能，包"
-"括较长数学内容的导航，另外用户使用此插件可能会对理解数学中的表达式的结构会有一些帮"
-"助。"
+"此插件增强了NVDA中的数学阅读功能。尽管NVDA支持MathPlayer，但仍有一些不足的功"
+"能，包括较长数学内容的导航，另外用户使用此插件可能会对理解数学中的表达式的结"
+"构会有一些帮助。"
 
 #. type: Plain text
 msgid "Access8Math allows:"
@@ -46,29 +46,31 @@ msgstr "Access8Math允许："
 
 #. type: Bullet: '* '
 msgid ""
-"Read math content written in MathML in web browser(Mozilla Firefox, Microsoft "
-"Internet Explorer and Google Chrome)."
+"Read math content written in MathML in web browser(Mozilla Firefox, "
+"Microsoft Internet Explorer and Google Chrome)."
 msgstr ""
-"使用（Mozilla Firefox，Microsoft Internet Explorer Google Chrome）浏览器来浏览"
-"MathML编写的数学内容。"
+"使用（Mozilla Firefox，Microsoft Internet Explorer Google Chrome）浏览器来浏"
+"览MathML编写的数学内容。"
 
 #. type: Bullet: '* '
 msgid ""
-"Read Microsoft Word math content written in MathType. (MathPlayer installed only)"
+"Read Microsoft Word math content written in MathType. (MathPlayer installed "
+"only)"
 msgstr ""
 "阅读用MathType编写的Microsoft Word数学内容。 （仅限安装了MathPlayer的情况下）"
 
 #. type: Bullet: '* '
 msgid ""
-"Navigate the math content by pressing \"Space\" in math content. Also, you can "
-"partially explore the subparts in expression and move or zoom the content between "
-"the subpart."
+"Navigate the math content by pressing \"Space\" in math content. Also, you "
+"can partially explore the subparts in expression and move or zoom the "
+"content between the subpart."
 msgstr ""
-"另外可以通过在数学内容中按“空格”导航数学内容。此外，您可以部分浏览表达式中的子部"
-"分，并在子部分之间移动或缩放内容。"
+"另外可以通过在数学内容中按“空格”导航数学内容。此外，您可以部分浏览表达式中的"
+"子部分，并在子部分之间移动或缩放内容。"
 
 #. type: Bullet: '* '
-msgid "In navigation mode, indicate the meaning of subpart in the upper layer part."
+msgid ""
+"In navigation mode, indicate the meaning of subpart in the upper layer part."
 msgstr "在导航模式下，在上层部分中指明子部分的含义。"
 
 #. type: Title ##
@@ -78,11 +80,11 @@ msgstr "快捷键"
 
 #. type: Bullet: '* '
 msgid ""
-"Control+Alt+M: Switch the provider between Access8Math and MathPlayer (MathPlayer "
-"installed only)."
+"Control+Alt+M: Switch the provider between Access8Math and MathPlayer "
+"(MathPlayer installed only)."
 msgstr ""
-"Control+Alt+M: 在Access8Math和MathPlayer之间进行切换（仅限安装了MathPlayer）的情况"
-"下。"
+"Control+Alt+M: 在Access8Math和MathPlayer之间进行切换（仅限安装了MathPlayer）"
+"的情况下。"
 
 #. type: Plain text
 #, no-wrap
@@ -110,27 +112,29 @@ msgstr "语言：Access8Math阅读语言"
 #. type: Bullet: '* '
 msgid ""
 "Analyze the mathematical meaning of content: Semantically analyze the math "
-"content, in line with specific rules, read in mathematical meaning of that rules."
+"content, in line with specific rules, read in mathematical meaning of that "
+"rules."
 msgstr ""
-"分析内容的数学意义：主要是使用语义分析的方式来分析数学内容，当然这是符合具体规则"
-"的，中级目标是从数学意义上来理解规则。"
+"分析内容的数学意义：主要是使用语义分析的方式来分析数学内容，当然这是符合具体"
+"规则的，中级目标是从数学意义上来理解规则。"
 
 #. type: Bullet: '* '
 msgid ""
-"Read the meaning of definied pattern in dictionary: When the pattern is definied "
-"in the dictionary, use dictionary to read the meaning of subpart in the upper "
-"layer part."
+"Read the meaning of definied pattern in dictionary: When the pattern is "
+"definied in the dictionary, use dictionary to read the meaning of subpart in "
+"the upper layer part."
 msgstr ""
-"阅读字典中定义模式的含义：当字典中定义模式时，使用字典读取上层部分中子部分的含义。"
+"阅读字典中定义模式的含义：当字典中定义模式时，使用字典读取上层部分中子部分的"
+"含义。"
 
 #. type: Bullet: '* '
 msgid ""
-"Read the meaning of auto-generated: When the pattern is not difined or incomplete "
-"in dictionary, use automatic generation function to read the meaning of subpart "
-"in the upper layer part."
+"Read the meaning of auto-generated: When the pattern is not difined or "
+"incomplete in dictionary, use automatic generation function to read the "
+"meaning of subpart in the upper layer part."
 msgstr ""
-"读取自动生成的含义：当字典中的模式未定义或不完整时，使用自动生成功能读取上层部分中"
-"子部分的含义。"
+"读取自动生成的含义：当字典中的模式未定义或不完整时，使用自动生成功能读取上层"
+"部分中子部分的含义。"
 
 #. type: Plain text
 #, no-wrap

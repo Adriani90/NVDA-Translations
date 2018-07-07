@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-06-13 18:28+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-06-21 23:05+0200\n"
 "Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: \n"
@@ -83,7 +83,6 @@ msgid "Windows+NVDA+P: report mouse position."
 msgstr "NVDA+Windows+P: Maus-Position ausgeben"
 
 #. type: Bullet: '* '
-#| msgid "Windows+NVDA+M: switch mouse arrows on or off."
 msgid "Windows+NVDA+M: sswitch mouse arrows on or off."
 msgstr "Windows+NVDA+M: Mauszeiger ein- oder ausschalten."
 
@@ -153,7 +152,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 2.0"
 msgid "Version 3.0"
 msgstr "Version 3.0"
 

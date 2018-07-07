@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-03-09 05:54+1000\n"
+"POT-Creation-Date: 2018-07-07 18:09+1000\n"
 "PO-Revision-Date: 2018-03-23 22:58+0100\n"
 "Last-Translator: Adriani Botez <adriani.botez@gmail.com>\n"
 "Language-Team: \n"
@@ -165,7 +165,6 @@ msgstr "Linkspfeil: vorheriger Buchstabe."
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 16.10"
 msgid "Version 18.03"
 msgstr "Version 18.03"
 
