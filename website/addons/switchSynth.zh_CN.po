@@ -3,36 +3,36 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 14:32+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Switch synth \"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Switch synth -NVDA语音合成器切换插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Tyler Spivey"
-msgstr ""
+msgstr "作者: Tyler Spivey"
 
 #. type: Bullet: '* '
 msgid "Download: [version 1.02][1]"
-msgstr ""
+msgstr "下载: [version 1.02][1]"
 
 #. type: Title #
 #, no-wrap
 msgid "Switch synth"
-msgstr ""
+msgstr "切换合成器"
 
 #. type: Plain text
 msgid ""
@@ -41,6 +41,8 @@ msgid ""
 "must be uninstalled. Any preexisting synthesizer configurations will "
 "continue to work with this version."
 msgstr ""
+"这个插件可以通过热键轻松切换合成器。它是我早期的switch_synth插件的改进版本，"
+"带有下划线，必须卸载。任何预先存在的合成器配置将继续使用此版本。"
 
 #. type: Plain text
 msgid ""
@@ -50,6 +52,10 @@ msgid ""
 "loaded if they exist.  To save the current synthesizer and its settings to "
 "the currently active slot, press control+shift+NVDA+v."
 msgstr ""
+"有6个合成器插槽，1到6.默认情况下，它们是空的。通过按下+ shift + NVDA + 1到控"
+"制+ shift + NVDA + 6可以切换插槽。切换到插槽后，如果存在，则会加载其合成器和"
+"设置。要将当前合成器及其设置保存到当前活动的插槽，请按control + shift + "
+"NVDA + v。"
 
 #. type: Plain text
 #, no-wrap
@@ -58,4 +64,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sws"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sws"

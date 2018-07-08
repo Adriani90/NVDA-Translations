@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-13 19:35+1000\n"
-"PO-Revision-Date: 2014-03-22 20:03+0800\n"
-"Last-Translator: 雪岭冰龙 <vgjh2005@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-07-08 08:35+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 2.0.8\n"
+"Language-Team: \n"
 
 #. type: Plain text
 #, no-wrap
@@ -24,9 +24,7 @@ msgstr "[[!meta title=\"表情符号\"]]\n"
 #. type: Bullet: '* '
 #, fuzzy
 #| msgid "Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed"
-msgid ""
-"Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier "
-"Estrada Martínez"
+msgid "Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez"
 msgstr "作者：Chris Leo, Noelia Ruiz Martínez, Mesar Hameed"
 
 #. type: Bullet: '* '
@@ -39,25 +37,14 @@ msgstr "下载[开发版][2]"
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Using this add-on, spoken text containing emoticon characters will be "
-#| "replaced by its more human friendly description.  84 emoticons are "
-#| "defined."
-msgid ""
-"Using this add-on, spoken text containing emoticon characters will be "
-"replaced by its more human friendly description."
-msgstr ""
-"使用此插件，可以把文字中的表情以友好的文字描述来代替。已经定义了84个表情符"
-"号。"
+#| msgid "Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.  84 emoticons are defined."
+msgid "Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description."
+msgstr "使用此插件，可以把文字中的表情以友好的文字描述来代替。已经定义了84个表情符号。"
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "For example: \":)\" will be spoken as \"smiling smiley\", or \":D\" will "
-#| "be spoken as \"laughing smiley\""
-msgid ""
-"For example: the sequence \":)\" will be spoken as \"smiling smiley\", or "
-"for example NVDA will recognize the meaning of each emoji."
+#| msgid "For example: \":)\" will be spoken as \"smiling smiley\", or \":D\" will be spoken as \"laughing smiley\""
+msgid "For example: the sequence \":)\" will be spoken as \"smiling smiley\", or for example NVDA will recognize the meaning of each emoji."
 msgstr "例如：\":)\" 将被朗读为 \"微笑表情\"， \":D\" 被朗读为 \"大笑表情\""
 
 #. type: Plain text
@@ -71,70 +58,53 @@ msgid "Insert Emoticon"
 msgstr "插入表情"
 
 #. type: Plain text
-msgid ""
-"Sometimes an image is worth a 1000 words: use the new emoji to liven up your "
-"instant message and to let your friends know how you’re feeling."
-msgstr ""
+msgid "Sometimes an image is worth a 1000 words: use the new emoji to liven up your instant message and to let your friends know how you’re feeling."
+msgstr "有时一张图片胜过1000字：使用新的表情符号来激活你的即时消息并让你的朋友知道你的感受。"
 
 #. type: Plain text
-msgid ""
-"When you are unsure of the characters for a particular smiley, this addon "
-"enables you to select and insert it into your text such as in a chat."
-msgstr ""
+msgid "When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat."
+msgstr "如果您不确定特定的表情字符，可以使用此插件选择并将其插入到文本中，例如聊天中。"
 
 #. type: Plain text
 #, no-wrap
 msgid "Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.\n"
-msgstr ""
+msgstr "按NVDA + I，或从菜单工具 - >插入表情符号，打开带有提供的表情符号或表情符号的对话框。\n"
 
 #. type: Plain text
-msgid ""
-"This dialog allows you to choose an emoticon and to view the emoticons that "
-"interest you:"
-msgstr ""
+msgid "This dialog allows you to choose an emoticon and to view the emoticons that interest you:"
+msgstr "此对话框允许您选择表情符号并浏览您感兴趣的表情符号："
+
+#. type: Bullet: '*	'
+msgid "An editable field allows you to filter the search for the desired emoticon among the emoticons available."
+msgstr "可编辑字段允许您在可用的表情符号中过滤搜索所需表情符号。"
 
 #. type: Bullet: '*	'
 msgid ""
-"An editable field allows you to filter the search for the desired emoticon "
-"among the emoticons available."
-msgstr ""
+"Through a set of radio buttons, you can choose to view only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A)."
+msgstr "通过一组单选按钮，您可以选择仅查看表情符号类别（alt + E）或仅查看标准表情符号类别（alt + s）或查看所有可用的表情符号（alt + A）。"
 
 #. type: Bullet: '*	'
 msgid ""
-"Through a set of radio buttons, you can choose to view only emoji category "
-"(alt+E) or view only standard emoticon category (alt+s) or view all "
-"emoticons available (alt+A)."
-msgstr ""
-
-#. type: Bullet: '*	'
-msgid ""
-"In the list of emoticons (alt+L) are displayed on three columns "
-"respectively: the name of emoticon, the type of emoticon (standard emoticon "
-"or emoji), the corresponding character."
-msgstr ""
+"In the list of emoticons (alt+L) are displayed on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the corresponding "
+"character."
+msgstr "表情符号列表（alt + L）分别显示在三列上：表情符号的名称，表情符号的类型（标准表情符号或表情符号），相应的字符。"
 
 #. type: Plain text
-msgid ""
-"When you press OK, the characters for the chosen emoticon will be copied to "
-"your clipboard, ready for pasting."
-msgstr ""
+msgid "When you press OK, the characters for the chosen emoticon will be copied to your clipboard, ready for pasting."
+msgstr "按确认后，所选表情符号的字符将被复制到剪贴板，准备粘贴。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Emoticons dictionary"
-msgstr ""
+msgstr "表情词典"
 
 #. type: Plain text
-msgid ""
-"Emoticons add-on allows to have differents speech-dictionaries using "
-"configuration profiles."
-msgstr ""
+msgid "Emoticons add-on allows to have differents speech-dictionaries using configuration profiles."
+msgstr "表情符号插件允许使用配置文件使用不同的语音词典。"
 
 #. type: Plain text
-msgid ""
-"This means that you can create or edit a specific speech-dictionary for each "
-"your custom profile."
-msgstr ""
+msgid "This means that you can create or edit a specific speech-dictionary for each your custom profile."
+msgstr "这意味着您可以为每个自定义配置文件创建或编辑特定的语音字典。"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -147,64 +117,49 @@ msgstr ""
 "您的自定义表情符号将被保存在 emoticons 字典之内。\n"
 
 #. type: Plain text
-msgid ""
-"Saving your customizations, the new reading settings of emoticons will only "
-"apply to the profile you are currently editing."
-msgstr ""
+msgid "Saving your customizations, the new reading settings of emoticons will only apply to the profile you are currently editing."
+msgstr "保存自定义项，表情符号的新阅读设置仅适用于您当前正在编辑的配置文件。"
 
 #. type: Plain text
 msgid ""
-"For example, you may wish that NVDA spoken custom emoticons only in XxChat "
-"program, but not in other chat programs: you can do this by creating a "
-"profile for the XxChat application and assign to it a speech dictionary from "
-"Speech dictionaries menu, Emoticons dictionary option. See below for "
-"Emoticons settings in relation to the configuration profiles."
+"For example, you may wish that NVDA spoken custom emoticons only in XxChat program, but not in other chat programs: you can do this by creating a profile for the XxChat "
+"application and assign to it a speech dictionary from Speech dictionaries menu, Emoticons dictionary option. See below for Emoticons settings in relation to the "
+"configuration profiles."
 msgstr ""
-
-#. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Pressin' \"Save and export dictionary\" button, a file dictionary named "
-#| "emoticons.dic will be saved in your user config folder, speechDicts "
-#| "subfolder."
-msgid ""
-"You can also export each custom speech-dictionary pressing \"Save and export "
-"dictionary\" button: in this way your speech-dictionaries will be saved in "
-"your user config folder, speechDicts/emoticons subfolder."
-msgstr ""
-"按下\"保存并导出字典\"按钮，一个名为 emoticons.dic 的文件将被保存在用户配置目"
-"录下的 speechDicts 子目录下。"
+"例如，您可能希望NVDA仅在XxChat程序中使用自定义表情符号，而不是在其他聊天程序中：您可以通过为XxChat应用程序创建配置文件并从语音词典菜单中分配语音词典，表情符号词典选项来完"
+"成此操作。请参阅下面有关配置配置文件的表情符号设置。"
 
 #. type: Plain text
 msgid ""
-"The exact name and location of the dictionary file will be based on the "
-"editing configuration profile, which will be shown in the title of the "
-"Emoticons dictionary dialog."
-msgstr ""
+"You can also export each custom speech-dictionary pressing \"Save and export dictionary\" button: in this way your speech-dictionaries will be saved in your user config "
+"folder, speechDicts/emoticons subfolder."
+msgstr "您还可以按“保存并导出词典”按钮导出每个自定义语音词典：这样您的语音词典将保存在您的用户配置文件夹，speechDicts / emoticons子文件夹中。"
+
+#. type: Plain text
+msgid ""
+"The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog."
+msgstr "字典文件的确切名称和位置将基于编辑配置配置文件，该配置文件将显示在“表情符号”字典对话框的标题中。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Activation settings"
+#, no-wrap
 msgid "Emoticons settings"
-msgstr "激活设置"
+msgstr "表情符号设置"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "You can choose whether to Activate speaking of emoticons when starting NVDA. By default it is disabled.  It is also possible to save your choice for this setting."
+#, no-wrap
 msgid "From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.\n"
-msgstr "您可以选择在 NVDA 启动时，是否启用表情朗读，默认情况下它是被禁用的，您可以根据自己的需要进行选择保存。"
+msgstr "从菜单首选项 - >设置 - >表情符号打开一个面板，为每个配置文件配置语音词典的激活。\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.\n"
-msgstr ""
+msgstr "在“表情符号设置”面板中，您可以选择在NVDA切换到当前正在编辑的配置文件时是否应自动激活语音字典。默认情况下，它在NVDA的正常配置和所有新配置文件中都被禁用。\n"
 
 #. type: Plain text
 msgid ""
-"If you may wish to keep clean your configuration folders, in this dialog it "
-"is also possible to choose if dictionaries not used (associated with non "
-"existing profiles) will be removed from the add-on when it is unloaded."
-msgstr ""
+"If you may wish to keep clean your configuration folders, in this dialog it is also possible to choose if dictionaries not used (associated with non existing profiles) "
+"will be removed from the add-on when it is unloaded."
+msgstr "如果您可能希望保持清洁配置文件夹，则在此对话框中还可以选择是否在卸载时从加载项中删除未使用的字典（与非现有配置文件关联）。"
 
 #. type: Title ##
 #, no-wrap
@@ -212,19 +167,13 @@ msgid "Key Commands:"
 msgstr "快捷键"
 
 #. type: Plain text
-msgid ""
-"These are the key commands available by default, you can edit those or add "
-"new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
-msgstr ""
+msgid "These are the key commands available by default, you can edit those or add new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
+msgstr "这些是默认情况下可用的常见快捷键，您可以编辑这些快捷键或添加新键以打开“表情符号”设置面板或“表情词典”对话框："
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid ""
-#| "NVDA+E: toggles between speaking text as it is written, or with the "
-#| "emoticons replaced by the human description."
-msgid ""
-"NVDA+E: speaking emoticons on/off, toggles between speaking text as it is "
-"written, or with the emoticons replaced by the human description."
+#| msgid "NVDA+E: toggles between speaking text as it is written, or with the emoticons replaced by the human description."
+msgid "NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description."
 msgstr "NVDA加E：在直接读取元字符和使用有好的字符描述之间切换。"
 
 #. type: Bullet: '* '
@@ -234,129 +183,104 @@ msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
 msgstr "NVDA加I:显示一个对话框，让您选择需要粘贴的表情。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 7.0"
-msgstr "版本1.0"
+msgstr "版本7.0"
+
+#. type: Bullet: '* '
+msgid "The Activation settings dialog has been moved to a panel in NVDA settings, so that the current profile will be shown in the title of the NVDA settings dialog."
+msgstr "激活设置对话框已移至NVDA设置，现在配置文件将显示在NVDA设置对话框的标题中。"
 
 #. type: Bullet: '* '
 msgid ""
-"The Activation settings dialog has been moved to a panel in NVDA settings, "
-"so that the current profile will be shown in the title of the NVDA settings "
-"dialog."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"The Manage Emoticons menu has been removed: now Insert emoticon will be "
-"found under the Tools menu, and Customize Emoticons will be shown under "
-"Speech dictionaries like Emoticons dictionary."
-msgstr ""
+"The Manage Emoticons menu has been removed: now Insert emoticon will be found under the Tools menu, and Customize Emoticons will be shown under Speech dictionaries like "
+"Emoticons dictionary."
+msgstr "管理表情符号菜单已被删除：现在可以在“工具”菜单下找到“插入表情符号”，“自定义表情符号”将显示在“表情词典”下的“语音词典”中。"
 
 #. type: Bullet: '* '
 msgid "Requires NVDA 2018.2 or later."
-msgstr ""
+msgstr "现在需要NVDA 2018.2或更高版本。"
 
 #. type: Bullet: '* '
-msgid ""
-"If needed, you can download the [last version compatible with NVDA 2017.3]"
-"[3]."
-msgstr ""
+msgid "If needed, you can download the [last version compatible with NVDA 2017.3][3]."
+msgstr "如果需要使用旧版本，您可以下载[与NVDA 2017.3兼容的最新版本] [3]。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 6.0"
-msgstr "版本1.0"
+msgstr "版本6.0"
 
 #. type: Bullet: '* '
 msgid "Added support for configuration profiles."
-msgstr ""
+msgstr "添加了对配置文件的支持。"
 
 #. type: Bullet: '* '
 msgid ""
-"In NVDA 2017.4 or later, the configuration settings and custom dictionaries "
-"will change automatically according with the selected profiles. In 2017.3 or "
-"earlier, you can apply changes by reloading plugins (pressing control+NVDA"
-"+f3)."
-msgstr ""
+"In NVDA 2017.4 or later, the configuration settings and custom dictionaries will change automatically according with the selected profiles. In 2017.3 or earlier, you can "
+"apply changes by reloading plugins (pressing control+NVDA+f3)."
+msgstr "在NVDA 2017.4或更高版本中，配置设置和自定义词典将根据所选配置文件自动更改。在2017.3或更早版本中，您可以通过重新加载插件来应用更改（按下ctrl+ NVDA + f3）。"
 
 #. type: Bullet: '* '
-msgid ""
-"If you choose to import settings when updating the add-on, deprecated files "
-"(emoticons.ini and emoticons.dic) will be removed or adapted to this version."
-msgstr ""
+msgid "If you choose to import settings when updating the add-on, deprecated files (emoticons.ini and emoticons.dic) will be removed or adapted to this version."
+msgstr "如果您在更新插件时选择导入设置，则会删除或已弃用此版本的（emoticons.ini和emoticons.dic）文件。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 5.0"
-msgstr "版本1.0"
+msgstr "版本5.0"
 
 #. type: Bullet: '* '
 msgid "Added support for emojis."
-msgstr ""
+msgstr "添加了对表情符号的支持。"
 
 #. type: Bullet: '* '
-msgid ""
-"Improvements for Insert Emoticon dialog with a filter field and radio "
-"buttons to choose displayed emoticons."
-msgstr ""
+msgid "Improvements for Insert Emoticon dialog with a filter field and radio buttons to choose displayed emoticons."
+msgstr "Insert Emoticon对话框的改进，带有过滤器字段和单选按钮，用于选择显示的表情符号。"
 
 #. type: Bullet: '* '
-msgid ""
-"Using guiHelper for Activation settings dialog and Insert Emoticon dialog: "
-"requires NVDA 2016.4 or higher versions"
-msgstr ""
+msgid "Using guiHelper for Activation settings dialog and Insert Emoticon dialog: requires NVDA 2016.4 or higher versions"
+msgstr "使用guiHelper激活设置对话框和插入表情符号对话框：需要NVDA 2016.4或更高版本"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 4.0"
-msgstr "版本1.0"
+msgstr "版本4.0"
 
 #. type: Bullet: '* '
-msgid ""
-"If the Insert smiley dialog is opened when another settings dialog is "
-"active, NVDA will show the corresponding error message."
-msgstr ""
+msgid "If the Insert smiley dialog is opened when another settings dialog is active, NVDA will show the corresponding error message."
+msgstr "如果在另一个设置对话框处于活动状态时打开了“插入表情”对话框，NVDA将显示相应的错误消息。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 3.0"
-msgstr "版本1.0"
+msgstr "版本3.0"
 
 #. type: Bullet: '* '
 msgid ""
-"In the Customize emoticons dialog, it is now possible to specify that a "
-"pattern should only match if it is a whole word, according to speech "
-"dictionaries of NVDA 2014.4."
-msgstr ""
+"In the Customize emoticons dialog, it is now possible to specify that a pattern should only match if it is a whole word, according to speech dictionaries of NVDA 2014.4."
+msgstr "根据NVDA 2014.4的语音词典，在“自定义表情符号”对话框中，现在可以指定模式只应匹配，如果它是一个完整的单词。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 2.0"
-msgstr "版本1.0"
+msgstr "版本2.0"
 
 #. type: Bullet: '* '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "插件管理器现在提供了插件帮助。"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 1.0"
+#, no-wrap
 msgid "Changes for 1.1"
-msgstr "版本1.0"
+msgstr "版本1.1"
 
 #. type: Bullet: '* '
 msgid "Removed duplicated emoticon."
-msgstr ""
+msgstr "删除了重复的表情符号。"
 
 #. type: Bullet: '* '
 msgid "Added some smileys."
-msgstr ""
+msgstr "添加了一些表情。"
 
 #. type: Title ##
 #, no-wrap
@@ -385,26 +309,19 @@ msgid "[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev"
 msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev"
 
 #. type: Plain text
-msgid ""
-"[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5."
-"nvda-addon"
-msgstr ""
+msgid "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon"
+msgstr "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/emoticons-6.5.nvda-addon"
 
 #~ msgid "Customize emoticons"
 #~ msgstr "自定义表情"
 
 #~ msgid ""
-#~ "When you are unsure of the characters for a particular smiley, this addon "
-#~ "enables you to select and insert it into your text such as in a chat.\n"
-#~ "Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert "
-#~ "smiley, to open a dialog \n"
+#~ "When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.\n"
+#~ "Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert smiley, to open a dialog \n"
 #~ "with the provided smilies.\n"
-#~ "When you press OK, the characters for the chosen smiley will be copied to "
-#~ "your clipboard, ready for pasting.\n"
+#~ "When you press OK, the characters for the chosen smiley will be copied to your clipboard, ready for pasting.\n"
 #~ msgstr ""
-#~ "您确定某个特定的字符是表情符号此插件允许您选择并且插入其到您的文本中去，例"
-#~ "如聊天的时候。\n"
-#~ "按下“NVDA加I”或者从“选项”菜单中点击“管理表情符号”，选择“插入表情”来打开一"
-#~ "个对话框。\n"
+#~ "您确定某个特定的字符是表情符号此插件允许您选择并且插入其到您的文本中去，例如聊天的时候。\n"
+#~ "按下“NVDA加I”或者从“选项”菜单中点击“管理表情符号”，选择“插入表情”来打开一个对话框。\n"
 #~ "在这里包含许多表情符号。\n"
 #~ "当您点击“OK”按钮，您选择的字符就会被拷贝到剪贴板，您可以随时进行粘贴。\n"

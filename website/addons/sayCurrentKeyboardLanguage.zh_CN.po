@@ -3,35 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-07-14 07:24+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 14:17+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"sayCurrentKeyboardLanguage\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"sayCurrentKeyboardLanguage-NVDA语言显示插件\"]]\n"
 
 #. type: Bullet: '*	 '
 msgid "Author(s): Abdel, Noelia"
-msgstr ""
+msgstr "作者(s): Abdel, Noelia"
 
 #. type: Bullet: '*	 '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '*	 '
 msgid "Download [development version][1]"
-msgstr ""
+msgstr "下载 [开发板][1]"
 
 #. type: Plain text
 msgid ""
@@ -40,6 +40,8 @@ msgid ""
 "retrieve and give the language of the current keyboard.  If pressed twice, "
 "gives the default language of the system."
 msgstr ""
+"此插件是在nvda-addons邮件列表中的成员请求之后创建的。它提供了一个键盘快捷键"
+"NVDA + F4，它允许检索并提供当前键盘的语言。如果按两次，则给出系统的默认语言。"
 
 #. type: Plain text
 msgid ""
@@ -47,11 +49,13 @@ msgid ""
 "globalPlugin to paste in the configuration directory of NVDA, it was then "
 "transformed into addon."
 msgstr ""
+"在这个模块的第一个版本中，它被建议作为简单的globalPlugin粘贴到NVDA的配置目录"
+"中，然后将其转换为插件。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "注意"
 
 #. type: Plain text
 msgid ""
@@ -59,39 +63,41 @@ msgid ""
 "change it by going to the Preferences menu of NVDA, in the \"Input gestures"
 "\" submenu.  You will then find the script in the \"System status\" category."
 msgstr ""
+"如果NVDA + F4键盘快捷键与另一个快捷键冲突，您可以通过转到NVDA的“首选项”菜单，"
+"在“输入手势”子菜单中进行更改。然后，您将在“系统状态”类别中找到该脚本。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for version 1.1"
-msgstr ""
+msgstr "版本1.1"
 
 #. type: Bullet: '*	 '
 msgid ""
 "The addon has been renamed from getCurKeyboardLanguage to "
 "sayCurrentKeyboardLanguage."
-msgstr ""
+msgstr "插件已从getCurKeyboardLanguage重命名为sayCurrentKeyboardLanguage。"
 
 #. type: Bullet: '*	 '
 msgid "Added the GPL license to the addon."
-msgstr ""
+msgstr "在插件中添加了GPL许可证。"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Added the script getCurKeyboardLanguage to the \"System status\" category."
-msgstr ""
+msgstr "将脚本getCurKeyboardLanguage添加到“系统状态”类别。"
 
 #. type: Bullet: '*	 '
 msgid "Fixed some errors in the code."
-msgstr ""
+msgstr "修复了代码中的一些错误。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for version 1.0"
-msgstr ""
+msgstr "版本1.0"
 
 #. type: Bullet: '*	 '
 msgid "Initial version."
-msgstr ""
+msgstr "发布初始版本"
 
 #. type: Plain text
 #, no-wrap
@@ -100,4 +106,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ckbl"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ckbl"

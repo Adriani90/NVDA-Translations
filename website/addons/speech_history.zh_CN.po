@@ -3,31 +3,31 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 14:27+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Speech History\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Speech History-NVDA历史朗读器\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: James Scholes"
-msgstr ""
+msgstr "作者: James Scholes"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Plain text
 msgid ""
@@ -38,6 +38,10 @@ msgid ""
 "F12 on its own to copy the selected item.  These hotkeys can be updated from "
 "within the Speech category of NVDA's Input gestures dialog."
 msgstr ""
+"Clip Copy插件的更新版本，最初由Tyler Spivey开发。该插件允许您查看NVDA所朗读的"
+"最近100个项目，以及将所选项目复制到剪贴板。默认情况下，使用Shift + F11向后移"
+"动历史记录，使用Shift + F12向前移动，使用F12自行复制所选项目。可以在NVDA的输"
+"入手势对话框的语音类别中修改这些快捷键。"
 
 #. type: Plain text
 #, no-wrap
@@ -46,4 +50,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sps"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sps"

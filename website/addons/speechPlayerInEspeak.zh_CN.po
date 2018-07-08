@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:36+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 14:29+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Espeak的SpeechPlayer\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,10 +27,12 @@ msgid ""
 "* Author: NV Access Limited\n"
 "*   Download [SpeechPlayer in Espeak][1]\n"
 msgstr ""
+"* 作者: NV Access Limited\n"
+"*   下载 [SpeechPlayer in Espeak][1]\n"
 
 #. type: Plain text
 msgid "A hybrid of speechPlayer and eSpeak, containing the Edward voice."
-msgstr ""
+msgstr "SpeechPlayer和eSpeak的混合体，包含爱德华的声音。"
 
 #. type: Plain text
 #, no-wrap
@@ -42,3 +44,5 @@ msgid ""
 "[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
 "nvda-addon"
 msgstr ""
+"[1]: https://www.nvaccess.org/files/nvda-addons/speechPlayerInEspeak-0.4."
+"nvda-addon"

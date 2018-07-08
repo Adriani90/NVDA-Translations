@@ -3,43 +3,44 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 13:53+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Quick Books 2014 support\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Quick Books 2014支持\"]]\n"
 
 #. type: Bullet: '* '
 msgid ""
 "Authors: NV Access Limited, with help from My Blind Spot, Intuit, and "
 "community testers."
 msgstr ""
+"作者：NV Access Limited，在My Blind Spot，Intuit和社区测试人员的帮助下。"
 
 #. type: Bullet: '* '
 msgid "Download: [version 2014.4.7][1]"
-msgstr ""
+msgstr "下载：[版本2014.4.7] [1]"
 
 #. type: Plain text
 #, no-wrap
 msgid "This add-on   makes it possible to use NVDA with the Intuit Quickbooks 2014 accounting software.\n"
-msgstr ""
+msgstr "此插件可以将NVDA与Intuit Quickbooks 2014会计软件配合使用。\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #. type: Plain text
 msgid ""
@@ -49,6 +50,9 @@ msgid ""
 "boxes, radio buttons and buttons.  - Automatic reporting of messages in "
 "custom message dialogs."
 msgstr ""
+"- 自动启用QuickBooks辅助功能模式。 - 标记许多输入字段。 - 跟踪焦点和突出显"
+"示列表，如会计科目表。 - 正确控制类型识别自定义复选框，单选按钮和按钮。 - "
+"自定义消息对话框中的消息报告。"
 
 #. type: Plain text
 #, no-wrap
@@ -57,4 +61,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"

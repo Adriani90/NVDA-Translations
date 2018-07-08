@@ -3,63 +3,68 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-06-03 04:37+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 12:37+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Mush Client\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Mush Client聊天支持插件\"]]\n"
 
 #. type: Bullet: '*   '
 msgid "Author: Nick Stockton"
-msgstr ""
+msgstr "作者: Nick Stockton"
 
 #. type: Bullet: '*   '
 msgid "download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
 msgid "This add-on enhances the mush Client for use with NVDA."
-msgstr ""
+msgstr "此插件增强了NVDA使用mushClient的可访问性。"
 
 #. type: Plain text
 msgid "From the add-on description:"
-msgstr ""
+msgstr "插件说明"
 
 #. type: Plain text
 msgid ""
 "This add-on provides the following accessibility improvements for Mush "
 "Client:"
-msgstr ""
+msgstr "此附加组件为Mush客户端提供以下可访问性改进："
 
 #. type: Bullet: '1.  '
 msgid ""
 "The NVDA navigator object is now automaticly set to the output window of "
 "Mush Client in order to make reviewing output easier."
 msgstr ""
+"现在，NVDA导航器对象自动设置为Mush Client的输出窗口，以便更方便地查看消息。"
 
 #. type: Bullet: '2.  '
 msgid ""
 "Two new hotkeys (NVDA-8 and NVDA-9) toggle the \"speech interrupt for typed "
 "characters\" and \"speech interrupt for enter key\" settings respectively."
 msgstr ""
+"两个新的热键（NVDA-8和NVDA-9）分别切换“键入字符的语音中断”和“输入键的语音中"
+"断”设置。"
 
 #. type: Bullet: '3.  '
 msgid ""
 "Additionally, NVDA-Enter and numbpad-Enter will set the position of the NVDA "
 "navigator object to the last line of text in the output window and speak it."
 msgstr ""
+"此外，NVDA-Enter和numbpad-Enter会将NVDA导航器对象的位置设置为输出窗口中的最后"
+"一行文本并读出来。"
 
 #. type: Bullet: '4.  '
 msgid ""
@@ -69,6 +74,9 @@ msgid ""
 "when the Mush Client window loses focus and restored when it receives focus "
 "again."
 msgstr ""
+"当Mush Client窗口失去焦点并恢复时，“报告动态内容更改”，“插入符移动查看光"
+"标”，“键入字符的语音中断”和“输入键的语音中断”设置现在自动保存到单独的配置文件"
+"中当它再次获得焦点时。"
 
 #. type: Plain text
 msgid ""
@@ -78,6 +86,9 @@ msgid ""
 "you want to turn on the automatic speaking of incoming lines by NVDA, toggle "
 "this setting on with the NVDA-5 hotkey."
 msgstr ""
+"注意：由于大多数人将使用带有语音插件的Mush Client来自动读出传入文本，因此默认"
+"情况下禁用NVDA的“报告动态内容更改”设置以避免两次读出传入行。如果要通过NVDA打"
+"开自动读出的输入线路，请使用NVDA-5热键切换此设置。"
 
 #. type: Plain text
 #, no-wrap
@@ -86,4 +97,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=mush"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=mush"
