@@ -2200,12 +2200,3 @@ msgid ""
 msgstr ""
 "تطوير دعم NVDA مع تطبيق Station Playlist Studio.\n"
 "فضلا عن إضافة مفاتيح اختصار للتحكم في الاستوديو من أي مكان."
-
-#~ msgid "No artist"
-#~ msgstr "لا يوجد مطرب"
-
-#~ msgid "Artist: {artistName}"
-#~ msgstr "المطرب: {artistName}"
-
-#~ msgid "Introduction not set"
-#~ msgstr "لم يتم ضبط المقدمة"
