@@ -1911,9 +1911,11 @@ Por favor, consulte a documentação desta linha braille para obter a descriçã
 | Teclas control+end | espaço+ponto 4+ponto 5+ponto 6 |
 | Tecla alt | espaço+ponto 1+ponto 3+ponto 4 |
 | Teclas alt+tab | espaço+ponto 2+ponto 3+ponto 4+ponto 5 |
+| Teclas Alt+Shift+Tab | Espaço+ponto1+ponto2+ponto5+ponto6 |
+| Teclas Windows+Tab | Espaço+ponto2+ponto3+ponto4 |
 | Tecla escape | espaço+ponto 1+ponto 5 |
 | Tecla windows | espaço+ponto 2+ponto 4+ponto 5+ponto 6 |
-| Tecla space | espaço |
+| Tecla Espaço | espaço |
 | Teclas windows+d (minimizar todas as aplicações) | espaço+ponto 1+ponto 2+ponto 3+ponto 4+ponto 5+ponto 6 |
 | Anunciar a linha actual | espaço+ponto 1+ponto 4 |
 | Menu do NVDA | espaço+ponto 1+ponto 3+ponto 4+ponto 5 |
@@ -2426,6 +2428,11 @@ Os seguintes modelos são suportados:
 -
 
 Para o BrailleNote Touch, veja a secção [HumanWare séries Brailliant BI/B / BrailleNote Touch HumanWareBrailliant].
+
+Except for BrailleNote PK, both braille (BT) and QWERTY (QT) keyboards are supported.
+For BrailleNote QT, PC keyboard emulation isn't supported.
+You can also enter braille dots using the QT keyboard.
+Please check the braille terminal section of the BrailleNote manual guide for details.
 
 Se o seu dispositivo suporta mais de um tipo de ligação, ao ligar o BrailleNote ao NVDA, deve configurar o braille terminal port nas opções de braille terminal.
 Por favor, consulte os detalhes no manual do BrailleNote.
