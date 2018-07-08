@@ -2111,10 +2111,20 @@ Pour plus d'information concernant le mode navigation et la navigation par lettr
 <TD>contrôle+maj+r</TD>
 <TD>Annonce le temps restant pour le morceau en cours.</TD>
 </TR>
+<TR>
+<TD>Annonce du temps écoulé</TD>
+<TD>contrôle+maj+e</TD>
+<TD>annonce le temps écoulé de la piste en cours.</TD>
+</TR>
+<TR>
+<TD>Annonce de la longueur de la piste</TD>
+<TD>contrôle+maj+t</TD>
+<TD>Annonce la longueur de la piste en cours.</TD>
+</TR>
 </TABLE>
 
 <P>
-Note : Le raccourci "Annonce du temps restant" fonctionne seulement avec le format de chaîne par défaut pour la barre d'état de Foobar.
+Note : Les raccourcis ci-dessus fonctionnent seulement avec le format de chaîne par défaut pour la barre d'état de Foobar.
 </P>
 
 <A NAME="MirandaIM"></A>
@@ -2369,6 +2379,35 @@ Cette option n'existe que dans les versions installées de NVDA.
 <P>
 Si activé, NVDA recherchera automatiquement la dernière version de NVDA et vous informera si une mise à jour est disponible.
 Vous pouvez également vérifier manuellement les mises à jour en sélectionnant "Recherche d'une Mise à Jour..." dans le menu "Aide" du menu NVDA.
+Lors d'une vérification manuelle ou automatique des mises à jour, NVDA doit envoyer certaines informations au serveur dans le but de recevoir la mise à jour appropriée à votre système.
+Les informations suivantes sont toujours envoyées :
+</P>
+
+<UL>
+<LI>Version courante de NVDA
+<LI>Version du système d'exploitation
+<LI>Système d'exploitation 32 ou 64 bits
+</UL>
+
+<A NAME="GeneralSettingsGatherUsageStats"></A>
+<H5>Autoriser le projet NVDA à collecter certaines informations statistiques d'utilisation</H5>
+
+<P>
+Si ceci est activé, NV Access utilisera les informations de la vérification de mises à jour pour connaître le nombre d'utilisateurs de NVDA en incluant certaines informations démographiques telles que le système d'exploitation et le pays d'origine.
+Bien que votre adresse IP soit utilisée pour déterminer votre pays durant la mise à jour, elle ne sera jamais conservée.
+En plus des informations obligatoires nécessaires à la mise à jour, les informations supplémentaires suivantes sont également envoyées :
+</P>
+
+<UL>
+<LI>La langue d'interface de NVDA
+<LI>Copie en cours de NVDA installée ou portables
+<LI>Le nom du synthétiseur vocal actuellement utilisé (incluant le nom du module complémentaire dont provient le pilote)
+<LI>Le nom du terminal braille actuellement utilisé (incluant le nom du module complémentaire dont provient le pilote)
+<LI>La table d'affichage braille en cours (si le braille est activé)
+</UL>
+
+<P>
+Ces informations aident grandement NV Access pour prioritiser les futurs développements de NVDA.
 </P>
 
 <A NAME="GeneralSettingsNotifyPendingUpdates"></A>
