@@ -1911,6 +1911,8 @@ Molimo pogledajte dokumentaciju za više informacija o opisu tipki i o tome gdje
 | kontrol+end | BrajičnaRazmaknica+točkica4+točkica5+točkica6 |
 | alt | brajičnaRazmaknica+točkica1+točkica3+točkica4 |
 | alt+tab | brajičnaRazmaknica+točkica2+točkica3+točkica4+točkica5 |
+| alt+shift+tab | Razmaknica+točkica1+točkica2+dočkica5+točkica6 |
+| windows+tab | razmaknica+točkica2+točkica3+točkica4 |
 | escape | brajičnaRazmaknica+točkica1+točkica5 |
 | windows tipka | BrajičnaRazmaknica+točkica2+točkica4+točkica5+točkica6 |
 | razmak | brajičnaRazmaknica |
