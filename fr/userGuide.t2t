@@ -1394,7 +1394,6 @@ Si l'annonce du rang de l'objet dans une liste est activée, cette option autori
 
 Quand l'option est activée, NVDA annonce le rang pour un plus grand nombre de contrôles tels que les menus et les barres d'outils. Cependant, cette information peut parfois être inexacte.
 
-
 ==== Annonce de la description des objets ====[ObjectPresentationReportDescriptions]
  Décochez cette case si vous pensez que vous n'avez pas besoin d'entendre leur description annoncée avec les objets.
 
