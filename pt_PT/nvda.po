@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. Translators: Message to indicate User Account Control (UAC) or other secure desktop screen is active.
 msgid "Secure Desktop"
@@ -1035,9 +1035,8 @@ msgstr "Sânscrito grau 1"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
-#, fuzzy
 msgid "Swedish 8 dot computer braille"
-msgstr "Espanhol braille de computador de 8 pontos"
+msgstr "Sueco braille de computador de 8 pontos"
 
 #. Translators: The name of a braille table displayed in the
 #. braille settings dialog.
@@ -6714,14 +6713,12 @@ msgid "Reports the remaining time of the currently playing track, if any"
 msgstr "Anuncia o tempo restante de qualquer faixa em execução"
 
 #. Translators: The description of an NVDA command for reading the elapsed time of the currently playing track in Foobar 2000.
-#, fuzzy
 msgid "Reports the elapsed time of the currently playing track, if any"
-msgstr "Anuncia o tempo restante de qualquer faixa em execução"
+msgstr "Anuncia o tempo passado de qualquer faixa em execução"
 
 #. Translators: The description of an NVDA command for reading the length of the currently playing track in Foobar 2000.
-#, fuzzy
 msgid "Reports the length of the currently playing track, if any"
-msgstr "Anuncia o tempo restante de qualquer faixa em execução"
+msgstr "Anuncia o tempo total de qualquer faixa em execução"
 
 #. Translators: Describes a command.
 msgid "Shows options related to selected text or text at the cursor"
@@ -7781,7 +7778,7 @@ msgstr "Por favor aguarde"
 
 #. Translators: The title of the dialog asking if usage data can be collected
 msgid "NVDA  Usage Data Collection"
-msgstr ""
+msgstr "Recolha de dados de utilização do NVDA"
 
 #. Translators: A message asking the user if they want to allow usage stats gathering
 msgid ""
@@ -7797,14 +7794,23 @@ msgid ""
 "Do you wish to allow NV Access to periodically collect this data in order to "
 "improve NVDA?"
 msgstr ""
+"Para futuramente poder melhorar o NVDA, a NV Access necessita de recolher "
+"informações de utilização do NVDA.\n"
+"\n"
+"Os dados a recolher incluem a versão do sistema Operativo, versão do NVDA, "
+"idioma, país de origem e algumas configurações do NVDA, tais como "
+"sintetizador, linha Braille, e tabela de conversão Braille em utilização. "
+"Nenhum conteúdo falado ou representado em Braille será alguma vez enviado à "
+"NV Access.  Por favor, consulte o Manual do utilizador para ver a lista "
+"completa dos dados recolhidos."
 
 #. Translators: The label of a Yes button in a dialog
 msgid "&Yes"
-msgstr ""
+msgstr "&Sim"
 
 #. Translators: The label of a No button in a dialog
 msgid "&No"
-msgstr ""
+msgstr "&Não"
 
 #. Translators: The title of the Addons Dialog
 msgid "Add-ons Manager"
@@ -8488,6 +8494,7 @@ msgstr "Anunciar actualização &pendente no arranque"
 #. Translators: The label of a checkbox in general settings to toggle allowing of usage stats gathering
 msgid "Allow the NVDA project to gather NVDA usage statistics"
 msgstr ""
+"Permitir que o projeto do NVDA recolha estatísticas de utilização do NVDA"
 
 #. Translators: A message to warn the user when attempting to copy current settings to system settings.
 msgid ""
