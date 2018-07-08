@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-19 13:00+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 09:09+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,11 +39,15 @@ msgid ""
 "same indentation level, as well as quickly find lines with greater or lesser "
 "indentation level."
 msgstr ""
+"此插件允许NVDA用户按缩进级别或行或段落的偏移进行导航。在浏览器中，它允许快速"
+"查找与屏幕左边缘具有相同偏移量的段落，例如注释的分层树中的第一级注释。此外，"
+"在编辑许多编程语言的源代码时，它允许在相同缩进级别的行之间跳转，以及快速查找"
+"具有更大或更小缩进级别的行。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage in browsers"
-msgstr ""
+msgstr "用于浏览器"
 
 #. type: Plain text
 msgid ""
@@ -54,35 +58,41 @@ msgid ""
 "reddit.com) to jump between first level comments and skipping all the higher "
 "level comments."
 msgstr ""
+"IndentNav可用于从屏幕左边缘偏移导航。特别是，您可以按NVDA + Alt + DownArrow或"
+"UpArrow跳转到具有相同偏移量的下一个或上一个段落。例如，当浏览评论的分层树（例"
+"如，在reddit.com上）以在第一级评论之间跳转并跳过所有更高级别的评论时，这可能"
+"是有用的。"
 
 #. type: Plain text
 msgid ""
 "Strictly speaking, IndentNav can be used in any application, for which NVDA "
 "provides a tree interceptor object."
 msgstr ""
+"严格地说，IndentNav可以在任何应用程序中使用，NVDA为其提供树拦截器对象。"
 
 #. type: Plain text
 msgid "Keystrokes:"
-msgstr ""
+msgstr "快捷键："
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Alt+UpArrow or DownArrow: Jump to previous or next paragraph with the "
 "same offset."
 msgstr ""
+"NVDA + Alt + UpArrow或DownArrow：使用相同的偏移量跳转到上一个或下一个段落。"
 
 #. type: Bullet: '* '
 msgid "NVDA+alt+LeftArrow: Jump to previous paragraph with lesser offset."
-msgstr ""
+msgstr "NVDA + alt + LeftArrow：跳转到上一段，偏移量较小。"
 
 #. type: Bullet: '* '
 msgid "NVDA+Alt+RightArrow: Jump to next paragraph with greater offset."
-msgstr ""
+msgstr "NVDA + Alt + RightArrow：跳转到下一段，偏移量更大。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage in text editors"
-msgstr ""
+msgstr "在文本编辑器中的用法"
 
 #. type: Plain text
 msgid ""
@@ -97,6 +107,12 @@ msgid ""
 "+RightArrow to go to the first child of current line, that is next line with "
 "greater indentation level."
 msgstr ""
+"IndentNav对于编辑许多编程语言的源代码也很有用。像Python这样的语言要求源代码正"
+"确缩进，而在许多其他编程语言中强烈建议使用。使用IndentNav，您可以按NVDA + "
+"Alt + DownArrow或UpArrow跳转到具有相同缩进级别的下一行或上一行。您也可以按"
+"NVDA + Alt + LeftArrow跳转到父线，即具有较低缩进级别的上一行。在Python中，您"
+"可以轻松找到当前的函数定义或类定义。您也可以按NVDA + Alt + RightArrow转到当前"
+"行的第一个子节点，即下一行具有更大的缩进级别。"
 
 #. type: Plain text
 msgid ""
@@ -104,12 +120,16 @@ msgid ""
 "will quickly play the tones of all the skipped lines.  Otherwise it will "
 "only crackle to roughly denote the number of skipped lines."
 msgstr ""
+"如果您的NVDA设置为将音线缩进表示为音调，则IndentNav将快速播放所有跳过的音调。"
+"否则它只会大致表示跳过的行数。"
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Alt+UpArrow or DownArrow: Jump to previous or next line with the same "
 "indentation level within the current indetnation block."
 msgstr ""
+"NVDA + Alt + UpArrow或DownArrow：跳转到当前不包含块内具有相同缩进级别的上一行"
+"或下一行。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -117,23 +137,27 @@ msgid ""
 "with the same indentation level. This command will jump to other indentation "
 "blocks (such as other Python functions) if necessary."
 msgstr ""
+"NVDA + Alt + Control + UpArrow或DownArrow：使用相同的缩进级别强制跳转到上一行"
+"或下一行。如有必要，此快捷键将跳转到其他缩进块（例如其他Python函数）。"
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+alt+LeftArrow: Jump to parent - that is previous line with lesser "
 "indentation level."
-msgstr ""
+msgstr "NVDA + alt + LeftArrow：跳转到父级 - 这是具有较小缩进级别的上一行。"
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Alt+RightArrow: Jump to first child - that is next line with greater "
 "indentation level within the same indentation block."
 msgstr ""
+"NVDA + Alt + RightArrow：跳转到第一个子节点 - 这是在同一缩进块内具有更大缩进"
+"级别的下一行。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Release history"
-msgstr ""
+msgstr "发布历史记录"
 
 #. type: Plain text
 #, no-wrap
@@ -145,6 +169,12 @@ msgid ""
 "* [v1.1](https://github.com/mltony/nvda-indent-nav/raw/master/releases/IndentNav-1.1.nvda-addon)\n"
 "  * Initial release.\n"
 msgstr ""
+"* [版本1.2](https://github.com/mltony/nvda-indent-nav/raw/master/releases/IndentNav-1.2.nvda-addon)\n"
+"  * 增加了对国际化的支持.\n"
+"  * 在源文件中添加了GPL许可证.\n"
+"  * 小修正.\n"
+"* [版本1.1](https://github.com/mltony/nvda-indent-nav/raw/master/releases/IndentNav-1.1.nvda-addon)\n"
+"  * 发布初始版本.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -153,4 +183,4 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=indentnav"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=indentnav"

@@ -3,35 +3,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-01-01 18:47+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-08 14:10+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Read Feeds\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Read Feeds-NVDA-RSS阅读插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed"
-msgstr ""
+msgstr "作者: Noelia Ruiz Martínez, Mesar Hameed"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
 msgid ""
@@ -39,11 +39,13 @@ msgid ""
 "formats using NVDA.  The feeds will not be refreshed automatically.  Below "
 "when we mention feeds, we mean both RSS and ATOM feeds."
 msgstr ""
+"此插件提供了一种使用NVDA以Atom或RSS格式读取订阅源的简单方法。 Feed不会自动刷"
+"新。下面我们提到feed时，我们指的是RSS和ATOM提要。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Installation or Update:"
-msgstr ""
+msgstr "安装和更新："
 
 #. type: Plain text
 msgid ""
@@ -53,39 +55,43 @@ msgid ""
 "install.  Choose update to preserve your saved feeds and to continue using "
 "them in the new installed version of readFeeds."
 msgstr ""
+"如果您使用此插件的先前版本，并且个人NVDA配置文件夹中有RSS或personalFeeds文件"
+"夹，则在安装当前版本时，会出现一个对话框，询问您是要升级还是安装。选择更新以"
+"保留已保存的源，并在新安装的readFeeds版本中继续使用它们。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Commands:"
-msgstr ""
+msgstr "快捷键"
 
 #. type: Title ###
 #, no-wrap
 msgid "Read Feeds menu"
-msgstr ""
+msgstr "阅读Feed菜单"
 
 #. type: Plain text
 msgid ""
 "You can access the Read Feeds submenu from the nvda menu, Tools submenu, "
 "where the following menu options are available:"
 msgstr ""
+"您可以从nvda菜单的Tools子菜单访问Read Feeds子菜单，其中有以下菜单选项："
 
 #. type: Title ####
 #, no-wrap
 msgid "Feeds..."
-msgstr ""
+msgstr "订阅..."
 
 #. type: Plain text
 msgid "Opens a dialog with the following controls:"
-msgstr ""
+msgstr "打开包含以下控件的对话框："
 
 #. type: Bullet: '* '
 msgid "Filter by: An edit box to search previously saved feeds."
-msgstr ""
+msgstr "过滤条件：用于搜索以前保存的feed的编辑框。"
 
 #. type: Bullet: '* '
 msgid "A list of the saved feeds."
-msgstr ""
+msgstr "已保存的feed列表。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -93,10 +99,12 @@ msgid ""
 "current feed. Select the article you want to read and press OK button to "
 "open the corresponding page in your browser."
 msgstr ""
+"文章列表：打开一个对话框，显示当前Feed中的文章列表。选择要阅读的文章，然后按"
+"OK按钮在浏览器中打开相应的页面。"
 
 #. type: Bullet: '* '
 msgid "Open feed: Opens the selected feed in the default application."
-msgstr ""
+msgstr "打开feed：在默认应用程序中打开所选feed。"
 
 #. type: Bullet: '* '
 msgid ""
@@ -104,46 +112,53 @@ msgid ""
 "the address is valid and the feed can be saved, its name, based on the feed "
 "title, will appear at the bottom of the feeds list."
 msgstr ""
+"新建：打开带有编辑框的对话框，以输入新Feed的地址。如果地址有效且可以保存"
+"Feed，则其名称（基于Feed标题）将显示在Feed列表的底部。"
 
 #. type: Bullet: '* '
 msgid "Rename: Opens a dialog with an edit box to rename the selected feed."
-msgstr ""
+msgstr "重命名：打开一个带有编辑框的对话框，以重命名所选的源。"
 
 #. type: Bullet: '* '
 msgid "Delete: Opens a dialog to delete the selected feed after confirmation."
-msgstr ""
+msgstr "删除：打开确认后删除所选feed的对话框。"
 
 #. type: Bullet: '* '
 msgid ""
 "Set default: Sets the selected feed as the default, so that its articles can "
 "be accessed with NVDA's gestures."
 msgstr ""
+"设置默认值：将选定的Feed设置为默认值，以便可以使用NVDA的快捷键访问其文章。"
 
 #. type: Bullet: '* '
 msgid "Close: Closes the Feeds dialog."
-msgstr ""
+msgstr "关闭：关闭“源”对话框。"
 
 #. type: Title #####
 #, no-wrap
 msgid "Notes"
-msgstr ""
+msgstr "注意"
 
 #. type: Bullet: '* '
 msgid ""
 "If a feed named tempFeed is created, please rename it, as this file could be "
 "replaced when needed to create a feed whose name already exists."
 msgstr ""
+"如果创建了名为tempFeed的Feed，请将其重命名，因为在需要创建名称已存在的Feed"
+"时，可以替换此文件。"
 
 #. type: Bullet: '* '
 msgid ""
 "The feed set as the default can't be removed. The addressFile feed will be "
 "use as the default when the configuration is reset, so it can't be deleted."
 msgstr ""
+"无法删除作为默认设置的Feed设置。重置配置时，addressFile提要将用作默认值，因此"
+"无法删除。"
 
 #. type: Plain text
 #, no-wrap
 msgid "####Copy feeds folder... ####\n"
-msgstr ""
+msgstr "####复制feed文件夹... ####\n"
 
 #. type: Plain text
 msgid ""
@@ -151,129 +166,136 @@ msgid ""
 "directory of your feeds. By default the selected folder is the NVDA's "
 "configuration directory, which will create the personalFeeds directory."
 msgstr ""
+"打开一个对话框，选择一个文件夹，您可以在其中保存Feed的personalFeeds目录。默认"
+"情况下，所选文件夹是NVDA的配置目录，该目录将创建personalFeeds目录。"
 
 #. type: Title ####
 #, no-wrap
 msgid "Restore feeds..."
-msgstr ""
+msgstr "恢复Feed ..."
 
 #. type: Plain text
 msgid ""
 "Opens a dialog to select a folder which replaces your feeds in the "
 "personalFeeds folder. Make sure you load a folder containing feeds URLs."
 msgstr ""
+"打开一个对话框，选择一个替换personalFeeds文件夹中的Feed的文件夹。确保加载包含"
+"feed网址的文件夹。"
 
 #. type: Title ###
 #, no-wrap
 msgid "Keyboard commands:"
-msgstr ""
+msgstr "快捷键"
 
 #. type: Bullet: '* '
 msgid ""
 "Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will "
 "open the web page."
-msgstr ""
+msgstr "Ctrl + Shift + NVDA + Space：宣布当前文章的URL。按两次将打开网页。"
 
 #. type: Bullet: '* '
 msgid ""
 "Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent "
 "title."
-msgstr ""
+msgstr "Ctrl + Shift + NVDA + 8：刷新选定的Feed并宣布其最新的标题。"
 
 #. type: Bullet: '* '
 msgid ""
 "Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice "
 "will copy the title and related link to clipboard."
 msgstr ""
+"Ctrl + Shift + NVDA + I：宣布当前的Feed标题和链接。按两次将标题和相关链接复制"
+"到剪贴板。"
 
 #. type: Bullet: '* '
 msgid "Ctrl+Shift+NVDA+U: Announces previous feed title."
-msgstr ""
+msgstr "Ctrl + Shift + NVDA + U：宣布以前的Feed标题。"
 
 #. type: Bullet: '* '
 msgid "Ctrl+Shift+NVDA+O: Announces next feed title."
-msgstr ""
+msgstr "Ctrl + Shift + NVDA + O：宣布下一个Feed标题。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Notifications:"
-msgstr ""
+msgstr "通知"
 
 #. type: Bullet: '* '
 msgid "When the title or URL have been copied."
-msgstr ""
+msgstr "复制标题或URL时。"
 
 #. type: Bullet: '* '
 msgid ""
 "When unable to connect/refresh a feed, or the URL does not correspond to a "
 "valid feed."
-msgstr ""
+msgstr "无法连接/刷新Feed时，或者URL与有效Feed不对应。"
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will display an error message if it was not possible to backup or "
 "restore the personalFeeds folder."
-msgstr ""
+msgstr "如果无法备份或还原personalFeeds文件夹，NVDA将显示错误消息。"
 
 #. type: Bullet: '* '
 msgid ""
 "The title of the articles list dialog displays the selected feed name and "
 "number of items available."
-msgstr ""
+msgstr "“文章列表”对话框的标题显示所选的源名称和可用项目数。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 4.0"
-msgstr ""
+msgstr "版本4.0"
 
 #. type: Bullet: '* '
 msgid "Added a button to open the selected feed from the Feeds dialog."
-msgstr ""
+msgstr "添加了一个按钮，可以从“源”对话框中打开所选的源。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 3.0"
-msgstr ""
+msgstr "版本3.0"
 
 #. type: Bullet: '* '
 msgid ""
 "The dialogs to manage feed files have been removed. Now their functionality "
 "is included in the Feeds dialog."
-msgstr ""
+msgstr "管理订阅源文件的对话框已被删除。现在，他们的功能包含在“源”对话框中。"
 
 #. type: Bullet: '* '
 msgid ""
 "The visual presentation of the dialogs has been enhanced, adhering to the "
 "appearance of the dialogs shown in NVDA."
-msgstr ""
+msgstr "对话框的可视化表示已得到增强，符合NVDA中显示的对话框的外观。"
 
 #. type: Bullet: '* '
 msgid ""
 "The default feed is saved on the NVDA's configuration. Therefore, it's "
 "possible to set different default feeds in configuration profiles."
 msgstr ""
+"默认配置保存在NVDA的配置中。因此，可以在配置配置文件中设置不同的默认源。"
 
 #. type: Bullet: '* '
 msgid "Requires NVDA 2016.4."
-msgstr ""
+msgstr "需要NVDA 2016.4。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr ""
+msgstr "版本2.0"
 
 #. type: Bullet: '* '
 msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
+msgstr "插件管理器提供了插件帮助。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr ""
+msgstr "版本1.0"
 
 #. type: Bullet: '* '
 msgid "Initial version."
-msgstr ""
+msgstr "发布初始版本"
 
 #. type: Plain text
 #, no-wrap
@@ -282,8 +304,8 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: http://addons.nvda-project.org/files/get.php?file=rf"
-msgstr ""
+msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=rf"
 
 #. type: Plain text
 msgid "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
-msgstr ""
+msgstr "[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev"
