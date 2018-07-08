@@ -832,9 +832,11 @@ Pour plus d'information concernant le mode navigation et la navigation par lettr
 %kc:beginInclude
 || Nom | Touche | Description |
 | Annonce du temps restant | contrôle+maj+r | Annonce le temps restant pour le morceau en cours. |
+| Annonce du temps écoulé | contrôle+maj+e | annonce le temps écoulé de la piste en cours. |
+| Annonce de la longueur de la piste | contrôle+maj+t | Annonce la longueur de la piste en cours. |
 %kc:endInclude
 
-Note : Le raccourci "Annonce du temps restant" fonctionne seulement avec le format de chaîne par défaut pour la barre d'état de Foobar.
+Note : Les raccourcis ci-dessus fonctionnent seulement avec le format de chaîne par défaut pour la barre d'état de Foobar.
 
 ++ Miranda IM ++[MirandaIM]
 %kc:beginInclude
@@ -971,6 +973,25 @@ Cette option n'existe que dans les versions installées de NVDA.
 ==== Vérifier automatiquement les mises à jour de NVDA ====[GeneralSettingsCheckForUpdates]
 Si activé, NVDA recherchera automatiquement la dernière version de NVDA et vous informera si une mise à jour est disponible.
 Vous pouvez également vérifier manuellement les mises à jour en sélectionnant "Recherche d'une Mise à Jour..." dans le menu "Aide" du menu NVDA.
+Lors d'une vérification manuelle ou automatique des mises à jour, NVDA doit envoyer certaines informations au serveur dans le but de recevoir la mise à jour appropriée à votre système.
+Les informations suivantes sont toujours envoyées :
+- Version courante de NVDA
+- Version du système d'exploitation
+- Système d'exploitation 32 ou 64 bits
+
+
+==== Autoriser le projet NVDA à collecter certaines informations statistiques d'utilisation ====[GeneralSettingsGatherUsageStats]
+Si ceci est activé, NV Access utilisera les informations de la vérification de mises à jour pour connaître le nombre d'utilisateurs de NVDA en incluant certaines informations démographiques telles que le système d'exploitation et le pays d'origine.
+Bien que votre adresse IP soit utilisée pour déterminer votre pays durant la mise à jour, elle ne sera jamais conservée.
+En plus des informations obligatoires nécessaires à la mise à jour, les informations supplémentaires suivantes sont également envoyées :
+- La langue d'interface de NVDA
+- Copie en cours de NVDA installée ou portables
+- Le nom du synthétiseur vocal actuellement utilisé (incluant le nom du module complémentaire dont provient le pilote)
+- Le nom du terminal braille actuellement utilisé (incluant le nom du module complémentaire dont provient le pilote)
+- La table d'affichage braille en cours (si le braille est activé)
+
+
+Ces informations aident grandement NV Access pour prioritiser les futurs développements de NVDA.
 
 ==== Avertir des mises à jour en attente au démarrage ====[GeneralSettingsNotifyPendingUpdates]
 Si ceci est activé, NVDA vous informera quand il y a une mise à jour en attente au démarrage, et vous offrira la possibilité de l'installer.
@@ -1372,6 +1393,7 @@ Cette option vous permet de choisir si vous voulez connaître le rang de l'objet
 Si l'annonce du rang de l'objet dans une liste est activée, cette option autorise NVDA à deviner le rang de l'objet si cette information n'est pas disponible pour un objet particulier.
 
 Quand l'option est activée, NVDA annonce le rang pour un plus grand nombre de contrôles tels que les menus et les barres d'outils. Cependant, cette information peut parfois être inexacte.
+
 
 ==== Annonce de la description des objets ====[ObjectPresentationReportDescriptions]
  Décochez cette case si vous pensez que vous n'avez pas besoin d'entendre leur description annoncée avec les objets.
