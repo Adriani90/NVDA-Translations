@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: placeMarkers 7.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-24 16:00+1000\n"
-"PO-Revision-Date: 2018-07-07 18:25+0700\n"
+"PO-Revision-Date: 2018-07-08 21:34+0700\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -127,10 +127,7 @@ msgstr "Chép điểm đánh dấu"
 
 #. Translators: An informational message displayed in the Copy dialog.
 msgid "Select a folder to save a backup of your current place markers."
-msgstr ""
-"Chọn thư mục để sao lưu các điểm đánh dấu hiện thời của bạn.\n"
-"\n"
-"\t\tChúng sẽ được chép từ %s."
+msgstr "Chọn thư mục để sao lưu các điểm đánh dấu hiện thời của bạn."
 
 #. Translators: The label of a grouping containing controls to select the destination directory in the Copy dialog.
 msgid "directory for backup:"
@@ -142,7 +139,7 @@ msgstr "Chọn thư mục để sao chép"
 
 #. Translators: The title of the Restore dialog.
 msgid "Restore place markers"
-msgstr "Khôi phục các điểm đánh dấu"
+msgstr "Phục hồi các điểm đánh dấu"
 
 #. Translators: An informational message displayed in the Restore dialog.
 msgid ""
@@ -199,7 +196,7 @@ msgstr "&Phục hồi các điểm đánh dấu..."
 
 #. Translators: the tooltip text for an item of addon submenu.
 msgid "Restore previously saved place markers"
-msgstr "Khôi phục các điểm đánh dấu đã lưu trước đó"
+msgstr "Phục hồi các điểm đánh dấu đã lưu trước đó"
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 msgid "Opens the specific search folder."
