@@ -2429,6 +2429,11 @@ Sljedeći modeli su podržani:
 
 Za BrailleNote Touch, molimo pogledajte poglavlje [Brailliant BI serije / BrailleNote Touch HumanWareBrailliant].
 
+Izuzimajući BrailleNote PK, braille (BT) i QWERTY (QT) tipkovnice su podržane.
+Za BrailleNote QT, emulacija tipkovnice osobnog računala nije podržana.
+Moguće je također upisivanje brajice koristeći qwerty tipkovnicu.
+Molimo pogledajte poglavlje brajični terminal Braillenote korisničkog uputstva za više informacija.
+
 Ako vaš uređaj podržava više od jedne vrste veze, kada spajate vaš BrailleNote za korištenje sa NVDA, morate postaviti priključak brajičnog terminala u postavkama brajičnog terminala.
 Za više informacija, molimo pogledajte korisničke upute za BrailleNote elektroničku bilježnicu.
 U NVDA ćete možda trebati odabrati priključak u [dijaloškom okviru odabir brajičnog retka #SelectBrailleDisplay].
@@ -2437,7 +2442,10 @@ Ako za spajanje koristite serijski priključak (ili pretvarač sa serijskog prik
 
 Prije spajanja vašeg BrailleNote Apex uz pomoć njegovog Usb klijenta, morate instalirati upravljačke programe koje je napravila tvrtka Human Ware.
 
-Sljede BrailleNote prečaci za korištenje sa NVDA čitačem ekrana.
+Na BrailleNote Apex BT, možete koristiti kotačić koji se nalazi između točkica 1 i 4 za različite NVDA prečace.
+Kotačić se sastoji od četiri usmjerene točke, centralnog gumba za klikanje, i kotačića koji se može vrtiti u smjeru, ili obrnuto od smjera kazaljke na satu.
+
+Slijede BrailleNote prečaci za korištenje sa NVDA čitačem ekrana.
 Molimo pogledajte vaše BrailleNote upute za upotrebu da biste znali gdje su smještene ove tipke.
 
 %kc:beginInclude
@@ -2447,6 +2455,7 @@ Molimo pogledajte vaše BrailleNote upute za upotrebu da biste znali gdje su smj
 | Premjesti brajični redak na prethodni redak | prethodno |
 | Premjesti brajični redak na slijedeći redak | slijedeće |
 | Prebaci se na brajičnu ćeliju | routing |
+| NvDA izbornik | razmaknica+točkica1+točkica3+točkica4+točkica5 (razmaknica+n) |
 | Prebacuj usmjerivanje brajice na | Prethodni+Slijedeći |
 | Strelica Gore | razmak+točkica1 |
 | Strelica Dolje | razmak+točkica4 |
@@ -2465,7 +2474,40 @@ Molimo pogledajte vaše BrailleNote upute za upotrebu da biste znali gdje su smj
 | Shift+tab | razmak+točkica1+točkica2+točkica5+točkica6 |
 | Windows tipka | razmak+točkica2+točkica4+točkica5+točkica6 (razmak+w) |
 | Alt | razmak+točkica1+točkica3+točkica4 (razmak+m) |
-| Uključi/isključi pomoč pri unosu | razmak+točkica2+točkica3+točkica6 (razmak+spušteno h) |
+| Uključi/isključi pomoć pri unosu | razmak+točkica2+točkica3+točkica6 (razmak+spušteno h) |
+
+Slijede komande dodijeljene BrailleNote QT kada nije u načinu unosa.
+
+|| Naziv | Prečac |
+| NvDA izbornik | read+n |
+| Strelica gore | upArrow |
+| Strelica dolje | downArrow |
+| Strelica lijevo | leftArrow|
+| Strelica desno | rightArrow |
+| Page up | function+upArrow |
+| Page down | function+downArrow |
+| Home | function+leftArrow |
+| End | function+rightArrow |
+| Ctrl+home | read+t |
+| Ctrl+end | read+b |
+| Enter | enter |
+| Backspace | backspace |
+| Tab | tab |
+| Shift+tab | shift+tab |
+| Windows tipka | read+w |
+| Alt | read+m |
+| uključivanje i isključivanje pomoći pri unosu | read+1 |
+
+Slijede prečaci dodijeljeni kotačiću:
+
+|| Naziv | Prečac |
+| strelica gore | upArrow |
+| strelica dolje | downArrow |
+| Strelica lijevo | leftArrow |
+| strelica desno | rightArrow |
+| Enter | srednja tipka |
+| Tab | kotačić u smijeru kazaljke na satu |
+| Shift+tab | kotačić obrnuto od kazaljke na satu |
 %kc:endInclude
 
 ++ EcoBraille ++[EcoBraille]
