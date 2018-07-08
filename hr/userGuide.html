@@ -5651,6 +5651,12 @@ Sljedeći modeli su podržani:
 Za BrailleNote Touch, molimo pogledajte poglavlje <A HREF="HumanWareBrailliant">Brailliant BI serije / BrailleNote Touch</A>.
 </P>
 <P>
+Izuzimajući BrailleNote PK, braille (BT) i QWERTY (QT) tipkovnice su podržane.
+Za BrailleNote QT, emulacija tipkovnice osobnog računala nije podržana.
+Moguće je također upisivanje brajice koristeći qwerty tipkovnicu.
+Molimo pogledajte poglavlje brajični terminal Braillenote korisničkog uputstva za više informacija.
+</P>
+<P>
 Ako vaš uređaj podržava više od jedne vrste veze, kada spajate vaš BrailleNote za korištenje sa NVDA, morate postaviti priključak brajičnog terminala u postavkama brajičnog terminala.
 Za više informacija, molimo pogledajte korisničke upute za BrailleNote elektroničku bilježnicu.
 U NVDA ćete možda trebati odabrati priključak u <A HREF="#SelectBrailleDisplay">dijaloškom okviru odabir brajičnog retka</A>.
@@ -5661,7 +5667,11 @@ Ako za spajanje koristite serijski priključak (ili pretvarač sa serijskog prik
 Prije spajanja vašeg BrailleNote Apex uz pomoć njegovog Usb klijenta, morate instalirati upravljačke programe koje je napravila tvrtka Human Ware.
 </P>
 <P>
-Sljede BrailleNote prečaci za korištenje sa NVDA čitačem ekrana.
+Na BrailleNote Apex BT, možete koristiti kotačić koji se nalazi između točkica 1 i 4 za različite NVDA prečace.
+Kotačić se sastoji od četiri usmjerene točke, centralnog gumba za klikanje, i kotačića koji se može vrtiti u smjeru, ili obrnuto od smjera kazaljke na satu.
+</P>
+<P>
+Slijede BrailleNote prečaci za korištenje sa NVDA čitačem ekrana.
 Molimo pogledajte vaše BrailleNote upute za upotrebu da biste znali gdje su smještene ove tipke.
 </P>
 
@@ -5689,6 +5699,10 @@ Molimo pogledajte vaše BrailleNote upute za upotrebu da biste znali gdje su smj
 <TR>
 <TD>Prebaci se na brajičnu ćeliju</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>NvDA izbornik</TD>
+<TD>razmaknica+točkica1+točkica3+točkica4+točkica5 (razmaknica+n)</TD>
 </TR>
 <TR>
 <TD>Prebacuj usmjerivanje brajice na</TD>
@@ -5763,8 +5777,130 @@ Molimo pogledajte vaše BrailleNote upute za upotrebu da biste znali gdje su smj
 <TD>razmak+točkica1+točkica3+točkica4 (razmak+m)</TD>
 </TR>
 <TR>
-<TD>Uključi/isključi pomoč pri unosu</TD>
+<TD>Uključi/isključi pomoć pri unosu</TD>
 <TD>razmak+točkica2+točkica3+točkica6 (razmak+spušteno h)</TD>
+</TR>
+</TABLE>
+
+<P>
+Slijede komande dodijeljene BrailleNote QT kada nije u načinu unosa.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Naziv</TH>
+<TH>Prečac</TH>
+</TR>
+<TR>
+<TD>NvDA izbornik</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>Strelica gore</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>Strelica dolje</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Strelica lijevo</TD>
+<TD>leftArrow|</TD>
+</TR>
+<TR>
+<TD>Strelica desno</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Page up</TD>
+<TD>function+upArrow</TD>
+</TR>
+<TR>
+<TD>Page down</TD>
+<TD>function+downArrow</TD>
+</TR>
+<TR>
+<TD>Home</TD>
+<TD>function+leftArrow</TD>
+</TR>
+<TR>
+<TD>End</TD>
+<TD>function+rightArrow</TD>
+</TR>
+<TR>
+<TD>Ctrl+home</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Ctrl+end</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Enter</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Backspace</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Tab</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Shift+tab</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>Windows tipka</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Alt</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>uključivanje i isključivanje pomoći pri unosu</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+Slijede prečaci dodijeljeni kotačiću:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Naziv</TH>
+<TH>Prečac</TH>
+</TR>
+<TR>
+<TD>strelica gore</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>strelica dolje</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Strelica lijevo</TD>
+<TD>leftArrow</TD>
+</TR>
+<TR>
+<TD>strelica desno</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Enter</TD>
+<TD>srednja tipka</TD>
+</TR>
+<TR>
+<TD>Tab</TD>
+<TD>kotačić u smijeru kazaljke na satu</TD>
+</TR>
+<TR>
+<TD>Shift+tab</TD>
+<TD>kotačić obrnuto od kazaljke na satu</TD>
 </TR>
 </TABLE>
 
