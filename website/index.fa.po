@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-12-07 05:59+1000\n"
-"PO-Revision-Date: 2017-06-14 00:36+0330\n"
+"PO-Revision-Date: 2018-07-09 18:11+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation <nvda-translations@freelists.org>\n"
 "Language: fa\n"
@@ -35,12 +35,6 @@ msgstr ""
 "افزودن ویژگی‌های بیشتر بر روی NVDA قابل دانلود و قابل نصب میباشند."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "On these pages, you will find add-ons that have been created and publicly "
-#| "reviewed by members of the community.  Please note that many of these add-"
-#| "ons are not provided by NV Access, so NV Access cannot be held "
-#| "responsible for these add-ons,"
 msgid ""
 "On these pages, you will find add-ons that have been created and publicly "
 "reviewed by members of the community.  Please note that many of these add-"
@@ -117,7 +111,7 @@ msgstr "[[!inline  pages=\"tagged(stable) and currentlang()\" archive=\"yes\"]]\
 
 #. type: Plain text
 msgid "This website is being maintained by the NVDA translation team."
-msgstr "این سایت توسط تیم ترجمه NVDA پشتیبانی میشود."
+msgstr "این سایت توسط تیم ترجمه NVDA نگهداری میشود."
 
 #. type: Plain text
 msgid "[1]: https://www.nvaccess.org"
