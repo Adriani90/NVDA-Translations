@@ -1097,7 +1097,6 @@ Esta opção permite-lhe escolher a placa de som que o NVDA indicará ao sinteti
 ==== Modo de Diminuição do Volume ====[SelectSynthesizerDuckingMode]
 Tecla: NVDA+shift+d
 
-
 No Windows 8 e superiores, esta opção permite definir se o NVDA deve diminuir o volume das outras aplicações, enquanto o NVDA está a falar ou sempre que o NVDA está em execução.
 - Sem diminuição: O NVDA nunca diminuirá os sons de outros programas. 
 - Diminuir quando a emitir voz ou sons: O NVDA diminuirá os sons de outras aplicações quando estiver a falar ou a emitir sons. Isto pode não funcionar com todos os sintetizadores. 
@@ -1392,10 +1391,7 @@ Esta opção permite-lhe escolher se terá a informação da posição do object
 
 ==== Adivinhar a posição do Objecto, quando Indisponível ====[ObjectPresentationGuessPositionInfo]
 Se a opção "Anunciar a Posição do Objecto" estiver activa, permite que o NVDA tente adivinhar a posição de um objecto, quando ela não está disponível de outra forma, para um controlo específico.
-Quando activada, O NVDA informará sobre mais controlos como menus e barras de ferramentas, porém esta informação poderá ser ligeiramente incorrecta.
 
-==== Reproduzir coordenadas do objecto ====[ObjectPresentationObjectCoordinates]
-Marcar esta caixa de verificação permite ouvir bips indicando onde está posicionado o objecto actual no ecrã. Isto pode ser útil se estiver a utilizar toques no ecrã para se mover para o objecto anterior ou seguinte.
 Quando activada, O NVDA informará sobre mais controlos como menus e barras de ferramentas, porém esta informação poderá ser ligeiramente incorrecta.
 
 ==== Anunciar Descrição de Objectos ====[ObjectPresentationReportDescriptions]
