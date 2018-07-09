@@ -3,10 +3,10 @@
 <HEAD>
 <META NAME="generator" CONTENT="http://txt2tags.org">
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
-<TITLE>довідник зі списком команд NVDA 2018.1-dev</TITLE>
+<TITLE>довідник зі списком команд NVDA 2018.3-dev</TITLE>
 </HEAD><BODY BGCOLOR="white" TEXT="black">
 <CENTER>
-<H2>﻿довідник зі списком команд NVDA 2018.1-dev</H2>
+<H2>﻿довідник зі списком команд NVDA 2018.3-dev</H2>
 </CENTER>
 
 
@@ -815,6 +815,16 @@
 <TD>контрол+шіфт+r</TD>
 <TD>Читає, скільки залишилося часу звучати доріжці, яка відтворюється у поточний момент, якщо, звісно, вона відтворюється</TD>
 </TR>
+<TR>
+<TD>Повідомити витрачений час</TD>
+<TD>control+shift+e</TD>
+<TD>Повідомляє витрачений час поточного трека, якщо доступно.</TD>
+</TR>
+<TR>
+<TD>Повідомити довжину трека</TD>
+<TD>control+shift+t</TD>
+<TD>Повідомляє довжину поточного трека, якщо доступно.</TD>
+</TR>
 </TABLE>
 
 <A NAME="MirandaIM"></A>
@@ -913,10 +923,28 @@
 <A NAME="ConfiguringNVDA"></A>
 <H2>Конфігурація NVDA</H2>
 
-<A NAME="preferences"></A>
-<H3>Параметри</H3>
+<A NAME="NVDASettings"></A>
+<H3>Налаштування...</H3>
 
 <A NAME="SynthesizerSelection"></A>
+<H4>Мовлення (NVDA+control+s)</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Ім'я</TH>
+<TH>Desktop-розкладка</TH>
+<TH>Laptop-розкладка</TH>
+<TH>Опис</TH>
+</TR>
+<TR>
+<TD ALIGN="center">Рівень символів та пунктуації</TD>
+<TD>NVDA+p</TD>
+<TD>NVDA+p</TD>
+<TD>Тут можна обрати кількість знаків пунктуації та інших символів, які промовлятимуться як слова.</TD>
+</TR>
+</TABLE>
+
+<A NAME="SelectSynthesizer"></A>
 <H4>Вибір синтезатора (NVDA+control+s)</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
@@ -931,24 +959,6 @@
 <TD>NVDA + shift + d</TD>
 <TD>NVDA + shift + d</TD>
 <TD>У Windows 8 і пізніших версіях ця опція дозволяє вам вибрати, чи зменшувати гучність інших додатків, коли NVDA розмовляє, або весь час, поки NVDA працює.</TD>
-</TR>
-</TABLE>
-
-<A NAME="VoiceSettings"></A>
-<H4>Голоси... (NVDA+control+v)</H4>
-
-<TABLE BORDER="1" CELLPADDING="4">
-<TR>
-<TH>Ім'я</TH>
-<TH>Desktop-розкладка</TH>
-<TH>Laptop-розкладка</TH>
-<TH>Опис</TH>
-</TR>
-<TR>
-<TD ALIGN="center">Рівень символів та пунктуації</TD>
-<TD>NVDA+p</TD>
-<TD>NVDA+p</TD>
-<TD>Тут можна обрати кількість знаків пунктуації та інших символів, які промовлятимуться як слова.</TD>
 </TR>
 </TABLE>
 
@@ -989,7 +999,7 @@
 </TABLE>
 
 <A NAME="BrailleSettings"></A>
-<H4>Налаштування брайля</H4>
+<H4>Брайль</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1007,7 +1017,7 @@
 </TABLE>
 
 <A NAME="KeyboardSettings"></A>
-<H4>Налаштування клавіатури (NVDA+control+k)</H4>
+<H4>Клавіатура (NVDA+control+k)</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1037,7 +1047,7 @@
 </TABLE>
 
 <A NAME="MouseSettings"></A>
-<H4>Налаштування мишки (NVDA+control+m)</H4>
+<H4>Мишка (NVDA+control+m)</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1055,7 +1065,7 @@
 </TABLE>
 
 <A NAME="ReviewCursorSettings"></A>
-<H4>Переглядовий курсор...</H4>
+<H4>Переглядовий курсор</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1270,6 +1280,14 @@
 <TD>brailleSpaceBar+dot2+dot3+dot4+dot5</TD>
 </TR>
 <TR>
+<TD>alt+shift+tab key</TD>
+<TD>brailleSpaceBar+dot1+dot2+dot5+dot6</TD>
+</TR>
+<TR>
+<TD>windows+tab key</TD>
+<TD>brailleSpaceBar+dot2+dot3+dot4</TD>
+</TR>
+<TR>
 <TD>escape key</TD>
 <TD>brailleSpaceBar+dot1+dot5</TD>
 </TR>
@@ -1364,6 +1382,10 @@ For Focus 80 only:
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>secondary routing</TD>
 </TR>
 <TR>
 <TD>Toggle HID keyboard simulation</TD>
@@ -1745,7 +1767,9 @@ For displays which have a joystick:
 </TABLE>
 
 <A NAME="HumanWareBrailliant"></A>
-<H3>HumanWare Brailliant BI/B Series</H3>
+<H3>HumanWare Brailliant BI/B Series / BrailleNote Touch</H3>
+
+<H4>Key assignments for All models</H4>
 
 <TABLE BORDER="1" CELLPADDING="4">
 <TR>
@@ -1793,10 +1817,6 @@ For displays which have a joystick:
 <TD>space+dot6</TD>
 </TR>
 <TR>
-<TD>NVDA Menu</TD>
-<TD>c1+c3+c4+c5 (command n)</TD>
-</TR>
-<TR>
 <TD>shift+tab key</TD>
 <TD>space+dot1+dot3</TD>
 </TR>
@@ -1817,10 +1837,6 @@ For displays which have a joystick:
 <TD>dot8</TD>
 </TR>
 <TR>
-<TD>windows+d key (minimize all applications)</TD>
-<TD>c1+c4+c5 (command d)</TD>
-</TR>
-<TR>
 <TD>windows key</TD>
 <TD>space+dot3+dot4</TD>
 </TR>
@@ -1829,8 +1845,66 @@ For displays which have a joystick:
 <TD>space+dot2+dot3+dot4+dot5 (space+t)</TD>
 </TR>
 <TR>
+<TD>NVDA Menu</TD>
+<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>space+dot1+dot4+dot5 (space+d)</TD>
+</TR>
+<TR>
+<TD>Say all</TD>
+<TD>space+dot1+dot2+dot3+dot4+dot5+dot6</TD>
+</TR>
+</TABLE>
+
+<H4>Key assignments for Brailliant BI 32, BI 40 and B 80</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>NVDA Menu</TD>
+<TD>c1+c3+c4+c5 (command n)</TD>
+</TR>
+<TR>
+<TD>windows+d key (minimize all applications)</TD>
+<TD>c1+c4+c5 (command d)</TD>
+</TR>
+<TR>
 <TD>Say all</TD>
 <TD>c1+c2+c3+c4+c5+c6</TD>
+</TR>
+</TABLE>
+
+<H4>Key assignments for Brailliant BI 14</H4>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>up arrow key</TD>
+<TD>joystick up</TD>
+</TR>
+<TR>
+<TD>down arrow key</TD>
+<TD>joystick down</TD>
+</TR>
+<TR>
+<TD>left arrow key</TD>
+<TD>joystick left</TD>
+</TR>
+<TR>
+<TD>right arrow key</TD>
+<TD>joystick right</TD>
+</TR>
+<TR>
+<TD>enter key</TD>
+<TD>joystick action</TD>
 </TR>
 </TABLE>
 
@@ -2207,7 +2281,7 @@ For displays which have a joystick:
 <TD>right2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
+<TD>Report text formatting under braille cell</TD>
 <TD>upper routing row</TD>
 </TR>
 </TABLE>
@@ -2316,8 +2390,8 @@ Devices with EAB:
 <TD>left2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>Upper routing strip</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 </TABLE>
 
@@ -2375,8 +2449,8 @@ BRAILLEX Tiny:
 <TD>r1+right</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>reportf</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 <TR>
 <TD>Report title</TD>
@@ -2410,8 +2484,8 @@ BRAILLEX 2D Screen:
 <TD>r2</TD>
 </TR>
 <TR>
-<TD>Report text formatting</TD>
-<TD>reportf</TD>
+<TD>Report text formatting under braille cell</TD>
+<TD>upper routing strip</TD>
 </TR>
 <TR>
 <TD>Move braille display to previous line</TD>
@@ -2474,6 +2548,10 @@ BRAILLEX 2D Screen:
 <TR>
 <TD>Route to braille cell</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>space+dot1+dot3+dot4+dot5 (space+n)</TD>
 </TR>
 <TR>
 <TD>Toggle braille tethered to</TD>
@@ -2550,6 +2628,128 @@ BRAILLEX 2D Screen:
 <TR>
 <TD>Toggle input help</TD>
 <TD>space+dot2+dot3+dot6 (space+lower h)</TD>
+</TR>
+</TABLE>
+
+<P>
+Following are commands assigned to BrailleNote QT when it is not in braille input mode.
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>NvDA menu</TD>
+<TD>read+n</TD>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow|</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Page up key</TD>
+<TD>function+upArrow</TD>
+</TR>
+<TR>
+<TD>Page down key</TD>
+<TD>function+downArrow</TD>
+</TR>
+<TR>
+<TD>Home key</TD>
+<TD>function+leftArrow</TD>
+</TR>
+<TR>
+<TD>End key</TD>
+<TD>function+rightArrow</TD>
+</TR>
+<TR>
+<TD>Control+home keys</TD>
+<TD>read+t</TD>
+</TR>
+<TR>
+<TD>Control+end keys</TD>
+<TD>read+b</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>enter</TD>
+</TR>
+<TR>
+<TD>Backspace key</TD>
+<TD>backspace</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>tab</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>shift+tab</TD>
+</TR>
+<TR>
+<TD>Windows key</TD>
+<TD>read+w</TD>
+</TR>
+<TR>
+<TD>Alt key</TD>
+<TD>read+m</TD>
+</TR>
+<TR>
+<TD>Toggle input help</TD>
+<TD>read+1</TD>
+</TR>
+</TABLE>
+
+<P>
+Following are commands assigned to the scroll wheel:
+</P>
+
+<TABLE BORDER="1" CELLPADDING="4">
+<TR>
+<TH>Name</TH>
+<TH>Key</TH>
+</TR>
+<TR>
+<TD>Up arrow key</TD>
+<TD>upArrow</TD>
+</TR>
+<TR>
+<TD>Down arrow key</TD>
+<TD>downArrow</TD>
+</TR>
+<TR>
+<TD>Left Arrow key</TD>
+<TD>leftArrow</TD>
+</TR>
+<TR>
+<TD>Right arrow key</TD>
+<TD>rightArrow</TD>
+</TR>
+<TR>
+<TD>Enter key</TD>
+<TD>center button</TD>
+</TR>
+<TR>
+<TD>Tab key</TD>
+<TD>scroll wheel clockwise</TD>
+</TR>
+<TR>
+<TD>Shift+tab keys</TD>
+<TD>scroll wheel counterclockwise</TD>
 </TR>
 </TABLE>
 
@@ -2671,7 +2871,11 @@ BRAILLEX 2D Screen:
 </TR>
 <TR>
 <TD>Route to braille cell</TD>
-<TD>routing, doubleRouting|</TD>
+<TD>routing</TD>
+</TR>
+<TR>
+<TD>Report text formatting under braille cell</TD>
+<TD>doubleRouting</TD>
 </TR>
 <TR>
 <TD>Move to previous line in review</TD>
@@ -2902,12 +3106,24 @@ BRAILLEX 2D Screen:
 <TD>dot7+space, l4</TD>
 </TR>
 <TR>
+<TD>Toggle shift key</TD>
+<TD>dot1+dot7+space, dot4+dot7+space</TD>
+</TR>
+<TR>
 <TD>control key</TD>
-<TD>dot7+dot8+space, dot1+dot7+dot8+space, dot4+dot7+dot8+space, l5</TD>
+<TD>dot7+dot8+space, l5</TD>
+</TR>
+<TR>
+<TD>Toggle control key</TD>
+<TD>dot1+dot7+dot8+space, dot4+dot7+dot8+space</TD>
 </TR>
 <TR>
 <TD>alt key</TD>
-<TD>dot8+space, dot1+dot8+space, dot4+dot8+space, l6</TD>
+<TD>dot8+space, l6</TD>
+</TR>
+<TR>
+<TD>Toggle alt key</TD>
+<TD>dot1+dot8+space, dot4+dot8+space</TD>
 </TR>
 <TR>
 <TD>ToggleHID keyboard input simulation</TD>
