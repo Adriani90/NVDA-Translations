@@ -3733,7 +3733,7 @@ msgstr "Modo de voz desligado"
 
 #. Translators: A speech mode which will cause NVDA to beep instead of speaking.
 msgid "Speech mode beeps"
-msgstr "Modo de voz beeps"
+msgstr "Modo de voz bips"
 
 #. Translators: The normal speech mode; i.e. NVDA will talk as normal.
 msgid "Speech mode talk"
@@ -3745,7 +3745,7 @@ msgid ""
 "will not speak anything. If beeps then NVDA will simply beep each time it "
 "its supposed to speak something. If talk then NVDA wil just speak normally."
 msgstr ""
-"Alterna entre os modos de voz desligado, beeps e falar. Quando está no modo "
+"Alterna entre os modos de voz desligado, bips e falar. Quando está no modo "
 "de fala desligado, o NVDA permanece em  silêncio. Quando está no modo de "
 "beeps, o NVDA apita sempre que seria suposto falar e no modo de fala, o NVDA "
 "fala normalmente."
@@ -3875,18 +3875,18 @@ msgstr "Falar actualizações de barras de progresso"
 
 #. Translators: A mode where beeps will indicate progress bar updates (beeps rise in pitch as progress bar updates).
 msgid "Beep for progress bar updates"
-msgstr "Beep para actualizações de barras de progresso"
+msgstr "Bip para actualizações de barras de progresso"
 
 #. Translators: A mode where both speech and beeps will indicate progress bar updates.
 msgid "Beep and speak progress bar updates"
-msgstr "Beep e falar actualizações em barras de progresso"
+msgstr "Bip e falar actualizações em barras de progresso"
 
 #. Translators: Input help mode message for toggle progress bar output command.
 msgid ""
 "Toggles between beeps, speech, beeps and speech, and off, for reporting "
 "progress bar updates"
 msgstr ""
-"Alterna entre beeps, voz, beeps e voz, e desactivar, para informar "
+"Alterna entre bips, voz, bips e voz, e desactivar, para informar "
 "actualizações de barras de progresso"
 
 #. Translators: presented when the present dynamic changes is toggled.
@@ -8633,7 +8633,7 @@ msgstr "Anunciar maiús&cula antes de letras maiúsculas"
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel.
 msgid "&Beep for capitals"
-msgstr "Reproduzir &beeps para maiúsculas"
+msgstr "Reproduzir &bips para maiúsculas"
 
 #. Translators: This is the label for a checkbox in the
 #. voice settings panel.
@@ -8689,8 +8689,7 @@ msgstr "Permitir leitura rápida durante a leitura contínua."
 #. keyboard settings panel.
 msgid "Beep if typing lowercase letters when caps lock is on"
 msgstr ""
-"Reproduzir beeps se ao escrever letras minúsculas o caps lock estiver "
-"activado"
+"Reproduzir bips se ao escrever letras minúsculas o caps lock estiver activado"
 
 #. Translators: This is the label for a checkbox in the
 #. keyboard settings panel.
@@ -8808,13 +8807,13 @@ msgstr "Falar"
 #. which reports progress bar updates by beeping.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
 msgid "Beep"
-msgstr "Beep"
+msgstr "Bip"
 
 #. Translators: An option for progress bar output in the Object Presentation dialog
 #. which reports progress bar updates by both speaking and beeping.
 #. See Progress bar output in the Object Presentation Settings section of the User Guide.
 msgid "Speak and beep"
-msgstr "Falar e beep"
+msgstr "Falar e bip"
 
 #. Translators: This is the label for a checkbox in the
 #. object presentation settings panel.
