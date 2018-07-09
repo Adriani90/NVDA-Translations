@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-12-07 05:59+1000\n"
-"PO-Revision-Date: 2017-11-19 10:51+0200\n"
+"PO-Revision-Date: 2018-07-09 12:49+0300\n"
 "Last-Translator: Volodymyr <vlodko@torba.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,12 +39,6 @@ msgstr ""
 "нових брайлівських дисплеїв чи синтезаторів мовлення."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "On these pages, you will find add-ons that have been created and publicly "
-#| "reviewed by members of the community.  Please note that many of these add-"
-#| "ons are not provided by NV Access, so NV Access cannot be held "
-#| "responsible for these add-ons,"
 msgid ""
 "On these pages, you will find add-ons that have been created and publicly "
 "reviewed by members of the community.  Please note that many of these add-"
@@ -53,7 +47,7 @@ msgid ""
 msgstr ""
 "На цих сторінках ви знайдете додатки, створені і публічно перевірені членами "
 "спільноти NVDA.  Будь ласка, зверніть увагу, що багато з цих додатків НЕ "
-"належать NV Access, відтак NV Access не несе відповідальності за ці додатки,"
+"належать NV Access, відтак NV Access не несе відповідальності за ці додатки."
 
 #. type: Plain text
 msgid ""
