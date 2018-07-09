@@ -1,11 +1,2 @@
 # Structural comparison of pt_PT/userGuide.t2t against pt_PT/userGuide-newRevisions/14926/userGuide.t2t
-en 14.13. start:2442 paragraphs:9, tables:3, lists:1
-pt_PT 14.13. start:2442 paragraphs:12, tables:2, lists:4
-en 14.14. start:2534 paragraphs:3, tables:1, lists:1
-pt_PT 14.14. start:2569 paragraphs:1, tables:1, lists:0
-en 14.15. start:2569 paragraphs:1, tables:1, lists:0
-pt_PT 14.15. start:2579 paragraphs:3, tables:1, lists:0
-en 14.16. start:2579 paragraphs:3, tables:1, lists:0
-pt_PT 14.16. start:2663 paragraphs:3, tables:1, lists:0
-en 14.17. start:2663 paragraphs:3, tables:1, lists:0
-# end of comparison
+# files have identical structure
