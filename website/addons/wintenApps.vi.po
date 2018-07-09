@@ -3,230 +3,263 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-09 22:30+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Windows 10 App Essentials\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Windows 10 App Essentials\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Authors: Joseph Lee, Derek Riemer and other Windows 10 users"
-msgstr ""
+msgstr "Tác giả: Joseph Lee, Derek Riemer và những người dùng Windows 10 khác"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "Tải về [phiên bản stable][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "Tải về [phiên bản development][2]"
 
 #. type: Plain text
 msgid ""
-"This add-on is a collection of app modules for various Windows 10 apps, as "
-"well as enhancements and fixes for certain windows 10 controls."
+"This add-on is a collection of app modules for various Windows 10 apps, as well "
+"as enhancements and fixes for certain windows 10 controls."
 msgstr ""
+"Add-on này là một bộ sưu tập các modules cho nhiều ứng dụng của Windows 10, đồng "
+"thời là các cải tiến và sửa lỗi cho một số điều khiển trong windows 10."
 
 #. type: Plain text
 msgid ""
 "The following app modules or support modules for some apps are included (see "
 "each app section for details on what is included):"
 msgstr ""
+"Các module cho các ứng dụng sau đây đã đơc5 tích hợp (xem phần thông tin chi "
+"tiết của mỗi ứng dụng để biết thêm chi tiết):"
 
 #. type: Bullet: '* '
 msgid "Alarms and Clock."
-msgstr ""
+msgstr "Alarms and Clock."
 
 #. type: Bullet: '* '
 msgid "Calendar"
-msgstr ""
+msgstr "Calendar"
 
 #. type: Bullet: '* '
 msgid "Calculator (modern)."
-msgstr ""
+msgstr "Calculator (modern)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Cortana"
-msgstr ""
+msgstr "Cortana"
 
 #. type: Title ##
 #, no-wrap
 msgid "Feedback Hub"
-msgstr ""
+msgstr "Feedback Hub"
 
 #. type: Title ##
 #, no-wrap
 msgid "Game Bar"
-msgstr ""
+msgstr "Game Bar"
 
 #. type: Title ##
 #, no-wrap
 msgid "Mail"
-msgstr ""
+msgstr "Mail"
 
 #. type: Title ##
 #, no-wrap
 msgid "Maps"
-msgstr ""
+msgstr "Maps"
 
 #. type: Title ##
 #, no-wrap
 msgid "Microsoft Edge"
-msgstr ""
+msgstr "Microsoft Edge"
 
 #. type: Bullet: '* '
 msgid ""
-"Modern keyboard (emoji panel/hardware input suggestions/cloud clipboard "
-"items in Version 1709 and later)"
+"Modern keyboard (emoji panel/hardware input suggestions/cloud clipboard items in "
+"Version 1709 and later)"
 msgstr ""
+"Bàn phím hiện đại (bản biểu tượng cảm xúc / gợi ý thiết bị đầu vào / các thành "
+"phần bộ nhớ tạm đám mây trong phiên bản 1709 trở lên)"
 
 #. type: Title ##
 #, no-wrap
 msgid "People"
-msgstr ""
+msgstr "People"
 
 #. type: Bullet: '* '
 msgid "Settings (system settings, Windows+I)"
-msgstr ""
+msgstr "Settings (system settings, Windows+I)"
 
 #. type: Bullet: '* '
 msgid "Skype (universal app)"
-msgstr ""
+msgstr "Skype (universal app)"
 
 #. type: Title ##
 #, no-wrap
 msgid "Store"
-msgstr ""
+msgstr "Store"
 
 #. type: Bullet: '* '
 msgid "Weather."
-msgstr ""
+msgstr "Weather."
 
 #. type: Bullet: '* '
 msgid "Miscellaneous modules for controls such as Start Menu tiles."
-msgstr ""
+msgstr "Các module tổng hợp cho các điều khiển như Start Menu tiles."
 
 #. type: Plain text
 msgid "Notes:"
-msgstr ""
+msgstr "Lưu ý:"
 
 #. type: Bullet: '* '
 msgid ""
 "This add-on requires Windows 10 Version 1709 (build 16299) or later and NVDA "
-"2018.2 or later. For best results, use the add-on with latest Windows 10 "
-"stable release (build 17134) and latest stable version of NVDA."
+"2018.2 or later. For best results, use the add-on with latest Windows 10 stable "
+"release (build 17134) and latest stable version of NVDA."
 msgstr ""
+"Add-on này yêu cầu Windows 10 phiên bản 1709 (build 16299) trở lên và NVDA "
+"2018.2 trở lên. Tốt nhất, là dùng add-on với bản Windows 10 mới nhất (build "
+"17134) và stable bản mới nhất của NVDA."
 
 #. type: Bullet: '* '
 msgid "Some add-on features are or will be part of NVDA screen reader."
 msgstr ""
+"Vài tính năng của add-on đã hoặc sẽ là một phần tính năng của trình đọc màn hình "
+"NVDA."
 
 #. type: Bullet: '* '
 msgid ""
-"For entries not listed below, you can assume that features are part of NVDA, "
-"no longer applicable as the add-on does not support old Windows 10 releases, "
-"or changes were made to apps that makes entries no longer applicable."
+"For entries not listed below, you can assume that features are part of NVDA, no "
+"longer applicable as the add-on does not support old Windows 10 releases, or "
+"changes were made to apps that makes entries no longer applicable."
 msgstr ""
+"Với những thành phần không được liệt kê bên dưới, bạn có thể xem như các tính "
+"năng đó đã là một phần của NVDA, không phải áp dụng như add-on không hỗ trợ "
+"Windows 10 phiên bản cũ or các thay đổi của các ứng dụng làm cho chúng không còn "
+"tác dụng."
 
 #. type: Plain text
 msgid ""
-"For a list of changes made between each add-on releases, refer to "
-"[changelogs for add-on releases][3] document."
+"For a list of changes made between each add-on releases, refer to [changelogs "
+"for add-on releases][3] document."
 msgstr ""
+"Để biết các thay đổi giữa các lần phát hành của add-on, xem phần [changelogs for "
+"add-on releases][3] ."
 
 #. type: Title ##
 #, no-wrap
 msgid "General"
-msgstr ""
+msgstr "Chung"
 
 #. type: Bullet: '* '
 msgid "In context menus for Start Menu tiles, submenus are properly recognized."
 msgstr ""
+"Trong trình đơn ngữ cảnh của Start Menu tiles, các trình đơn con đã được nhận "
+"diện chính xác."
 
 #. type: Bullet: '* '
 msgid ""
 "Certain dialogs are now recognized as proper dialogs and reported as such, "
 "including Insider Preview dialog (settings app)."
 msgstr ""
+"Một số hộp thoại giờ đã được nhận diện đúng thuộc tính và thông báo chính xác, "
+"bao gồm hộp thoại Insider Preview (ứng dụng settings)."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA can announce suggestion count when performing a search in majority of "
-"cases. This option is controlled by \"Report object position information\" "
-"in Object presentation dialog/panel."
+"cases. This option is controlled by \"Report object position information\" in "
+"Object presentation dialog/panel."
+msgstr ""
+"NVDA có thể thông báo số gợi ý đếm được khi thực hiện tìm kiếm trong một số "
+"trường họp. Tùy chọn này được điều khiển bởi \"Thông báo thông tin vị trí đối "
+"tượng\" trong hộp thoại trình bày đối tượng."
+
+#. type: Bullet: '* '
+msgid ""
+"In certain context menus (such as in Edge), position information (e.g. 1 of 2) "
+"is no longer announced."
+msgstr ""
+"Trong một số trình đơn ngữ cảnh (như của Edge), thông tin vị trí (như 1 trên 2) "
+"không còn được đọc nữa."
+
+#. type: Bullet: '* '
+msgid ""
+"The following UIA events are recognized: active text position change (Redstone "
+"5), controller for, drag start, drag cancel, drag complete, element selected, "
+"live region change, notification, system alert, tooltip opened, window opened. "
+"With NVDA set to run with debug logging enabled, these events will be tracked, "
+"and for UIA notification event, a debug tone will be heard."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"In certain context menus (such as in Edge), position information (e.g. 1 of "
-"2) is no longer announced."
+"Added ability to check for add-on updates (automatic or manual) via Windows 10 "
+"App Essentials dialog found in NvDA Preferences menu. By default, stable and "
+"development versions will check for new updates automatically on a weekly or "
+"daily basis, respectively."
 msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"The following UIA events are recognized: active text position change "
-"(Redstone 5), controller for, drag start, drag cancel, drag complete, "
-"element selected, live region change, notification, system alert, tooltip "
-"opened, window opened. With NVDA set to run with debug logging enabled, "
-"these events will be tracked, and for UIA notification event, a debug tone "
-"will be heard."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Added ability to check for add-on updates (automatic or manual) via Windows "
-"10 App Essentials dialog found in NvDA Preferences menu. By default, stable "
-"and development versions will check for new updates automatically on a "
-"weekly or daily basis, respectively."
-msgstr ""
+"Thêm khả năng kiểm tra cập nhật add-on (tự động hoặc thủ công) thông qua hộp "
+"thoại Windows 10 App Essentials được tìm thấy trong trình đơn tùy chọn của "
+"NvDA . Mặc định, các phiên bản stable và development sẽ được tự động kiểm tra "
+"cập nhật hàng ngày hoặc hàng tuần."
 
 #. type: Bullet: '* '
 msgid ""
 "In some apps, live region text is announced. This includes alerts in Edge, "
-"results in Calculator and others. Note that this may result in "
-"double-speaking in some cases."
+"results in Calculator and others. Note that this may result in double-speaking "
+"in some cases."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Notifications from newer app releases on Windows 10 Version 1709 (build "
-"16299) and later are announced."
+"Notifications from newer app releases on Windows 10 Version 1709 (build 16299) "
+"and later are announced."
 msgstr ""
+"Thông báo từ các ứng dụng mới phát hành trên Windows 10 phiên bản 1709 (build "
+"16299) trở lên đã được đọc."
 
 #. type: Bullet: '* '
 msgid "Tooltips from Edge and universal apps are recognized and will be announced."
 msgstr ""
+"Thông báo trên đối tượng từ Edge và các ứng dụng tương tự đã được nhận dạng và "
+"sẽ được thông báo."
 
 #. type: Bullet: '* '
 msgid ""
-"In build 17627 and later, when opening a new Sets tab (Control+Windows+T), "
-"NVDA will announce search results when searching for items in the embedded "
-"Cortana window."
+"In build 17627 and later, when opening a new Sets tab (Control+Windows+T), NVDA "
+"will announce search results when searching for items in the embedded Cortana "
+"window."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When switching between Sets tabs, NvDA will announce name and position of "
-"the tab you are switching to."
+"When switching between Sets tabs, NvDA will announce name and position of the "
+"tab you are switching to."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When opening, closing, or switching between virtual desktops, NVDA will "
-"announce current desktop ID (desktop 2, for example)."
+"When opening, closing, or switching between virtual desktops, NVDA will announce "
+"current desktop ID (desktop 2, for example)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -234,54 +267,60 @@ msgid ""
 "NVDA will no longer announce Start menu size text when changing screen "
 "resolutions or orientation."
 msgstr ""
+"NVDA sẽ không thông báo kích thước văn bản của Start menu khi thay đổi độ phân "
+"giải hay hướng màn hình."
 
 #. type: Title ##
 #, no-wrap
 msgid "Alarms and clock"
-msgstr ""
+msgstr "Alarms and clock"
 
 #. type: Bullet: '* '
 msgid ""
 "Time picker values are now announced, noticeable when moving focus to picker "
-"controls. This also affects the control used to select when to restart to "
-"finish installing Windows updates."
+"controls. This also affects the control used to select when to restart to finish "
+"installing Windows updates."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
 msgid "Calculator"
-msgstr ""
+msgstr "Calculator"
 
 #. type: Bullet: '* '
 msgid "When ENTER or Escape is pressed, NVDA announces calculation results."
-msgstr ""
+msgstr "Khi bấm ENTER hay Escape, NVDA sẽ thông báo kết quả tính toán."
 
 #. type: Bullet: '* '
 msgid ""
 "For calculations such as unit converter and currency converter, NVDA will "
 "announce results as soon as calculations are entered."
 msgstr ""
+"Với các phép tính như chuyển đổi đơn vị và tiền tệ, NVDA sẽ thông báo ngay khi "
+"phép tính được nhập."
 
 #. type: Title ##
 #, no-wrap
 msgid "calendar"
-msgstr ""
+msgstr "calendar"
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA no longer announces \"edit\" or \"read-only\" in message body and other "
 "fields."
 msgstr ""
+"NVDA không còn thông báo \"có thể nhập\" hay \"chỉ đọc\" trong nội dung thư và "
+"các trường khác."
 
 #. type: Bullet: '* '
 msgid ""
-"Textual responses from Cortana are announced in most situations (if it "
-"doesn't, reopen Start menu and try searching again)."
+"Textual responses from Cortana are announced in most situations (if it doesn't, "
+"reopen Start menu and try searching again)."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid "NVDA will be silent when talking to Cortana via voice."
-msgstr ""
+msgstr "NVDA sẽ không đọc khi điều khiển Cortana bằng giọng nói."
 
 #. type: Bullet: '* '
 msgid "NVDA will now announce reminder confirmation after you set one."
@@ -289,26 +328,25 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"For newer app releases, NVDA will no longer announce feedback categories "
-"twice."
+"For newer app releases, NVDA will no longer announce feedback categories twice."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"NVDA will announce appearance of Game Bar window. Due to technical "
-"limitations, NVDA cannot interact fully with Game Bar."
+"NVDA will announce appearance of Game Bar window. Due to technical limitations, "
+"NVDA cannot interact fully with Game Bar."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When reviewing items in messages list, you can now use table navigation "
-"commands to review message headers."
+"When reviewing items in messages list, you can now use table navigation commands "
+"to review message headers."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When writing a message, appearance of at mention suggestions are indicated "
-"by sounds."
+"When writing a message, appearance of at mention suggestions are indicated by "
+"sounds."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -317,27 +355,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"When using street side view and if \"use keyboard\" option is enabled, NVDA "
-"will announce street addresses as you use arrow keys to navigate the map."
+"When using street side view and if \"use keyboard\" option is enabled, NVDA will "
+"announce street addresses as you use arrow keys to navigate the map."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "Notifications such as file downloads and various webpage alerts, as well as "
-"availability of Reading View (if using Version 1709 and later) are "
-"announced."
+"availability of Reading View (if using Version 1709 and later) are announced."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
 msgid "Modern keyboard"
-msgstr ""
+msgstr "Bàn phím hiện đại"
 
 #. type: Bullet: '* '
 msgid ""
-"Support for Emoji input panel in Version 1709 (Fall Creators Update) and "
-"later, including the redesigned panel in build 17661 and later. For best "
-"experience when reading emojis, use Windows OneCore speech synthesizer."
+"Support for Emoji input panel in Version 1709 (Fall Creators Update) and later, "
+"including the redesigned panel in build 17661 and later. For best experience "
+"when reading emojis, use Windows OneCore speech synthesizer."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -373,13 +410,13 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Settings"
-msgstr ""
+msgstr "Thiết lập"
 
 #. type: Bullet: '* '
 msgid ""
-"Certain information such as Windows Update progress is reported "
-"automatically."
+"Certain information such as Windows Update progress is reported automatically."
 msgstr ""
+"Vài thông tin như thanh tiến trình của Windows Update đã được thông báo tự động."
 
 #. type: Bullet: '* '
 msgid "Progress bar values and other information are no longer announced twice."
@@ -387,8 +424,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Settings groups are recognized when using object navigation to navigate "
-"between controls."
+"Settings groups are recognized when using object navigation to navigate between "
+"controls."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -399,20 +436,19 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Audio Volume progress bar beeps are no longer heard in Version 1803 and "
-"later."
+"Audio Volume progress bar beeps are no longer heard in Version 1803 and later."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"More messages about Windows Update status are announced, especially if "
-"Windows Update encounters errors."
+"More messages about Windows Update status are announced, especially if Windows "
+"Update encounters errors."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
 msgid "Skype"
-msgstr ""
+msgstr "Skype"
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."
@@ -420,17 +456,16 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Control+NvDA+number row commands, used to read recent chat history and to "
-"move navigator object to chat entries in Skype for Desktop, is also "
-"available in Skype UWP."
+"Control+NvDA+number row commands, used to read recent chat history and to move "
+"navigator object to chat entries in Skype for Desktop, is also available in "
+"Skype UWP."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"You can press Alt+number row to locate and move to conversations (1), "
-"contacts list (2), bots (3) and chat edit field if visible (4). Note that "
-"these commands will work properly if Skype update released in March 2017 is "
-"installed."
+"You can press Alt+number row to locate and move to conversations (1), contacts "
+"list (2), bots (3) and chat edit field if visible (4). Note that these commands "
+"will work properly if Skype update released in March 2017 is installed."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -441,9 +476,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"From message history list, pressing NVDA+D on a message item will allow NVDA "
-"to announce detailed information about a message such as channel type, sent "
-"date and time and so on."
+"From message history list, pressing NVDA+D on a message item will allow NVDA to "
+"announce detailed information about a message such as channel type, sent date "
+"and time and so on."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -461,37 +496,36 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Weather"
+msgstr "Weather"
+
+#. type: Bullet: '* '
+msgid ""
+"Tabs such as \"forecast\" and \"maps\" are recognized as proper tabs (patch by "
+"Derek Riemer)."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Tabs such as \"forecast\" and \"maps\" are recognized as proper tabs (patch "
-"by Derek Riemer)."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"when reading a forecast, use the left and right arrows to move between "
-"items. Use the up and down arrows to read the individual items. For example, "
-"pressing the right arrow might report \"Monday: 79 degrees, partly cloudy, "
-"...\" pressing the down arrow will say \"Monday\" Then pressing it again "
-"will read the next item (Like the temperature). This currently works for "
-"daily and hourly forecasts."
+"when reading a forecast, use the left and right arrows to move between items. "
+"Use the up and down arrows to read the individual items. For example, pressing "
+"the right arrow might report \"Monday: 79 degrees, partly cloudy, ...\" pressing "
+"the down arrow will say \"Monday\" Then pressing it again will read the next "
+"item (Like the temperature). This currently works for daily and hourly forecasts."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=w10"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=w10"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=w10-dev"
 
 #. type: Plain text
 msgid "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
-msgstr ""
+msgstr "[3]: https://github.com/josephsl/wintenapps/wiki/w10changelog"
