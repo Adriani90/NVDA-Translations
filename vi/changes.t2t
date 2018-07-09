@@ -5,7 +5,7 @@
 
 = 2018.2 =
 
-Điểm nổi bật của phiên bản này bao gồm hỗ trợ đọc bảng cho Kindle for PC, hỗ trợ màn hình nổi HumanWare BrailleNote Touch và BI14, cải thiện khả năng làm việc với các bộ đọc OneCore và Sapi5, các cải thiện cho Microsoft Outlook và hơn thế nữa.
+Một số tính năng nổi bật trong bản phát hành này bao gồm hỗ trợ đọc bảng cho Kindle for PC, hỗ trợ màn hình nổi HumanWare BrailleNote Touch và BI14, cải thiện khả năng làm việc với các bộ đọc OneCore và Sapi5, các cải thiện cho Microsoft Outlook và hơn thế nữa.
 
 == Các tính năng mới ==
 - Các cột và dòng được trộn trong bảng giờ đây đã được thông báo trên cả bộ đọc và màn hình nổi. (#2642)
@@ -25,6 +25,7 @@
 
 
 == Các thay đổi ==
+
 - Cột trạng thái trong hộp thoại quản lý Add-on đã được thay đổi để xác định Add-on đang bật hay tắt thay vì thông báo đang chạy hay đã tắt. (#7929)
 - Đã cập nhật thư viện liblouis braille translator lên 3.5.0\. (#7839)
 - Bảng chữ nổi Lithuanian đã được đổi tên thành Lithuanian 6 dot (6 chấm) để tránh rắc rối với bảng chữ nổi 8 chấm của ngôn ngữ này. (#7839)
@@ -37,10 +38,11 @@
 
 
 == Sửa lỗi ==
+
 - NVDA không còn bị lỗi không đọc được tên các điều khiển tại vị trí con trỏ trong màn hình đăng nhập tài khoản Microsoft trong Settings sau khi nhập địa chỉ e-mail. (#7997)
 - NVDA không còn bị lỗi không đọc được trang khi trở về trang trước trong Microsoft Edge. (#7997)
 - NVDA không còn bị lỗi đọc kí tự cuối cùng ngoài ý muốn khi nhập mã pin ở màn hình đăng nhập của Windows 10 để mở khóa máy tính. (#7908)
-- Các nhãn của hộp kiểm (checkbox) và radio button trong Chrome và Firefox không còn bị đọc hai lần khi duyệt web bằng phím Tab hay các phím điều hướng nhanh ở chế độ duyệt. (#7960)
+- Các nhãn của hộp kiểm và nút radio trong Chrome và Firefox không còn bị đọc hai lần khi duyệt web bằng phím Tab hay các phím điều hướng nhanh ở chế độ duyệt. (#7960)
 - aria-current với giá trị false sẽ được thông báo là "false" thay vì là "true". (#7892).
 - Không còn lỗi không tải được các giọng đọc của Windows OneCore nếu đã gỡ bỏ các giọng đọc được cấu hình. (#7553)
 - Việc thay đổi các giọng đọc trong bộ Windows OneCore giờ đây đã hoạt động nhanh hơn. (#7999)
@@ -68,14 +70,14 @@
 
 = 2018.1 =
 
-Một số tính năng nổi bật trong bản phát hành này là hỗ trợ sơ đồ cho Microsoft word vànd PowerPoint, hỗ trợ màn hình nổi mới là Eurobraille và bộ chuyển giao thức Optelec, hỗ trợ thêm cho màn hình nổi của Hims và Optelec, cải thiện hoạt động với Mozilla Firefox 58 và bản cao hơn, và nhiều tính năng mới khác.
+Một số tính năng nổi bật trong bản phát hành này là hỗ trợ sơ đồ cho Microsoft word và PowerPoint, hỗ trợ màn hình nổi mới là Eurobraille và bộ chuyển giao thức Optelec, hỗ trợ thêm cho màn hình nổi của Hims và Optelec, cải thiện hoạt động với Mozilla Firefox 58 và bản cao hơn, và nhiều tính năng mới khác.
 
 == Tính Năng Mới ==
 - Đã có thể tương tác với các biểu đồ trong Microsoft Word và Microsoft PowerPoint, giống như hỗ trợ hiện tại cho Microsoft Excel. (#7046)
  - Ở chế độ duyệt trong Microsoft Word, chuyển con trỏ đến biểu đồ nhúng và nhấn enter để tương tác. 
  - Khi sửa slide trong Microsoft PowerPoint: tab đến đối tượng biểu đồ, nhấn enter hoặc khoảng trắng để tương tác.
  - Nhấn esc để thoát.
-- Ngôn gnu74 mới: Kyrgyz.
+- Ngôn ngữ mới: Kyrgyz.
 - Hỗ trợ cho VitalSource Bookshelf. (#7155)
 - Hỗ trợ cho bộ chuyển giao thức Optelec, một thiết bị cho phép sử dụng Braille Voyager và Satellite bằng giao thức giao tiếp ALVA BC6. (#6731)
 - Có thể nhập liệu chữ nổi với màn hình ALVA 640 Comfort. (#7733) 
