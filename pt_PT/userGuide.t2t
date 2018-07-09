@@ -2463,7 +2463,7 @@ Se estiver a usar a ligação pela porta série, um conversor USB para serial ou
 
 Antes de ligar o BrailleNote Apex usando a interface de cliente USB, deve instalar primeiro os drivers fornecidos pela HumanWare.
 
-No BrailleNote Apex BT, pode usar as rodas de deslocamento, situadas entre os pontos 1 e 4, para vários comandos do NVDA.
+No BrailleNote Apex BT, pode usar a roda de deslocamento, situada entre os pontos 1 e 4, para vários comandos do NVDA.
 A roda de deslocamento consiste de 4 pontos directionais, um botão central de confirmação e uma roda que pode rodar nas duas direcções.
 
 Seguem-se as associações de comandos do  BrailleNote para o NVDA.
@@ -2499,36 +2499,36 @@ Por favor, consulte a documentação do BrailleNote para saber a localização d
 
 Seguem-se os comandos para o BrailleNote QT quando não está no modo de digitação Braille.
 
-|| Name | Key |
+|| Nome | Tecla de atalho |
 | Menu do NVDA | read+n |
-| Up arrow key | upArrow |
-| Down arrow key | downArrow |
-| Left Arrow key | leftArrow|
-| Right arrow key | rightArrow |
-| Page up key | function+upArrow |
-| Page down key | function+downArrow |
-| Home key | function+leftArrow |
-| End key | function+rightArrow |
-| Control+home keys | read+t |
-| Control+end keys | read+b |
-| Enter key | enter |
-| Backspace key | backspace |
-| Tab key | tab |
-| Shift+tab keys | shift+tab |
-| Windows key | read+w |
-| Alt key | read+m |
-| Toggle input help | read+1 |
+| Tecla Seta acima | upArrow |
+| Tecla Seta abaixo | downArrow |
+| Tecla seta esquerda | leftArrow|
+| Tecla seta direita | rightArrow |
+| Tecla Página acima | function+upArrow |
+| Tecla Página abaixo | function+downArrow |
+| Tecla Home | function+leftArrow |
+| Tecla End | function+rightArrow |
+| Teclas Control+home | read+t |
+| Teclas Control+end | read+b |
+| Tecla Enter | enter |
+| Tecla Backspace | backspace |
+| Tecla Tab | tab |
+| Teclas Shift+tab | shift+tab |
+| Tecla Windows | read+w |
+| Tecla Alt | read+m |
+| Alternar o modo de ajuda de entrada | read+1 |
 
-Following are commands assigned to the scroll wheel:
+Seguem-se os comandos associados à roda de deslocamento:
 
-|| Name | Key |
-| Up arrow key | upArrow |
-| Down arrow key | downArrow |
-| Left Arrow key | leftArrow |
-| Right arrow key | rightArrow |
-| Enter key | center button |
-| Tab key | scroll wheel clockwise |
-| Shift+tab keys | scroll wheel counterclockwise |
+|| Nome | Tecla de atalho |
+| Tecla Seta acima | upArrow |
+| Tecla Seta abaixo | downArrow |
+| Tecla Seta esquerda | leftArrow |
+| Tecla Seta direita | rightArrow |
+| Tecla Enter | center button |
+| Tecla Tab | scroll wheel no sentido dos ponteiros do relógio |
+| Teclas Shift+tab | scroll wheel no sentido contrário ao dos ponteiros do relógio |
 %kc:endInclude
 
 ++ EcoBraille ++[EcoBraille]
