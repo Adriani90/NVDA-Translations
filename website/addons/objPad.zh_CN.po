@@ -3,130 +3,132 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-03-09 05:54+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-09 11:19+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"ObjPad\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"ObjPad-NVDA对象管理导航插件\"]]\n"
 
 #. type: Bullet: '* '
 msgid "Author: Joseph Lee, Cleverson Uliana and others"
-msgstr ""
+msgstr "作者: Joseph Lee, Cleverson Uliana and others"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '* '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Plain text
 msgid ""
 "This add-on provides quick commands to manage objects on screen, including "
 "navigation and other possibilities."
-msgstr ""
+msgstr "此插件提供快捷键来管理屏幕上的对象，包括导航和其他可能性。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "快捷键"
 
 #. type: Bullet: '* '
 msgid ""
 "Control+NVDA+TAB: Steps through arrow key modes (see below for details)."
-msgstr ""
+msgstr "Control + NVDA + TAB：逐步执行光标键模式（详见下文）。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Arrow key modes"
-msgstr ""
+msgstr "光标键模式"
 
 #. type: Plain text
 msgid "The add-on provides four ways to use arrow keys:"
-msgstr ""
+msgstr "插件提供了四种使用光标键的模式："
 
 #. type: Bullet: '* '
 msgid "Classic (or normal mode): use arrow keys to move cursor."
-msgstr ""
+msgstr "经典（或普通模式）：使用光标键移动光标。"
 
 #. type: Bullet: '* '
 msgid ""
 "Object nav: use arrow keys to move to next/previous/parent/first child "
 "objects."
-msgstr ""
+msgstr "对象导航：使用光标键移动到下一个/上一个/父/第一个子对象。"
 
 #. type: Bullet: '* '
 msgid "Web: use arrow keys to cycle through elements and move between them."
-msgstr ""
+msgstr "Web：使用光标键循环元素并在元素之间移动。"
 
 #. type: Bullet: '* '
 msgid ""
 "Scan mode: use arrow keys to move through objects on screen regardless of "
 "hierarchy."
-msgstr ""
+msgstr "扫描模式：使用光标键在屏幕上移动对象，而不管层次结构如何。"
 
 #. type: Plain text
 msgid "The following commands are available with arrow keys set to object nav:"
-msgstr ""
+msgstr "光标键设置为对象nav时，以下命令可用："
 
 #. type: Bullet: '* '
 msgid "Right arrow: next object."
-msgstr ""
+msgstr "右光标：下一个对象。"
 
 #. type: Bullet: '* '
 msgid "Left arrow: previous object."
-msgstr ""
+msgstr "左光标：上一个对象。"
 
 #. type: Bullet: '* '
 msgid "Up arrow: parent object."
-msgstr ""
+msgstr "上光标：父对象。"
 
 #. type: Bullet: '* '
 msgid "Down arrow: first child object."
-msgstr ""
+msgstr "下光标：第一个子对象。"
 
 #. type: Bullet: '* '
 msgid "SPACE: activate."
-msgstr ""
+msgstr "空格：激活。"
 
 #. type: Plain text
 msgid ""
 "With web mode active (elements are normal or moving by object, link, form "
 "field, heading, frame, table, list, landmark):"
 msgstr ""
+"在Web模式处于活动状态（元素正常或按对象，链接，表单字段，标题，框架，表格，列"
+"表，地标移动）："
 
 #. type: Bullet: '* '
 msgid "Right arrow: next element."
-msgstr ""
+msgstr "右光标：下一个元素。"
 
 #. type: Bullet: '* '
 msgid "Left arrow: previous element."
-msgstr ""
+msgstr "左光标：上一个元素。"
 
 #. type: Bullet: '* '
 msgid "Up arrow: previous element type."
-msgstr ""
+msgstr "上光标：上一个元素类型。"
 
 #. type: Bullet: '* '
 msgid "Down arrow: next element type."
-msgstr ""
+msgstr "下光标：下一个元素类型。"
 
 #. type: Plain text
 msgid "With scan mode active:"
-msgstr ""
+msgstr "扫描模式激活时："
 
 #. type: Bullet: '* '
 msgid "Down arrow: next object."
@@ -156,20 +158,20 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Version 16.12"
-msgstr ""
+msgstr "版本16.12"
 
 #. type: Bullet: '* '
 msgid "Added web mode."
-msgstr ""
+msgstr "添加了网络模式。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 16.10"
-msgstr ""
+msgstr "版本16.10"
 
 #. type: Bullet: '* '
 msgid "Initial stable version."
-msgstr ""
+msgstr "发布初始版本"
 
 #. type: Plain text
 #, no-wrap
@@ -178,8 +180,8 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"

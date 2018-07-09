@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-07-08 08:58+0800\n"
+"PO-Revision-Date: 2018-07-09 10:38+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"NVDA Add-ons discussion forum is now hosted at Groups.IO\"]]\n"
-msgstr "[[!meta title=\"NVDA附加组件论坛现在已迁移到Groups.IO\"]]\n"
+msgstr "[[!meta title=\"NVDA插件论坛现在已迁移到Groups.IO\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -29,8 +29,8 @@ msgid ""
 "Groups.IO. Thus, from July 1, 2017, the official add-ons list addresses are:"
 msgstr ""
 "自2013年5月起，Freelists一直成在着NVDA Add-ons Central邮件列表，一直到现在。"
-"但是，由于众多问题，决定将邮件讨论组移至Groups.IO。因此，从2017年7月1日起，"
-"官方插件列表地址为："
+"但是，由于众多问题，现在决定将邮件讨论组移至Groups.IO。因此，从2017年7月1日"
+"起，官方插件列表地址为："
 
 #. type: Bullet: '* '
 msgid "Mailing list website: https://nvda-addons.groups.io/g/nvda-addons"

@@ -3,60 +3,60 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-02-06 21:05+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-09 11:44+0800\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"mp3DirectCut\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"mp3DirectCut-NVDA支持插件\"]]\n"
 
 #. type: Bullet: '*	 '
 msgid "Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS"
-msgstr ""
+msgstr "作者(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS"
 
 #. type: Bullet: '*	 '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "下载 [稳定版][1]"
 
 #. type: Bullet: '*	 '
 msgid "Download [development version][2]"
-msgstr ""
+msgstr "下载 [开发板][2]"
 
 #. type: Title #
 #, no-wrap
 msgid "Presentation"
-msgstr ""
+msgstr "插件介绍"
 
 #. type: Plain text
 msgid ""
 "This add-on improves the accessibility of the software mp3DirectCut with "
 "NVDA."
-msgstr ""
+msgstr "此插件改进了NVDA使用mp3DirectCut的可访问性。"
 
 #. type: Plain text
 msgid ""
 "It has been tested with versions of mp3DirectCut ranging from 212 up to 223."
-msgstr ""
+msgstr "插件已经过mp3DirectCut版本的测试，范围从212到223。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "键盘快捷键"
 
 #. type: Plain text
 msgid "This addon offers the following commands:"
-msgstr ""
+msgstr "此插件提供以下快捷键："
 
 #. type: Plain text
 #, no-wrap
@@ -134,43 +134,43 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 4.0"
-msgstr ""
+msgstr "版本4.0"
 
 #. type: Bullet: '*	 '
 msgid "Added the Compatibility of the add-on with both Python 2.7 and 3;"
-msgstr ""
+msgstr "添加了Python 2.7和3的插件的兼容性;"
 
 #. type: Bullet: '*	 '
 msgid "Fixed a bug with add-on paths that contain non-ASCII characters."
-msgstr ""
+msgstr "修复了包含非ASCII字符的附加路径的错误。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 3.0"
-msgstr ""
+msgstr "版本3.0"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Used the gui.guiHelper module to ensure the correct appearance of the "
 "addon's configuration dialog;"
-msgstr ""
+msgstr "使用gui.guiHelper模块确保插件配置对话框的正确外观;"
 
 #. type: Bullet: '*	 '
 msgid "Used format instead of %s for formatted strings;"
-msgstr ""
+msgstr "格式化字符串使用格式而不是％s;"
 
 #. type: Bullet: '*	 '
 msgid "Used compliance with guidelines for implementation."
-msgstr ""
+msgstr "使用遵守实施准则。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 2.3"
-msgstr ""
+msgstr "版本2.3"
 
 #. type: Bullet: '*	 '
 msgid "Added the GPL license to the addon;"
-msgstr ""
+msgstr "给插件添加了GPL许可证;"
 
 #. type: Bullet: '*	 '
 msgid ""
@@ -178,107 +178,109 @@ msgid ""
 "Shift + N to Ctrl + Shift + E because Ctrl + Shift + N doesn't work with the "
 "latest versions of mp3DirectCut;"
 msgstr ""
+"将选择结束的脚本快捷方式从Ctrl + Shift + N更改为Ctrl + Shift + E，因为Ctrl + "
+"Shift + N不能与最新版本的mp3DirectCut一起使用;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Added a script to confirm that the selection has been canceled with 'Ctrl+r';"
-msgstr ""
+msgstr "添加了一个脚本，以确认已使用“Ctrl + r”取消选择;"
 
 #. type: Bullet: '*	 '
 msgid "Made some corrections in the code of the appModule 'mp3directcut.py'."
-msgstr ""
+msgstr "在appModule'mp3directcut.py'的代码中做了一些更正。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 2.2"
-msgstr ""
+msgstr "版本2.2"
 
 #. type: Bullet: '*	 '
 msgid "Correction of the scripts giving the selection markers' locations."
-msgstr ""
+msgstr "更正给出选择标记位置的脚本。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 2.1.1"
-msgstr ""
+msgstr "版本2.1.1"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Removing the script giving the total time and adding this information to the "
 "script giving the elapsed time;"
-msgstr ""
+msgstr "删除脚本，给出总时间并将此信息添加到脚本中，给出经过的时间;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Added the ability to enable or disable the announcements related to the "
 "space key in the module's configuration options, separately from other "
 "announcements;"
-msgstr ""
+msgstr "添加了与其他公告分开启用或禁用模块配置选项中与空格键相关的通知的功能;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Added the ability to enable or disable the announcement of placement of the "
 "selection marqueures in the module's configuration options;"
-msgstr ""
+msgstr "添加了在模块的配置选项中启用或禁用选择范围放置的通知的功能;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Adding the announcement of the current part when moving through the cutting "
 "points;"
-msgstr ""
+msgstr "在切割点移动时添加当前零件的通知;"
 
 #. type: Bullet: '*	 '
 msgid "Correction of announcements related to vertical keys;"
-msgstr ""
+msgstr "更正与垂直键相关的公告;"
 
 #. type: Bullet: '*	 '
 msgid "Adding a script to open the help of the current add-on with 'NVDA+H';"
-msgstr ""
+msgstr "添加脚本以使用'NVDA + H'打开当前加载项的帮助;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Displacement of the add-on's configuration menu from the Tools menu to the "
 "Preferences menu of NVDA."
-msgstr ""
+msgstr "将插件的配置菜单从“工具”菜单移动到NVDA的“首选项”菜单。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 2.1"
-msgstr ""
+msgstr "版本2.1"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Adding a script to vocalize moving to the next splitting point with Control"
 "+Right Arrow;"
-msgstr ""
+msgstr "使用Control + Right Arrow添加脚本以发声移动到下一个分割点;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Adding a script to vocalize moving to the previous splitting point with "
 "Control+Left Arrow;"
-msgstr ""
+msgstr "使用Control +左光标添加脚本以发声移动到上一个分割点;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Adding a script to vocalize the displacement of 4 hundredths of second "
 "ahead, with Shift+Right Arrow;"
-msgstr ""
+msgstr "使用Shift +右光标添加一个脚本，用于向前方播放百分之四秒的位移;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Adding a script to vocalize the displacement of 4 hundredths of second back, "
 "with Shift+Left Arrow;"
-msgstr ""
+msgstr "使用Shift +左光标添加一个脚本来发出第二百分之二秒位移的位移;"
 
 #. type: Bullet: '*	 '
 msgid ""
 "Correction of the addon's summary from 'for mp3DirectCut' to 'mp3DirectCut'."
-msgstr ""
+msgstr "将“for mp3DirectCut”中的插件摘要更正为“mp3DirectCut”。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 2.0"
-msgstr ""
+msgstr "版本2.0"
 
 #. type: Bullet: '*	 '
 msgid "Adding a script to know the remaining time with 'Control Shift R';"
@@ -286,16 +288,16 @@ msgstr ""
 
 #. type: Bullet: '*	 '
 msgid "Fixed reading durations including hours;"
-msgstr ""
+msgstr "固定阅读时间，包括小时;"
 
 #. type: Bullet: '*	 '
 msgid "Added ability to differentiate thousandths or hundredths of seconds."
-msgstr ""
+msgstr "增加了区分千分之一秒或百分之一秒的功能。"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 1.1"
-msgstr ""
+msgstr "版本1.1"
 
 #. type: Plain text
 #, no-wrap
@@ -303,16 +305,16 @@ msgid ""
 "*\t Added the ability to include the mp3DirectCut category into the Input Gestures;\n"
 "\t*\t They will be visible only during use of the mp3DirectCut software.\n"
 "*\t Added the ability to enable or disable automatic messages, in the tools menu of NVDA, item 'mp3DirectCut configuration';\n"
-msgstr ""
+msgstr "*％9添加了将mp3DirectCut类别包含在输入手势中的功能; ％9 *％9它们仅在使用mp3DirectCut软件时可见。 *％9添加了启用或禁用自动消息的功能，在NVDA的工具菜单中，项目'mp3DirectCut配置';\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Change for version 1.0"
-msgstr ""
+msgstr "版本1.0"
 
 #. type: Bullet: '*	 '
 msgid "Initial version."
-msgstr ""
+msgstr "发布初始版本"
 
 #. type: Plain text
 #, no-wrap
@@ -321,8 +323,8 @@ msgstr ""
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=mp3dc"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=mp3dc"
 
 #. type: Plain text
 msgid "[2]: https://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
-msgstr ""
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=mp3dc-dev"
