@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-07-17 04:41+1000\n"
-"PO-Revision-Date: 2018-07-09 23:40+0330\n"
+"PO-Revision-Date: 2018-07-09 23:50+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -44,11 +44,11 @@ msgstr ""
 
 #. type: Bullet: '4. '
 msgid "If requested by the author, perform more rigorous review."
-msgstr "در صورت درخواست نویسنده، بررسی دقیقتری انجام دهید."
+msgstr "در صورت درخواست نویسنده، بررسی دقیقتری انجام میدهد."
 
 #. type: Bullet: '	* '
 msgid "4.1. Check that the addon adds interesting/useful features."
-msgstr "4.1: بررسی کنید که افزونه امکانات جالب یا مفید به NVDA اضافه کند."
+msgstr "4.1: بررسی میکند که افزونه امکانات جالب یا مفید به NVDA اضافه کند."
 
 #. type: Bullet: '	* '
 msgid ""
@@ -87,7 +87,7 @@ msgid ""
 "license changes and other basic review."
 msgstr ""
 "7.1: برای انتشارهای اصلی: پیش از اینکه نگارش اصلی منتشر شود، افزونه را برای "
-"تغییرات مجوز و دیگر بازبینی‌های اساسی بررسی کنید."
+"تغییرات مجوز و دیگر بازبینی‌های اساسی بررسی میکند."
 
 #. type: Bullet: '* '
 msgid "7.2: For continuous releases, at least once a year."
@@ -130,7 +130,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Notes"
-msgstr "یادداشت‌ها"
+msgstr "تذکرها"
 
 #. type: Bullet: '1. '
 msgid ""
