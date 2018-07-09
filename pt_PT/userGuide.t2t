@@ -2496,39 +2496,39 @@ Por favor, consulte a documentação do BrailleNote para saber a localização d
 | Tecla Windows | espaço+ponto 2+ponto 4+ponto 5+ponto 6 (espaço+w) |
 | Tecla Alt | espaço+ponto 1+ponto 3+ponto 4 (espaço+m) |
 | Alternar o modo de ajuda de entrada | espaço+ponto 2+ponto 3+ponto 6 (espaço+h rebaixado) |
-+
-+Following are commands assigned to BrailleNote QT when it is not in braille input mode.
-+
-+|| Name | Key |
-+| NvDA menu | read+n |
-+| Up arrow key | upArrow |
-+| Down arrow key | downArrow |
-+| Left Arrow key | leftArrow|
-+| Right arrow key | rightArrow |
-+| Page up key | function+upArrow |
-+| Page down key | function+downArrow |
-+| Home key | function+leftArrow |
-+| End key | function+rightArrow |
-+| Control+home keys | read+t |
-+| Control+end keys | read+b |
-+| Enter key | enter |
-+| Backspace key | backspace |
-+| Tab key | tab |
-+| Shift+tab keys | shift+tab |
-+| Windows key | read+w |
-+| Alt key | read+m |
-+| Toggle input help | read+1 |
-+
-+Following are commands assigned to the scroll wheel:
-+
-+|| Name | Key |
-+| Up arrow key | upArrow |
-+| Down arrow key | downArrow |
-+| Left Arrow key | leftArrow |
-+| Right arrow key | rightArrow |
-+| Enter key | center button |
-+| Tab key | scroll wheel clockwise |
-+| Shift+tab keys | scroll wheel counterclockwise |
+
+Seguem-se os comandos para o BrailleNote QT quando não está no modo de digitação Braille.
+
+|| Name | Key |
+| Menu do NVDA | read+n |
+| Up arrow key | upArrow |
+| Down arrow key | downArrow |
+| Left Arrow key | leftArrow|
+| Right arrow key | rightArrow |
+| Page up key | function+upArrow |
+| Page down key | function+downArrow |
+| Home key | function+leftArrow |
+| End key | function+rightArrow |
+| Control+home keys | read+t |
+| Control+end keys | read+b |
+| Enter key | enter |
+| Backspace key | backspace |
+| Tab key | tab |
+| Shift+tab keys | shift+tab |
+| Windows key | read+w |
+| Alt key | read+m |
+| Toggle input help | read+1 |
+
+Following are commands assigned to the scroll wheel:
+
+|| Name | Key |
+| Up arrow key | upArrow |
+| Down arrow key | downArrow |
+| Left Arrow key | leftArrow |
+| Right arrow key | rightArrow |
+| Enter key | center button |
+| Tab key | scroll wheel clockwise |
+| Shift+tab keys | scroll wheel counterclockwise |
 %kc:endInclude
 
 ++ EcoBraille ++[EcoBraille]
