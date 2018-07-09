@@ -2367,10 +2367,39 @@ Ova je opcija dostupna samo u instaliranim inačicama NVDA.
 <P>
 Ako je ova opcija uključena, NVDA će automatski provjeriti za nadogradnje i obavjestiti vas da je nadogradnja dostupna.
 Također, možete ručno provjeriti postoji li nova inačica kad odaberete provjeri postojanje nadogradnje u podizborniku pomoć u NVDA izborniku.
+Pri ručnom ili automatskom provjeravanju nadogradnje, nužno je da NVDA pošalje neke informacije na server za nadogradnje kako bi vam bila isporučena ispravna nadogradnja za vaš operacijski sustav.
+Slijedeće informacije se uvijek šalju: 
+</P>
+
+<UL>
+<LI>Aktualna inačica NVDA
+<LI>Inačica operacijskog sustava
+<LI>bitnost operacijskog sustava
+</UL>
+
+<A NAME="GeneralSettingsGatherUsageStats"></A>
+<H5>Dozvoli NVDA projektu prikupljanje statistike korištenja</H5>
+
+<P>
+Ako je ova opcija omogućena, NV Access će koristiti informacije dobivene od servera za nadogradnje kako bi pratila broj korisnika uključujući opće demografske statistike kao što su to operacijski sustav i zamlja porijekla.
+Imajte na umu da iako vaša IP adresa će biti korištena za izračunavanje vaše države porijekla, ista nije zadržavana na serveru.
+Osim obaveznih informacija koje se šalju pri provjeri nadogradnje, trenutačno se šalju i slijedeće informacije:
+</P>
+
+<UL>
+<LI>NVDA jezik sučelja
+<LI>Tip kopije NVDA, instalirana ili prijenosna
+<LI>Naziv trenutno korištene govorne jedinice, uključujući ime dodatka od kojeg potiče driver
+<LI>Naziv trenutno korištenog brajičnog retka, uključujući ime dodatka od kojeg potiče driver
+<LI>Trenutno korištena brajična tablica (ako se koristi brajica)
+</UL>
+
+<P>
+Ove informacije puno pomažu NV Access postaviti prioritete za budući razvoj NVDA.
 </P>
 
 <A NAME="GeneralSettingsNotifyPendingUpdates"></A>
-<H5>Izvjesti o nadogradnjama na čekanju prilikom pokretanja</H5>
+<H5>Izvijesti o nadogradnjama na čekanju prilikom pokretanja</H5>
 
 <P>
 Ako je ova opcija omogućena, NVDA će vas informirati ako postoji nadogradnja na čekanju kada se isti ponovno pokrene, te će vam ponuditi mogućnost da sto instalirate.
