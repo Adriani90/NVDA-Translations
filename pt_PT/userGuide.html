@@ -2108,12 +2108,22 @@ Para mais informações sobre o Modo de navegação e navegação por caracter, 
 <TR>
 <TD>Anunciar Tempo Restante</TD>
 <TD>control+shift+r</TD>
-<TD>Anuncia o tempo restante da faixa actual em reprodução, caso exista.</TD>
+<TD>Anuncia o tempo restante de qualquer faixa em execução</TD>
+</TR>
+<TR>
+<TD>Anunciar tempo passado</TD>
+<TD>control+shift+e</TD>
+<TD>Anuncia o tempo passado de qualquer faixa em execução</TD>
+</TR>
+<TR>
+<TD>Anunciar tempo total</TD>
+<TD>control+shift+t</TD>
+<TD>Anuncia o tempo total de qualquer faixa em execução</TD>
 </TR>
 </TABLE>
 
 <P>
-Nota: O comando para anunciar o tempo restante funciona somente com a cadeia de caracteres de formatação por padrão para a linha de estado do Foobar.
+Nota: Os comandos acima apenas funcionam com a cadeia de caracteres de formatação por padrão para a linha de estado do Foobar.
 </P>
 
 <A NAME="MirandaIM"></A>
@@ -2255,11 +2265,11 @@ Na tabela de livros adicionados:
 <H2>11. Configurar O NVDA</H2>
 
 <P>
-A maioria das configurações do NVDA podem ser alteradas através de diálogos acedidos através do submenu  "Opções" do menu do NVDA.
+A maioria das configurações do NVDA pode ser alterada através de diálogos acedidos através do submenu  "Opções" do menu do NVDA.
 Muitas dessas configurações aparecem no diálogo multi-páginas <A HREF="#NVDASettings">Configurações</A>.
 Em qualquer dos diálogos, pressione "OK" para aceitar as alterações que tenha feito.
 Para dispensar alterações que possa ter feito, pressione "Cancelar" ou "Escape".
-Nalguns destes diálogos pode pressionar a tecla "Aplicar", para que as alterações entrem em vigor sem fechar o diálogo.
+Em alguns destes diálogos pode pressionar a tecla "Aplicar", para que as alterações entrem em vigor sem fechar o diálogo.
 Algumas configurações podem ser feitas por atalhos, que serão indicados quando aplicáveis.
 </P>
 
@@ -2275,7 +2285,7 @@ Se quiser guardar as suas alterações e fechar o diálogo de configurações do
 </P>
 <P>
 Algumas das secções possuem teclas de atalho dedicadas.
-Pressionar estas teclas de atalho abrirá o diálogo de configurações do NVDA, com a página dessa secção já seleccionada.
+Se pressionar estas teclas de atalho abrirá o diálogo de configurações do NVDA, com a página dessa secção já seleccionada.
 Note que, por padrão, nem todas as secções das configurações podem ser acedidas por comandos (como por exemplo comandos de teclado, comandos de toque, etc.).
 Se quiser aceder a secções que não possuem atalhos dedicados, use a opção <A HREF="#InputGestures">Definir comandos</A> para adicionar um comando personalizado para essa secção.
 </P>
@@ -2367,7 +2377,35 @@ Esta opção só está disponível nas cópias instaladas do NVDA.
 
 <P>
 Se esta opção estiver activa, o NVDA irá verificar automaticamente se existem versões mais actuais do programa, e informá-lo-á, quando uma actualização estiver disponível.
-Poderá também verificar, manualmente, por actualizações, seleccionando "Verificar actualização...", no menu "ajuda", do NVDA.
+Ao verificar, por actualizações,, quer manualmente,  quer automaticamente, o NVDA necessita de enviar ao servidor de actualizações algumas informações para poder que receba a versão correcta.
+As seguintes informações são sempre enviadas:
+</P>
+
+<UL>
+<LI>Versão actual do NVDA;
+<LI>Versão do sistema operativo;
+<LI>Se o sistema operativo é de 64 ou 32 bit;
+</UL>
+
+<A NAME="GeneralSettingsGatherUsageStats"></A>
+<H5>Permitir que o projeto do NVDA recolha estatísticas de utilização do NVDA</H5>
+
+<P>
+Se esta opção estiver activada, a NV Access usará a informação obtida pela verificação de actualizações para determinar o número de utilizadores do NVDA, incluindo informações como sistema operativo, e país de origem.
+Note que apesar do seu endereço IP ser usado para determinar o seu país, ele nunca é guardado.
+Para além das informações obrigatórias para a selecção da actualização, as seguintes informações adicionais também serão enviadas:
+</P>
+
+<UL>
+<LI>Idioma da interface do NVDA;
+<LI>Se o NVDA é uma cópia portátil ou instalada;
+<LI>Nome do sintetizador em utilização (incluindo o nome do extra do driver);
+<LI>Nome da linha Braille em utilização (incluindo o nome do extra do driver);
+<LI>A tabela Braille de saída, se houver linha Braille activa;
+</UL>
+
+<P>
+Esta informação ajudará a NV Access a prioritizar o desenvolvimento futuro do NVDA.
 </P>
 
 <A NAME="GeneralSettingsNotifyPendingUpdates"></A>
@@ -3108,9 +3146,15 @@ Esta opção permite-lhe escolher se terá a informação da posição do object
 
 <P>
 Se a opção "Anunciar a Posição do Objecto" estiver activa, permite que o NVDA tente adivinhar a posição de um objecto, quando ela não está disponível de outra forma, para um controlo específico.
+Quando activada, O NVDA informará sobre mais controlos como menus e barras de ferramentas, porém esta informação poderá ser ligeiramente incorrecta.
 </P>
+
+<A NAME="ObjectPresentationObjectCoordinates"></A>
+<H5>Reproduzir coordenadas do objecto</H5>
+
 <P>
-Quando activada, O NVDA informá-lo-á sobre mais controlos como menus e barras de ferramentas, porém esta informação poderá ser ligeiramente incorrecta.
+Marcar esta caixa de verificação permite ouvir bips indicando onde está posicionado o objecto actual no ecrã. Isto pode ser útil se estiver a utilizar toques no ecrã para se mover para o objecto anterior ou seguinte.
+Quando activada, O NVDA informará sobre mais controlos como menus e barras de ferramentas, porém esta informação poderá ser ligeiramente incorrecta.
 </P>
 
 <A NAME="ObjectPresentationReportDescriptions"></A>
@@ -3320,7 +3364,7 @@ Por exemplo, se a opção estiver activada, se a letra j for pressionada, seria 
 
 <P>
 A maioria das caixas de verificação desta secção permitem configurar qual é o tipo de formatação que pretende ouvir automaticamente, conforme se move com o cursor pelos documentos.
-Por exemplo, se seleccionar a caixa de verificação para anunciar o nome do tipo de letra, de cada vez que anda pelo texto e chega a um tipo de letra diferente, o nome do tipo de letra será anunciado. 
+Por exemplo, se seleccionar a caixa de verificação para anunciar o nome do tipo de letra, de cada vez que anda pelo texto e chega a um tipo de letra diferente, o nome do novo tipo de letra será anunciado. 
 </P>
 <P>
 As várias opções estão organizadas em grupos.
@@ -5641,10 +5685,10 @@ Os seguintes modelos são suportados:
 Para o BrailleNote Touch, veja a secção <A HREF="HumanWareBrailliant">HumanWare séries Brailliant BI/B / BrailleNote Touch</A>.
 </P>
 <P>
-Except for BrailleNote PK, both braille (BT) and QWERTY (QT) keyboards are supported.
-For BrailleNote QT, PC keyboard emulation isn't supported.
-You can also enter braille dots using the QT keyboard.
-Please check the braille terminal section of the BrailleNote manual guide for details.
+Excepto para o BrailleNote PK, quer o teclado Braille (BT) quer o teclado QWERTY (QT) são suportados.
+Para o BrailleNote QT, a emulação do teclado PC não é suportada.
+Também pode introduzir Braille usando o teclado QWERTY do modelo QT.
+Por favor, consulte a secção Terminal Braille do manual do BrailleNote para mais informações.
 </P>
 <P>
 Se o seu dispositivo suporta mais de um tipo de ligação, ao ligar o BrailleNote ao NVDA, deve configurar o braille terminal port nas opções de braille terminal.
@@ -5655,6 +5699,10 @@ Se estiver a usar a ligação pela porta série, um conversor USB para serial ou
 </P>
 <P>
 Antes de ligar o BrailleNote Apex usando a interface de cliente USB, deve instalar primeiro os drivers fornecidos pela HumanWare.
+</P>
+<P>
+No BrailleNote Apex BT, pode usar as rodas de deslocamento, situadas entre os pontos 1 e 4, para vários comandos do NVDA.
+A roda de deslocamento consiste de 4 pontos directionais, um botão central de confirmação e uma roda que pode rodar nas duas direcções.
 </P>
 <P>
 Seguem-se as associações de comandos do  BrailleNote para o NVDA.
@@ -5685,6 +5733,10 @@ Por favor, consulte a documentação do BrailleNote para saber a localização d
 <TR>
 <TD>Encaminhar para a célula braille</TD>
 <TD>routing</TD>
+</TR>
+<TR>
+<TD>Menu do NVDA</TD>
+<TD>Espaço+ponto1+ponto3+ponto4+ponto5 (Espaço+n)</TD>
 </TR>
 <TR>
 <TD>Alternar "Braille segue:"</TD>
@@ -5763,6 +5815,42 @@ Por favor, consulte a documentação do BrailleNote para saber a localização d
 <TD>espaço+ponto 2+ponto 3+ponto 6 (espaço+h rebaixado)</TD>
 </TR>
 </TABLE>
+
+<P>
++
++Following are commands assigned to BrailleNote QT when it is not in braille input mode.
++
++|| Name | Key |
++| NvDA menu | read+n |
++| Up arrow key | upArrow |
++| Down arrow key | downArrow |
++| Left Arrow key | leftArrow|
++| Right arrow key | rightArrow |
++| Page up key | function+upArrow |
++| Page down key | function+downArrow |
++| Home key | function+leftArrow |
++| End key | function+rightArrow |
++| Control+home keys | read+t |
++| Control+end keys | read+b |
++| Enter key | enter |
++| Backspace key | backspace |
++| Tab key | tab |
++| Shift+tab keys | shift+tab |
++| Windows key | read+w |
++| Alt key | read+m |
++| Toggle input help | read+1 |
++
++Following are commands assigned to the scroll wheel:
++
++|| Name | Key |
++| Up arrow key | upArrow |
++| Down arrow key | downArrow |
++| Left Arrow key | leftArrow |
++| Right arrow key | rightArrow |
++| Enter key | center button |
++| Tab key | scroll wheel clockwise |
++| Shift+tab keys | scroll wheel counterclockwise |
+</P>
 
 <A NAME="EcoBraille"></A>
 <H3>14.14. EcoBraille</H3>
