@@ -32,7 +32,7 @@ Một số tính năng nổi bật trong bản phát hành này bao gồm hỗ t
 - Bảng chữ nổi tiếng Pháp, Canada cấp 1 và 2 đã được gỡ bỏ. Thay vào đó là bản chữ nổi máy tính tiếng Pháp (unified) 6 chấm và chữ nổi tiếng Pháp cấp 2 sẽ được dùng. (#7839)
 - Các nút secondary routing trên màn hình nổi Alva BC6, EuroBraille và Papenmeier giờ đây đã thông báo thông tin định dạng cho văn bản tại ô chữ nổi của nút đó. (#7106)
 - Các bảng chữ nổi tắt sẽ tự trả về chữ đủ trong  những trường hợp không ở trong vùng soạn thảo (trường hợp không có con trỏ hay trong chế độ duyệt). (#7306)
-- NVDA giờ đây đã ít phát ra tiếng beep trong phần Calendar (lịch) của Outlook. (#7949)
+- NVDA giờ đây đã ít phát ra tiếng beep trong phần lịch của Outlook. (#7949)
 - Tất cả các thiết lập của NVDA giờ đây có thể tìm thấy ở một hộp thoại duy nhất trong trình đơn của NVDA -> Tùy Chọn -> Cấu hình, thay vì phải thiết lập thông qua nhiều hộp thoại. (#577)
 - Bộ đọc mặc định khi chạy chương trình trên Windows 10 giờ đây là oneCore thay vì eSpeak. (#8176)
 
@@ -52,7 +52,7 @@ Một số tính năng nổi bật trong bản phát hành này bao gồm hỗ t
 - Đầu vào chữ nổi không còn cho phép bạn dùng chữ nổi tắt trong trường hợp không được hỗ trợ (Ví dụ: các từ đầy đủ sẽ không được gửi ra hệ thống khi ở ngoài nội dung văn bản hay trong chế độ duyệt. (#7306)
 - Sửa lỗi kết nối không ổn định cho màn hình nổi Handy Tech Easy Braille và Braille Wave. (#8016)
 - Từ Windows 8 trở lên, NVDA sẽ không còn đọc "không xác định" khi mở trình đơn các liên kết nhanh (Windows+X) và chọn các thành phần từ trình đơn này. (#8137)
-- Vài cử chỉ cho các nút trên màn hình nổi của Hims đã hoạt động như được  quảng cáo trong hướng dẫn sử dụng. (#8096)
+- Vài thao tác cho các nút trên màn hình nổi của Hims đã hoạt động như được  quảng cáo trong hướng dẫn sử dụng. (#8096)
 - NVDA sẽ cố gắng sửa lỗi hệ thống COM registration khiến cho các chương trình như Firefox và Internet Explorer trở nên không tiếp cận  và NVDA thông báo "không xác định". (#2807)
 - Làm việc xung quanh lỗi trong Task Manager khiến NVDA không cho phép người dùng truy cập nội dung của vài chi tiết về quá trình vận hành. (#8147)
 - Các giọng đọc mới chuẩn Sapi5 không còn bị chậm khi kết thúc quá trình đọc, điều đó giúp  cho việc điều hướng với các giọng đọc này trở nên hiệu quả hơn. (#8174)
@@ -62,10 +62,9 @@ Một số tính năng nổi bật trong bản phát hành này bao gồm hỗ t
 - Trong Windows 10 RS5, NVDA không còn thông báo thêm thông tin dư thừa khi chuyển cửa  sổ bằng alt+tab. (#8258)
 
 
-== Changes for developers ==
-- The developer info for UIA objects now contains a list of the UIA patterns available. (#5712)
-- App modules can now force certain windows to always use UIA by implementing the isGoodUIAWindow method. (#7961)
-- The hidden boolean flag "outputPass1Only" in the braille section of the configuration has again been removed. Liblouis no longer supports pass 1 only output. (#7839)
+== Các thay đổi cho nhà phát triển ==
+
+Phần này không được dịch. Vui lòng xem bản tiếng Anh để biết thêm thông tin.
 
 
 = 2018.1 =
