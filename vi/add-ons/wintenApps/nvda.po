@@ -133,7 +133,7 @@ msgstr "Kiểm tra cập nhật Add-on"
 
 #. Translators: The message displayed while checking for newer version of WinTenApps add-on.
 msgid "Checking for new version of Windows 10 App Essentials add-on..."
-msgstr "Đang kiẻm tra phiên bản mới của Windows 10 App Essentials add-on..."
+msgstr "Đang kiểm tra phiên bản mới của Windows 10 App Essentials add-on..."
 
 #. Translators: The title of the dialog displayed while downloading add-on update.
 msgid "Downloading Add-on Update"
