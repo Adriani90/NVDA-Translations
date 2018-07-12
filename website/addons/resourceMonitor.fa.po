@@ -5,42 +5,41 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-06-30 02:55+1000\n"
-"PO-Revision-Date: 2016-12-29 15:19-0800\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-13 01:24+0330\n"
+"Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
+"Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!meta title=\"resource Monitor\"]]\n"
+#, no-wrap
 msgid "[[!meta title=\"Resource Monitor\"]]\n"
-msgstr "[[!meta title=\"resource Monitor\"]]\n"
+msgstr "[[!meta title=\"دیده‌بان منابع (Resource Monitor)\"]]\n"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Authors: Alex Hall, Joseph Lee, beqa gozalishvili and other NVDA "
-#| "contributors"
 msgid ""
 "Authors: Alex Hall, Joseph Lee, beqa gozalishvili, Tuukka Ojala and other "
 "NVDA contributors"
-msgstr "سازندگان: Alex Hall, Joseph Lee, beqa gozalishvili و دیگر حامیان NVDA"
+msgstr ""
+"نویسندگان: Alex Hall، Joseph Lee، beqa gozalishvili، Tuukka Ojala و دیگر "
+"مشارکت‌کنندگان NVDA"
 
 #. type: Bullet: '* '
 msgid "Download [stable version][1]"
-msgstr ""
+msgstr "دانلود [نسخه‌ی پایدار][1]"
 
 #. type: Plain text
 msgid ""
 "This add-on gives information about CPU load, memory usage and other "
 "resource usage information."
 msgstr ""
+"این افزونه، اطلاعاتی درباره‌ی عملکرد CPU، میزان استفاده از حافظه، و دیگر "
+"اطلاعات مربوط به استفاده از منابع سیستم را در اختیارتان میگذارد."
 
 #. type: Title #
 #, no-wrap
@@ -52,57 +51,73 @@ msgid ""
 "NVDA+Shift+E Presents used ram, average processor load, and battery info if "
 "available."
 msgstr ""
+"NVDA+Shift+E، مقدار استفاده‌شده از رم، میانگین کارکرد پردازنده و در صورت "
+"موجود بودن، اطلاعات باتری را ارائه میدهد."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+1 Presents the average processor load and if multicore CPU's are "
 "present the load of each core."
 msgstr ""
+"NVDA+Shift+1، میانگین بارِ CPU و چنانچه CPU چندهسته‌ای باشد، بارِ هر هسته را "
+"اعلام میکند."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+2/5 Presents the used and total space for both physical and "
 "virtual ram."
 msgstr ""
+"NVDA+Shift+2 و NVDA+Shift+5، فضای استفاده‌شده و فضای کلی رم فیزیکی و رم مجازی "
+"را اعلام میکند."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+3 Presents the used and total space of the static and removable "
 "drives."
 msgstr ""
+"NVDA+Shift+3، فضای استفاده‌شده و کل فضای درایوهای ثابت و قابل حمل متصل‌شده به "
+"رایانه را اعلام میکند."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+4 Presents battery percentage, charging status, remaining time "
 "(if not charging), and a warning if the battery is low or critical."
 msgstr ""
+"NVDA+Shift+4، درصدِ باتری، وضعیت شارژ، زمان باقی‌مانده در صورت شارژ نشدن، و یک "
+"هشدار اگر باتری ضعیف یا خیلی ضعیف باشد."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA+Shift+6 Presents CPU Architecture 32/64-bit and Windows version and "
 "service pack numbers."
 msgstr ""
+"NVDA+Shift+6، معماری CPU (۳۲ یا ۶۴ بیتی)، شماره نسخه‌ی ویندوز و شماره‌ی بسته‌ی "
+"خدماتی (service pack) را اعلام میکند."
 
 #. type: Bullet: '* '
 msgid "NVDA+Shift+7 presents the system's uptime."
-msgstr ""
+msgstr "NVDA+Shift+7، زمان بالا بودن سیستم را اعلام میکند."
 
 #. type: Plain text
 msgid ""
 "If you have NvDA 2013.3 or later installed, you can change these shortcut "
 "keys."
 msgstr ""
+"چنانچه شما نسخه‌ی NvDA 2013.3 یا بعد از آن‌را نصب کرده باشید، میتوانید این "
+"کلیدهای میانبر را تغییر دهید."
 
 #. type: Title ##
 #, no-wrap
 msgid "Usage notes"
-msgstr ""
+msgstr "تذکراتی در مورد استفاده از افزونه"
 
 #. type: Plain text
 msgid ""
 "This add-on does not replace task manager and other system information "
 "programs for Windows. Also note the following:"
 msgstr ""
+"این افزونه جای task manager و دیگر برنامه‌های اطلاعات سیستم که برای ویندوز "
+"طراحی شده‌اند را نمیگیرد.همچنین، نکات زیر را نیز به یاد داشته باشید:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -110,61 +125,73 @@ msgid ""
 "noticeable for processors which uses Hyper-Threading where number of CPU's "
 "is twice the number of CPU cores."
 msgstr ""
+"اطلاعاتی که در مورد کارکرد CPU اعلام میشود، برای پردازنده‌های منطقی است، نه "
+"هسته‌های فیزیکی. این در مورد پردازشگرهایی که از hyper-threading استفاده "
+"میکنند قابل ملاحظه است؛ زمانی که تعداد CPU دو برابر تعداد هسته‌های آن است."
 
 #. type: Bullet: '* '
 msgid ""
 "If there is heavy disk activity such as copying large files, there might be "
 "delays when obtaining disk usage information."
 msgstr ""
+"چنانچه دیسک‌ها درگیر فعالیت سنگینی مانند کپی فایل‌های بزرگ باشند، ممکن است "
+"هنگام به‌دست‌آوردن اطلاعات میزان استفاده از دیسک، تأخیرهایی به وجود بیاید."
 
 #. type: Bullet: '* '
 msgid ""
 "Support for Windows XP from this add-on ended on December 31, 2017. Support "
 "for Windows Server 2003, Vista and Server 2008 ended on June 30, 2018."
 msgstr ""
+"پشتیبانی این افزونه از ویندوز XP در ۱۰ دی‌ماه ۱۳۹۶ پایان یافت. پشتیبانی این "
+"افزونه از ویندوز سِروِر 2003، ویستا و سِروِر 2008 در ۹ تیرماه ۱۳۹۷ پایان یافت."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 18.04"
-msgstr ""
+msgstr "نسخه‌ی 18.04"
 
 #. type: Plain text
 msgid ""
 "Version 18.04.x is the last release to support Windows releases earlier than "
 "7 SP1."
 msgstr ""
+"نسخه‌ی 18.04.x آخرین نسخه‌ایست که از ویندوزهای قدیمیتر از ویندوز 7 SP1 "
+"پشتیبانی میکند."
 
 #. type: Bullet: '* '
 msgid "Last release to support Windows Server 2003, Vista and Server 2008."
 msgstr ""
+"آخرین انتشاری است که ویندوز سرور 2003، ویستا و سرور 2008 را پشتیبانی میکند."
 
 #. type: Bullet: '* '
 msgid ""
 "Better detection of Windows 10 releases and distinguishing between public "
 "and Insider Preview builds."
 msgstr ""
+"شناسایی بهتر انتشارهای ویندوز ۱۰ و تشخیص دادن ساخت‌های پیش‌نمایش عمومی "
+"(public) و داخلی (insider)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.12"
-msgstr ""
+msgstr "نسخه‌ی 17.12"
 
 #. type: Bullet: '* '
 msgid "Added support for 64-bit ARM processors on Windows 10."
-msgstr ""
+msgstr "پشتیبانی از پردازشگرهای ۶۴ بیتی ARM در ویندوز ۱۰."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.09"
-msgstr ""
+msgstr "نسخه‌ی 17.09"
 
 #. type: Plain text
 msgid "Important: Version 17.09.x is the last version to support Windows XP."
-msgstr ""
+msgstr "مهم: نسخه‌ی 17.09.x، آخرین نسخه‌ایست که از ویندوز XP پشتیبانی میکند."
 
 #. type: Bullet: '* '
 msgid "Last version to run on Windows XP."
-msgstr ""
+msgstr "آخرین نسخه‌ای که روی ویندوز XP اجرا میشود."
 
 #. type: Bullet: '* '
 msgid ""
@@ -172,34 +199,39 @@ msgid ""
 "revision for this add-on will be released once Version 1709 stable build is "
 "released."
 msgstr ""
+"ویندوز ۱۰ ساخت 16278 و بعد از آن به عنوان نسخه‌ی 1709 شناسایی میشوند. بازبینی "
+"کوچکی از افزونه، وقتی نسخه‌ی پایدار ساخت 1709 منتشر شود، در دسترس قرار خواهد "
+"گرفت."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.07.1"
-msgstr ""
+msgstr "نسخه‌ی 17.07.1"
 
 #. type: Bullet: '* '
 msgid "Reintroduce support for Windows XP (broken since version 17.02)."
-msgstr ""
+msgstr "پشتیبانی مجدد از ویندوز XP که در نسخه‌ی 17.02 قطع شده بود."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.05"
-msgstr ""
+msgstr "نسخه‌ی 17.05"
 
 #. type: Bullet: '* '
 msgid ""
 "Announcement of system uptime (time passed since last boot; NVDA+Shift+7)."
 msgstr ""
+"اعلام زمان بالا بودن سیستم؛ زمانی که از آخرین بوت سیستم سپری شده است؛ NVDA"
+"+Shift+7)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 17.02"
-msgstr ""
+msgstr "نسخه‌ی 17.02"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to 5.0.1."
-msgstr ""
+msgstr "متعلقات psutil به نسخه‌ی 5.0.1 به‌روز شد."
 
 #. type: Bullet: '* '
 msgid ""
@@ -207,186 +239,196 @@ msgid ""
 "some systems where a removable media is not properly recognized (such as "
 "when a card isn't inserted into a card reader).)"
 msgstr ""
+"در زمان بررسی میزان استفاده از دیسک، NVDA دیگر در بعضی سیستم‌ها، هنگامی که یک "
+"رسانه‌ی قابل حمل به‌درستی توسط سیستم شناسایی نشده، مثلا کارتی داخل کارت‌خوان "
+"قرار ندارد، پنجره‌ی خطا نشان نمیدهد."
 
 #. type: Title ##
 #, no-wrap
 msgid "Version 16.08"
-msgstr ""
+msgstr "نسخه‌ی 16.08"
 
 #. type: Plain text
 msgid ""
 "Starting with version 16.08, add-on releases will be shown as year.month."
 "revision."
 msgstr ""
+"با آغاز به انتشار نسخه‌ی 16.08، انتشارهای افزونه به صورت سال.ماه.بازبینی نشان "
+"داده میشوند."
 
 #. type: Bullet: '* '
 msgid ""
 "Various revisions of Windows 10 are now properly recognized (such as 1607 "
 "for build 14393)."
 msgstr ""
+"نسخه‌های گوناگونی از ویندوز ۱۰ حالا به‌درستی شناسایی میشوند (مانند 1607 برای "
+"بیلد 14393)."
 
 #. type: Bullet: '* '
 msgid ""
 "Windows 10 build revisions (after installing cumulative updates) are "
 "properly recognized (such as 14393.51)."
 msgstr ""
+"نسخه بیلدهای ویندوز ۱۰ (بعد از نصب به‌روزرسانی‌ها) به‌درستی شناخته میشوند (مثل "
+"14393.51)."
 
 #. type: Bullet: '* '
 msgid "If using Insider Preview builds, this fact is recognized."
 msgstr ""
+"چنانچه در حال استفاده از نسخه‌های پیش‌نمایش داخلی (Insider Preview) باشید، این "
+"مورد توسط افزونه شناسایی میشود."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0"
+#, no-wrap
 msgid "Changes for 4.5"
-msgstr "تغییرات داده شده در نسخه 2.0"
+msgstr "تغییرات در نسخه‌ی 4.5"
 
 #. type: Bullet: '* '
 msgid ""
 "Add-on repository has moved to GitHub (can be found at https://github.com/"
 "josephsl/resourcemonitor)."
 msgstr ""
+"منبع فایل‌های افزونه به GitHub منتقل شده است. میتوانید آنرا در این نشانی "
+"بیابید: https://github.com/josephsl/resourcemonitor."
 
 #. type: Bullet: '* '
 msgid "Windows Server 2016 is properly recognized."
-msgstr ""
+msgstr "ویندوز سرور 2016 به‌درستی شناسایی میشود."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0"
+#, no-wrap
 msgid "Changes for 4.0"
-msgstr "تغییرات داده شده در نسخه 2.0"
+msgstr "تغییرات در نسخه‌ی 4.0"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to 2.2.1."
-msgstr ""
+msgstr "متعلقات psutil به نسخه‌ی 2.2.1 به‌روز شد."
 
 #. type: Bullet: '* '
 msgid "Vastly improved performance when obtaining information on CPU load."
 msgstr ""
+"عملکرد افزونه، هنگام دریافت اطلاعات مربوط به بار CPU، به مقدار زیادی بهبود "
+"یافت."
 
 #. type: Bullet: '* '
 msgid "Added support for recognition of Windows 10."
-msgstr ""
+msgstr "پشتیبانی از شناسایی ویندوز ۱۰ افزوده شد."
 
 #. type: Bullet: '* '
 msgid "In Windows 10, the build number of Windows will also be announced."
-msgstr ""
+msgstr "در ویندوز ۱۰، شماره‌ی ساخت ویندوز (build number) هم اعلام خواهد شد."
 
 #. type: Bullet: '* '
 msgid "You can use Add-ons Manager to access add-on help."
-msgstr ""
+msgstr "میتوانید برای دسترسی به راهنمای افزونه، از مدیر افزونه‌ها استفاده کنید."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0"
+#, no-wrap
 msgid "Changes for 3.1"
-msgstr "تغییرات داده شده در نسخه 2.0"
+msgstr "تغییرات در نسخه‌ی 3.1"
 
 #. type: Bullet: '* '
 msgid "Resource Monitor officially supports Windows 8.1."
-msgstr ""
+msgstr "دیده‌بان منابع بطور رسمی از ویندوز 8.1 پشتیبانی میکند."
 
 #. type: Bullet: '* '
 msgid "Updated translations."
-msgstr "برگردانها روزآمدسازی شد"
+msgstr "ترجمه‌ها به‌روز شد."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Changes for 2.0"
+#, no-wrap
 msgid "Changes for 3.0"
-msgstr "تغییرات داده شده در نسخه 2.0"
+msgstr "تغییرات در نسخه‌ی 3.0"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to 1.2.1."
-msgstr ""
+msgstr "متعلقات psutil به نسخه‌ی 1.2.1 به‌روز شد."
 
 #. type: Bullet: '* '
 msgid ""
 "Announcement of current Windows version, CPU architecture and service pack "
 "if any (NVDA+Shift+6)."
 msgstr ""
+"اعلام نسخه‌ی جاری ویندوز، معماری CPU و در صورت موجود بودن، بسته‌ی خدماتی "
+"(service pack) (NVDA+Shift+6)."
 
 #. type: Bullet: '* '
 msgid "Ability to change add-on shortcut keys (NVDA 2013.3 or later)."
-msgstr ""
+msgstr "توانایی تغییر کلیدهای میانبر افزونه (NVDA 2013.3 یا بالاتر)."
 
 #. type: Bullet: '* '
 msgid ""
 "Ability to copy individual resource information to clipboard by pressing "
 "resource commands two times."
 msgstr ""
+"توانایی کپی اطلاعات هرکدام از منابع در کلیپ‌برد با فشردن فرمان مربوط، دو بار "
+"پشت سر هم."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.4"
-msgstr "تغییرات داده شده در نسخه 2.4"
+msgstr "تغییرات در نسخه‌ی 2.4"
 
 #. type: Bullet: '* '
 msgid "New languages: Chinese (simplified), Ukrainian."
-msgstr "زبانهای جدید: چینی (ساده شده) ، اوکراینی."
+msgstr "زبان‌های جدید: چینی (ساده‌شده)، اوکراینی."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.3"
-msgstr "تغییرات داده شده در نسخه 2.3"
+msgstr "تغییرات نسخه‌ی 2.3"
 
 #. type: Bullet: '* '
 msgid "Added Bulgarian translation."
-msgstr "زبان بلغاری اضافه گردید."
+msgstr "ترجمه‌ی بلغاری افزوده شد."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.2"
-msgstr "تغییرات داده شده در نسخه 2.2"
+msgstr "تغییرات در نسخه‌ی 2.2"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Added following translations: Arabic, Aragonese, Croatian, Dutch, "
-#| "Finnish, French, Galatian, German, Hungarian, Italian, Japanese, Korean, "
-#| "Nepali, Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, "
-#| "Tamil and Turkish."
 msgid ""
 "Added following translations: Arabic, Aragonese, Croatian, Dutch, Finnish, "
 "French, Galician, German, Hungarian, Italian, Japanese, Korean, Nepali, "
 "Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and "
 "Turkish."
 msgstr ""
-"زبانهای زیر اضافه گردید: عربی، آراگونی ، کرواتی، هلندی ، فنلاندی، فرانسوی، "
-"غلاطیه ، آلمانی ، مجارستانی ، ایتالیایی ، ژاپنی ، کره ای ، نپالی ، لهستانی ، "
-"پرتغالی (برزیل) ، روسی، اسلواکی ، اسلوونیایی ، اسپانیایی ، تامیل و ترکی ."
+"افزونه به این زبان‌ها ترجمه شد: آراگونیایی، آلمانی، اسلوواکیایی، اسلوونیایی، "
+"اسپانیولی، ایتالیایی، پرتغالی برزیلی، تامیل، ترکیه‌ای، روسی، ژاپنی، عربی، "
+"فرانسوی، فنلاندی، کره‌ای، کرواتی، گالیسیایی، لهستانی، مجارستانی، نپالی و "
+"هلندی."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.1"
-msgstr "تغییرات داده شده در نسخه 2.1"
+msgstr "تغییرات در نسخه‌ی 2.1"
 
 #. type: Bullet: '* '
 msgid "Updated psutil dependency to version 0.6.1."
-msgstr ""
+msgstr "Psutil dependency به نسخه‌ی 0.6.1 به‌روز شد."
 
 #. type: Bullet: '* '
 msgid "Fixed long delay when getting information of drives."
-msgstr ""
+msgstr "تأخیر طولانی در زمان به‌دست آوردن اطلاعات درایوها برطرف شد."
 
 #. type: Bullet: '* '
 msgid "Code cleanup."
-msgstr ""
+msgstr "پاکسازیِ کد."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 2.0"
-msgstr "تغییرات داده شده در نسخه 2.0"
+msgstr "تغییرات در نسخه‌ی 2.0"
 
 #. type: Bullet: '* '
 msgid "added translation support and translation comments."
-msgstr "پشتیبانی برگردان و بیش گویه های برگردان اضافه گردید."
+msgstr "پشتیبانی از ترجمه و توضیحات ترجمه افزوده شد."
 
 #. type: Title ##
 #, no-wrap
 msgid "Changes for 1.0"
-msgstr "تغییرات داده شده در نسخه 1.0"
+msgstr "تغییرات در نسخه‌ی 1.0"
 
 #. type: Bullet: '* '
 msgid "Initial Release"
@@ -395,10 +437,8 @@ msgstr "انتشار اولیه"
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[1]: http://addons.nvda-project.org/files/get.php?file=rm"
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
-msgstr "[1]: http://addons.nvda-project.org/files/get.php?file=rm"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
