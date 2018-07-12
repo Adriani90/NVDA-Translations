@@ -1,4 +1,7 @@
-﻿symbols:
+﻿#locale/zh_CN/symbols.dic
+#版权规 (c) 2010-2018NVDA简体中文全体志愿者。
+#此文件基于GNU通用公共许可证。
+
 $	美元
 /	斜杠
 ;	分号
@@ -1337,3 +1340,5 @@ no-break space	空格	most
 ⅜	八分之三	none
 ⅝	八分之五	none
 ⅞	八分之七	none
+# 杂项符号
+⌘	Mac Command键}+	none
