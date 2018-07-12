@@ -1,6 +1,9 @@
 ﻿#locale/zh_CN/symbols.dic
-#版权规 (c) 2010-2018NVDA简体中文全体志愿者。
-#此文件基于GNU通用公共许可证。
+#URL： http：//www.nvdacn.com/
+# A part of NonVisual Desktop Access (NVDA)
+# Copyright (C) 2010-2018 NVDA Simplified Chinese team All volunteers
+# This file may be used under the terms of the GNU Lesser General Public License, version 2.1.
+# For more details see: https://www.gnu.org/licenses/lgpl-2.1.html
 
 $	美元
 /	斜杠
