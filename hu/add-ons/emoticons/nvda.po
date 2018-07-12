@@ -70,16 +70,6 @@ msgstr ""
 "Megnyitja a hangulatjelek szerkeztése párbeszédablakot, amely hasonlít egy "
 "szótárra"
 
-#. Translators: the name for an item of addon submenu.
-#. Translators: the name for an item of addon submenu.
-msgid "&Activation settings..."
-msgstr "&Aktiválási beállítások..."
-
-#. Translators: the tooltip text for an item of addon submenu.
-#. Translators: the tooltip text for an item of addon submenu.
-msgid "Shows a dialog to choose when emoticons speaking should be activated"
-msgstr ""
-
 #, python-format
 msgid "Emoticons dictionary (%s)"
 msgstr "(%s) Hangulatjelszótár"
@@ -884,3 +874,6 @@ msgid ""
 "Representation."
 msgstr ""
 "A hangulatjel jelentésének bemondása, annak karakterkombinációja helyett."
+
+#~ msgid "&Activation settings..."
+#~ msgstr "&Aktiválási beállítások..."
