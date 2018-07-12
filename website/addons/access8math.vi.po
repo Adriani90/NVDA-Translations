@@ -3,77 +3,87 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-12 20:46+0700\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Access8Math\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Access8Math\"]]\n"
 
 #. type: Bullet: '*   '
 msgid "Authors: Woody Tseng"
-msgstr ""
+msgstr "Tác giả: Woody Tseng"
 
 #. type: Bullet: '*   '
 msgid "download [stable version][1]"
-msgstr ""
+msgstr "Tải về [bản stable][1]"
 
 #. type: Plain text
 msgid ""
-"This add-on enhances math reading functionality in NVDA. Although NVDA comes "
-"with support for MathPlayer, there are certain missing features, including "
-"easier navigaiton mode for long math content, useful for understanding math "
-"expression structure."
+"This add-on enhances math reading functionality in NVDA. Although NVDA comes with "
+"support for MathPlayer, there are certain missing features, including easier "
+"navigaiton mode for long math content, useful for understanding math expression "
+"structure."
 msgstr ""
+"Add-on này cải thiện việc đọc toán trong NVDA. Dù rằng NVDA đã hỗ trợ MathPlayer "
+"nhưng vẫn còn thiếu vài tính năng, bao gồm chế độ điều hướng dễ hơn cho nội dung "
+"toán dài, cần thiết cho để hiểu các lời giải về cấu rúc toán học."
 
 #. type: Plain text
 msgid "Access8Math allows:"
-msgstr ""
+msgstr "Access8Math cho phép:"
 
 #. type: Bullet: '* '
 msgid ""
-"Read math content written in MathML in web browser(Mozilla Firefox, "
-"Microsoft Internet Explorer and Google Chrome)."
+"Read math content written in MathML in web browser(Mozilla Firefox, Microsoft "
+"Internet Explorer and Google Chrome)."
 msgstr ""
+"Đọc nội dung toán học viết bằng MathML trong các trình duyệt (Mozilla Firefox, "
+"Microsoft Internet Explorer và Google Chrome)."
 
 #. type: Bullet: '* '
 msgid ""
-"Read Microsoft Word math content written in MathType. (MathPlayer installed "
-"only)"
+"Read Microsoft Word math content written in MathType. (MathPlayer installed only)"
 msgstr ""
+"Đọc nội dung toán  viết bằng MathType trong Microsoft Word. (chỉ cần cài đặt "
+"MathPlayer)"
 
 #. type: Bullet: '* '
 msgid ""
-"Navigate the math content by pressing \"Space\" in math content. Also, you "
-"can partially explore the subparts in expression and move or zoom the "
-"content between the subpart."
+"Navigate the math content by pressing \"Space\" in math content. Also, you can "
+"partially explore the subparts in expression and move or zoom the content between "
+"the subpart."
 msgstr ""
+"Điều hướng trong nội dung toán bằng cách bấm \"khoảng trắng\" trong nội dung "
+"toán. Bạn cũng có thể khám phá một phần trong công thức và di chuyển hay thu "
+"phóng nội dung giữa các phần phụ."
 
 #. type: Bullet: '* '
 msgid "In navigation mode, indicate the meaning of subpart in the upper layer part."
-msgstr ""
+msgstr "Trong chế độ điều hướng, biểu thị ý nghĩa của phần phụ trong phần lớp trên."
 
 #. type: Title ##
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "Các phím lệnh"
 
 #. type: Bullet: '* '
 msgid ""
-"Control+Alt+M: Switch the provider between Access8Math and MathPlayer "
-"(MathPlayer installed only)."
+"Control+Alt+M: Switch the provider between Access8Math and MathPlayer (MathPlayer "
+"installed only)."
 msgstr ""
+"Control+Alt+M: chuyển giữa Access8Math và MathPlayer (chỉ khi đã cài MathPlayer)."
 
 #. type: Plain text
 #, no-wrap
@@ -88,42 +98,56 @@ msgid ""
 "\t* Numpad 1 to 9: Use review cursor to read math content.\n"
 "\t* Escape: Exit the navigation mode.\n"
 msgstr ""
+"* Các phím lệnh ở chế độ điều hướng:\n"
+"\t* Mũi tên xuống: phóng to phần phụ của nội dung toán.\n"
+"\t* Mũi tên lên: thu nhỏ phần phụ của nội dung toán.\n"
+"\t* Mũi tên trái: chuyển đến nội dung toán trước.\n"
+"\t* Mũi tên phải: chuyển đến nội dung toán kế tiếp.\n"
+"\t* Home: chuyển về đầu nội dung toán.\n"
+"\t* Control+C: chép mã nguồn MathML.\n"
+"\t* 1 đến 9 bàn phím số: dùng con trỏ duyệt để đọc nội dung toán.\n"
+"\t* Escape: thoát khỏi chế độ điều hướng.\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Settings dialog"
-msgstr ""
+msgstr "Hộp thoại cài đặt"
 
 #. type: Bullet: '* '
 msgid "Language: Access8Math reading language"
-msgstr ""
+msgstr "Ngôn ngữ: ngông ngữ đọc Access8Math"
 
 #. type: Bullet: '* '
 msgid ""
 "Analyze the mathematical meaning of content: Semantically analyze the math "
-"content, in line with specific rules, read in mathematical meaning of that "
-"rules."
+"content, in line with specific rules, read in mathematical meaning of that rules."
 msgstr ""
+"Phân tích ý nghĩa toán học của nội dung: phân tích ngữ nghĩa nội dung toán học, "
+"phù hợp với các quy định cụ thể, đọc bằng ý nghĩa toán học của quy định đó."
 
 #. type: Bullet: '* '
 msgid ""
-"Read the meaning of definied pattern in dictionary: When the pattern is "
-"definied in the dictionary, use dictionary to read the meaning of subpart in "
-"the upper layer part."
+"Read the meaning of definied pattern in dictionary: When the pattern is definied "
+"in the dictionary, use dictionary to read the meaning of subpart in the upper "
+"layer part."
 msgstr ""
+"Đọc ý nghĩa của mẫu xác định trong từ điển: khi mẫu được xác định trong từ điển, "
+"dùng từ điển để đọc ý nghĩa của phần phụ ở phần lớp trên."
 
 #. type: Bullet: '* '
 msgid ""
-"Read the meaning of auto-generated: When the pattern is not difined or "
-"incomplete in dictionary, use automatic generation function to read the "
-"meaning of subpart in the upper layer part."
+"Read the meaning of auto-generated: When the pattern is not difined or incomplete "
+"in dictionary, use automatic generation function to read the meaning of subpart "
+"in the upper layer part."
 msgstr ""
+"Đọc ý nghĩa tự tạo: khi tham số không khác nhau hoặc chưa hoàn thiện trong từ "
+"điển, sử dụng tính năng tạo tự động để đọc nghĩa của phần phụ trong phần lớp trên."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
-msgstr ""
+msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid "[1]: https://addons.nvda-project.org/files/get.php?file=access8math"
-msgstr ""
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=access8math"
