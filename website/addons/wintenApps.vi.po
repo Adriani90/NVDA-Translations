@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-07-07 18:09+1000\n"
-"PO-Revision-Date: 2018-07-09 22:30+0700\n"
+"PO-Revision-Date: 2018-07-13 15:29+0700\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Cuong Dang Manh <dangmanhcuong@gmail.com>\n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.0.9\n"
 
 #. type: Plain text
 #, no-wrap
@@ -59,7 +59,7 @@ msgstr "Calendar"
 
 #. type: Bullet: '* '
 msgid "Calculator (modern)."
-msgstr "Calculator (modern)."
+msgstr "Calculator (bản mới)."
 
 #. type: Title ##
 #, no-wrap
@@ -209,6 +209,11 @@ msgid ""
 "With NVDA set to run with debug logging enabled, these events will be tracked, "
 "and for UIA notification event, a debug tone will be heard."
 msgstr ""
+"Các sự kiện UIA sau đây đã được nhận dạng: active text position change (Redstone "
+"5), controller for, drag start, drag cancel, drag complete, element selected, "
+"live region change, notification, system alert, tooltip opened, window opened. "
+"Với NVDA được thiết lập để chạy với chế độ bản ghi dò lỗi được bật, các sự kiện "
+"này sẽ được theo dõi, và cho thông báo sự kiện UIA, bạn sẽ nghe âm báo gỡ lỗi."
 
 #. type: Bullet: '* '
 msgid ""
@@ -228,6 +233,9 @@ msgid ""
 "results in Calculator and others. Note that this may result in double-speaking "
 "in some cases."
 msgstr ""
+"Trong một số ứng dụng, live region text đã được thông báo. Bao gồm các thông báo "
+"trong Edge, các kết quả trong Calculator và các thông tin khác. Lưu ý rằng các "
+"kết quả này có thể được đọc hai lần trong vài trường hợp."
 
 #. type: Bullet: '* '
 msgid ""
@@ -249,18 +257,25 @@ msgid ""
 "will announce search results when searching for items in the embedded Cortana "
 "window."
 msgstr ""
+"Trong build 17627 trở lên, khi mở một bộ tab mới (Control+Windows+T), NVDA sẽ "
+"thông báo kết quả tìm kiếm khi tìm các thành phần trong cửa sổ Cortana đã được "
+"nhún vào."
 
 #. type: Bullet: '* '
 msgid ""
 "When switching between Sets tabs, NvDA will announce name and position of the "
 "tab you are switching to."
 msgstr ""
+"Khi chuyển giữa các bộ tab, NvDA sẽ thông báo tên và vị trí của tab bạn đang "
+"chuyển đến."
 
 #. type: Bullet: '* '
 msgid ""
 "When opening, closing, or switching between virtual desktops, NVDA will announce "
 "current desktop ID (desktop 2, for example)."
 msgstr ""
+"Khi mở, đóng, hay chuyển giữa desktop ảo, NVDA sẽ thông báo desktop ID hiện tại "
+"(desktop 2 chẳng hạn)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -281,6 +296,9 @@ msgid ""
 "controls. This also affects the control used to select when to restart to finish "
 "installing Windows updates."
 msgstr ""
+"giá trị của bộ chọn thời gian giờ đã được đọc, đặc biệt là khi chuyển con trỏ "
+"đến điều khiển để chọn. điều này cũng có tác dụng với điều khiển đã dùng để chọn "
+"thời gian khởi động lại máy để hoàn tất việc cài đặt cập nhật Windows."
 
 #. type: Title ##
 #, no-wrap
@@ -317,58 +335,70 @@ msgid ""
 "Textual responses from Cortana are announced in most situations (if it doesn't, "
 "reopen Start menu and try searching again)."
 msgstr ""
+"Phản hồi văn bản từ Cortana được thông báo trong hầu hết tình huống (nếu không, "
+"thử mở lại Start menu và tìm kiếm lại)."
 
 #. type: Bullet: '* '
 msgid "NVDA will be silent when talking to Cortana via voice."
-msgstr "NVDA sẽ không đọc khi điều khiển Cortana bằng giọng nói."
+msgstr "NVDA sẽ im lặng khi điều khiển Cortana bằng giọng nói."
 
 #. type: Bullet: '* '
 msgid "NVDA will now announce reminder confirmation after you set one."
-msgstr ""
+msgstr "NVDA giờ đây sẽ thông báo nhắc nhở cuộc trò chuyện nếu bạn thiết lập."
 
 #. type: Bullet: '* '
 msgid ""
 "For newer app releases, NVDA will no longer announce feedback categories twice."
-msgstr ""
+msgstr "Từ các ứng dụng mới ra, NVDA không còn thông báo hai lần loại phản hồi."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will announce appearance of Game Bar window. Due to technical limitations, "
 "NVDA cannot interact fully with Game Bar."
 msgstr ""
+"NVDA sẽ thông báo sự xuất hiện của cửa sổ Game Bar. vì giới hạn kĩ thuật, NVDA "
+"không thể tương tác hoàn toàn với Game Bar."
 
 #. type: Bullet: '* '
 msgid ""
 "When reviewing items in messages list, you can now use table navigation commands "
 "to review message headers."
 msgstr ""
+"Khi xem các thành phần trong danh sách tin nhắn, bạn có thể dùng các phím điều "
+"hướng trong bảng để xem lại các tiêu để của tin nhắn."
 
 #. type: Bullet: '* '
 msgid ""
 "When writing a message, appearance of at mention suggestions are indicated by "
 "sounds."
 msgstr ""
+"Khi viết một tin nhắn, sự xuất hiện các đề xuất được đề cập được biểu thị bằng "
+"âm thanh."
 
 #. type: Bullet: '* '
 msgid "NVDA plays location beep for map locations."
-msgstr ""
+msgstr "NVDA phát tiếng beep cho vị trí trên bản đồ."
 
 #. type: Bullet: '* '
 msgid ""
 "When using street side view and if \"use keyboard\" option is enabled, NVDA will "
 "announce street addresses as you use arrow keys to navigate the map."
 msgstr ""
+"Khi dùng  street side view và nếu tùy chọn \"use keyboard\" được bật, NVDA sẽ "
+"thông báo địa chỉ của đường khi bạn dùng mũi tên để điều hướng trong bản đồ."
 
 #. type: Bullet: '* '
 msgid ""
 "Notifications such as file downloads and various webpage alerts, as well as "
 "availability of Reading View (if using Version 1709 and later) are announced."
 msgstr ""
+"Các thông báo như tải tập tin và nhiều thông báo khác trên web, và khả năng của "
+"chế độ xem (nếu dùng phiên bản 1709 trở lên) đã được đọc."
 
 #. type: Title ##
 #, no-wrap
 msgid "Modern keyboard"
-msgstr "Bàn phím hiện đại"
+msgstr "Modern keyboard"
 
 #. type: Bullet: '* '
 msgid ""
@@ -376,24 +406,33 @@ msgid ""
 "including the redesigned panel in build 17661 and later. For best experience "
 "when reading emojis, use Windows OneCore speech synthesizer."
 msgstr ""
+"Hỗ trợ bản đầu vào cho Emoji trong phiên bản 1709 (Fall Creators Update) trở "
+"lên, bao gồm bản thiết kế lại trong build 17661 trở lên. để có trải nghiệm tốt "
+"nhất khi đọc các biểu tượng, hãy sử dụng bộ đọc Windows OneCore."
 
 #. type: Bullet: '* '
 msgid ""
 "Support for hardware keyboard input suggestions in Version 1803 (April 2018 "
 "Update) and later."
 msgstr ""
+"Hỗ trợ cho gợi ý thiết bị đầu vào  trong phiên bản 1803 (April 2018 Update) trở "
+"lên."
 
 #. type: Bullet: '* '
 msgid ""
 "In post-1709 builds, NVDA will announce the first selected emoji when emoji "
 "panel opens."
 msgstr ""
+"Trong post-1709 builds, NVDA sẽ thông báo biểu tượng được chọn đầu tiên khi mở "
+"bản biểu tượng cảm xúc."
 
 #. type: Bullet: '* '
 msgid ""
 "Support for announcing cloud clipboard items in build 17666 (Redstone 5) and "
 "later."
 msgstr ""
+"Hỗ trợ thông báo thành phần của bộ nhớ tạm đám mây trong build 17666 (Redstone "
+"5) trở lên."
 
 #. type: Bullet: '* '
 msgid ""
@@ -402,10 +441,14 @@ msgid ""
 "opening hardware keyboard input suggestions and staying silent when certain "
 "touch keyboard keys raise name change event on some systems."
 msgstr ""
+"Bỏ những cấp độ không cần thiết khi làm việc với modern keyboard và tính năng "
+"của nó. Bao gồm không còn thông báo \"Microsoft Candidate UI\" khi mở gợi ý "
+"thiết bị bàn phím đầu vào và giữ im lặng khi một số phím trên bàn phím cảm ứng "
+"tăng sự kiện đổi tên trên một số hệ thống."
 
 #. type: Bullet: '* '
 msgid "When searching for contacts, a sound will play if there are search results."
-msgstr ""
+msgstr "Khi tìm kiếm danh bạ, âm thanh sẽ được phát lên khi tìm thấy kết quả."
 
 #. type: Title ##
 #, no-wrap
@@ -421,29 +464,38 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Progress bar values and other information are no longer announced twice."
 msgstr ""
+"Giá trị của thanh tiến trình và các thông tin khác không còn bị đọc hai lần."
 
 #. type: Bullet: '* '
 msgid ""
 "Settings groups are recognized when using object navigation to navigate between "
 "controls."
 msgstr ""
+"Các nhóm thiết lập đã được nhận dạng khi dùng điều hướng đối tượng để di chuyển "
+"giữa các điều khiển."
 
 #. type: Bullet: '* '
 msgid ""
 "For some combo boxes, NVDA will no longer fail to recognize labels and/or "
 "announce value changes."
 msgstr ""
+"Với vài hộp xổ, NVDA không còn lỗi không nhận dạng được nhãn hay các thay đổi "
+"giá trị."
 
 #. type: Bullet: '* '
 msgid ""
 "Audio Volume progress bar beeps are no longer heard in Version 1803 and later."
 msgstr ""
+"Không còn nghe tiếng beep của thanh tiến trình âm lượng audio trong phiên bản "
+"1803 trở lên."
 
 #. type: Bullet: '* '
 msgid ""
 "More messages about Windows Update status are announced, especially if Windows "
 "Update encounters errors."
 msgstr ""
+"Nhiều thông tin về trạng thái cập nhật Windows đã được thông báo, đặc biệt là "
+"khi việc cập nhật Windows xảy ra lỗi."
 
 #. type: Title ##
 #, no-wrap
@@ -452,7 +504,7 @@ msgstr "Skype"
 
 #. type: Bullet: '* '
 msgid "Typing indicator text is announced just like Skype for Desktop client."
-msgstr ""
+msgstr "Thông báo nhập văn bản chỉ được đọc giống như Skype for Desktop client."
 
 #. type: Bullet: '* '
 msgid ""
@@ -460,6 +512,9 @@ msgid ""
 "navigator object to chat entries in Skype for Desktop, is also available in "
 "Skype UWP."
 msgstr ""
+"Control+NvDA+phím số, dùng để đọc lịch sử chat gần đây và di chuyển đối tượng "
+"điều hướng đến nội dung chat trong Skype for Desktop, cũng có luôn trong Skype "
+"UWP."
 
 #. type: Bullet: '* '
 msgid ""
@@ -467,12 +522,16 @@ msgid ""
 "list (2), bots (3) and chat edit field if visible (4). Note that these commands "
 "will work properly if Skype update released in March 2017 is installed."
 msgstr ""
+"Bạn có thể bấm Alt+phím số để xác định và chuyển đến các cuộc đàm thoại (1), "
+"danh bạ (2), bots (3) và trường nhập liệu chat nếu có (4). Lưu ý rằng các lệnh "
+"này sẽ hoạt động tốt nếu được cài bản Skype cập nhật tháng 3/2017."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer announce \"Skype Message\" when reviewing messages for "
 "majority of cases."
 msgstr ""
+"NVDA không còn đọc \"Skype Message\" khi xem lại tin nhắn trong nhiều trường hợp."
 
 #. type: Bullet: '* '
 msgid ""
@@ -480,18 +539,24 @@ msgid ""
 "announce detailed information about a message such as channel type, sent date "
 "and time and so on."
 msgstr ""
+"Từ danh sách lịch sử tin nhắn, bấm NVDA+D tại một tin nhắn sẽ cho phép NVDA đọc "
+"các thông tin chi tiết của tin nhắn như loại kênh, ngày giờ gửi, vân vân."
 
 #. type: Bullet: '* '
 msgid ""
 "After checking for app updates, app names in list of apps to be updated are "
 "correctly labeled."
 msgstr ""
+"Sau khi kiểm tra cập nhật ứng dụng, tên của các ứng dụng trong danh sách chờ cập "
+"nhật đã được gán nhãn một cách chính xác."
 
 #. type: Bullet: '* '
 msgid ""
 "When downloading content such as apps and movies, NVDA will announce product "
 "name and download progress."
 msgstr ""
+"Khi tải các nội dung như ứng dụng và phim, NVDA sẽ thông báo tên sản phẩm và "
+"tiến trình tải về."
 
 #. type: Title ##
 #, no-wrap
@@ -503,6 +568,8 @@ msgid ""
 "Tabs such as \"forecast\" and \"maps\" are recognized as proper tabs (patch by "
 "Derek Riemer)."
 msgstr ""
+"Các tab như \"dự báo\" và \"bản đồ\" đã được nhận dạng chính xác (vá lỗi bởi "
+"Derek Riemer)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -512,6 +579,11 @@ msgid ""
 "the down arrow will say \"Monday\" Then pressing it again will read the next "
 "item (Like the temperature). This currently works for daily and hourly forecasts."
 msgstr ""
+"Khi đọc một dự báo, dùng mũi tên trái phải để chuyển giữa các thành phần. Dùng "
+"mũi tên lên xuống để đọc từng thành phần. Ví dụ, Bấm mũi tên phải có thể thông "
+"báo \"Thứ hai: 26 độ, có mây, ...\" Bấm mũi tên xuống sẽ đọc \"Thứ hai\" và bấm "
+"lần nữa sẽ đọc thành phần tiếp theo (nhiệt độ chẳng hạn). Tính năng này hiện "
+"hoạt động với dự báo theo ngày và theo giờ."
 
 #. type: Plain text
 #, no-wrap
