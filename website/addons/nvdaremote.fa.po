@@ -3,27 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2016-09-17 01:59+1000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2018-07-13 12:01+0330\n"
+"Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
+"Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"NVDA Remote Support\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"پشتیبانی از راه دور (NVDA Remote Support)\"]]\n"
 
 #. type: Bullet: '*	'
 msgid "Authors: Christopher Toth, Tyler Spivey"
-msgstr ""
+msgstr "نویسندگان: Christopher Toth، Tyler Spivey."
 
 #. type: Plain text
 msgid ""
@@ -31,12 +31,15 @@ msgid ""
 "computer running NVDA. For more information about this add-on, visit [NVDA "
 "Remote homepage.][1]"
 msgstr ""
+"این افزونه شما را قادر میسازد تا کامپیوتری را که NVDA روی آن نصب شده با "
+"کامپیوتر دیگری که روی آن هم NVDA نصب شده، کنترل کنید. برای کسب اطلاعات "
+"بیشتر[صفحه‌ی اصلی پشتیبانی از راه دور][1] را ببینید."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!tag stable]]\n"
-msgstr ""
+msgstr "[[!tag stable]]\n"
 
 #. type: Plain text
 msgid "[1]: http://nvdaremote.com/"
-msgstr ""
+msgstr "[1]: http://nvdaremote.com/"
